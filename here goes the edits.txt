@@ -4,11 +4,7 @@ If I had a nickel for every time I had to remake this thing, I'd have 6 nickels
 title (
 Sevrvant 0.4
 )
-head (
-# Servant Class: Archer ((Main info))
-Class Archer, Knight of the Bow and Heroic Spirit of the Bow, is one of the Three Knight Classes among the seven standard Servant classes summoned for the Holy Grail War. Servants placed within this Class excel in possessing powerful Noble Phantasms, are able to act as highly effective scouts, and are frequently Heroic Spirits from the Age of Gods when magecraft was still commonplace. The qualifying condition for the Heroic Spirits is not attributes, but instead the possession of powerful projectile weapons or special abilities related to projectile weapons. They possess high **Magic Resistance** as a Class Skill, so most modern magi are unable to inflict damage to them. They also possess **Independent Action**, allowing them the ability to act independently for a length of time without an active supply of magical energy from their Master. Servants will generally assume that the Noble Phantasm of an Archer-class Servant is their bow, but any projectile weapons, even firearms, can be indicative of an Archer.
--
-)
+sdsfsqfsfqsfqfqsfqfqf
 pagenumbers
 right (
 # Initial Proficiencies ((+Initial Proficiencies))
