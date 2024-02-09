@@ -1,0 +1,275 @@
+watermark (
+If I had a nickel for every time I had to remake this thing, I'd have 6 nickels
+)
+title (
+Sevrvant 0.4
+)
+head (
+# Servant Class: Archer ((Main info))
+Class Archer, Knight of the Bow and Heroic Spirit of the Bow, is one of the Three Knight Classes among the seven standard Servant classes summoned for the Holy Grail War. Servants placed within this Class excel in possessing powerful Noble Phantasms, are able to act as highly effective scouts, and are frequently Heroic Spirits from the Age of Gods when magecraft was still commonplace. The qualifying condition for the Heroic Spirits is not attributes, but instead the possession of powerful projectile weapons or special abilities related to projectile weapons. They possess high **Magic Resistance** as a Class Skill, so most modern magi are unable to inflict damage to them. They also possess **Independent Action**, allowing them the ability to act independently for a length of time without an active supply of magical energy from their Master. Servants will generally assume that the Noble Phantasm of an Archer-class Servant is their bow, but any projectile weapons, even firearms, can be indicative of an Archer.
+-
+)
+pagenumbers
+right (
+# Initial Proficiencies ((+Initial Proficiencies))
+At 1st level, you gain the listed proficiency ranks in the following  statistics. You are untrained in anything not listed unless you gain a better proficiency rank in some other way.
+
+## Perception ((+Perception))
+Increase your proficiency rank in perception by one level.
+## Saving throws
+Expert in Fortitude
+Expert in Reflex
+Expert in Will
+## Skills ((+Skills))
+Trained in your choice of Acrobatics or stealth.
+
+Trained in a number of additional skills equal to 4 plus your Intelligence modifier
+## Attacks((+Attacks))
+Increase your proficiency rank for **all weapons** by one level.
+(From trained to expert, expert to master, or master to legendary).
+## defenses((+defenses))
+Trained in all armor
+Trained in unarmored defense
+)
+
+info (
+## Key ability((+Key ability))
+Strength or Dexterity.
+At 1st level, your class gives you an ability boost to your choice of Strength or Dexterity.
+
+|
+
+## Hit Points((+Hit Points))
+
+10 plus your Constitution Modifier. 
+You increase your maximum number of HP by this number at 1st level and every level thereafter.
+)
+# Servant Proficency((+Servant Proficency))
+
+As a servant, your initial proficiencies function in a different manner compared to standard classes. 
+Whenever your proficiency rank in **Attacks** and **Defenses** would normally increase to match your current rank, increase it by one additional rank instead (for example: if you are a fighter with a master proficiency in melee weapons at level 1, once your fighter class grants you master proficiency in weapons, your proficiency would then increase to legendary). This is capped at one rank above legendary, which is termed 'mythical,' resulting in an additional +2 on top.
+
+## Spirutal body((+Spirutal body))
+Servants are made of **Ether** one of **Five Great Elements**, on it's own it is amorphous and is incapable of materializing by its own power, with the power of the grail, the servants are able to gain a material form with a **Spiritual Core** serving as "their center, their heart, their CPU" that dictates their every function. While a servant may bleed and take damage to their organs, their true being resides in a Spiritual Core.
+
+Servants are beings able to **switch** between a **Spiritual Body** and **Material Body** at will, although at a rate no faster than **once per minute**. While in spiritual form, they cannot be easily detected by enemies due to being **invisible** to the naked eye and most forms of scrying, or be affected by physical interference. They can travel where they please without being impeded by walls, but they also **cannot carry anything** in that state. Their senses are limited to spiritual sensations (*a sort of vague sense imagine being in the etheral plane but without your normal senses*), so they must materialize in order to fully experience normal senses when sharing a visual link with their Master. Their upkeep cost is low when not materialized, so many Masters prefer them to stay in spirit form when they are not fighting or doing other tasks that require them to be in physical form to lower the cost on themselves.
+
+Other servants can easily sense and interact with a servant in spirit form, while a magus may find it difficult to do so.
+=
+***While in spirit form, your speed doubles, but you incur a -4 status penalty to AC (Armor Class), Perception and reflex saves, you are also flat-footed. Additionally, you are unable to make attacks or cast spells.***
+
+## Dying and unconsious conditions((+Dying and unconsious))
+
+As a servant, you do not fall unconscious when reduced to 0 hit points. Instead, you maintain consciousness but incur a **penalty** equal to **twice** your **dying value** on all rolls (such as damage rolls, saves, and checks).
+
+Note that it is still possible to acquire the **unconscious condition** through other means.
+
+Additionally, effects with the **death trait** that reduce your hit points to 0 only increase your dying value by 3, instead of causing immediate death.
+
+
+##### Table 1-1: Archer class advancement table ((Archer class advancement table))
+Level | Class features
+--- | :---:
+1 | Ancestry and background, initial proficiencies, Independent Action (**C**), Magic resistance (**D**)
+2 | Archer feat, The Master's Bow
+3 | Personal skill (**D**)
+4 | Archer feat
+5 | Noble phantasm (**D**), Magic resistance (**C**), Deft Impact
+6 | Archer feat, Personal skill (**+++**)
+7 | Knight weapon specialization
+8 | Archer feat
+9 | Personal skill (**+++**)
+10| Archer feat, Noble phantasm (**+++**), Independent Action (**B**), Magic resistance (**B**)
+11 |Deft striker
+12 | Archer feat, Personal skill (**+++**)
+13 |
+14 | Archer feat
+15 | Noble phantasm (**+++**), Personal skill (**+++**), Greater knight weapon specialization
+16 | Archer feat
+17 |
+18 | Archer feat, Personal skill (**+++**)
+19 |
+20 | Archer feat, Noble phantasm (**+++**),
+##Class features((class features))
+You gain these abilities as a Archer. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
+
+###Incredible Initiative ((+Incredible Initiative))
+Your reflexes are lightning-fast, and your ability to react quickly to danger is unmatched. You've honed your senses and are always ready to spring into action, whether it's avoiding a surprise attack, drawing your weapon first, or navigating treacherous environments.
+|
+item(
+# INCREDIBLE INITIATIVE 
+-
+
+You react more quickly than others can. You gain a **+2 circumstance** bonus to initiative rolls.
+
+)
+
+
+###INDEPENDENT ACTION ((+Independent Action))
+Independent Action is the ability to remain independent even when rejecting the Magical Energy supply from one's Master; the ability that allows for action even in the absence of the Master. Independent Action is the Class Skill of the Archer class.
+
+At higher ranks,  Servants can stay in this world longer without a contract, independently from the Master's Magical Energy. This allows Masters to focus on larger spells, or maintain the Servant even if they're unable to supply Magical Energy due to injury. However, these Servants are harder to control and retain, making Command Spells the only reliable method of commanding them.
+item(
+#Independent Action
+-
+* **D Rank**: It is possible for a Servant to stay in the world for **eight hours without a Master**
+* **C Rank**:It is possible for a Servant to stay in the world for **one day without a Master**.
+* **B Rank**:It is possible for a Servant to stay in the world for **two days without a Master**. However, this is the ideal value achieved by maximally conserving mana and avoiding battle and NP usage.
+* **A Rank**: It is possible to take action even without a Master. However, to use NPs of great magical energy consumption, backup from the Master is necessary. At Rank A, it is possible for a Servant to stay in the world for about **a week without a Master**.
+* **EX Rank**: At EX rank, Independent Action allows for nearly any act, whether related to combat or otherwise, to be undertaken without support from the Master.
+
+)
+
+###Magic resistance ((+Magic resistance))
+Magic Resistance, grants protection against magical effects. Differing from the Resistance effect that merely rejects Magical Energy, this ability cancels the spells altogether.
+=
+item(
+#Magic Resistance 
+-
+* **D rank**: When targeted by a spell that is **below half your level**, you receive a **+2 status bonus on saves and AC**.
+* **C rank**: You gain resistance **5** to the damage from spells **equal to half your level or less**.
+* **B rank**: As a reaction :r: , when targeted by a spell that is **equal to half your level or less**, you may attempt to **counteract** the spell using your weapon's attack bonus. The counteract level is **equal to half your level, rounded up**. If you **successfully** counteract the spell, you are unaffected by it, unless you choose to be. The counteract **DC** is the **spell's save DC plus half the spell's level**.
+* **A rank**: Counteracting spells now requires only a **free action** :f:. Additionally, once per day, you can turn one spell save into an **automatic critical success**.
+* **EX rank**: "**Ma##C? On M#eE#eE?**" You **reflect** spells back to the caster when you **succeed at a counteract check**.
+
+)
+
+
+###Noble phantasms ((+Noble Phantasms))
+Noble phantasms are powerful armaments made using human imagination as their core, and are the weapons and/or abilities owned by Heroic Spirits. As humanity's illusions, **they embody the ultimate Mysteries of a hero as symbols of their existence through historical fact and anecdotes**.
+
+They can be physical weaponry (e.g. swords, spears, bows) or support items (e.g. shields, rings, crowns).They can also be abstractions such as unique, often magical abilities (even close to or matching True Magic), unique (even conceptual) means of attack, curses, and changes to the very environment and its physical properties. When summoned as Servants in the Holy Grail War, they are the trump cards of the heroes that allow them to overcome others in battle.
+
+A servant may possess more than one Noble Phantasm; however, the more they have, the weaker each tends to be compared to possessing a single Noble Phantasm. Noble Phantasms also follow the skill ranking system **(D | C | B | A | EX)**, with higher-ranked Noble Phantasms being more powerful.
+
+Noble Phantasms are classified by their effectiveness against enemies. One Noble Phantasm may have multiple classifications depending on its abilities. The classification and properties of the Noble Phantasm dictate both the number of times it can be used and the duration required for the NP to 'recharge'.
+
+* **Anti-Unit**- Anti-Unit Noble Phantasms are those specialized against defeating other people in single combat. Compared to stronger weapons, a
+|
+majority of Anti-Unit Noble Phantasms will not go beyond defeating other beings.
+
+* **Anti-Army** - Anti-Army Noble Phantasms are those with a wide enough range to be specialized against armies. They are more powerful weapons than Anti-Unit Noble Phantasms, capable of
+easily blowing them away, but they must be used more wisely because of their larger cost.
+* **Anti-Fortress**  - This rank has powerful Noble Phantasms that can even blow away solid fortified structures. While the difference between Anti-Unit and Anti-Army is the variation in area of effect, Anti-Fortress Noble Phantasms are distinguished from other categories by the great difference in power.
+* **Barrier** - The classification of Noble Phantasms used to create barriers, typically Bounded Fields, but it does not include those that are also used to attack.
+
+There are numerous additional classifications for Noble Phantasms, including but not limited to Anti-Self, Anti-Country, and Anti-Purge.
+
+###Class Skills and Personal Skills ((+Class and Personal skills))
+Skills are the embodiment of a Servant's various abilities and characteristics, (Riding skill, Magic Resistance etc). They are divided into two main categories: **Class Skills**, which are typically connected to the Servant's Class, and **Personal Skills**, which reflect abilities or anecdotes connected to the life and legend of the Servant themselves, Personal Skills typically outweigh Class Skills in impact.
+
+
+Again, a servant may possess numerous Class and Personal Skills; however, they tend to be stronger when their number is fewer.
+info (
+# Progression ((+Progression))
+* **Class Skills**: From level 1, you have access to all your Class Skills, but they all start at their lowest rank, D. To progress a particular skill, you must retake the corresponding feat, which will increase its rank by one degree. This approach provides an incredible amount of versatility in your choice of Class Skills. All servant classes begin with two Class Skills at level 1 and acquire additional skills as they level up.
+* **Personal Skills**: Similar to Class Skills, Personal Skills start at rank D and progress in the same manner, requiring the retaking of the same Personal Skills. The key difference is that Personal Skills progress at a much slower rate, starting at level 3 and advancing every 3 levels (as indicated by the ***'+++'*** symbol in the advancement table on page 2). Additionally, Personal Skills are not provided by the class and must be created in collaboration with your Dungeon Master."
+)
+=
+info (
+* **Noble phantasms**:Noble Phantasms follow the same progression rules as Personal Skills, with the difference being that they advance at an even slower rate, starting at level 5 and increasing every 5 levels. This progression allows for a maximum of four advancements in a Noble Phantasm.
+The classification of a Noble Phantasm also plays a significant role. It is highly unlikely for a servant to possess more than one Anti-Army or Anti-Fortress NP, whereas an Anti-Unit NP is subject to fewer restrictions.
+# A RANK
+Your skills can only get to A Rank after reaching **level 10**. If your class provides you with a class skill advancement that would increase your rank to A before level 10, you may **substitute** that advancement with a **Archer feat** appropriate for your level.
+# EX RANK
+It is impossible to reach an EX rank simply by retaking a Class or Personal Skill from A rank. The only way to attain EX rank is through an **in-game secret**, which you may or may not discover. (To clarify, uncovering the secret will increase your rank by one and unlock the potential to reach EX rank, but it will not grant EX rank immediately, unless you are already at A rank in that specific skill).
+)
+## The Master's Bow 2st
+Vigilantly protecting your master, you can swiftly intercept attacks aimed at them. You gain the Master's Intervention reaction, allowing you to use your weapon to deflect strikes within your range.
+###The Master's Bow :r: 
+-
+
+**Trigger** Your master is attacked by an enemy within your weapon's second range increment (or reach).
+-
+item (
+you may attempt to deflect the attack using your weapon. Make a strike against the incoming attack. If your strike roll exceeds the attack roll targeting your master, you successfully deflect the attack, preventing it from hitting your master.
+
+This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this Strike.
+)
+
+##Deft Impact 5th
+Through intense training and innate agility, you've learned to infuse each shot with pinpoint accuracy. You can now use your Dexterity modifier for damage rolls with ranged weapons, showcasing your skill in striking vital targets with unerring precision.
+|
+##Knight Weapon specialization 7th 
+
+You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary.
+
+##Deft striker 11th
+Your exceptional agility and precision enhance your combat style. Melee weapons you wield gain the finesse trait for skillful strikes. Additionally, use your Dexterity modifier for damage rolls with any weapon, making each attack a display of your swift, lethal dexterity.
+
+## greater knight Weapon specialization 15th 
+
+Your damage from knight weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an expert, 6 if you’re a master, and 8 if you’re legendary.
+
+
+#Archer CLASS FEATS ((Archer class feats))
+item (
+#Mind's Eye((+Mind's Eye))
+-
+Mind's Eye, is a natural talent to foresee/sense and avoid danger on the basis of an innate 6th sense, intuition, or prescience. The accuracy of this instinct can be augmented by experience. Mind's Eye can also be a  heightened capacity for observation, refined through training, discipline and experience. A danger-avoidance ability that utilizes the intelligence collected up to the current time as the basis in order to predict the opponent’s activity and change the current situation. 
+The ability also grants an effect of offering resistance against penalties caused by visual obstructions.
+* **D Rank**: Your senses are constantly alert, allowing you to respond quickly to threats.
+you gain the **Nimble Dodge reaction**. If you already possess this the bonus increases to **+3 instead**.
+You also gain a **+2 circumstance bonus to Perception checks** to **seek** undetected creatures. The flat check DC in order to target hidden, undectected or concealed creatures is **reduced by 2**.
+* **C Rank**: Your intuition and observational skills are sharp, helping you to effortlessly see through deceptive visual obstructions and react swiftly to threats.
+You gain the **Deny Advantage** against creatures of your level or lower. You also gain the **Nimble Roll** feat but without the extra stride. The flat check DC in order to target hidden, undectected or concealed creatures is **reduced by 4**. 
+)
+=
+item (
+* **B Rank**: Your mind’s eye allows you to analyze your surroundings and predict threats with incredible precision.
+You apply the effects of Deny Advantage against creatures of up to **one level higher than yours**. you also don't roll a flat check against concealed creatures. Your circumstance bonus to seek also applies to **all perception checks**. Additionally, you gain the **full benefits of the Nimble Roll feat**, and if you already have them, you **double the distance** moved with it.
+* **A Rank**: Your senses and intuition are so refined that you can predict enemies' movements and react with supernatural speed.
+You apply the effects of Deny Advantage against creatures of up to **two levels higher than yours**. you gain an additional **reaction** :r: that you can use only for your Mind's Eye features. Additionally You gain a **+3 circumstance bonus** to Perception checks.
+)
+Item(
+#Valor
+-
+Valor is the ability to  grow in strentgh in the face of danger. Not usable under the effects of **Mad Enhancement**.
+* **D Rank**: If you have **a negative condition**, once per round, when you make a **successful attack**, you **regain hit points** equal to your level. Additionally, you gain a **+2 circumstance bonus** to your next saving throw following a **critical hit**.
+* **C Rank**:You become **quickened** whenever you are **below half of your maximum HP**.
+* **B Rank**: Whenever you are affected by **negative conditions**, you gain a circumstance bonus to **AC and attack rolls**. This bonus is equal to **1 plus either** the **number of negative conditions** affecting you **or** the **highest value** among these conditions, whichever is higher. This bonus goes **up to a maximum of 4**.
+* **A Rank**: Three times per day, upon **being hit by an attack**, you may use **your reaction** to use any **skill feat** or **skill check** that requires no more than **1 action** :a:, with a **+2 circumstance bonus** to the check. If this counterattack is a **critical success**, you impose a **-2 penalty** on the attacker's next attack roll or skill check. Additionally, your B Rank ability now can provide **either HP or temporary HP**.
+)
+|
+item(
+* **EX Rank**: The **B rank bonus** has no limit anymore. When you are **critically hit** or when your hit points drop **below a quarter**, you gain the following benefits **for a round**:
+A **+2 bonus** to all saving throws.
+Each **successful attack** against an enemy imposes a **-1 penalty** on that enemy's **attack rolls or AC** (your choice) until the end of **its next turn**. If you hitthem again while this effect is active, **the ability's duration is extended by 1 round**, and the penalty value is **increased by 1**, up to a **maximum of 4**.
+)
+item(
+#Privilege ((+Privlege))
+-
+Privilege is an skill that, due to the insistence of the owner, Skills that are essentially impossible to possess can be obtained for a short period of time.
+
+* **D Rank**: Allows you to use any **D Rank** Class Skill of your class for **1d4 rounds**, after which you will be locked from using the same Class Skill.
+* **C Rank**: **Resets used Class Skills** and allows you to use any **C Rank** Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
+
+* **B Rank**: Resets used Class Skills and allows you to use the same class skill **up to 2 times** before locking them.
+* **A Rank**: Resets used Class Skills and allows you to use any **B Rank** Class Skill of your class for 1d4 rounds..
+* **EX Rank**: Allows you to use any **A Rank Class Skill** of your class for 1d4 rounds. Class Skill will not be locked.
+)
+
+item (
+#Charisma((+Charisma))
+-
+Charisma is a composite Skill consisting of a person's charm as well as the natural talent to command or unify an army or country. Increases the ability of allies during group battles.
+* **D rank**: Your innate charm makes you a natural leader for small groups, enhancing their confidence and resilience. 
+**+1 status bonus** to Diplomacy to influence others.
+**Mantle of Leadership :** As an action :a: , after a successful **Diplomacy or Intimidation check** in in this turn or the last, you may grant **temporary hit points** equal to **half your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
+)
+=
+item(
+* **C rank**: Your leadership extends to larger groups and organizations, boosting their morale and combat effectiveness.
+**+2 status bonus** to Diplomacy and Intimidation to influence others. Allies within **60 feet** get **+2 status bonus** against fear;
+**Bolstering Rally : Once per day** as 2 actions :aa: , you may grant allies within 60 feet a **+1 status bonus** to attack rolls for 1 minute.
+* **B rank**: Having B Rank in this Skill is sufficient to lead a nation. The morale of military forces you commands is extremely high.
+**Bolstering rally** has no use limit anymore, and can now affect saving throws, and skill checks; 
+**Ebbing Fatigue :** **once per day**, reduce **1 negative condtion by 1** for allies within 60 feet.
+* **A rank**: You've achieved unparalleled popularity, making you a beloved figure capable of leading large armies and entire countries..
+**+3 status bonus** to all Charisma-based skill checks. You also gain the benefits of the **Command Attention** feat. If you already possess this feat, increase its range to **60 feet** instead.
+* **EX rank**: Your charisma transcends normal limits, allowing you to influence not just people, but the course of events themselves. Your presence alone can change the tide of battles, rallying entire civilizations to your cause. 
+**+4 status** bonus to all Charisma-based skill checks. **Bolstering Rally**'s bonus increases to **+2** instead of +1. **Mantle of leadership**'s temporary hit points are now equal to your **level + your charisma modifier** ; 
+**Action's Dawn :** **once per day**, grant an **extra action** :a: to allies within 80 feet, for 1 round.
+
+)
+|
