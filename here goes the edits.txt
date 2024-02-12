@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 6 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 8 nickels
 )
 title (
-Sevrvant 0.4
+Sevrvant 0.5
 )
 head (
 # Servant Class: Archer ((Main info))
@@ -70,7 +70,7 @@ Additionally, effects with the **death trait** that reduce your hit points to 0 
 ##### Table 1-1: Archer class advancement table ((Archer class advancement table))
 Level | Class features
 --- | :---:
-1 | Ancestry and background, initial proficiencies, Independent Action (**C**), Magic resistance (**D**)
+1 | Ancestry and background, initial proficiencies, Mystic Ammunition, Incredible Initiative, Independent Action (**C**), Magic resistance (**D**)
 2 | Archer feat, The Master's Bow
 3 | Personal skill (**D**)
 4 | Archer feat
@@ -93,7 +93,7 @@ Level | Class features
 ##Class features((class features))
 You gain these abilities as a Archer. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
 
-###Incredible Initiative ((+Incredible Initiative))
+###INCREDIBLE INITIATIVE 
 Your reflexes are lightning-fast, and your ability to react quickly to danger is unmatched. You've honed your senses and are always ready to spring into action, whether it's avoiding a surprise attack, drawing your weapon first, or navigating treacherous environments.
 |
 item(
@@ -104,8 +104,10 @@ You react more quickly than others can. You gain a **+2 circumstance** bonus to 
 
 )
 
+###MYSTIC AMMUNITION
+Archers have the ability to materealise ammo for their ranged weapons using only their magical energy reserves. they can instantly create projectiles right before using their weapon. (This only affects ordinary ammo)
 
-###INDEPENDENT ACTION ((+Independent Action))
+###INDEPENDENT ACTION
 Independent Action is the ability to remain independent even when rejecting the Magical Energy supply from one's Master; the ability that allows for action even in the absence of the Master. Independent Action is the Class Skill of the Archer class.
 
 At higher ranks,  Servants can stay in this world longer without a contract, independently from the Master's Magical Energy. This allows Masters to focus on larger spells, or maintain the Servant even if they're unable to supply Magical Energy due to injury. However, these Servants are harder to control and retain, making Command Spells the only reliable method of commanding them.
@@ -120,7 +122,7 @@ item(
 
 )
 
-###Magic resistance ((+Magic resistance))
+###MAGIC RESISTANCE((+Magic resistance))
 Magic Resistance, grants protection against magical effects. Differing from the Resistance effect that merely rejects Magical Energy, this ability cancels the spells altogether.
 =
 item(
@@ -220,7 +222,10 @@ item (
 You apply the effects of Deny Advantage against creatures of up to **one level higher than yours**. you also don't roll a flat check against concealed creatures. Your circumstance bonus to seek also applies to **all perception checks**. Additionally, you gain the **full benefits of the Nimble Roll feat**, and if you already have them, you **double the distance** moved with it.
 * **A Rank**: Your senses and intuition are so refined that you can predict enemies' movements and react with supernatural speed.
 You apply the effects of Deny Advantage against creatures of up to **two levels higher than yours**. you gain an additional **reaction** :r: that you can use only for your Mind's Eye features. Additionally You gain a **+3 circumstance bonus** to Perception checks.
+* **EX Rank**: Your senses and intuition have reached their pinnacle, granting you unparalleled awareness and reflexes.
+You apply the effects of **Deny Advantage** against creatures of any level.  You are constantly under the effects of the **True Seeing** spell and gain a **+4 circumstance bonus** to all Perception checks. Additionally, you gain a **+1 bonus** to all Saving Throws.
 )
+
 Item(
 #Valor
 -
@@ -228,10 +233,10 @@ Valor is the ability to  grow in strentgh in the face of danger. Not usable unde
 * **D Rank**: If you have **a negative condition**, once per round, when you make a **successful attack**, you **regain hit points** equal to your level. Additionally, you gain a **+2 circumstance bonus** to your next saving throw following a **critical hit**.
 * **C Rank**:You become **quickened** whenever you are **below half of your maximum HP**.
 * **B Rank**: Whenever you are affected by **negative conditions**, you gain a circumstance bonus to **AC and attack rolls**. This bonus is equal to **1 plus either** the **number of negative conditions** affecting you **or** the **highest value** among these conditions, whichever is higher. This bonus goes **up to a maximum of 4**.
-* **A Rank**: Three times per day, upon **being hit by an attack**, you may use **your reaction** to use any **skill feat** or **skill check** that requires no more than **1 action** :a:, with a **+2 circumstance bonus** to the check. If this counterattack is a **critical success**, you impose a **-2 penalty** on the attacker's next attack roll or skill check. Additionally, your B Rank ability now can provide **either HP or temporary HP**.
 )
 |
 item(
+* **A Rank**: Three times per day, upon **being hit by an attack**, you may use **your reaction** to use any **skill feat** or **skill check** that requires no more than **1 action** :a:, with a **+2 circumstance bonus** to the check. If this counterattack is a **critical success**, you impose a **-2 penalty** on the attacker's next attack roll or skill check. Additionally, your B Rank ability now can provide **either HP or temporary HP**.
 * **EX Rank**: The **B rank bonus** has no limit anymore. When you are **critically hit** or when your hit points drop **below a quarter**, you gain the following benefits **for a round**:
 A **+2 bonus** to all saving throws.
 Each **successful attack** against an enemy imposes a **-1 penalty** on that enemy's **attack rolls or AC** (your choice) until the end of **its next turn**. If you hitthem again while this effect is active, **the ability's duration is extended by 1 round**, and the penalty value is **increased by 1**, up to a **maximum of 4**.
@@ -253,12 +258,12 @@ item (
 #Charisma((+Charisma))
 -
 Charisma is a composite Skill consisting of a person's charm as well as the natural talent to command or unify an army or country. Increases the ability of allies during group battles.
-* **D rank**: Your innate charm makes you a natural leader for small groups, enhancing their confidence and resilience. 
-**+1 status bonus** to Diplomacy to influence others.
-**Mantle of Leadership :** As an action :a: , after a successful **Diplomacy or Intimidation check** in in this turn or the last, you may grant **temporary hit points** equal to **half your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
 )
 =
 item(
+* **D rank**: Your innate charm makes you a natural leader for small groups, enhancing their confidence and resilience. 
+**+1 status bonus** to Diplomacy to influence others.
+**Mantle of Leadership :** As an action :a: , after a successful **Diplomacy or Intimidation check** in in this turn or the last, you may grant **temporary hit points** equal to **half your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
 * **C rank**: Your leadership extends to larger groups and organizations, boosting their morale and combat effectiveness.
 **+2 status bonus** to Diplomacy and Intimidation to influence others. Allies within **60 feet** get **+2 status bonus** against fear;
 **Bolstering Rally : Once per day** as 2 actions :aa: , you may grant allies within 60 feet a **+1 status bonus** to attack rolls for 1 minute.
@@ -270,6 +275,34 @@ item(
 * **EX rank**: Your charisma transcends normal limits, allowing you to influence not just people, but the course of events themselves. Your presence alone can change the tide of battles, rallying entire civilizations to your cause. 
 **+4 status** bonus to all Charisma-based skill checks. **Bolstering Rally**'s bonus increases to **+2** instead of +1. **Mantle of leadership**'s temporary hit points are now equal to your **level + your charisma modifier** ; 
 **Action's Dawn :** **once per day**, grant an **extra action** :a: to allies within 80 feet, for 1 round.
+)
 
+Item(
+#Clairvoyance
+-
+Clairvoyance is a visual ability that is also called Hawkeye.It is frequently used during scouting. Simply looking from a high location is sufficient to fully survey a town and search for enemies. In addition, Clairvoyance will affect the accuracy of bows. 
+)
+|
+Item(
+It connotes superior visual perception and dynamic occipital capture, such as to supplement the long-range aiming of projectile weapons.At higher ranks, it is possible that the bearers of this Skill have acquired abilities such as precognition and other forms of perception beyond standard eyesight.
+* **D Rank**: When using the **Seek action** :a:, your scanning area is always treated as sight. Additionally, when making a **Perception check**, you can **roll twice and use the higher result**.
+* **C Rank**: **Ether Gaze** - Once per day, use the **Seek** action :a: to look through physical barriers up to **60ft** away (make a Perception check against the spell DC for magical barriers). **Deflective Shot** - You can track incoming **projectiles within your line of sight**. As a reaction :r:, make a **ranged strike** against an incoming projectile. If your attack roll **equals or exceeds** the attack roll of the projectile, you **deflect or destroy it**, negating its effect.
+* **B Rank**: **All Range Vision** - You have no **range increment penalty**, and all **imprecise** senses become **precise**.
+* **A Rank**: Cast **Read Omens** once per day. **Eagle Eye Shot** - Once per day as a free action :f:, your next shot is guaranteed to be a **critical hit**, regardless of the roll (ineffective against NPs).
+* **EX Rank**: Gain unlimited clairvoyant sight within your **current plane**. Creatures within your sight cannot be **concealed, hidden, or undetected**. Your clairvoyence **cannot peer through** Unbounded Fields or magically protected areas. **Once per week**, cast **Retrocognition** as an action. **Reflexive Mastery** - Once per day as a free action, for one round, automatically **dodge all attacks** and **critically succeed** on all Reflex saves.
+)
+Item(
+#Freeshooter
+-
+Freeshooter manifests as a sublime synthesis of arcane insight and unparalleled archery, an ability where intuition, magical acumen, and a deep bond with one's chosen projectile intertwine. This ability goes beyond mere skill with a bow or firearm; it represents a profound attunement to the mystical forces that govern the trajectory and impact of every arrow or bullet released.
+* **D Rank**: **Projectile Replicator** - As a single action :a:, you can **record** a specific of projectile and replicate it as your **Mystical Ammunition**. All subsequent ammunition you create with this feature will mimic the recorded projectile's properties until you choose to record a different type with this ability again.
+ 
+)
+=
+item(
+* **C Rank**: Your expertise in ranged combat **reduces** your **Multiple Attack Penalty** (MAP) by 1. For example, your second attack in a round would be at a -4 penalty instead of -5, and your third attack would be at -8 instead of -10.
+* **B Rank**: **Echoing Twinshot** - Once per day, as a free action :f:, you can activate the ability to **duplicate** every projectile you fire for **one round**. When you make a **Strike**, you simultaneously make **two Strikes** instead, and both share the **same MAP** without increasing beyond what a normal single Strike would incur.
+* **A Rank**: **Hailstorm** - Once per day, as a single action :a:, you can unleash a barrage of projectiles, making **one Strike** against **each target within your line of sight** and **range**. These Strikes are each subject to the **multiple attack penalty individually**.
+* **EX Rank**: **Hawk's Flurry** -Once per day, as a two-action activity :aa:, you can initiate a flurry of attacks. You make **consecutive Strikes until you miss an attack**. Each Strike in this flurry benefits from a **MAP reduced by 1** (e.g., the second Strike would be at a -3 penalty, the third at -6).
 )
 |
