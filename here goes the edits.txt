@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 8 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 12 nickels
 )
 title (
-Sevrvant 0.5
+Sevrvant 0.6
 )
 head (
 # Servant Class: Archer ((Main info))
@@ -105,7 +105,7 @@ You react more quickly than others can. You gain a **+2 circumstance** bonus to 
 )
 
 ###MYSTIC AMMUNITION
-Archers have the ability to materealise ammo for their ranged weapons using only their magical energy reserves. they can instantly create projectiles right before using their weapon. (This only affects ordinary ammo)
+Archers have the ability to materealise ammo for their ranged weapons using only their magical energy reserves. they can instantly create projectiles right before using their weapon. (This only affects ordinary ammo, and firearms still require to reload)
 
 ###INDEPENDENT ACTION
 Independent Action is the ability to remain independent even when rejecting the Magical Energy supply from one's Master; the ability that allows for action even in the absence of the Master. Independent Action is the Class Skill of the Archer class.
@@ -286,23 +286,40 @@ Clairvoyance is a visual ability that is also called Hawkeye.It is frequently us
 Item(
 It connotes superior visual perception and dynamic occipital capture, such as to supplement the long-range aiming of projectile weapons.At higher ranks, it is possible that the bearers of this Skill have acquired abilities such as precognition and other forms of perception beyond standard eyesight.
 * **D Rank**: When using the **Seek action** :a:, your scanning area is always treated as sight. Additionally, when making a **Perception check**, you can **roll twice and use the higher result**.
-* **C Rank**: **Ether Gaze** - Once per day, use the **Seek** action :a: to look through physical barriers up to **60ft** away (make a Perception check against the spell DC for magical barriers). **Deflective Shot** - You can track incoming **projectiles within your line of sight**. As a reaction :r:, make a **ranged strike** against an incoming projectile. If your attack roll **equals or exceeds** the attack roll of the projectile, you **deflect or destroy it**, negating its effect.
+* **C Rank**: **Ether Gaze** - Once per day, use the **Seek** action :a: to look through physical barriers up to **60ft** away (make a Perception check against the spell DC for magical barriers). **Deflective Shot** - You can track incoming **projectiles within your line of sight**. As a reaction :r:, make a **ranged strike** against an incoming projectile. If your attack roll **equals or exceeds** the attack roll of the projectile, you **deflect or destroy it**.
 * **B Rank**: **All Range Vision** - You have no **range increment penalty**, and all **imprecise** senses become **precise**.
-* **A Rank**: Cast **Read Omens** once per day. **Eagle Eye Shot** - Once per day as a free action :f:, your next shot is guaranteed to be a **critical hit**, regardless of the roll (ineffective against NPs).
-* **EX Rank**: Gain unlimited clairvoyant sight within your **current plane**. Creatures within your sight cannot be **concealed, hidden, or undetected**. Your clairvoyence **cannot peer through** Unbounded Fields or magically protected areas. **Once per week**, cast **Retrocognition** as an action. **Reflexive Mastery** - Once per day as a free action, for one round, automatically **dodge all attacks** and **critically succeed** on all Reflex saves.
+* **A Rank**: Cast **Read Omens** once per day. **Eagle Eye Shot** - Once per day as a free action :f:, when you hit a creature you may change it into a **critical hit**. (ineffective against NPs).
+* **EX Rank**: Gain unlimited clairvoyant sight within your **current plane**. Creatures within your sight cannot be **concealed, hidden, or undetected**. Your clairvoyence **cannot peer through** Unbounded Fields or magically protected areas. **Reflexive Mastery** - Once per day as a free action, for one round, automatically **dodge all attacks** and **critically succeed** on all Reflex saves.
 )
 Item(
 #Freeshooter
 -
-Freeshooter manifests as a sublime synthesis of arcane insight and unparalleled archery, an ability where intuition, magical acumen, and a deep bond with one's chosen projectile intertwine. This ability goes beyond mere skill with a bow or firearm; it represents a profound attunement to the mystical forces that govern the trajectory and impact of every arrow or bullet released.
+Freeshooter is a unique ability that combines arcane knowledge with exceptional skill in weapon handling, transcending traditional weapon mastery. This ability reflects a deep connection between the user and their chosen weapon, be it a bow, firearm, or any other projectile or melee weapon. It embodies an innate understanding of the weapon's potential, guided by both intuition and magical insight, allowing for extraordinary feats of accuracy and power.
 * **D Rank**: **Projectile Replicator** - As a single action :a:, you can **record** a specific of projectile and replicate it as your **Mystical Ammunition**. All subsequent ammunition you create with this feature will mimic the recorded projectile's properties until you choose to record a different type with this ability again.
- 
 )
 =
 item(
-* **C Rank**: Your expertise in ranged combat **reduces** your **Multiple Attack Penalty** (MAP) by 1. For example, your second attack in a round would be at a -4 penalty instead of -5, and your third attack would be at -8 instead of -10.
+* **C Rank**: Your expertise in combat **reduces** your **Multiple Attack Penalty** (MAP) by 1. For example, your second attack in a round would be at a -4 penalty instead of -5, and your third attack would be at -8 instead of -10.
 * **B Rank**: **Echoing Twinshot** - Once per day, as a free action :f:, you can activate the ability to **duplicate** every projectile you fire for **one round**. When you make a **Strike**, you simultaneously make **two Strikes** instead, and both share the **same MAP** without increasing beyond what a normal single Strike would incur.
 * **A Rank**: **Hailstorm** - Once per day, as a single action :a:, you can unleash a barrage of projectiles, making **one Strike** against **each target within your line of sight** and **range**. These Strikes are each subject to the **multiple attack penalty individually**.
-* **EX Rank**: **Hawk's Flurry** -Once per day, as a two-action activity :aa:, you can initiate a flurry of attacks. You make **consecutive Strikes until you miss an attack**. Each Strike in this flurry benefits from a **MAP reduced by 1** (e.g., the second Strike would be at a -3 penalty, the third at -6).
+* **EX Rank**: **Hawk's Flurry** -Once per day, as a two-action activity :aa:, you can initiate a flurry of attacks. You make **consecutive Strikes until you miss an attack**. Each Strike in this flurry benefits from a **MAP reduced by 1** (e.g., the second Strike would be at a -3 penalty, the third at -6), to a minimum of -1.
 )
+Item(
+#Accuracy
+-
+This skill is tailored for those who prefer the strategy of waiting for the opportune moment to unleash a powerful, focused attack on a single target. It emphasizes quality and precision over quantity, enabling the user to inflict significant damage with minimal but highly effective strikes.
+- **D Rank**: **Focus Target** - Once per day, as an action :a:, designate one creature as your **Focus Target** for 1 minute. Once per turn, one attack that hits this target **ignores its immunities and resistances**. While your Focus Target is alive, you take a **-2 penalty** to attack rolls against other creatures.
+- **C Rank**: **Precise Aim** - As an action :a:,when you have a visible enemy, you can spend an action to gain a **+1 bonus to your next attack roll** against that specific enemy. This bonus stacks with itself, up to **a maximum of +5**.
+- **B Rank**: **Piercing Strike** - Once per turn, your attack can** bypass physical** barriers and **ignore cove**r when targeting an enemy whose location you know. This **does not** negate concealment unless you can see the target. Additionally, you can designate a Focus Target as a **free action** :f: instead of a single action.
+)
+ 
 |
+
+item ( 
+
+- **A Rank**: **Keen Attack** - Once per turn, when you make an attack roll, you can **roll twice and use the better result**. You can **change your Focus Target** as a free action :f: when the current one dies, effective for a minute from the initial designation. Additionally, you gain an **extra reaction** :r: to attack your Focus Target when **another creature damages it**.
+- **EX Rank**: **Maximized Strikes**: Gain the Reactive Strike feat and use it within your **weapon's range or reach**. For **1d4+1 turns**, every Strike you make deals **maximum damage**, rolling the highest possible number on each damage die.
+
+)
+
+
