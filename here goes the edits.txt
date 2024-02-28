@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 12 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 17 nickels
 )
 title (
-Sevrvant 0.6
+Sevrvant 0.7
 )
 head (
 # Servant Class: Archer ((Main info))
@@ -310,7 +310,7 @@ Item(
 This skill is tailored for those who prefer the strategy of waiting for the opportune moment to unleash a powerful, focused attack on a single target. It emphasizes quality and precision over quantity, enabling the user to inflict significant damage with minimal but highly effective strikes.
 - **D Rank**: **Focus Target** - Once per day, as an action :a:, designate one creature as your **Focus Target** for 1 minute. Once per turn, one attack that hits this target **ignores its immunities and resistances**. While your Focus Target is alive, you take a **-2 penalty** to attack rolls against other creatures.
 - **C Rank**: **Precise Aim** - As an action :a:,when you have a visible enemy, you can spend an action to gain a **+1 bonus to your next attack roll** against that specific enemy. This bonus stacks with itself, up to **a maximum of +5**.
-- **B Rank**: **Piercing Strike** - Once per turn, your attack can** bypass physical** barriers and **ignore cove**r when targeting an enemy whose location you know. This **does not** negate concealment unless you can see the target. Additionally, you can designate a Focus Target as a **free action** :f: instead of a single action.
+- **B Rank**: **Piercing Strike** - Once per turn, your attack can **bypass physical** barriers and **ignore cover** when targeting an enemy whose location you know. This **does not** negate concealment unless you can see the target. Additionally, you can designate a Focus Target as a **free action** :f: instead of a single action.
 )
  
 |
@@ -318,7 +318,36 @@ This skill is tailored for those who prefer the strategy of waiting for the oppo
 item ( 
 
 - **A Rank**: **Keen Attack** - Once per turn, when you make an attack roll, you can **roll twice and use the better result**. You can **change your Focus Target** as a free action :f: when the current one dies, effective for a minute from the initial designation. Additionally, you gain an **extra reaction** :r: to attack your Focus Target when **another creature damages it**.
-- **EX Rank**: **Maximized Strikes**: Gain the Reactive Strike feat and use it within your **weapon's range or reach**. For **1d4+1 turns**, every Strike you make deals **maximum damage**, rolling the highest possible number on each damage die.
+- **EX Rank**: **Maximized Strikes**: Gain the Reactive Strike feat and use it within your **weapon's range or reach**. For **1d4+1 turns** as a free action :f:, every Strike you make deals **maximum damage**, rolling the highest possible number on each damage die.
+
+)
+Item(
+#Marksmanship
+-
+The Marksmanship skill is ideal for combatants who specialize in firearms and tactical ingenuity. It focuses on adaptability, precision, and clever environmental utilization. Users can modify their attacks, ricochet shots, and integrate seamless reloading. This skill rewards creativity and precision, enabling users to outmaneuver opponents and deliver unpredictable, impactful shots.
+* **D Rank: Adaptive Arsenal** - This feat allows you to modify your weapon to suit various combat situations. **Once per day**, as a single action :a:, you can imbue your weapon with one of the following traits for 1 minute: **Agile, Concussive, Kickback, Scatter, Double Barrel, Backstabber, Razing, or Propulsive**.
+* **C Rank: Unbelievable** - Showcasing exceptional talent, you can make projectiles bounce off solid surfaces to hit targets from unexpected angles. When you **attack with a thrown or ranged weapon**, you can have **the projectile ricochet** off a solid surface. This attack incurs a **-1 penalty to hit** but deals an additional **1d6 damage** on a successful hit. You can ricochet a projectile up to **4 times consecutively**, accumulating penalties and bonuses, although a hit or miss on a creature **ends the sequence**. Each ricochet **extends the range of a thrown weapon** by half its original range from the point of impact. Certain actions that enable multiple projectile attacks may allow **ricocheting between projectiles**.
+* **B Rank: Efficient Loader** - Your rapid, precise reloading melds seamlessly into combat's rhythm. When **reloading** a firearm, you can perform an **activity** that requires **no more actions than the reload** as a free action :f:. This activity cannot be an **Attack or Casting a Spell**.
+)
+=
+item (
+* **A Rank: Endless Bounce** - If your ricochet **misses a creature**, you can continue the chain until **you hit or reach your ricochet limit**, as long as there's a solid surface to bounce from. Additionally, on a **critical hit** with a ricochet, you can immediately make another **free-action :f: ricochet** against a **different target within range**, without increasing your ricochet count. This does not increase **the penalty or damage bonus**.
+* **EX Rank: Boundless Reflections** - Your ricochet limit **increases to 10**. Once per day, as a free action :f: for **1 minute**, you can reverse the **ricochet penalty to become a bonus**. During this state, you cannot intentionally **MISS**.
+
+)
+
+Item(
+#Grenadier's Arsenal
+-
+Grenadier's Arsenal is a skill that blends alchemical expertise with tactical combat savvy, elevating the use of explosives to an art form. This skill demonstrates not just mastery in creating and deploying bombs, but also in strategically utilizing them for various battlefield scenarios. It's about precision, control, and versatility, transforming each explosive into a multi-faceted tool for offense, control, and even defense. This ability turns the wielder into a master tactician, capable of shaping the outcome of battles with well-timed and expertly crafted explosions.
+* **D Rank**: **Explosive Expertise** - You gain the ability to use bombs as **ammunition for a ranged weapon**. This allows you to apply the **weapon's range increment** to your bomb attacks. For these attacks, you may use **your proficiency** in alchemical bombs instead of the **weapon's proficiency**. Additionally, you add your **Strength modifier** to the bomb's **damage**, bypassing certain **penalties** such as the splash trait.
+* **C Rank**: When you hit a target with a bomb, you can **apply one of the bomb’s additional effects** (such as the debilitation effects of a Frost Vial or the persistent damage of an Alchemist's Fire) to **all creatures affected by the splash damage**. **Compound Blast Synthesis** - As two actions :aa:, you can merge **the effects of another bomb** you have onto **the next bomb you're going to attack with**. If they have abilities that require a DC, use **the higher DC** between the two. For damage, use the **higher damage** of the two bombs **plus half** the other bomb's damage dice.
+* **B Rank**: When attacking with a bomb that has the splash trait, the **splash damage equals the bomb's normal damage**. You can also choose to **exclude squares from the splash radius**, up to a number equal to your **Intelligence modifier**.
+)
+|
+item(
+* **A Rank**: You **increase** the radius of your bomb's splash damage **by 10 feet**. **Dynamis Ignition** -  Once per day, for 1 minute, **all bombs** you attack with **gain the splash trait**. If a bomb does not deal damage on its own, the splash damage **becomes 1 force damage**.
+* **EX Rank**: **Ultimate Fusion** - Once per day, you can create a **Master Bom** as an action :a:. This bomb is a combination of up to **5 bombs** you possess, without consuming the combined bombs. Use **the highest DC** among them and **combine all their damage**. The Master Bomb lasts for **12 hours**, after which **it explodes**, releasing all the stored effects.
 
 )
 
