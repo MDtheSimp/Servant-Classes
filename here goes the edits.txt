@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 17 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 22 nickels
 )
 title (
-Sevrvant 0.7
+Sevrvant 0.8
 )
 head (
 # Servant Class: Archer ((Main info))
@@ -72,11 +72,11 @@ Level | Class features
 --- | :---:
 1 | Ancestry and background, initial proficiencies, Mystic Ammunition, Incredible Initiative, Independent Action (**C**), Magic resistance (**D**)
 2 | Archer feat, The Master's Bow
-3 | Personal skill (**D**)
+3 | Personal skill (**D**), Noble phantasm (**D**)
 4 | Archer feat
-5 | Noble phantasm (**D**), Magic resistance (**C**), Deft Impact
+5 | Magic resistance (**C**), Deft Impact
 6 | Archer feat, Personal skill (**+++**)
-7 | Knight weapon specialization
+7 | Noble phantasm (**+++**), Knight weapon specialization
 8 | Archer feat
 9 | Personal skill (**+++**)
 10| Archer feat, Noble phantasm (**+++**), Independent Action (**B**), Magic resistance (**B**)
@@ -87,9 +87,9 @@ Level | Class features
 15 | Noble phantasm (**+++**), Personal skill (**+++**), Greater knight weapon specialization
 16 | Archer feat
 17 |
-18 | Archer feat, Personal skill (**+++**)
+18 |Personal skill (**+++**)
 19 |
-20 | Archer feat, Noble phantasm (**+++**),
+20 |Noble phantasm (**+++**)
 ##Class features((class features))
 You gain these abilities as a Archer. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
 
@@ -190,7 +190,7 @@ This Strike doesn’t count toward your multiple attack penalty, and your multip
 )
 
 ##Deft Impact 5th
-Through intense training and innate agility, you've learned to infuse each shot with pinpoint accuracy. You can now use your Dexterity modifier for damage rolls with ranged weapons, showcasing your skill in striking vital targets with unerring precision.
+Through intense training and innate agility, you've learned to infuse each shot with pinpoint accuracy. You can now use your Dexterity modifier for damage rolls with all weapons, showcasing your skill in striking vital targets with unerring precision.
 |
 ##Knight Weapon specialization 7th 
 
@@ -280,7 +280,7 @@ item(
 Item(
 #Clairvoyance
 -
-Clairvoyance is a visual ability that is also called Hawkeye.It is frequently used during scouting. Simply looking from a high location is sufficient to fully survey a town and search for enemies. In addition, Clairvoyance will affect the accuracy of bows. 
+Clairvoyance is a visual ability that is also called Hawkeye. It is frequently used during scouting. Simply looking from a high location is sufficient to fully survey a town and search for enemies. In addition, Clairvoyance will affect the accuracy of bows. 
 )
 |
 Item(
@@ -302,7 +302,7 @@ item(
 * **C Rank**: Your expertise in combat **reduces** your **Multiple Attack Penalty** (MAP) by 1. For example, your second attack in a round would be at a -4 penalty instead of -5, and your third attack would be at -8 instead of -10.
 * **B Rank**: **Echoing Twinshot** - Once per day, as a free action :f:, you can activate the ability to **duplicate** every projectile you fire for **one round**. When you make a **Strike**, you simultaneously make **two Strikes** instead, and both share the **same MAP** without increasing beyond what a normal single Strike would incur.
 * **A Rank**: **Hailstorm** - Once per day, as a single action :a:, you can unleash a barrage of projectiles, making **one Strike** against **each target within your line of sight** and **range**. These Strikes are each subject to the **multiple attack penalty individually**.
-* **EX Rank**: **Hawk's Flurry** -Once per day, as a two-action activity :aa:, you can initiate a flurry of attacks. You make **consecutive Strikes until you miss an attack**. Each Strike in this flurry benefits from a **MAP reduced by 1** (e.g., the second Strike would be at a -3 penalty, the third at -6), to a minimum of -1.
+* **EX Rank**: **Hawk's Flurry** - Once per day, as a two-action activity :aa:, you can initiate a flurry of attacks. You make **consecutive Strikes until you miss an attack**. Each Strike in this flurry benefits from a **MAP reduced by 1** (e.g., the second Strike would be at a -3 penalty, the third at -6), to a minimum of -1.
 )
 Item(
 #Accuracy
@@ -347,8 +347,27 @@ Grenadier's Arsenal is a skill that blends alchemical expertise with tactical co
 |
 item(
 * **A Rank**: You **increase** the radius of your bomb's splash damage **by 10 feet**. **Dynamis Ignition** -  Once per day, for 1 minute, **all bombs** you attack with **gain the splash trait**. If a bomb does not deal damage on its own, the splash damage **becomes 1 force damage**.
-* **EX Rank**: **Ultimate Fusion** - Once per day, you can create a **Master Bom** as an action :a:. This bomb is a combination of up to **5 bombs** you possess, without consuming the combined bombs. Use **the highest DC** among them and **combine all their damage**. The Master Bomb lasts for **12 hours**, after which **it explodes**, releasing all the stored effects.
+* **EX Rank**: **Ultimate Fusion** - Once per day, you can create a **Master Bomb** as an action :a:. This bomb is a combination of up to **5 bombs** you possess, without consuming the combined bombs. Use **the highest DC** among them and **combine all their damage**. The Master Bomb lasts for **12 hours**, after which **it explodes**, releasing all the stored effects.
 
 )
 
+Item(
+#Thrower of Arms
+-
+Thrower of Arms is a skill that melds tactical finesse with an uncanny proficiency in thrown weapons, transcending conventional combat techniques. It embodies a unique synergy between the wielder and an arsenal of thrown weapons, overwhelming enemies with a relentless barrage. This ability not only showcases the user's ability to adapt to any combat scenario by bypassing traditional weapon restrictions but also their talent in turning each throw into a strategic advantage.
+* **D Rank**: **Quick Arsenal** - When executing a **Strike** or any action that necessitates using a weapon, you can **draw as many weapons** as needed as a Free Action :f:. This ability is particularly beneficial for activities like **Twin Takedown**, where wielding two melee weapons, each in a different hand, is required. For instance, you can **draw both weapons** seamlessly before using Twin Takedown. This feature is also advantageous for thrown weapons, allowing you to **draw, throw, and then draw** another weapon for a subsequent attack within the same action.
+* **C Rank**: You can **ignore weapon-type restrictions** (such as melee, ranged, thrown, club, spear, etc.) when utilizing **abilities or feats** that typically impose such limitations. This bypass does not extend to **trait restrictions**, and there may be circumstances where it is **not applicable** due to practicality.
+* **B Rank**: The **range increment and reach** for your thrown weapons is **doubled**. **Weapon Barrage** when preparing to make a Strike with a thrown weapon, you can **draw up to 4 thrown weapons** simultaneously and launch them all as part of the **same Strike**. Each weapon contributes a **+1 bonus to the attack roll** and an additional **damage bonus** equal to the **number of damage dice for that weapon**.
+)
+=
+item(
+        Furthermore, this action increases the **critical hit**
+        **range of the Strike by 1** (e.g., a critical hit occurs
+        on a roll of 11 or more above the target's AC 
+        instead of 10).
+* **A Rank**: **Defense Shatterer** - Each time you successfully **hit an enemy with a Strike**, that enemy incurs a **-1 circumstance penalty to their Armor Class**. This effect is cumulative for each **distinct weapon that hits them**, to a maximum penalty of **-5**. The penalty lasts until the start of the affected creature's next turn. This rule represents your ability to exploit and widen gaps in an enemy's defense with each successive hit.
+* **EX Rank**: You can draw up to **10 weapons instead of 4** with Weapon Barrage. **Critical Momentum** - Once per day, for one minute, whenever you score a **critical hit**, you regain **1 action** :a: for that turn. This effect symbolizes the invigorating rush and momentum gained from executing a highly effective strike.
 
+)
+
+|
