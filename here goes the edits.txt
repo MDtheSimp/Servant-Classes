@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 22 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 29 nickels
 )
 title (
-Sevrvant 0.8
+Sevrvant 0.9
 )
 head (
 # Servant Class: Archer ((Main info))
@@ -169,15 +169,15 @@ info (
 )
 =
 info (
-* **Noble phantasms**:Noble Phantasms follow the same progression rules as Personal Skills, with the difference being that they advance at an even slower rate, starting at level 5 and increasing every 5 levels. This progression allows for a maximum of four advancements in a Noble Phantasm.
+* **Noble phantasms**:Noble Phantasms follow the same progression rules as Personal Skills, with the difference being that they advance at an even slower rate, starting at level 3 and increasing at level 7, 10, 15 and 20. This progression allows for a maximum of six advancements in a Noble Phantasm.
 The classification of a Noble Phantasm also plays a significant role. It is highly unlikely for a servant to possess more than one Anti-Army or Anti-Fortress NP, whereas an Anti-Unit NP is subject to fewer restrictions.
 # A RANK
 Your skills can only get to A Rank after reaching **level 10**. If your class provides you with a class skill advancement that would increase your rank to A before level 10, you may **substitute** that advancement with a **Archer feat** appropriate for your level.
 # EX RANK
 It is impossible to reach an EX rank simply by retaking a Class or Personal Skill from A rank. The only way to attain EX rank is through an **in-game secret**, which you may or may not discover. (To clarify, uncovering the secret will increase your rank by one and unlock the potential to reach EX rank, but it will not grant EX rank immediately, unless you are already at A rank in that specific skill).
 )
-## The Master's Bow 2st
-Vigilantly protecting your master, you can swiftly intercept attacks aimed at them. You gain the Master's Intervention reaction, allowing you to use your weapon to deflect strikes within your range.
+## The Master's Bow 2nd
+Vigilantly protecting your master, you can swiftly intercept attacks aimed at them. You gain the Master's Bow reaction, allowing you to use your weapon to deflect strikes within your range.
 ###The Master's Bow :r: 
 -
 
@@ -212,18 +212,19 @@ Mind's Eye, is a natural talent to foresee/sense and avoid danger on the basis o
 The ability also grants an effect of offering resistance against penalties caused by visual obstructions.
 * **D Rank**: Your senses are constantly alert, allowing you to respond quickly to threats.
 you gain the **Nimble Dodge reaction**. If you already possess this the bonus increases to **+3 instead**.
-You also gain a **+2 circumstance bonus to Perception checks** to **seek** undetected creatures. The flat check DC in order to target hidden, undectected or concealed creatures is **reduced by 2**.
+You also gain a **+2 bonus to Perception checks**. The flat check DC in order to target hidden, undectected or concealed creatures is **reduced by 2**.
 * **C Rank**: Your intuition and observational skills are sharp, helping you to effortlessly see through deceptive visual obstructions and react swiftly to threats.
-You gain the **Deny Advantage** against creatures of your level or lower. You also gain the **Nimble Roll** feat but without the extra stride. The flat check DC in order to target hidden, undectected or concealed creatures is **reduced by 4**. 
+You gain the **Deny Advantage** feature against creatures of  **one level higher than yours** or lower. You also gain the **Nimble Roll** feat. The flat check DC in order to target hidden, undectected or concealed creatures is further **reduced by 4**. 
 )
 =
 item (
 * **B Rank**: Your mind’s eye allows you to analyze your surroundings and predict threats with incredible precision.
-You apply the effects of Deny Advantage against creatures of up to **one level higher than yours**. you also don't roll a flat check against concealed creatures. Your circumstance bonus to seek also applies to **all perception checks**. Additionally, you gain the **full benefits of the Nimble Roll feat**, and if you already have them, you **double the distance** moved with it.
+you also don't roll a flat check against concealed creatures.  Additionally, you **double the distance** moved with the **Nimble Roll feat**. Your bonus  to Perception checks becomes a **+3** instead of a **+2**.
 * **A Rank**: Your senses and intuition are so refined that you can predict enemies' movements and react with supernatural speed.
-You apply the effects of Deny Advantage against creatures of up to **two levels higher than yours**. you gain an additional **reaction** :r: that you can use only for your Mind's Eye features. Additionally You gain a **+3 circumstance bonus** to Perception checks.
+You apply the effects of Deny Advantage against creatures of **any level**. You also gain an additional **reaction** :r:. Additionally your bonus to Perception checks becomes a **+4** instead of a **+3**.
 * **EX Rank**: Your senses and intuition have reached their pinnacle, granting you unparalleled awareness and reflexes.
-You apply the effects of **Deny Advantage** against creatures of any level.  You are constantly under the effects of the **True Seeing** spell and gain a **+4 circumstance bonus** to all Perception checks. Additionally, you gain a **+1 bonus** to all Saving Throws.
+At the start of each enemy’s turn, you **gain a reaction** you can use **only during that turn**.
+You are constantly under the effects of the **True Seeing** spell  Additionally, you gain a **+2 bonus** to Saving Throws and AC.
 )
 
 Item(
@@ -233,10 +234,10 @@ Valor is the ability to  grow in strentgh in the face of danger. Not usable unde
 * **D Rank**: If you have **a negative condition**, once per round, when you make a **successful attack**, you **regain hit points** equal to your level. Additionally, you gain a **+2 circumstance bonus** to your next saving throw following a **critical hit**.
 * **C Rank**:You become **quickened** whenever you are **below half of your maximum HP**.
 * **B Rank**: Whenever you are affected by **negative conditions**, you gain a circumstance bonus to **AC and attack rolls**. This bonus is equal to **1 plus either** the **number of negative conditions** affecting you **or** the **highest value** among these conditions, whichever is higher. This bonus goes **up to a maximum of 4**.
+* **A Rank**: Three times per day, upon **being hit by an attack**, you may use **your reaction** to use any **skill feat** or **skill check** that requires no more than **1 action** :a:, with a **+2 circumstance bonus** to the check. If this counterattack is a **critical success**, you impose a **-2 penalty** on the attacker's next attack roll or skill check. Additionally, your B Rank ability now can provide **either HP or temporary HP**.
 )
 |
 item(
-* **A Rank**: Three times per day, upon **being hit by an attack**, you may use **your reaction** to use any **skill feat** or **skill check** that requires no more than **1 action** :a:, with a **+2 circumstance bonus** to the check. If this counterattack is a **critical success**, you impose a **-2 penalty** on the attacker's next attack roll or skill check. Additionally, your B Rank ability now can provide **either HP or temporary HP**.
 * **EX Rank**: The **B rank bonus** has no limit anymore. When you are **critically hit** or when your hit points drop **below a quarter**, you gain the following benefits **for a round**:
 A **+2 bonus** to all saving throws.
 Each **successful attack** against an enemy imposes a **-1 penalty** on that enemy's **attack rolls or AC** (your choice) until the end of **its next turn**. If you hitthem again while this effect is active, **the ability's duration is extended by 1 round**, and the penalty value is **increased by 1**, up to a **maximum of 4**.
@@ -258,12 +259,12 @@ item (
 #Charisma((+Charisma))
 -
 Charisma is a composite Skill consisting of a person's charm as well as the natural talent to command or unify an army or country. Increases the ability of allies during group battles.
-)
-=
-item(
 * **D rank**: Your innate charm makes you a natural leader for small groups, enhancing their confidence and resilience. 
 **+1 status bonus** to Diplomacy to influence others.
 **Mantle of Leadership :** As an action :a: , after a successful **Diplomacy or Intimidation check** in in this turn or the last, you may grant **temporary hit points** equal to **half your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
+)
+=
+item(
 * **C rank**: Your leadership extends to larger groups and organizations, boosting their morale and combat effectiveness.
 **+2 status bonus** to Diplomacy and Intimidation to influence others. Allies within **60 feet** get **+2 status bonus** against fear;
 **Bolstering Rally : Once per day** as 2 actions :aa: , you may grant allies within 60 feet a **+1 status bonus** to attack rolls for 1 minute.
@@ -280,36 +281,36 @@ item(
 Item(
 #Clairvoyance
 -
-Clairvoyance is a visual ability that is also called Hawkeye. It is frequently used during scouting. Simply looking from a high location is sufficient to fully survey a town and search for enemies. In addition, Clairvoyance will affect the accuracy of bows. 
+Clairvoyance is a visual ability that is also called Hawkeye. It is frequently used during scouting. Simply looking from a high location is sufficient to fully survey a town and search for enemies. In addition, Clairvoyance will affect the accuracy of bows.
+It connotes superior visual perception and dynamic occipital capture, such as to supplement the long-range aiming of projectile weapons.At higher ranks, it is possible that the bearers of this Skill have acquired abilities such as precognition and other forms of perception beyond standard eyesight.
+* **D Rank**: When using the **Seek action** :a:, your scanning area is always treated as sight. Additionally, when making a **Perception check**, you can **roll twice and use the higher result**. 
 )
 |
 Item(
-It connotes superior visual perception and dynamic occipital capture, such as to supplement the long-range aiming of projectile weapons.At higher ranks, it is possible that the bearers of this Skill have acquired abilities such as precognition and other forms of perception beyond standard eyesight.
-* **D Rank**: When using the **Seek action** :a:, your scanning area is always treated as sight. Additionally, when making a **Perception check**, you can **roll twice and use the higher result**.
 * **C Rank**: **Ether Gaze** - Once per day, use the **Seek** action :a: to look through physical barriers up to **60ft** away (make a Perception check against the spell DC for magical barriers). **Deflective Shot** - You can track incoming **projectiles within your line of sight**. As a reaction :r:, make a **ranged strike** against an incoming projectile. If your attack roll **equals or exceeds** the attack roll of the projectile, you **deflect or destroy it**.
 * **B Rank**: **All Range Vision** - You have no **range increment penalty**, and all **imprecise** senses become **precise**.
 * **A Rank**: Cast **Read Omens** once per day. **Eagle Eye Shot** - Once per day as a free action :f:, when you hit a creature you may change it into a **critical hit**. (ineffective against NPs).
-* **EX Rank**: Gain unlimited clairvoyant sight within your **current plane**. Creatures within your sight cannot be **concealed, hidden, or undetected**. Your clairvoyence **cannot peer through** Unbounded Fields or magically protected areas. **Reflexive Mastery** - Once per day as a free action, for one round, automatically **dodge all attacks** and **critically succeed** on all Reflex saves.
+* **EX Rank**: Gain unlimited clairvoyant sight within your **current plane**. Creatures that you can see cannot be **concealed, hidden, or undetected**. Your clairvoyence **cannot peer through** Unbounded Fields or magically protected areas. **Reflexive Mastery** - Once per day as a free action, for one round, automatically **dodge all attacks** and **critically succeed** on all Reflex saves.
 )
 Item(
 #Freeshooter
 -
 Freeshooter is a unique ability that combines arcane knowledge with exceptional skill in weapon handling, transcending traditional weapon mastery. This ability reflects a deep connection between the user and their chosen weapon, be it a bow, firearm, or any other projectile or melee weapon. It embodies an innate understanding of the weapon's potential, guided by both intuition and magical insight, allowing for extraordinary feats of accuracy and power.
 * **D Rank**: **Projectile Replicator** - As a single action :a:, you can **record** a specific of projectile and replicate it as your **Mystical Ammunition**. All subsequent ammunition you create with this feature will mimic the recorded projectile's properties until you choose to record a different type with this ability again.
+* **C Rank**: Your expertise in combat **reduces** your **Multiple Attack Penalty** (MAP) by 1. For example, your second attack in a round would be at a -4 penalty instead of -5, and your third attack would be at -8 instead of -10.
 )
 =
 item(
-* **C Rank**: Your expertise in combat **reduces** your **Multiple Attack Penalty** (MAP) by 1. For example, your second attack in a round would be at a -4 penalty instead of -5, and your third attack would be at -8 instead of -10.
 * **B Rank**: **Echoing Twinshot** - Once per day, as a free action :f:, you can activate the ability to **duplicate** every projectile you fire for **one round**. When you make a **Strike**, you simultaneously make **two Strikes** instead, and both share the **same MAP** without increasing beyond what a normal single Strike would incur.
 * **A Rank**: **Hailstorm** - Once per day, as a single action :a:, you can unleash a barrage of projectiles, making **one Strike** against **each target within your line of sight** and **range**. These Strikes are each subject to the **multiple attack penalty individually**.
-* **EX Rank**: **Hawk's Flurry** - Once per day, as a two-action activity :aa:, you can initiate a flurry of attacks. You make **consecutive Strikes until you miss an attack**. Each Strike in this flurry benefits from a **MAP reduced by 1** (e.g., the second Strike would be at a -3 penalty, the third at -6), to a minimum of -1.
+* **EX Rank**: **Hawk's Flurry** - Once per day, as a two-action activity :aa:, you can initiate a flurry of attacks. You make **consecutive Strikes until you miss an attack**. Each Strike in this flurry benefits from a **MAP reduced by 1** (e.g., the second Strike would be at a -3 penalty instead of -4, the third at -6), to a minimum of -1.
 )
 Item(
 #Accuracy
 -
 This skill is tailored for those who prefer the strategy of waiting for the opportune moment to unleash a powerful, focused attack on a single target. It emphasizes quality and precision over quantity, enabling the user to inflict significant damage with minimal but highly effective strikes.
-- **D Rank**: **Focus Target** - Once per day, as an action :a:, designate one creature as your **Focus Target** for 1 minute. Once per turn, one attack that hits this target **ignores its immunities and resistances**. While your Focus Target is alive, you take a **-2 penalty** to attack rolls against other creatures.
-- **C Rank**: **Precise Aim** - As an action :a:,when you have a visible enemy, you can spend an action to gain a **+1 bonus to your next attack roll** against that specific enemy. This bonus stacks with itself, up to **a maximum of +5**.
+- **D Rank**: **Focus Target** - Once per encounter, as an action :a:, designate one creature as your **Focus Target** for 1 minute. Once per turn, one attack that hits this target **ignores its immunities and resistances**. While your Focus Target is alive, you take a **-2 penalty** to attack rolls against other creatures.
+- **C Rank**: **Precise Aim** - As an action :a:, when you have an enemy in sight, you can spend an action to gain a **+1 bonus to your next attack roll** against that specific enemy. This bonus stacks with itself, up to **a maximum of +5**.
 - **B Rank**: **Piercing Strike** - Once per turn, your attack can **bypass physical** barriers and **ignore cover** when targeting an enemy whose location you know. This **does not** negate concealment unless you can see the target. Additionally, you can designate a Focus Target as a **free action** :f: instead of a single action.
 )
  
@@ -318,7 +319,7 @@ This skill is tailored for those who prefer the strategy of waiting for the oppo
 item ( 
 
 - **A Rank**: **Keen Attack** - Once per turn, when you make an attack roll, you can **roll twice and use the better result**. You can **change your Focus Target** as a free action :f: when the current one dies, effective for a minute from the initial designation. Additionally, you gain an **extra reaction** :r: to attack your Focus Target when **another creature damages it**.
-- **EX Rank**: **Maximized Strikes**: Gain the Reactive Strike feat and use it within your **weapon's range or reach**. For **1d4+1 turns** as a free action :f:, every Strike you make deals **maximum damage**, rolling the highest possible number on each damage die.
+- **EX Rank**:  You gain the Reactive Strike feat and can use it within your **weapon's range or reach**. **Maximized Strikes** - For **1d4+1 turns** as a free action :f:, every Strike you make deals **maximum damage**, rolling the highest possible number on each damage die.
 
 )
 Item(
@@ -347,7 +348,7 @@ Grenadier's Arsenal is a skill that blends alchemical expertise with tactical co
 |
 item(
 * **A Rank**: You **increase** the radius of your bomb's splash damage **by 10 feet**. **Dynamis Ignition** -  Once per day, for 1 minute, **all bombs** you attack with **gain the splash trait**. If a bomb does not deal damage on its own, the splash damage **becomes 1 force damage**.
-* **EX Rank**: **Ultimate Fusion** - Once per day, you can create a **Master Bomb** as an action :a:. This bomb is a combination of up to **5 bombs** you possess, without consuming the combined bombs. Use **the highest DC** among them and **combine all their damage**. The Master Bomb lasts for **12 hours**, after which **it explodes**, releasing all the stored effects.
+* **EX Rank**: **Ultimate Fusion** - Once per day, you can create a **Master Bomb** as an action :a:. This bomb is a combination of up to **5 bombs** you possess, without consuming the combined bombs. Use **the highest DC** among them and **combine all their damage**. The Master Bomb lasts for **12 hours**, after which **it explodes**, releasing all the stored effects. Additionally Creatures affected by your bombs treat **all their saving throws** as one degree of success worse.
 
 )
 
@@ -369,5 +370,20 @@ item(
 * **EX Rank**: You can draw up to **10 weapons instead of 4** with Weapon Barrage. **Critical Momentum** - Once per day, for one minute, whenever you score a **critical hit**, you regain **1 action** :a: for that turn. This effect symbolizes the invigorating rush and momentum gained from executing a highly effective strike.
 
 )
+
+Item ( 
+#Beach Flower
+-
+Beach Flower is a skill that determines the amount of attention one can attract from interested individuals at the beach. Upon acquiring this class skill, you officially become a **Summer Servant**.
+
+* **D Rank**: Whether intended or not, your presence at the beach inevitably draws glances.
+* **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
+
+* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
+* **A Rank**: You have attained the status akin to that of a celebrity.
+* **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
+)
+
+
 
 |
