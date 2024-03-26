@@ -1,0 +1,304 @@
+watermark (
+If I had a nickel for every time I had to remake this thing, I'd have 8 nickels
+)
+title (
+Sevrvant 0.5
+)
+head (
+# Servant Class: Lancer ((Main info))
+Class Lancer, Knight of the Lance and Heroic Spirit of the Lance, is one of the Three Knight Classes among the seven standard Servant classes summoned for the Holy Grail War. Servants placed within this class, many of which are Heroic Spirits who were knights, are very agile, display excellent close combat skills, show proficiency in hit-and-run tactics that capitalize on range and speed, and are skilled with long-range melee weapons such as spearWPs and lanceWPs. The qualifying conditions to be placed within the class are second only to the Saber class, requiring overall excellent attributes and a high agility attribute. Their only particular class ability is **Magic Resistance**, and although they "tend to be less flashy than the other classes", they display great reliability.
+-
+)
+pagenumbers
+right (
+# Initial Proficiencies ((+Initial Proficiencies))
+At 1st level, you gain the listed proficiency ranks in the following statistics. You are untrained in anything not listed unless you gain a better proficiency rank in some other way.
+
+## Perception ((+Perception))
+Expert in perception
+## Saving throws
+Expert in Fortitude
+Increase your proficiency rank in Reflex by one level
+Expert in Will
+## Skills ((+Skills))
+Trained in your choice of Acrobatics or stealth.
+
+Trained in a number of additional skills equal to 4 plus your Intelligence modifier
+## Attacks((+Attacks))
+Increase your proficiency rank for melee weapons by one level.
+(From trained to expert, expert to master, or master to legendary).
+## defenses((+defenses))
+Trained in all armor
+Expert in unarmored defense
+)
+
+info (
+## Key ability((+Key ability))
+Strength or Dexterity.
+At 1st level, your class gives you an ability boost to your choice of Strength or Dexterity.
+
+|
+
+## Hit Points((+Hit Points))
+
+10 plus your Constitution Modifier. 
+You increase your maximum number of HP by this number at 1st level and every level thereafter.
+)
+# Servant Proficency((+Servant Proficency))
+
+As a servant, your initial proficiencies function in a different manner compared to standard classes. 
+Whenever your proficiency rank in **Attacks** and **Defenses** would normally increase to match your current rank, increase it by one additional rank instead (for example: if you are a fighter with a master proficiency in melee weapons at level 1, once your fighter class grants you master proficiency in weapons, your proficiency would then increase to legendary). This is capped at one rank above legendary, which is termed 'mythical,' resulting in an additional +2 on top.
+
+## Spirutal body((+Spirutal body))
+Servants are made of **Ether** one of **Five Great Elements**, on it's own it is amorphous and is incapable of materializing by its own power, with the power of the grail, the servants are able to gain a material form with a **Spiritual Core** serving as "their center, their heart, their CPU" that dictates their every function. While a servant may bleed and take damage to their organs, their true being resides in a Spiritual Core.
+
+Servants are beings able to **switch** between a **Spiritual Body** and **Material Body** at will, although at a rate no faster than **once per minute**. While in spiritual form, they cannot be easily detected by enemies due to being **invisible** to the naked eye and most forms of scrying, or be affected by physical interference. They can travel where they please without being impeded by walls, but they also **cannot carry anything** in that state. Their senses are limited to spiritual sensations (*a sort of vague sense imagine being in the etheral plane but without your normal senses*), so they must materialize in order to fully experience normal senses when sharing a visual link with their Master. Their upkeep cost is low when not materialized, so many Masters prefer them to stay in spirit form when they are not fighting or doing other tasks that require them to be in physical form to lower the cost on themselves.
+
+Other servants can easily sense and interact with a servant in spirit form, while a magus may find it difficult to do so.
+***While in spirit form, your speed doubles, but you incur a -4 status penalty to AC (Armor Class), Perception and reflex saves, you are also flat-footed. Additionally, you are unable to make attacks or cast spells.***
+= 
+## Dying and unconsious conditions((+Dying and unconsious))
+
+As a servant, you do not fall unconscious when reduced to 0 hit points. Instead, you maintain consciousness but incur a **penalty** equal to **twice** your **dying value** on all rolls (such as damage rolls, saves, and checks).
+
+Note that it is still possible to acquire the **unconscious condition** through other means.
+
+Additionally, effects with the **death trait** that reduce your hit points to 0 only increase your dying value by 3, instead of causing immediate death.
+
+
+##### Table 1-1: Lancer class advancement table ((Lancer class advancement table))
+Level | Class features
+--- | :---:
+1 | Ancestry and background, initial proficiencies, attack of opportunity, Magic resistance (**D**)
+2 | Lancer feat
+3 | Personal skill (**D**)
+4 | Lancer feat
+5 | Noble phantasm (**D**), Magic resistance (**C**)
+6 | Lancer feat, Personal skill (**+++**)
+7 | Knight weapon specialization, Personal skill (**+++**)
+8 | Lancer feat
+9 | Personal skill (**+++**)
+10| Lancer feat, Noble phantasm (**+++**), Magic resistance (**B**)
+11 | Lancer feat
+12 | Lancer feat, Personal skill (**+++**)
+13 | 
+14 | Lancer feat
+15 | Noble phantasm (**+++**), Personal skill (**+++**), Greater knight weapon specialization
+16 | Lancer feat
+17 | 
+18 | Lancer feat, Personal skill (**+++**)
+19 | 
+20 | Lancer feat, Noble phantasm (**+++**),
+
+##Class features((class features))
+You gain these abilities as a Lancer. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
+
+###Fleet ((+Fleet))
+Your feet carry you rapidly across the battlefield, allowing you to outmaneuver foes and seize tactical advantages.
+item (
+#FLEET
+-
+You move more quickly on foot. Your Speed increases by 5 feet.
+)
+
+|
+item (
+You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action.
+
+This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this Strike.
+)
+
+###Magic resistance ((+Magic resistance))
+Magic Resistance, grants protection against magical effects. Differing from the Resistance effect that merely rejects Magical Energy, this ability cancels the spells altogether.
+item(
+#Magic Resistance 
+-
+* **D rank**: When targeted by a spell that is **below half your level**, you receive a **+2 status bonus on saves and AC**.
+* **C rank**: You gain resistance **5** to the damage from spells **equal to half your level or less**.
+* **B rank**: As a reaction :r: , when targeted by a spell that is **equal to half your level or less**, you may attempt to **counteract** the spell using your weapon's attack bonus. The counteract level is **equal to half your level, rounded up**. If you **successfully** counteract the spell, you are unaffected by it, unless you choose to be. The counteract **DC** is the **spell's save DC plus half the spell's level**.
+* **A rank**: Counteracting spells now requires only a **free action** :f:. Additionally, once per day, you can turn one spell save into an **automatic critical success**.
+* **EX rank**: "**Ma##C? On M#eE#eE?**" You **reflect** spells back to the caster when you **succeed at a counteract check**.
+)
+###Noble phantasms ((+Noble Phantasms))
+Noble phantasms are powerful armaments made using human imagination as their core, and are the weapons and/or abilities owned by Heroic Spirits. As humanity's illusions, **they embody the ultimate Mysteries of a hero as symbols of their existence through historical fact and anecdotes**.
+
+They can be physical weaponry (e.g. swords, spears, bows) or support items (e.g. shields, rings, crowns).They can also be abstractions such as unique, often magical abilities (even close to or matching True Magic), unique (even conceptual) means of attack, curses, and changes to the very environment and its physical properties. When summoned as Servants in the Holy Grail War, they are the trump cards of the heroes that allow them to overcome others in battle.
+
+
+
+=
+
+
+A servant may possess more than one Noble Phantasm; however, the more they have, the weaker each tends to be compared to possessing a single Noble Phantasm. Noble Phantasms also follow the skill ranking system **(D | C | B | A | EX)**, with higher-ranked Noble Phantasms being more powerful.
+
+Noble Phantasms are classified by their effectiveness against enemies. One Noble Phantasm may have multiple classifications depending on its abilities. The classification and properties of the Noble Phantasm dictate both the number of times it can be used and the duration required for the NP to 'recharge'.
+
+* **Anti-Unit**- Anti-Unit Noble Phantasms are those specialized against defeating other people in single combat. Compared to stronger weapons, a
+majority of Anti-Unit Noble Phantasms will not go beyond defeating other beings.
+
+* **Anti-Army** - Anti-Army Noble Phantasms are those with a wide enough range to be specialized against armies. They are more powerful weapons than Anti-Unit Noble Phantasms, capable of
+easily blowing them away, but they must be used more wisely because of their larger cost.
+* **Anti-Fortress**  - This rank has powerful Noble Phantasms that can even blow away solid fortified structures. While the difference between Anti-Unit and Anti-Army is the variation in area of effect, Anti-Fortress Noble Phantasms are distinguished from other categories by the great difference in power.
+* **Barrier** - The classification of Noble Phantasms used to create barriers, typically Bounded Fields, but it does not include those that are also used to attack.
+
+There are numerous additional classifications for Noble Phantasms, including but not limited to Anti-Self, Anti-Country, and Anti-Purge.
+
+###Class Skills and Personal Skills ((+Class and Personal skills))
+Skills are the embodiment of a Servant's various abilities and characteristics, (Riding skill, Magic Resistance etc). They are divided into two main categories: **Class Skills**, which are typically connected to the Servant's Class, and **Personal Skills**, which reflect abilities or anecdotes connected to the life and legend of the Servant themselves, Personal Skills typically outweigh Class Skills in impact.
+
+
+Again, a servant may possess numerous Class and Personal Skills; however, they tend to be stronger when their number is fewer.
+|
+info (
+# Progression ((+Progression))
+* **Class Skills**: From level 1, you have access to all your Class Skills, but they all start at their lowest rank, D. To progress a particular skill, you must retake the corresponding feat, which will increase its rank by one degree. This approach provides an incredible amount of versatility in your choice of Class Skills. You begin with one Class Skill at level 1 and acquire additional skills as you level up.
+* **Personal Skills**: Similar to Class Skills, Personal Skills start at rank D and progress in the same manner, requiring the retaking of the same Personal Skills. The key difference is that Personal Skills progress at a much slower rate, starting at level 3 and advancing every 3 levels (as indicated by the ***'+++'*** symbol in the advancement table on page 2). Additionally, Personal Skills are not provided by the class and must be created in collaboration with your Dungeon Master."
+
+* **Noble phantasms**:Noble Phantasms follow the same progression rules as Personal Skills, with the difference being that they advance at an even slower rate, starting at level 5 and increasing every 5 levels. This progression allows for a maximum of four advancements in a Noble Phantasm.
+The classification of a Noble Phantasm also plays a significant role. It is highly unlikely for a servant to possess more than one Anti-Army or Anti-Fortress NP, whereas an Anti-Unit NP is subject to fewer restrictions.
+# A RANK
+Your skills can only get to A Rank after reaching **level 10**. If your class provides you with a class skill advancement that would increase your rank to A before level 10, you may **substitute** that advancement with a **Lancer feat** appropriate for your level.
+# EX RANK
+It is impossible to reach an EX rank simply by retaking a Class or Personal Skill from A rank. The only way to attain EX rank is through an **in-game secret**, which you may or may not discover. (To clarify, uncovering the secret will increase your rank by one and unlock the potential to reach EX rank, but it will not grant EX rank immediately, unless you are already at A rank in that specific skill).
+)
+## The Master's Lance 2nd
+When danger looms over your master, your loyalty knows no bounds. As an instinctual reaction to the peril threatening your master, you swiftly maneuver yourself between them and the assailant.
+
+=
+
+###The Master's Lance :r: 
+-
+
+**Trigger** Your master is attacked by an enemy within your movement speed.
+-
+item (
+As the triggering attack unfolds, you move up to your speed towards your master. This swift stride allows you to intercept the attack, becoming its new target. Regardless of whether the attack hits or misses, if you remain standing, you can immediately move again. This time, you transport your master with you, retreating up to half of your movement speed.
+
+this movement does not provoke reactions.
+)
+
+##Fluid Motion 5th
+With refined agility, you effortlessly combine motion with action. While striding or moving, you may perform a single activity without interrupting your movement.
+
+##Knight Weapon specialization 7th 
+
+You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary.
+
+## greater knight Weapon specialization 15th 
+
+Your damage from knight weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an expert, 6 if you’re a master, and 8 if you’re legendary.
+
+
+#LANCER CLASS FEATS ((Lancer class feats))
+item (
+# Independent Action((+Independent Action)) (needs rework)
+-
+Independent Action is the ability to remain independent even when rejecting the Magical Energy supply from one's Master; the ability that allows for action even in the absence of the Master. Independent Action is the Class Skill of the Archer class.
+
+At higher ranks,  Servants can stay in this world longer without a contract, independently from the Master's Magical Energy. This allows Masters to focus on larger spells, or maintain the Servant even if they're unable to supply Magical Energy due to injury. However, these Servants are harder to control and retain, making Command Spells the only reliable method of commanding them.
+* **D Rank**: It is possible for a Servant to stay in the world for **eight hours without a Master**.
+* **C Rank**:It is possible for a Servant to stay in the world for **one day without a Master**.
+)
+|
+item (
+* **B Rank**:It is possible for a Servant to stay in the world for **two days without a Master**. However, this is the ideal value achieved by maximally conserving mana and avoiding battle and NP usage.
+* **A Rank**: It is possible to take action even without a Master. However, to use NPs of great magical energy consumption, backup from the Master is necessary. At Rank A, it is possible for a Servant to stay in the world for about **a week without a Master**.
+* **EX Rank**: At EX rank, Independent Action allows for nearly any act, whether related to combat or otherwise, to be undertaken without support from the Master.
+
+)
+item (
+#Mind's Eye((+Mind's Eye))
+-
+Mind's Eye, is a natural talent to foresee/sense and avoid danger on the basis of an innate 6th sense, intuition, or prescience. The accuracy of this instinct can be augmented by experience. Mind's Eye can also be a  heightened capacity for observation, refined through training, discipline and experience. A danger-avoidance ability that utilizes the intelligence collected up to the current time as the basis in order to predict the opponent’s activity and change the current situation. The ability also grants an effect of offering resistance against penalties caused by visual obstructions.
+* **D Rank**: Your senses are constantly alert, allowing you to respond quickly to threats.
+you gain the **Nimble Dodge reaction**. If you already possess this the bonus increases to **+3 instead**.
+You also gain a **+2 bonus to Perception checks**. The flat check DC in order to target hidden, undectected or concealed creatures is **reduced by 2**.
+* **C Rank**: Your intuition and observational skills are sharp, helping you to effortlessly see through deceptive visual obstructions and react swiftly to threats.
+You gain the **Deny Advantage** feature against creatures of  **one level higher than yours** or lower. You also gain the **Nimble Roll** feat. The flat check DC in order to target hidden, undectected or concealed creatures is further **reduced by 4**.
+* **B Rank**: Your mind’s eye allows you to analyze your surroundings and predict threats with incredible precision.
+you also don't roll a flat check against concealed creatures.  Additionally, you **double the distance** moved with the **Nimble Roll feat**. Your bonus  to Perception checks becomes a **+3** instead of a **+2**.
+)
+=
+item(
+* **A Rank**: Your senses and intuition are so refined that you can predict enemies' movements and react with supernatural speed.
+You apply the effects of Deny Advantage against creatures of **any level**. You also gain an additional **reaction** :r:. Additionally your bonus to Perception checks becomes a **+4** instead of a **+3**.
+* **EX Rank**: Your senses and intuition have reached their pinnacle, granting you unparalleled awareness and reflexes.
+At the start of each enemy’s turn, you **gain a reaction** you can use **only during that turn**.
+You are constantly under the effects of the **True Seeing** spell  Additionally, you gain a **+2 bonus** to Saving Throws and AC.
+)
+
+item(
+#Riding skill
+-
+A skill that denotes a Servants ability to ride mounts and vehicles.
+* **D rank**: Capable of riding familiar animals and vehicles from your past life. 
+Gain access to **the ride feat**, with the ability to **mount** as a **free action**. Additionally, **whenever you move**, your mount can Stride in your stead.
+* **C rank**: Can flawlessly manage most beasts and vehicles with minimal training, though unable to ride **Phantasmal Species** and **Monstrous Beasts**. 
+Mounts gain a ***10 ft speed bonus***, and you receive **no reflex save penalties** while riding.
+* **B rank**: Proficient with most animals and vehicles, including those from beyond your lifetime, but not **Phantasmal Species** and **Monstrous Beasts**. 
+When attacking with a melee weapon while mounted, add a ***status bonus*** to damage, equal to ***twice the weapon's damage dice***. Additionally, command your mount to stride as a ***free action*** once per round.
+* **A rank**: Able to use all vehicles and creatures as mounts, except **Phantasmal Beast** and **Divine Beast** ranks. 
+Weapons gain the ***jousting trait*** i if it doesn't already possess it. You also do not need to move ***10 ft*** for jousting trait's bonus. Adittionally you and your mount do not share **multiple attack penalty**.
+* **EX rank**: Mastery over all vehicles and creatures as mounts.
+Your mount receives a **+30 ft speed bonus** instead of the previous +10, and can now **act** during your turn with **an additional action** :a: beyond its usual actions, eliminating the need to use **command an animal**.
+
+)
+|
+item (
+# Battle Continuation 
+-
+Battle Continuation is a Skill that allows for the continuation of combat after sustaining mortal wounds. It will also reduce mortality rate from injury. This Skill represents the ability to survive and/or the mentality of one who doesn't know when to give up, consisting of one's strength of vitality in predicaments.
+
+* **D rank**: Grants the **Diehard feat**. If you already possess the Diehard feat, increase your **Dying limit by 1**.
+* **C rank**: Your **wounded value** can not increase beyond 1. Additionally, you suffer no penalties from the **doomed condition**.
+* **B rank**: You take **no penalties** from **Dying 1, 2, and 3**, and all subsequent penalties are applied as if starting from Dying 1. Additionally, your **maximum Dying value is increased by 1**.
+* **A rank**: You do not receive **any penalties** from the dying condition; however, you will still
+**die instantly** if you reach your **maximum dying value**.
+* **EX rank**: Once per day, Should you go **beyond your maximum dying value**, your body transcends its own limitations. You **become incapable of dying** and will continuously regenerate all limbs for a straight **hour**, if you did not regain at least half your hit points by the end of that hour your spirit core will **disintegrate into nothingness**.
+)
+item(
+#Privilege ((+Privlege))
+-
+Privilege is an skill that, due to the insistence of the owner, Skills that are essentially impossible to possess can be obtained for a short period of time.
+
+* **D Rank**: Allows you to use any **D Rank** Class Skill of your class for **1d4 rounds**, after which you will be locked from using the same Class Skill.
+* **C Rank**: **Resets used Class Skills** and allows you to use any **C Rank** Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
+* **B Rank**: Resets used Class Skills and allows you to use the same class skill **up to 2 times** before locking them.
+* **A Rank**: Resets used Class Skills and allows you to use any **B Rank** Class Skill of your class for 1d4 rounds..
+* **EX Rank**: Allows you to use any **A Rank Class Skill** of your class for 1d4 rounds. Class Skill will not be locked.
+
+)
+=
+
+item (
+#tactics
+-
+Tactics is tactical knowledge used not for one-on-one combat situations, but for battles where many are mobilized.
+* **D Rank**: **Strategic Withdrawal** - You have learned how to provide better cover for yourself and your allies. **Once per day**, as a single action :a: , You can swiftly direct either yourself or an ally **within 30 feet** to stride up to their speed towards cover and then use **the Take Cover action** if they are within reach of it. If they do, they receive an additional **+1 circumstance bonus** to AC from the Take Cover action.
+* **C Rank**: **Formation** - Your understanding of battlefield dynamics allows you to arrange your allies into an tactical formation. **Once per day**, as an action :a: You can order up to **three allies within 60 feet** to immediately **Stride** once as a free action :f:. During this movement, they each receive a **+2 circumstance bonus to AC**, enhancing their defensive positioning.
+* **B Rank**: As a **two-action activity** :aa:, you can adapt your allies' strategy to the evolving battlefield. Designate two allies within sight. They each can use their reaction :r: to either make an immediate **Strike** or attempt a **skill check** to Disarm, Trip, Shove or Grapple, each ally must choose a different action from these options. If the first ally's action is a **critical success**, the second ally's action **automatically escalates to a critical success**. If the first ally's action is a **failure**, the second ally's action is **automatically a failure**.
+* **A Rank**: Strategic Withdrawal is not limited to once per day anymore. **Disruptive Command** - Once per encounter As a **two-action activity** :aa:, you issue a command that confuses your enemies. Choose up to three enemies within **60 feet**. They must each attempt a Will save against your **class DC**.
+**Critical Success**: The enemy is not affected and gains a **+2 circumstance bonus** to its next attack roll or skill check.
+**Success**: The enemy is **clumsy 1** for 1 round.
+**Failure**: The enemy is **slowed 1** for 1 minute.
+**Critical Failure**: The enemy is **slowed 2** for 1 minute.
+* **EX Rank**: **Grand Stratagem** - Once per encounter. You direct an intricate battle strategy that maximizes your allies' potential. As an action :a: all **allies within a 100-foot emanation** can **reduce the action cost** of their next action **by 1** (including you).
+)
+|
+item (
+      This represents your unparalleled ability to see the
+       battlefield as a whole and manipulate it to your
+       allies' advantage.
+
+#Natural body
+-
+You have an objectively hot bod. and no matter how many calories you ingests, your body shape will not change.
+
+* **D Rank**:  You gain 1 extra HP per level and receive a **+1 bonus to Diplomacy** when you are at least **half-naked** (figuratively, not literally).
+* **C Rank**: **Last Stand** - Your muscles condense, reaching the pinnacle of defense. Once per day, as an action :a: , you may **reduce your HP to 1** and gain **temporary HP** equal to **twice** the HP you lost for **1d4 rounds**.
+* **B Rank**:  **Rebound** - Your physique becomes a paragon of resilience. **Twice per day**, as a **reaction** :r: when you take damage, you can negate that damage and gain temporary hit points equal to the damage for **1d4 rounds**. Afterwards, **half the damage** will **recoil** onto your actual HP. Your **Last stand** also lasts for **1d4+1 turns**.
+* **A Rank**: **Metamorphosis** - **Once per day**, you can, as an action :a:, change your physical form to gain either a **+2** bonus to AC, a  **+10-foot** bonus to speed, or a **+2** bonus to Strength mod or Dexterity mod (your choice) for **1d4 rounds**. Afterward, you incur a **penalty equal** to what you gained. Whenever you use your B Rank reaction :r:, **you reflect the entire damage** back to the enemy instead of being merely negated if they are in **melee**. Additionally, the bonus to Diplomacy when half-naked increases to **+2**. 
+* **Ex Rank**:  **Eternal Rebirth** - Once per **week**, as a reaction :r: to **reaching 0** hit points, you may eject your spirit core into a part of your body. As long as **a single cell of your body remains intact**, you can initiate a miraculous regeneration. After **at least 24 hours** since your "death," you completely regenerate from any physical injury, restoring you to **full health** and cleansing all **negative conditions and effects**.
+You also no longer suffer recoil damage. Your hit points increase by **an additional 2 per level**. You now can use Last Stand up to **3 times**, additionaly after your **Last Stand** ends, you will revert to **40 HP instead of 1**. This amount **halves with each subsequent** use of Last Stand and resets after a **rest**.
+)
+
