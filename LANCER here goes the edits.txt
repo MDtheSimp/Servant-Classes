@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 8 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 12 nickels
 )
 title (
-Sevrvant 0.5
+Sevrvant 0.6
 )
 head (
 # Servant Class: Lancer ((Main info))
@@ -302,3 +302,59 @@ You have an objectively hot bod. and no matter how many calories you ingests, yo
 You also no longer suffer recoil damage. Your hit points increase by **an additional 2 per level**. You now can use Last Stand up to **3 times**, additionaly after your **Last Stand** ends, you will revert to **40 HP instead of 1**. This amount **halves with each subsequent** use of Last Stand and resets after a **rest**.
 )
 
+=
+Item(
+#Protection from Arrows
+
+-
+Protection from Arrows is the ability to deal with projectiles, an increased defense against ranged attacks by predicting the projectiles' trajectories through exceptional means, such as hearing the sound of air being cut, or sensing the killing intent of the enemy.
+* **D Rank**: **Arrow deflection** - You gain the ability to **deflect incoming projectiles**. When not blinded and aware of an attacker's presence, you can use your reaction :r: to **deflect** a ranged attack that would hit you, including **thrown attacks**.
+* **C Rank**: You retain the ability to use **Arrow Deflection** even while **blinded** or **unaware of the attacker**. After successfully deflecting a projectile, you gain a **+10-foot bonus** to your Speed for 1 round.
+* **B Rank**: **Instant Retaliation** - When you successfully use **Arrow Deflection**, you can immediately **make a ranged attack** with the deflected projectile as a free action :f:. This attack uses your **highest attack bonus**.
+* **A Rank**: **Effortless** Once per day for **1 minute**, **Arrow deflection** becomes a free action :f:, rather than requiring a reaction :r:.
+* **EX Rank**: You can deflect all ranged attacks made against a target **within your movement speed** by moving to the target and **redirecting the attack**. Additionally, whenever you deflect a projectile, your damage **increases by one extra die for 1 round**.
+)
+
+Item(
+#Disengage
+-
+Disengage is the ability to withdraw from the battlefield in the midst of combat or reset the battle conditions.
+* **D Rank**: Once per day, as a Free Action :f:, **you and your allies** can Disengage, teleporting back to a position **you occupied** within the **last minute**. This position must not be more than **five times your speed away**.
+* **C Rank**: When you Disengage, **all allies and enemies that are alive** are transported back to the positions **they occupied** at the time when you were at the location you return to. Additionally, their **hit points are reset to the values** they had at that moment.  **Allies** gain the **Fleeing 3** condition.
+* **B Rank**: Upon Disengaging, the **conditions** of your allies (including cooldowns, status effects, items, etc.) are **reset** to what they were at the moment of Disengagement, with the **exception of this ability**. There is no longer any **restriction on distance**.
+)
+
+|
+Item(
+* **A Rank**: When you Disengage, you gain the ability to selectively **choose which creatures** are affected by this ability and which are not.
+* **EX Rank**:  When you use Disengage, you **no longer gain the Fleeing condition**. Furthermore, you can choose which conditions and effects **are reset** and which **remain**. You also gain the ability to **swap conditions and effects** between **enemies and allies**.
+)
+
+Item(
+#Martial Arts
+-
+
+* **D Rank**: You gain a monk feat of your level or lower that you meet the prequisites of. Additionally, You do not consume a focus point the first time you would use an ability that eats a focus point.
+* **C Rank**: When you are in a stance your stance does not end when you use another stance action, instead yo combine the effects of both, and after you take an action with the stance trait, you can take another during the same round.
+* **B Rank**:
+* **A Rank**:
+* **EX Rank**:
+
+)
+
+Item(
+#Presence Detection
+-
+Presence Detection is the ability to detect other Servants and local mana sources.
+* **D Rank**: Whenever a creature hides or sneaks within 60 ft of you, you automatically detect their location. Once a creature becomes observed to you in that range, their presence continues to be detectable to you, regardless of subsequent attempts to hide.
+* **C Rank**: Creatures that try to hide from you get one level of success lower against you. Additionally, you can discern the type of creature (e.g., humanoid, beast, undead) when they attempt to hide within your 60ft. Additionally as an action you can detect the location of all creatures within range. 
+* **B Rank**: When you use your arction to detect, an equal or lower rank of Presence Concealment can be nullified. This extends to magical illusions, invisibility and transformations, allowing you to see the true nature of altered or disguised beings.
+* **A Rank**: Your presence detection increase to 120ft. Additionally, you can now detect not just the presence but also the magical potency of any creature within this range. Gauging the relative strength of their magical abilities compared to yours, allowing you to know their AC, saves and DC's.
+)
+=
+Item(
+* **EX Rank**: Your sensory abilities reach their zenith. You can detect all forms of concealment and illusions within a 1-mile radius. This includes magical and non-magical means, as well as unbounded fields. Additionally you can temporarily see through the eyes of any creature within your radius, giving you their point of view on demand for 1 minute, strong creatures can try to resist this effect.
+
+
+)
+|
