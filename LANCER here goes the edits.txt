@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 12 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 21 nickels
 )
 title (
-Sevrvant 0.6
+Sevrvant 0.9
 )
 head (
 # Servant Class: Lancer ((Main info))
@@ -264,7 +264,7 @@ Privilege is an skill that, due to the insistence of the owner, Skills that are 
 * **D Rank**: Allows you to use any **D Rank** Class Skill of your class for **1d4 rounds**, after which you will be locked from using the same Class Skill.
 * **C Rank**: **Resets used Class Skills** and allows you to use any **C Rank** Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
 * **B Rank**: Resets used Class Skills and allows you to use the same class skill **up to 2 times** before locking them.
-* **A Rank**: Resets used Class Skills and allows you to use any **B Rank** Class Skill of your class for 1d4 rounds..
+* **A Rank**: Resets used Class Skills and allows you to use any **B Rank** Class Skill of your class for 1d4 rounds.
 * **EX Rank**: Allows you to use any **A Rank Class Skill** of your class for 1d4 rounds. Class Skill will not be locked.
 
 )
@@ -305,10 +305,9 @@ You also no longer suffer recoil damage. Your hit points increase by **an additi
 =
 Item(
 #Protection from Arrows
-
 -
 Protection from Arrows is the ability to deal with projectiles, an increased defense against ranged attacks by predicting the projectiles' trajectories through exceptional means, such as hearing the sound of air being cut, or sensing the killing intent of the enemy.
-* **D Rank**: **Arrow deflection** - You gain the ability to **deflect incoming projectiles**. When not blinded and aware of an attacker's presence, you can use your reaction :r: to **deflect** a ranged attack that would hit you, including **thrown attacks**.
+* **D Rank**: **Arrow deflection** - You gain the ability to **deflect incoming projectiles**. While not blinded and aware of an attacker's presence, if a ranged attack that would hit you, you can use your reaction :r: to **decrease the roll by 5**  including **thrown attacks**.
 * **C Rank**: You retain the ability to use **Arrow Deflection** even while **blinded** or **unaware of the attacker**. After successfully deflecting a projectile, you gain a **+10-foot bonus** to your Speed for 1 round.
 * **B Rank**: **Instant Retaliation** - When you successfully use **Arrow Deflection**, you can immediately **make a ranged attack** with the deflected projectile as a free action :f:. This attack uses your **highest attack bonus**.
 * **A Rank**: **Effortless** Once per day for **1 minute**, **Arrow deflection** becomes a free action :f:, rather than requiring a reaction :r:.
@@ -333,15 +332,15 @@ Item(
 Item(
 #Martial Arts
 -
-
-* **D Rank**: You gain a monk feat of your level or lower that you meet the prequisites of. Additionally, You do not consume a focus point the first time you would use an ability that eats a focus point.
-* **C Rank**: When you are in a stance your stance does not end when you use another stance action, instead yo combine the effects of both, and after you take an action with the stance trait, you can take another during the same round.
-* **B Rank**:
-* **A Rank**:
-* **EX Rank**:
+Martial Arts represents the pinnacle of martial and spiritual discipline, enhancing a Servant's combat abilities through advanced monk techniques. This skill allows the Servant to seamlessly merge combat stances, masterfully wield several weapons, and harness their inner focus with exceptional efficiency.
+* **D Rank**: This rank showcases your ability to conserve spiritual energy. You gain a **monk feat** for which you qualify (ou can change this feat when you level up). Additionally, **three times per day**, you can activate a **focus-consuming** ability without depleting a **focus point** the **first time** it's used.
+* **C Rank**: While **in a stance**, your stance does not end if you perform **another stance action**. Instead, you **combine** the effects of both stances. After taking an action with the stance trait, you may take another stance action **within the same round**, this ability reflects your expertise in martial stances. Additionally, you can perform up to **two flourish actions** per round.
+* **B Rank**: Your reach increaces by 5ft. All your attacks **share this increased reach**, which becomes equal to the **greatest** reach among the weapons you are wielding
+* **A Rank**: When you make an attack, you can **switch weapons** as a free action :f: (interact action). Additionally,  when striking with different weapons in **succession**, your critical weapon's specialization effects **apply to normal hits**, and are **doubled on critical hits** (double the condition value/damage).
+* **EX Rank**:  You can combine an **unlimited number of stances**, and at the start of your turn, you may **enter a stance** as a free action :f:. Furthermore, there is **no limit** to the number of flourish actions you can take per round. Whenever you critically hit a creature, **you regain a focus point**.
 
 )
-
+=
 Item(
 #Presence Detection
 -
@@ -351,10 +350,55 @@ Presence Detection is the ability to detect other Servants and local mana source
 * **B Rank**: When you use your arction to detect, an equal or lower rank of Presence Concealment can be nullified. This extends to magical illusions, invisibility and transformations, allowing you to see the true nature of altered or disguised beings.
 * **A Rank**: Your presence detection increase to 120ft. Additionally, you can now detect not just the presence but also the magical potency of any creature within this range. Gauging the relative strength of their magical abilities compared to yours, allowing you to know their AC, saves and DC's.
 )
-=
+
 Item(
 * **EX Rank**: Your sensory abilities reach their zenith. You can detect all forms of concealment and illusions within a 1-mile radius. This includes magical and non-magical means, as well as unbounded fields. Additionally you can temporarily see through the eyes of any creature within your radius, giving you their point of view on demand for 1 minute, strong creatures can try to resist this effect.
+)
 
+Item(
+#Windrider
+-
+Windrider is a skill that exemplifies mastery over aerial maneuverability and combat, enabling the wielder to defy the conventional limitations of movement and gravity. It enhances agility, allows for unprecedented jumping capabilities, and turns the act of movement into a weapon itself. 
+* **D Rank**: You empower your movement with supernatural agility. Gain the **Incredible Movement** feature. If you already have this feature, **double the bonus** it provides. Incredible Movement is effective **regardless of the type of armor you wear**. Additionally, increase your speed by **5 feet**.
+)
+
+|
+
+Item(
+* **C Rank**: Gain one **jump- or leap-related feat** for which you qualify and that is of your **level or lower** (which you can change when you level up). You are no longer subject to **maximum jump limits** and do not need to **Stride** before jumping. Your High Jump equals **half your Athletics check result**. Also, increase your jump distance by **the reach of your weapon** using it as a pole.
+* **B Rank**: When you **critically hit** a creature, you can **Stride as a free action**. If you land after a jump in the same space as a creature, you can **extend your jump** by bouncing off that creature as a free action :f:, turning your aerial maneuvers into strategic attacks. This can be done once per creature, and each subsequent jump **increases the DC by 5**, unless it is a **Leap**.
+* **A Rank**: **Spearlight Momentum** - When you hit a creature with **a melee attack**, increase the damage by **half the distance** you moved since your last attack, but only accounting for **movement taken this turn**. Additionally, when **falling** from 500 feet or less, you can **angle your fall** to land on any creature located within **100 feet of you horizontally** (don't know how to say it). Make an attack roll; **on a hit**, you deal **your weapon damage and transfer the falling damage** to the target, negating it for yourself. For every additional 500 feet fallen beyond the initial distance, your attack roll is **reduced by one degree of success**.
+* **EX Rank**: You have achieved masterful control over your aerial movements and attacks. You **automatically** reach the maximum distance in any jump without needing to roll. Upon **hitting** a creature, you can Stride as a free action :f:. **Spearlight Momentum** now deals damage equal to the **total distance you moved** since your last attack during the turn, applying fully to both melee attacks and the portion involving falling damage
 
 )
+
+Item(
+#Spearmanship
+-
+Spearmanship is a skill that embodies the art of mastery with spear-type weapons, granting wielders unparalleled control and versatility in combat. From enhancing the weapon's properties to extending throwing capabilities and executing devastating strikes, this skill transforms the wielder into a formidable warrior on the battlefield.
+* **D Rank**: Once per day, as a single action :a:, you can infuse your weapon with one of the following traits for 1 minute: **Agile, Reach, Razing, Sweep, Finesse, Backstabber, Backswing or Parry**.
+)
+=
+Item(
+* **C Rank**: Your weapon gains the **Thrown 40 ft** trait or increases your existing thrown range **by 10 feet**, whichever is **greater**. Additionally, your weapon is treated as if it has the **Returning rune**, enhancing your throwing capabilities **without it counting towards** the maximum number of weapon runes allowed.
+* **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a **spear-type weapon**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
+* **A Rank**: **Peircing Spear** - When you **strike** a creature by throwing your spear, it pierces through, targeting **all creatures** in a line equal to your **thrown range**. Compare the strike roll against the AC of each creature in the line. Additionally, once per turn, you can **reroll a failed attack roll**, but you must keep the second result.
+* **EX Rank**: Your reach increases by an additional **5 feet**. Strikes made with the opposite end of the spear now deal **full damage**. Furthermore, whenever **an enemy enters your reach**, you may make a **strike** against them as a free action :f:, exemplifying your readiness and quick reflexes in combat.
+
+)
+
+Item ( 
+#Beach Flower
+-
+Beach Flower is a skill that determines the amount of attention one can attract from interested individuals at the beach. Upon acquiring this class skill, you officially become a **Summer Servant**.
+* **D Rank**: Whether intended or not, your presence at the beach inevitably draws glances.
+* **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
+* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
+* **A Rank**: You have attained the status akin to that of a celebrity.
+)
 |
+Item ( 
+* **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
+)
+
+
