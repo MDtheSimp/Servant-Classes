@@ -1,0 +1,188 @@
+watermark (
+If I had a nickel for every time I had to remake this thing, I'd have 4 nickels
+)
+title (
+Sevrvant 0.5
+)
+head (
+# Servant Class: Assassin ((Main info))
+Class Assassin, Silent Killer and Heroic Spirit of Assassinations, is one of the seven normal Servant classes summoned for the Holy Grail War and is one of the Four Cavalry Classes; Servants of this class are skilled at operating covertly, stealthy, and silently. This class is one of the weaker classes at fighting, as most its members possess low attributes due to not having glorious legends as heroes, so it instead specializes in killing Masters rather than Servants. It is an oddity compared to the more formal knight classes who believe in fair duels and chivalry in combat; they will attack using the most unfair and favorable conditions, and with these conditions, it is possible for an Assassin to match and defeat other Servants. The Assassins' special class ability is **Presence Concealment**, which allows them to remain undetected when spying or preparing to ambush their targets.
+
+-
+)
+pagenumbers
+right (
+# Initial Proficiencies ((+Initial Proficiencies))
+At 1st level, you gain the listed proficiency ranks in the following  statistics. You are untrained in anything not listed unless you gain a better proficiency rank in some other way.
+
+## Perception ((+Perception))
+Expert in perception
+## Saving throws
+Trained in Fortitude
+Increase your proficiency rank in Reflex by one level
+Expert in Will
+## Skills ((+Skills))
+Increase your proficiency rank  in Stealth by one level
+Trained in a number of additional skills equal to 6 plus your Intelligence modifier
+## Attacks((+Attacks))
+Expert in all weapons
+## defenses((+defenses))
+Trained in all armor
+)
+
+info (
+## Key ability((+Key ability))
+Any.
+At 1st level, your class gives you an attribute boost to an ability of your choice.
+
+|
+
+## Hit Points((+Hit Points))
+
+8 plus your Constitution Modifier. 
+You increase your maximum number of HP by this number at 1st level and every level thereafter.
+)
+# Servant Proficency((+Servant Proficency))
+
+As a servant, your initial proficiencies function in a different manner compared to standard classes. 
+Whenever your proficiency rank in **Attacks** and **Defenses** would normally increase to match your current rank, increase it by one additional rank instead (for example: if you are a fighter with a master proficiency in melee weapons at level 1, once your fighter class grants you master proficiency in weapons, your proficiency would then increase to legendary). This is capped at one rank above legendary, which is termed 'mythical,' resulting in an additional +2 on top.
+
+## Spirutal body((+Spirutal body))
+Servants are made of **Ether** one of **Five Great Elements**, on it's own it is amorphous and is incapable of materializing by its own power, with the power of the grail, the servants are able to gain a material form with a **Spiritual Core** serving as "their center, their heart, their CPU" that dictates their every function. While a servant may bleed and take damage to their organs, their true being resides in a Spiritual Core.
+
+Servants are beings able to **switch** between a **Spiritual Body** and **Material Body** at will, although at a rate no faster than **once per minute**. While in spiritual form, they cannot be easily detected by enemies due to being **invisible** to the naked eye and most forms of scrying, or be affected by physical interference. They can travel where they please without being impeded by walls, but they also **cannot carry anything** in that state. Their senses are limited to spiritual sensations (*a sort of vague sense imagine being in the etheral plane but without your normal senses*), so they must materialize in order to fully experience normal senses when sharing a visual link with their Master. Their upkeep cost is low when not materialized, so many Masters prefer them to stay in spirit form when they are not fighting or doing other tasks that require them to be in physical form to lower the cost on themselves.
+
+Other servants can easily sense and interact with a servant in spirit form, while a magus may find it difficult to do so.
+
+***While in spirit form, your speed doubles, but you incur a -4 status penalty to AC (Armor Class), Perception and reflex saves, you are also flat-footed. Additionally, you are unable to make attacks or cast spells.***
+=
+## Dying and unconsious conditions((+Dying and unconsious))
+
+As a servant, you do not fall unconscious when reduced to 0 hit points. Instead, you maintain consciousness but incur a **penalty** equal to **twice** your **dying value** on all rolls (such as damage rolls, saves, and checks).
+
+Note that it is still possible to acquire the **unconscious condition** through other means.
+
+Additionally, effects with the **death trait** that reduce your hit points to 0 only increase your dying value by 3, instead of causing immediate death.
+
+
+##### Table 1-1: Assassin class advancement table ((Assassin class advancement table))
+Level | Class features
+--- | :---:
+1 | Ancestry and background, initial proficiencies, Swift Sneak, Sneak Attack, Surprise Attack, Presence Concealment (**D**)
+2 | Assassin feat
+3 | Personal skill (**D**)
+4 | Assassin feat
+5 | Noble phantasm (**D**), Presence Concealment (**C**)
+6 | Assassin feat, Personal skill (**+++**)
+7 | Cavalry weapon specialization, Evasion, Personal skill (**+++**)
+8 | Assassin feat
+9 | Personal skill (**+++**)
+10| Assassin feat, Noble phantasm (**+++**), Presence Concealment (**B**)
+11 | Assassin feat
+12 | Assassin feat, Personal skill (**+++**)
+13 | 
+14 | Assassin feat
+15 | Noble phantasm (**+++**), Personal skill (**+++**), Presence Concealment (**A**)
+16 | Assassin feat
+17 | 
+18 | Assassin feat, Personal skill (**+++**)
+19 | 
+20 | Assassin feat, Noble phantasm (**+++**),
+##Class features((class features))
+You gain these abilities as an Assassin. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
+
+###SWIFT SNEAK
+With your exceptional stealth, you can move at full speed while remaining unnoticed. This ability extendsA to any form of movement you are proficient in, such as burrowing, climbing, flying, or swimming, allowing you to sneak skillfully across various terrains.
+|
+item(
+# SWIFT SNEAK
+-
+You can move your full Speed when you Sneak. You can use Swift Sneak while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type
+)
+
+###SNEAK ATTACK
+When your enemy can't properly defend itself, you take advantage to deal extra damage.
+
+item(
+# SNEAK ATTACK
+-
+If you Strike a creature that has the off-guard condition with an agile or finesse melee weapon, an agile or finesse unarmed attack, a ranged weapon attack, or a ranged unarmed attack, you deal an extra 1d6 precision damage. For a ranged attack with a thrown melee weapon, that weapon must also be agile or finesse.
+Increase the number of dice by one at 5th, 11th, and 17th levels.
+if you already had the Sneak Attack feature or gain it from another source, increase the the damage dice by one step (d6 to d8 etc)
+)
+
+###SURPRISE ATTACK
+You spring into combat faster than foes can react. 
+item(
+# SURPRISE ATTACK
+-
+On the first round of combat, if you roll Deception or Stealth for initiative, creatures that haven't acted are off-guard to you.
+If you already have Surprise Attack or it from another source, Surprise Attack will affect every round of combat instead of just the first.
+)
+###PRESENCE CONCEALMENT
+
+
+Item(
+#Presence Concealment
+-
+Presence Concealment is the capacity to hide one's presence as a Servant. It is the Class Skill of the Assassin class.
+* **D Rank**: You can hide even in **lesser cover** and receive a **+2 bonus** to Stealth checks.
+* **C Rank**: **Conceal** - As a single action :a:, you hide yourself from the senses of all other creatures. Roll **Stealth** once to determine if you are undetected; other creatures can **only detect you** if your roll results in a **critical failure** against their Perception DC, or if they achieve a **critical success** against your Stealth DC. This effect **ends** if you make an **attack or perform an action that draws attention**. Conceal cannot be activated again for **1 minute** after it ends. Any bonuses that affect **hiding, sneaking, or avoiding notice** also apply to Conceal.
+)
+=
+item(
+* **B Rank**: If you would roll **less than a 10** on the d20 for a Stealth check, **treat the result as a 10**. If you attack while **Conceal** is active, you gain a **+5 bonus to your attack roll**. Additionally, you gain the **Foil Senses** feat.
+* **A Rank**: When using **Conceal**, you become **unnoticed** on top of undetected. When **a creature detects** you for the first time, you are **only considered hidden** rather than observed.
+* **EX Rank**: You become one with the environment itself, achieving a level of concealment beyond ordinary capabilities. **You remain hidden to all creatures*** at all times, unless you choose otherwise. When **Conceal would end**, it **reactivates** automatically **at the beginning of your next turn**. The bonus to your attack rolls while Conceal is active **increases to +10**.
+
+)
+###Noble phantasms ((+Noble Phantasms))
+Noble phantasms are powerful armaments made using human imagination as their core, and are the weapons and/or abilities owned by Heroic Spirits. As humanity's illusions, **they embody the ultimate Mysteries of a hero as symbols of their existence through historical fact and anecdotes**.
+
+They can be physical weaponry (e.g. swords, spears, bows) or support items (e.g. shields, rings, crowns).They can also be abstractions such as unique, often magical abilities (even close to or matching True Magic), unique (even conceptual) means of attack, curses, and changes to the very environment and its physical properties. When summoned as Servants in the Holy Grail War, they are the trump cards of the heroes that allow them to overcome others in battle.
+
+A servant may possess more than one Noble Phantasm; however, the more they have, the weaker each tends to be compared to possessing a single Noble Phantasm. Noble Phantasms also follow the skill ranking system **(D | C | B | A | EX)**, with higher-ranked Noble Phantasms being more powerful.
+
+Noble Phantasms are classified by their effectiveness against enemies. One Noble Phantasm may have multiple classifications depending on its abilities. The classification and properties of the Noble Phantasm dictate both the number of times it can be used and the duration required for the NP to 'recharge'.
+
+* **Anti-Unit**- Anti-Unit Noble Phantasms are those specialized against defeating other people in single combat. Compared to stronger weapons, a majority of Anti-Unit Noble Phantasms will not go beyond defeating other beings.
+* **Anti-Army** - Anti-Army Noble Phantasms are those with a wide enough range to be specialized against armies. They are more powerful weapons than Anti-Unit Noble Phantasms, capable of
+easily blowing them away, but they must be used more wisely because of their larger cost.
+|
+* **Anti-Fortress**  - This rank has powerful Noble Phantasms that can even blow away solid fortified structures. While the difference between Anti-Unit and Anti-Army is the variation in area of effect, Anti-Fortress Noble Phantasms are distinguished from other categories by the great difference in power.
+* **Barrier** - The classification of Noble Phantasms used to create barriers, typically Bounded Fields, but it does not include those that are also used to attack.
+
+There are numerous additional classifications for Noble Phantasms, including but not limited to Anti-Self, Anti-Country, and Anti-Purge.
+
+###Class Skills and Personal Skills ((+Class and Personal skills))
+Skills are the embodiment of a Servant's various abilities and characteristics, (Riding skill, Presence Concealment etc). They are divided into two main categories: **Class Skills**, which are typically connected to the Servant's Class, and **Personal Skills**, which reflect abilities or anecdotes connected to the life and legend of the Servant themselves, Personal Skills typically outweigh Class Skills in impact.
+
+
+Again, a servant may possess numerous Class and Personal Skills; however, they tend to be stronger when their number is fewer.
+info (
+# Progression ((+Progression))
+* **Class Skills**: From level 1, you have access to all your Class Skills, but they all start at their lowest rank, D. To progress a particular skill, you must retake the corresponding feat, which will increase its rank by one degree. This approach provides an incredible amount of versatility in your choice of Class Skills. All servant classes begin with two Class Skills at level 1 and acquire additional skills as they level up.
+* **Personal Skills**: Similar to Class Skills, Personal Skills start at rank D and progress in the same manner, requiring the retaking of the same Personal Skills. The key difference is that Personal Skills progress at a much slower rate, starting at level 3 and advancing every 3 levels (as indicated by the ***'+++'*** symbol in the advancement table on page 2). Additionally, Personal Skills are not provided by the class and must be created in collaboration with your Dungeon Master."
+* **Noble phantasms**:Noble Phantasms follow the same progression rules as Personal Skills, with the difference being that they advance at an even slower rate, starting at level 3 and increasing at level 7, 10, 15 and 20. This progression allows for a maximum of six advancements in a Noble Phantasm.
+)
+=
+info (
+The classification of a Noble Phantasm also plays a significant role. It is highly unlikely for a servant to possess more than one Anti-Army or Anti-Fortress NP, whereas an Anti-Unit NP is subject to fewer restrictions.
+# A RANK
+Your skills can only get to A Rank after reaching **level 10**. If your class provides you with a class skill advancement that would increase your rank to A before level 10, you may **substitute** that advancement with an **Assassin feat** appropriate for your level.
+# EX RANK
+It is impossible to reach an EX rank simply by retaking a Class or Personal Skill from A rank. The only way to attain EX rank is through an **in-game secret**, which you may or may not discover. (To clarify, uncovering the secret will increase your rank by one and unlock the potential to reach EX rank, but it will not grant EX rank immediately, unless you are already at A rank in that specific skill).
+)
+
+##Evasion 7th
+You've learned to move quickly to avoid explosions, dragons' breath, and worse. When you roll a success on a Reflex save, you get a critical success instead.
+
+##Cavalry Weapon specialization 7th 
+
+You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary.
+
+
+
+
+#ASSASSIN CLASS FEATS ((Assassin class feats))
+|
