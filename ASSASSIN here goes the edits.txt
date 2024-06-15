@@ -92,7 +92,7 @@ Level | Class features
 You gain these abilities as an Assassin. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
 
 ###SWIFT SNEAK
-With your exceptional stealth, you can move at full speed while remaining unnoticed. This ability extendsA to any form of movement you are proficient in, such as burrowing, climbing, flying, or swimming, allowing you to sneak skillfully across various terrains.
+With your exceptional stealth, you can move at full speed while remaining unnoticed. This ability extends to any form of movement you are proficient in, such as burrowing, climbing, flying, or swimming, allowing you to sneak skillfully across various terrains.
 |
 item(
 # SWIFT SNEAK
@@ -120,12 +120,10 @@ On the first round of combat, if you roll Deception or Stealth for initiative, c
 If you already have Surprise Attack or it from another source, Surprise Attack will affect every round of combat instead of just the first.
 )
 ###PRESENCE CONCEALMENT
-
-
+Presence Concealment is the capacity to hide one's presence as a Servant. It is the Class Skill of the Assassin class.
 Item(
 #Presence Concealment
 -
-Presence Concealment is the capacity to hide one's presence as a Servant. It is the Class Skill of the Assassin class.
 * **D Rank**: You can hide even in **lesser cover** and receive a **+2 bonus** to Stealth checks.
 * **C Rank**: **Conceal** - As a single action :a:, you hide yourself from the senses of all other creatures. Roll **Stealth** once to determine if you are undetected; other creatures can **only detect you** if your roll results in a **critical failure** against their Perception DC, or if they achieve a **critical success** against your Stealth DC. This effect **ends** if you make an **attack or perform an action that draws attention**. Conceal cannot be activated again for **1 minute** after it ends. Any bonuses that affect **hiding, sneaking, or avoiding notice** also apply to Conceal.
 )
@@ -256,12 +254,12 @@ Item(
 Disengage is the ability to withdraw from the battlefield in the midst of combat or reset the battle conditions.
 * **D Rank**: Once per day, as a Free Action :f:, **you and your allies** can Disengage, teleporting back to a position **you occupied** within the **last minute**. This position must not be more than **five times your speed away**.
 * **C Rank**: When you Disengage, **all allies and enemies that are alive** are transported back to the positions **they occupied** at the time when you were at the location you return to. Additionally, their **hit points are reset to the values** they had at that moment.  **Allies** gain the **Fleeing 3** condition.
-* **B Rank**: Upon Disengaging, the **conditions** of your allies (including cooldowns, status effects, items, etc.) are **reset** to what they were at the moment of Disengagement, with the **exception of this ability**. There is no longer any **restriction on distance**.
+* **B Rank**: Upon Disengaging, the **conditions** of your allies (including cooldowns, status effects, etc.) are **reset** to what they were at the moment of Disengagement, with the **exception of this ability and Noble Phantasms**. There is no longer any **restriction on distance**.
 * **A Rank**: When you Disengage, you gain the ability to selectively **choose which creatures** are affected by this ability and which are not.
 )
 =
 Item(
-* **EX Rank**:  When you use Disengage, you **no longer gain the Fleeing condition**. Furthermore, you can choose which conditions and effects **are reset** and which **remain**. You also gain the ability to **swap conditions and effects** between **enemies and allies**.
+* **EX Rank**:  When you use Disengage, you **no longer gain the Fleeing condition**. Furthermore, you can choose which conditions and effects **are reset** and which **remain** including hitpoints. You also gain the ability to **swap conditions and effects** between **enemies and allies**.
 )
 Item(
 #Martial Arts
@@ -282,20 +280,20 @@ Presence Detection is the ability to detect other Servants and local mana source
 )
 |
 Item(
-* **D Rank**: Whenever a creature hides or sneaks within 60 ft of you, you automatically detect their location. Once a creature becomes observed to you in that range, their presence continues to be detectable to you, regardless of subsequent attempts to hide.
-* **C Rank**: Creatures that try to hide from you get one level of success lower against you. Additionally, you can discern the type of creature (e.g., humanoid, beast, undead) when they attempt to hide within your 60ft. Additionally as an action you can detect the location of all creatures within range. 
-* **B Rank**: When you use your arction to detect, an equal or lower rank of Presence Concealment can be nullified. This extends to magical illusions, invisibility and transformations, allowing you to see the true nature of altered or disguised beings.
-* **A Rank**: Your presence detection increase to 120ft. Additionally, you can now detect not just the presence but also the magical potency of any creature within this range. Gauging the relative strength of their magical abilities compared to yours, allowing you to know their AC, saves and DC's.
-* **EX Rank**: Your sensory abilities reach their zenith. You can detect all forms of concealment and illusions within a 1-mile radius. This includes magical and non-magical means, as well as unbounded fields. Additionally you can temporarily see through the eyes of any creature within your radius, giving you their point of view on demand for 1 minute, strong creatures can try to resist this effect.
+* **D Rank**: You gain a detection range of **60ft**. Whenever a creature tries to **hide or sneaks within your detection range**, you **automatically detect their location**, but they **remain hidden** to you. Once a creature **becomes observed** to you within your range, their presence continues to be detectable to you, regardless of subsequent attempts to hide **until they leave your range**. (Creatures with **Presence Concealment** would only be **undetected** instead of becoming **hidden**)
+* **C Rank**: Creatures that try to hide from you get **one level of success lower against you**. You can discern the type of creature (e.g., humanoid, beast, undead) when they attempt to hide within your **detection range**. Additionally as an action :a: you can **detect** the location of **all creatures** within your detection range. 
+* **B Rank**: Your detection range increases to 120ft. When you use your action to detect, **an equal or lower rank of Presence Concealment can be nullified**. This extends to magical illusions, invisibility and transformations, as long as **their level is equal to or lower than half your level**. This enables you to perceive the true nature of altered or disguised beings and **nullifies any impediment** illusions and such would cause you (e.g., mirror image...).
+* **A Rank**: You can now detect not just the presence but also the magical potency of any creature within this range. Gauging the relative strength of their abilities compared to yours, allowing you to **know their AC, saves and DCs**. Additionally, **once per day** you gain the ability to **suppress** one magical effect within your detection range as a reaction :r:. The suppression lasts for **1 minute** or until you choose to end it.
+* **EX Rank**: Your sensory abilities reach their zenith. **Your detection range increases to 1-mile**, allowing you to detect all forms of concealment and illusions within it. This includes magical and non-magical means, as well as **unbounded fields**. Additionally you can temporarily **see through the eyes of any creature within your radius**, giving you their point of view on demand for 1 minute, creatures **aware of your presence** can try to resist this effect by succeeding a **Will Save against your Class DC**.
 )
 Item(
 #Shapeshift
 -
 Shapeshift is a Skill that refers to both borrowing bodies and appearance change. It is a method used by the millenary spirits of foxes and badgers of China. 
-* **D Rank**: **Shapeshift** - As an action :a:, you can change your appearance as if using the **humanoid form** spell at 2nd level. Instead of gaining a +4 to Deception, you can choose to receive a **+2 bonus** to Deception, Diplomacy, Intimidation, or Performance. Additionally, if you are untrained in the chosen skill, you add your level to it. You can also **impersonate** an individual without the need for a disguise kit. The form lasts indefinitely or **until you change it**.
 )
 =
 Item(
+* **D Rank**: **Shapeshift** - As an action :a:, you can change your appearance as if using the **humanoid form** spell at 2nd level. Instead of gaining a +4 to Deception, you can choose to receive a **+2 bonus** to Deception, Diplomacy, Intimidation, or Performance. Additionally, if you are untrained in the chosen skill, you add your level to it. You can also **impersonate** an individual without the need for a disguise kit. The form lasts indefinitely or **until you change it**.
 * **C Rank**: When using Shapeshift, you can now also transform into creatures with the **Animal** or **Beast** trait. You gain no special abilities **except for any movement types** the form normally has (the speed is equal to the lower of your walking speed or the creature's speed). Your gear can now fuse with your body and still be used. The choice for the skill bonus now also includes **Athletics, Acrobatics, Survival, or Stealth**.
 * **B Rank**: As part of the Shapeshift action, you can **copy a single trait or ability** from a creature you have encountered before. If the creature is of your **level or lower**, you automatically succeed. If the creature is higher level than you, you **must succeed at a Fortitude save against their Fortitude DC**.
 * **A Rank**: **Once per day**, for 10 minutes, when you Shapeshift, you can transform into any creature you have seen, gaining its full stats **while only retaining your Servant abilities**. (This does not work on other Servants.) If the creature is of your level or lower, you automatically succeed. If the creature is higher level, you must **succeed at a Fortitude save against their Fortitude DC plus the level difference**. While in this form, if you are reduced to 0 HP, you revert to your normal form and regain full HP. You can still use an additional ability from any creature **as per the B Rank ability**.

@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 21 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 23 nickels
 )
 title (
-Sevrvant 0.9
+Sevrvant 1.0
 )
 head (
 # Servant Class: Lancer ((Main info))
@@ -69,7 +69,7 @@ Additionally, effects with the **death trait** that reduce your hit points to 0 
 ##### Table 1-1: Lancer class advancement table ((Lancer class advancement table))
 Level | Class features
 --- | :---:
-1 | Ancestry and background, initial proficiencies, attack of opportunity, Magic resistance (**D**)
+1 | Ancestry and background, initial proficiencies, Fleet, Magic resistance (**D**)
 2 | Lancer feat
 3 | Personal skill (**D**)
 4 | Lancer feat
@@ -320,13 +320,13 @@ Item(
 Disengage is the ability to withdraw from the battlefield in the midst of combat or reset the battle conditions.
 * **D Rank**: Once per day, as a Free Action :f:, **you and your allies** can Disengage, teleporting back to a position **you occupied** within the **last minute**. This position must not be more than **five times your speed away**.
 * **C Rank**: When you Disengage, **all allies and enemies that are alive** are transported back to the positions **they occupied** at the time when you were at the location you return to. Additionally, their **hit points are reset to the values** they had at that moment.  **Allies** gain the **Fleeing 3** condition.
-* **B Rank**: Upon Disengaging, the **conditions** of your allies (including cooldowns, status effects, items, etc.) are **reset** to what they were at the moment of Disengagement, with the **exception of this ability**. There is no longer any **restriction on distance**.
+* **B Rank**: Upon Disengaging, the **conditions** of your allies (including cooldowns, status effects, etc.) are **reset** to what they were at the moment of Disengagement, with the **exception of this ability and Noble Phantasms**. There is no longer any **restriction on distance**.
 )
 
 |
 Item(
 * **A Rank**: When you Disengage, you gain the ability to selectively **choose which creatures** are affected by this ability and which are not.
-* **EX Rank**:  When you use Disengage, you **no longer gain the Fleeing condition**. Furthermore, you can choose which conditions and effects **are reset** and which **remain**. You also gain the ability to **swap conditions and effects** between **enemies and allies**.
+* **EX Rank**:  When you use Disengage, you **no longer gain the Fleeing condition**. Furthermore, you can choose which conditions and effects **are reset** and which **remain** including hitpoints. You also gain the ability to **swap conditions and effects** between **enemies and allies**.
 )
 
 Item(
@@ -345,48 +345,38 @@ Item(
 #Presence Detection
 -
 Presence Detection is the ability to detect other Servants and local mana sources.
-* **D Rank**: Whenever a creature hides or sneaks within 60 ft of you, you automatically detect their location. Once a creature becomes observed to you in that range, their presence continues to be detectable to you, regardless of subsequent attempts to hide.
-* **C Rank**: Creatures that try to hide from you get one level of success lower against you. Additionally, you can discern the type of creature (e.g., humanoid, beast, undead) when they attempt to hide within your 60ft. Additionally as an action you can detect the location of all creatures within range. 
-* **B Rank**: When you use your arction to detect, an equal or lower rank of Presence Concealment can be nullified. This extends to magical illusions, invisibility and transformations, allowing you to see the true nature of altered or disguised beings.
-* **A Rank**: Your presence detection increase to 120ft. Additionally, you can now detect not just the presence but also the magical potency of any creature within this range. Gauging the relative strength of their magical abilities compared to yours, allowing you to know their AC, saves and DC's.
+* **D Rank**: You gain a detection range of **60ft**. Whenever a creature tries to **hide or sneaks within your detection range**, you **automatically detect their location**, but they **remain hidden** to you. Once a creature **becomes observed** to you within your range, their presence continues to be detectable to you, regardless of subsequent attempts to hide **until they leave your range**. (Creatures with **Presence Concealment** would only be **undetected** instead of becoming **hidden**)
+* **C Rank**: Creatures that try to hide from you get **one level of success lower against you**. You can discern the type of creature (e.g., humanoid, beast, undead) when they attempt to hide within your **detection range**. Additionally as an action :a: you can **detect** the location of **all creatures** within your detection range. 
+* **B Rank**: Your detection range increases to 120ft. When you use your action to detect, **an equal or lower rank of Presence Concealment can be nullified**. This extends to magical illusions, invisibility and transformations, as long as **their level is equal to or lower than half your level**. This enables you to perceive the true nature of altered or disguised beings and **nullifies any impediment** illusions and such would cause you (e.g., mirror image...).
+* **A Rank**: You can now detect not just the presence but also the magical potency of any creature within this range. Gauging the relative strength of their abilities compared to yours, allowing you to **know their AC, saves and DCs**. Additionally, **once per day** you gain the ability to **suppress** one magical effect within your detection range as a reaction :r:. The suppression lasts for **1 minute** or until you choose to end it.
+* **EX Rank**: Your sensory abilities reach their zenith. **Your detection range increases to 1-mile**, allowing you to detect all forms of concealment and illusions within it. This includes magical and non-magical means, as well as **unbounded fields**. Additionally you can temporarily **see through the eyes of any creature within your radius**, giving you their point of view on demand for 1 minute, creatures **aware of your presence** can try to resist this effect by succeeding a **Will Save against your Class DC**.
 )
 
-Item(
-* **EX Rank**: Your sensory abilities reach their zenith. You can detect all forms of concealment and illusions within a 1-mile radius. This includes magical and non-magical means, as well as unbounded fields. Additionally you can temporarily see through the eyes of any creature within your radius, giving you their point of view on demand for 1 minute, strong creatures can try to resist this effect.
-)
+|
 
 Item(
 #Windrider
 -
 Windrider is a skill that exemplifies mastery over aerial maneuverability and combat, enabling the wielder to defy the conventional limitations of movement and gravity. It enhances agility, allows for unprecedented jumping capabilities, and turns the act of movement into a weapon itself. 
 * **D Rank**: You empower your movement with supernatural agility. Gain the **Incredible Movement** feature. If you already have this feature, **double the bonus** it provides. Incredible Movement is effective **regardless of the type of armor you wear**. Additionally, increase your speed by **5 feet**.
-)
-
-|
-
-Item(
 * **C Rank**: Gain one **jump- or leap-related feat** for which you qualify and that is of your **level or lower** (which you can change when you level up). You are no longer subject to **maximum jump limits** and do not need to **Stride** before jumping. Your High Jump equals **half your Athletics check result**. Also, increase your jump distance by **the reach of your weapon** using it as a pole.
 * **B Rank**: When you **critically hit** a creature, you can **Stride as a free action**. If you land after a jump in the same space as a creature, you can **extend your jump** by bouncing off that creature as a free action :f:, turning your aerial maneuvers into strategic attacks. This can be done once per creature, and each subsequent jump **increases the DC by 5**, unless it is a **Leap**.
-* **A Rank**: **Spearlight Momentum** - When you hit a creature with **a melee attack**, increase the damage by **half the distance** you moved since your last attack, but only accounting for **movement taken this turn**. Additionally, when **falling** from 500 feet or less, you can **angle your fall** to land on any creature located within **100 feet of you horizontally** (don't know how to say it). Make an attack roll; **on a hit**, you deal **your weapon damage and transfer the falling damage** to the target, negating it for yourself. For every additional 500 feet fallen beyond the initial distance, your attack roll is **reduced by one degree of success**.
-* **EX Rank**: You have achieved masterful control over your aerial movements and attacks. You **automatically** reach the maximum distance in any jump without needing to roll. Upon **hitting** a creature, you can Stride as a free action :f:. **Spearlight Momentum** now deals damage equal to the **total distance you moved** since your last attack during the turn, applying fully to both melee attacks and the portion involving falling damage
-
+* **A Rank**: **Spearlight Momentum** - When you hit a creature with **a melee attack**, increase the damage by **half the distance** you moved since your last attack, but only accounting for **movement taken this turn**. Additionally, when **falling** from 500 feet or less, you can **angle your fall** to land on any creature located within **100 feet of you horizontally**. Make an attack roll; **on a hit**, you deal **your weapon damage and transfer the falling damage** to the target, negating it for yourself. For every additional 500 feet fallen beyond the initial distance, your **degree of success is reduced by one** for the attack roll.
+* **EX Rank**: You have achieved masterful control over your aerial movements and attacks. You **automatically** reach the maximum distance in any jump without needing to roll. Upon **hitting** a creature, you can Stride as a free action :f:. **Spearlight Momentum** now deals damage equal to the **total distance you moved** since your last attack during the turn, applying fully to both melee attacks and the portion of this skill involving falling damage
 )
-
+=
 Item(
 #Spearmanship
 -
 Spearmanship is a skill that embodies the art of mastery with spear-type weapons, granting wielders unparalleled control and versatility in combat. From enhancing the weapon's properties to extending throwing capabilities and executing devastating strikes, this skill transforms the wielder into a formidable warrior on the battlefield.
 * **D Rank**: Once per day, as a single action :a:, you can infuse your weapon with one of the following traits for 1 minute: **Agile, Reach, Razing, Sweep, Finesse, Backstabber, Backswing or Parry**.
-)
-=
-Item(
 * **C Rank**: Your weapon gains the **Thrown 40 ft** trait or increases your existing thrown range **by 10 feet**, whichever is **greater**. Additionally, your weapon is treated as if it has the **Returning rune**, enhancing your throwing capabilities **without it counting towards** the maximum number of weapon runes allowed.
 * **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a **spear-type weapon**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
-* **A Rank**: **Peircing Spear** - When you **strike** a creature by throwing your spear, it pierces through, targeting **all creatures** in a line equal to your **thrown range**. Compare the strike roll against the AC of each creature in the line. Additionally, once per turn, you can **reroll a failed attack roll**, but you must keep the second result.
-* **EX Rank**: Your reach increases by an additional **5 feet**. Strikes made with the opposite end of the spear now deal **full damage**. Furthermore, whenever **an enemy enters your reach**, you may make a **strike** against them as a free action :f:, exemplifying your readiness and quick reflexes in combat.
+* **A Rank**: **Peircing Spear** - When you **strike** a creature by throwing your weapon, it pierces through, targeting **all creatures** in a line equal to your **thrown range**. Compare the strike roll against the AC of each creature in the line to determine which get hit. Additionally, once per turn, you can **reroll a failed attack roll**, but you must keep the second result.
+* **EX Rank**: Your reach increases by an additional **5 feet**. Strikes made with the opposite end of the spear now deal **full damage**. Furthermore, whenever **an enemy enters your reach**, you may make a **strike** against them as a free action :f:, exemplifying your readiness and quick reflexes in combat. When using **Peircing Spear**, you may also force any targets hit by the spear to make a **Fortitude save** against your class DC, On a **failure**, the targets are **restrained** by a materialized copy of your weapon on a surface, while on a **success** they are fall **prone**.
 
 )
-
+|
 Item ( 
 #Beach Flower
 -
@@ -395,9 +385,6 @@ Beach Flower is a skill that determines the amount of attention one can attract 
 * **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
 * **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
 * **A Rank**: You have attained the status akin to that of a celebrity.
-)
-|
-Item ( 
 * **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
 )
 
