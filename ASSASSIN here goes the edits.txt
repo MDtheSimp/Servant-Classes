@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 11 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 14 nickels
 )
 title (
-Sevrvant 0.9
+Servant 1.0
 )
 head (
 # Servant Class: Assassin ((Main info))
@@ -177,7 +177,7 @@ You've learned to move quickly to avoid explosions, dragons' breath, and worse. 
 
 ##Cavalry Weapon specialization 7th 
 
-You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary.
+You’ve learned how to inflict greater injuries with the means you know best. You deal 2 additional damage with attacks and spells in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary. Your minions also gain this benefit.
 
 
 
@@ -294,25 +294,22 @@ Shapeshift is a Skill that refers to both borrowing bodies and appearance change
 =
 Item(
 * **D Rank**: **Shapeshift** - As an action :a:, you can change your appearance as if using the **humanoid form** spell at 2nd level. Instead of gaining a +4 to Deception, you can choose to receive a **+2 bonus** to Deception, Diplomacy, Intimidation, or Performance. Additionally, if you are untrained in the chosen skill, you add your level to it. You can also **impersonate** an individual without the need for a disguise kit. The form lasts indefinitely or **until you change it**.
-* **C Rank**: When using Shapeshift, you can now also transform into creatures with the **Animal** or **Beast** trait. You gain no special abilities **except for any movement types** the form normally has (the speed is equal to the lower of your walking speed or the creature's speed). Your gear can now fuse with your body and still be used. The choice for the skill bonus now also includes **Athletics, Acrobatics, Survival, or Stealth**.
-* **B Rank**: As part of the Shapeshift action, you can **copy a single trait or ability** from a creature you have encountered before. If the creature is of your **level or lower**, you automatically succeed. If the creature is higher level than you, you **must succeed at a Fortitude save against their Fortitude DC**.
-* **A Rank**: **Once per day**, for 10 minutes, when you Shapeshift, you can transform into any creature you have seen, gaining its full stats **while only retaining your Servant abilities**. (This does not work on other Servants.) If the creature is of your level or lower, you automatically succeed. If the creature is higher level, you must **succeed at a Fortitude save against their Fortitude DC plus the level difference**. While in this form, if you are reduced to 0 HP, you revert to your normal form and regain full HP. You can still use an additional ability from any creature **as per the B Rank ability**.
-* **EX Rank**: You can now copy up to **three traits or abilities at once**. Your A Rank ability can now be used as part of the standard Shapeshift, meaning it is no longer limited to once per day and can last indefinitely, but you do not revert to your original form when you reach 0 hp. Additionally, when you transform into a creature, you take the highest stats **between you and the creature**, and you can still use your abilities.
+* **C Rank**: When using Shapeshift, you gain the benefits of up to a **5th level humanoid form**,  you can now also transform into creatures with the **Animal** or **Beast** trait. You gain no special abilities **except for any movement types** the form normally has (the speed is equal to the lower of your walking speed or the creature's speed). Your gear can now fuse with your body and still be used. The choice for the skill bonus now also includes **Athletics, Acrobatics, Survival, or Stealth**.
+* **B Rank**: As part of the Shapeshift action, you can **copy a single trait or ability**  you saw being used from a creature you have encountered before. If the creature is of your **level or lower**, you automatically succeed. If the creature is higher level than you, you **must succeed at a Fortitude save against their Fortitude DC**.
+* **A Rank**: **Once per day**, for 10 minutes, when you Shapeshift, you can transform into any creature you have seen, gaining its full abilities (sheet) **while only retaining your Servant abilities**. (This does not work on other Servants.) If the creature is of your level or lower, you automatically succeed. If the creature is higher level, you must **succeed at a Fortitude save against their Fortitude DC plus the level difference**. While in this form, if you are **reduced to 0 HP**, you revert to your normal form and your HP returns to **the amount you had before the transformation**. You can still have an additional ability from any creature while transformed **as per the B Rank ability**.
+* **EX Rank**: You can now copy up to **three traits or abilities at once**. Your A Rank ability can now be used as part of the standard Shapeshift, meaning it is no longer limited to once per day and can last indefinitely, but you **do not** revert to your original form when you reach 0 hp, your **HP does not change when you transform**. Additionally, when you transform into a creature, you take the highest stats **between you and the creature**, and you can still use your abilities.
 
 )
-
+|
 Item(
 #Doppelgänger 
 -
 Doppelgänger is a skill that creates and manipulates illusory duplicates of themselves, providing strategic advantages in both combat and non-combat scenarios. This ability is a testament to the Assassin's mastery of deception and spatial manipulation.
-)
-|
-Item(
-* **D Rank**: **Duplicate** -  Once per day, as an action :a:, you can create an illusory duplicate of yourself within 60 feet, as if you used the **replicate** spell on yourself. When the Doppelgänger is created, you can choose to either **stay in your spot or teleport** to the designated area while the Doppelgänger takes your place. The Doppelgänger has **one hit point**, does not need to be sustained, and lasts for **1 minute** (it follows your commands without any action requirements). Enemies **must succeed at a Perception check against your Deception DC** to distinguish between you and the Doppelgänger. (should I leave the duration to just be sustained or is it fine this way?)
+* **D Rank**: **Duplicate** -  Once per day, as an action :a:, you can create an illusory duplicate of yourself within 60 feet, as if you used the **replicate** spell on yourself. When the Doppelgänger is created, you can choose to either **stay in your spot or teleport** to the designated area while the Doppelgänger takes your place. The Doppelgänger has **one hit point**, does not need to be sustained,the spell sustains itself for **1 minute** after which it needs to be sustained. Enemies **must succeed at a Perception check against your Deception DC** to distinguish between you and the Doppelgänger.
 * **C Rank**: Your Doppelgänger becomes more than just a decoy, actively assisting you in combat. You can **switch places with the Doppelgänger** as a free action :f: once per turn; this does not provoke reactions. Your Doppelgänger can now use **basic actions and strike** using your stats, **sharing any buffs or effects** that would affect you (bonuses, spell effects, and such). However, it deals only **half as much** damage as you.
-* **B Rank**: You can use **Duplicate** an unlimited number of times per day, but only **one** Doppelgänger can **exist at a time**. The Doppelgänger now lasts **for 10 minutes**. Additionally, you can **teleport to the Doppelgänger's location** as a reaction :r: when you are **targeted by an attack or damaging effect**, causing it to **hit the Doppelgänger instead**. The DC to distinguish between you and the Doppelgänger **is increased by 5**
+* **B Rank**: You can use **Duplicate** an unlimited number of times per day, but only **one** Doppelgänger can **exist at a time**. Additionally, you can **teleport to the Doppelgänger's location** as a reaction :r: when you are **targeted by an attack or damaging effect**, causing it to **hit the Doppelgänger instead**. The DC to distinguish between you and the Doppelgänger **is increased by 5**
 * **A Rank**: Your mastery over illusion allows you to create multiple Doppelgängers, you can create **up to three Doppelgängers** at once. Your Doppelgängers can use any ability you have except for **Servant Skills and Noble Phantasms (NPs)**. When a Doppelgänger is **destroyed**, it explodes in a burst of magical energy, rendering anyone within **5 feet of it dazzled 1**. Each duplicate also has a **quarter of your HP**.
-* **EX Rank**: You achieve unparalleled mastery over your Doppelgängers, your Doppelgängers now deal **full damage** and can also use **Servant Skills**. Additionally, when you or your Doppelgängers take damage, you can **distribute the damage** between yourself and any active Doppelgängers as you see fit.
+* **EX Rank**: You achieve unparalleled mastery over your Doppelgängers, your Doppelgängers now deal **full damage**, can also use **Servant Skills**, and have 3 actions instead of 2. Additionally, when you or your Doppelgängers take damage, you can **distribute the damage** between yourself and any active Doppelgängers as you see fit. 
 
 )
 =
@@ -320,11 +317,11 @@ Item(
 #Afraid of Your Own Shadow 
 -
 Afraid of Your Own Shadow is a skill that manifests the ultimate control over fear and terror, striking at the very core of an enemy’s psyche. This skill allows the Servant to manipulate the Fear to their advantage, sowing chaos and debilitating their foes in increasingly devastating ways as the skill ranks up.
-* **D Rank**:  You gain the Aura of Despair feature. If you already have Aura of Despair, increase its range to 30 feet and the circumstance penalty to saving throws against fear effects increases to -2. You've learned to  meld into the shadows, instilling a primal fear in their enemies. You can use Stealth instead of Intimidation to Demoralize an opponent. When successful, the target is off-guard for one round on top of being frightned.
-* **C Rank**: Whenever you would gain the frightened condition while already affected by a frightened condition, the value of your current frightened condition increases by the amount specified by the new source, instead of replacing it with the highest value.
-* **B Rank**:  Once per round you may demorilise creatures as a free action. Additionally, increase the range of your Aura of Despair by 30 feet. If a creature reaches frightened 5, it also becomes confused for 1 round, after which it is immune to the confused condition for 1 minute. 
-* **A Rank**: **Fear Absorption** - You have become so accustomed to fear that you can draw strength from it. As a free action, when a frightened creature within 5 feet of you, you can absorb their fear to revitalize yourself. The target loses all levels of the frightened condition, and you gain a pool of d12 dice equal to the value of the frightened condition you absorbed. This dice pool lasts for 1 minute and can be used to either heal yourself or add extra damage to your attacks or spells. **(might need a maximum amount for no shenanigains)**
-* **EX Rank**: Any frightened condition you inflict on a creature is doubled (e.g., frightened 1 becomes frightened 2). Whenever a creature within your Aura of Despair would gain the frightened condition, you can choose to inflict the enfeebled, stupefied, or clumsy condition on top (of equal value to the frightned value they gained), this new condition lasts for as long as they are frightned. Additionally, increase the range of your Aura of Despair by 30 feet.
+* **D Rank**:  You gain the **Aura of Despair** feature. If you already have Aura of Despair, **increase its range to 30 feet** and the circumstance penalty to saving throws against fear effects increases to **-2**. Furthermore, you've learned to meld into the shadows, instilling a primal fear in their enemies. You can use **Stealth instead of Intimidation** to Demoralize an opponent. When successful, **the target is off-guard for one round** on top of being frightned.
+* **C Rank**: Whenever you would cause a creature to gain the **frightened condition** while already affected by a frightened condition, **the value of their frightened condition increases** by the amount specified by the new source, **instead of replacing it with the highest value**.
+* **B Rank**:  Once per round you may demorilise creatures as a free action :f:. Additionally, **increase the range of your Aura of Despair by 30 feet**. If a creature reaches **frightened 5**, it also becomes **confused for 1 round**, after which it **is immune to the confused** condition for **1 minute**. 
+* **A Rank**: **Fear Absorption** - You have become so accustomed to fear that you can draw strength from it. As a free action :f:, when **a frightened creature within 5 feet of you**, you can **absorb their fear** to revitalize yourself. The target **loses all levels of the frightened condition**, and you gain a pool of **d12 dice equal to the value of the frightened condition** you absorbed. This dice pool **lasts for 1 minute** and can be used to either **heal yourself** or add **extra dice to your attack's damage** or spells.
+* **EX Rank**: Any frightened condition you inflict on a creature **is doubled** (e.g., frightened 1 becomes frightened 2). Whenever a creature within your **Aura of Despair would gain the frightened condition**, you can choose to inflict the **enfeebled, stupefied, or clumsy** condition on top (of equal value to the frightned value they gained), this new condition **lasts for as long as they are frightned**. Additionally, increase the range of your Aura of Despair by **30 feet**.
 
 )
 |
@@ -332,11 +329,11 @@ Item(
 #Subversive Activities
 -
 Subversive Activities is the talent of setting traps. However, the higher the ranking of this Skill, the more one's spiritual status as a hero declines.
-* **D Rank**: You gain the ability to set a hazard in an area by spending 1 minute preparing the terrain. The hazard level must be equal to or lower than your level. You can only have one hazard active at a time, and the hazard can only be a trap.
-* **C Rank**: When you create a trap, you can choose one of the following benefits: increase its damage by one step, increase its DC by 2, or add an additional effect such as a status condition appropriate to the trap. You can now set up hazards that have a level up to 2 levels higher than your own.
-* **B Rank**: You can set up to 2 hazards at a time. Setting up a hazard only takes 1 action. Your hazards become harder to discover and resist; increase all of the hazard's DCs, attack rolls, and saving throws by 2. Additionally, you can create traps that affect a larger area, doubling the normal radius of effect.
-* **A Rank**: You can set up to 3 hazards at a time. Your traps become extremely resilient, requiring two successful disarm attempts to neutralize them.
-* **EX Rank**:  Setting up a hazard is now a free action, usable once per round. You can also fuse the effects of two hazards into one. When fusing two hazards, select two traps you can set; their effects are combined into a single hazard. The combined hazard retains the highest DC and attack bonus of the two original hazards and gains both of their effects. The level of the fused hazard is considered to be the higher of the two original hazards plus 1.
+* **D Rank**: You gain the ability to **set a hazard** in an area by spending **1 minute preparing the terrain**. The hazard level must be **equal to or lower** than your level. You can only have **one hazard active at a time**, and the hazard can only be a **trap**.
+* **C Rank**: When you create a **trap**, you can choose one of the following benefits: increase its **damage by one step** (d8 -> d10, max of d12), increase its **DC by 2**, or **add an additional effect** such as a status condition appropriate to the trap. You can now set up hazards that have **a level up to 2 levels** higher than your own.
+* **B Rank**: You can set up to **2 hazards at a time**. Setting up a hazard only takes 1 action :a:. Your hazards become harder to discover and resist; **increase all of the hazard's DCs, attack rolls, and saving throws by 2**. Additionally, you can create traps that affect a larger area, **doubling the normal radius of effect**.
+* **A Rank**: You can **set up to 3 hazards** at a time. Your traps become extremely resilient, **requiring two successful disarm attempts** to neutralize them. Additionally, you can **strengthen lower-level traps** by adding the difference between **your level and the trap's level** to their **AC, DCs, saves, and attack rolls**. For traps with damaging effects, increase their damage to match **the listed damage** for your level according to **the Offense table in Building Hazards** (GM Core pg. 111).
+* **EX Rank**: You can now set up a hazard is as afree action :f:, **once per round**. You can also fuse the effects of **two hazards into one**. When fusing two hazards, select two traps you can set; **their effects are combined** into a single hazard. The combined hazard retains the **highest DC and attack bonus** of the two original hazards and gains both of their effects. The level of the fused hazard is considered to be **the higher of the two original hazards plus 1**. Any strenghtening comes **after** fusing the hazards.
 
 )
 
@@ -344,14 +341,14 @@ Item(
 #Torture Technique
 -
 Torture Technique is a Skill that represents one's possession of outstanding torture techniques. Because it strengthens bloodshed and agony, further damage is continuously added after the ordinary damage
-* **D Rank**: When you deal damage to a creature, they also take persistent damage of the same type. The amount of persistent damage is 1d4 for each damage die you dealt of each damage type (For example, a flaming longsword deals 1d8 slashing damage and 1d6 fire damage. This means the target would take 1d4 persistent bleed damage and 1d4 persistent fire damage).
 )
 =
 Item(
-* **C Rank**:  Your skill in inflicting torment deepens, causing the lingering pain to disrupt your foes' abilities. When a creature is taking persistent damage from you, their healing and regeneration effects are halved until all persistent damage is removed. They also have their speed reduced by 5ft for each type of persistent damage affecting them.
-* **B Rank**: You've mastered the art of initial torment, knowing that the first strike of pain is most effective in shattering the resolve of your foes. When you apply a type of persistant damage to a creature for the first time they must make a fortitude save against your class DC or become slowed 1, this effect only happens once per attack. Each time a new type of persistant damage is added increase this value by 1. The slowed condition is reduced by 1 each round, or when one type of persistant damage is recovered.
-* **A Rank**: Each instance of persistent damage of the same type adds together, increasing the overall damage dealt each round.
-* **EX Rank**: Your mastery in torture techniques causes your persistent damage to linger more stubbornly. When a creature takes persistent damage from your attack, they must succeed at a DC 18 flat check to remove the persistent damage, instead of the usual DC 15. Half of the damage you deal becomes persistent damage. Once per day you can force all creatures affected by your persistent damage to become paralyzed for 1 round. This paralysis cannot be mitigated by resistances or immunities.
+* **D Rank**: When you deal damage to a creature, they also take **persistent damage of the same type**. The amount of persistent damage is **1d4 for each damage die you dealt of each damage type** (For example, a flaming longsword deals 1d8 slashing damage and 1d6 fire damage. This means the target would take 1d4 persistent bleed damage and 1d4 persistent fire damage).
+* **C Rank**:  Your skill in inflicting torment deepens, causing the lingering pain to disrupt your foes' abilities. When a creature is taking persistent damage from you, **their healing and regeneration effects are halved** until all persistent damage is **removed**. They also have their **speed reduced by 5ft** for **each type of persistent damage** affecting them.
+* **B Rank**: You've mastered the art of initial torment, knowing that the first strike of pain is most effective in shattering the resolve of your foes. When you apply **a type of persistant damage** to a creature **for the first time** they must **make a fortitude save** against your **class DC** or become **slowed 1**, this effect only happens **once per attack**. Each time a new type of persistant damage is added **increase this value by 1**. The slowed condition is **reduced by 1 each round**, or when one type of persistant damage is **recovered**.
+* **A Rank**: Each instance of **persistent damage of the same type adds together**, increasing the overall damage dealt each round.
+* **EX Rank**: Your mastery in torture techniques causes your persistent damage to linger more stubbornly. When a creature takes persistent damage from your attack, they must succeed at a **DC 18 flat check to remove the persistent damage**, instead of the usual DC 15. **Half of the damage you deal becomes persistent damage**. **Once per day**, as an action :a:, you can force **all creatures** affected by your persistent damage to become **paralyzed for 1 round**. This paralysis **cannot be mitigated by resistances or immunities**.
 
 )
 
@@ -359,14 +356,14 @@ Item(
 #Medicine
 -
 The Medicine skill represents the Servant's exceptional ability to heal and tend to wounds, far surpassing ordinary medical practices. This skill allows the Servant to perform miraculous feats of healing, restoring their allies to full strength even in the direst of circumstances.
-* **D Rank**:You become trained in Medicine if you aren't already, and you gain one Medicine skill feat of your level (you can change this feat when you level up). Additionally, add your Wisdom modifier as healing for each 10 HP you heal.
-* **C Rank**: When you heal a creature, you can also remove one condition affecting the target, except for severe conditions (petrified, cursed, doomed, and paralyzed). Additionally, you can immediately stabilize a dying creature without making a check.
 )
 |
 item(
-* **B Rank**: When you roll Medicine to heal a creature, you roll twice and take the higher result. When using an activity that heals a creature, you reduce the actions it takes by 1 (to a minimum of 1 action).
-* **A Rank**: Restoration - Once per day, as three actions, you can heal a single creature within touch range to full health, restoring all lost hit points and removing all conditions, poisons, and diseases.
-* **EX Rank**: Add your Wisdom modifier as healing for each 5 HP you heal. When you heal a creature, you can now remove any number of conditions affecting it, including severe conditions. Your Restoration ability can now be used on all allies within sight of you.
+* **D Rank**: Your knowledge of Medicine becomes more refined, enabling you to make a significant impact on the battlefield. You become **trained in Medicine** if you aren't already, and you **gain one Medicine skill feat** of your level (you can change this feat when you level up). Additionally, add your **Wisdom modifier as healing for each 10 HP you heal**.
+* **C Rank**: Your healing touch becomes more potent, capable of alleviating ailments as well as injuries. When you heal a creature, you can also **remove one condition** affecting the target, **except** for the **wounded condition** and severe conditions (**petrified, cursed, doomed, and paralyzed**). Additionally, when you **stabilize a creature it heals 1 hit point**.
+* **B Rank**: Your medical prowess reaches new heights, making your treatments quicker and more effective. When you roll Medicine to heal a creature, you **roll twice and take the higher result**. When using an activity that heals a creature, **you reduce the actions it takes by 1** (to a minimum of 1 action).
+* **A Rank**: At this rank, You've become unparalleled, ensuring maximum recovery with every touch. When you heal a creatures, a**ll healling dice is maximized**. **Restoration** - Once per day, as three actions :aaa:, you can heal a single creature within touch range to full health, **restoring all lost hit points and removing all conditions, poisons, and diseases**.
+* **EX Rank**: Achieving the pinnacle of medical mastery, you now perform miracles of healing, restoring vitality and removing ailments with unmatched efficacy. You now add your Wisdom modifier as healing **for each 5 HP you heal** instead of each 10. When you heal a creature, you can now remove **any number of conditions affecting it, including severe conditions**. Your Restoration ability can now be used on **all allies within sight** of you as a single action :a:.
 )
 
 Item(
@@ -374,16 +371,29 @@ Item(
 
 -
 Aesthetics of the Last Spurt is a skill that allows you to manipulate the flow of combat, allowing your opponents to run ahead only to outmaneuver and overcome them at the crucial moment.
-* **D Rank**: (Only usable in combat) You let your enemies act freely while you lie in wait. You can sacrifice one of your actions this turn to gain it as an extra action next turn. You cannot sacrifice extra actions. Additionally, you can use the benefits of your Feint for ranged attacks.
-* **C Rank**: Your Feint's success and critical success effects also apply to each one of your allies. You gain a Feint feat of your choice (you can change this feat when you level up). When you sacrifice an action, you gain a +2 circumstance bonus to AC and saving throws until the start of your next turn.
-* **B Rank**:  When you Feint, you can target an additional number of creatures equal to your Charisma modifier. Additionally, when you sacrifice an action this turn, you gain two extra actions next turn, and all your movement speeds increase by 10 feet for each action sacrificed for 1 minute (up to 30 feet).
-* **A Rank**: You can Feint as a free action once per round. Additionally, your extra actions next turn can be used for reactions. All Feint feats that give an alternate option for your success and critical success now apply cumulatively, using all effects simultaneously.
+* **D Rank**: (**Only usable in combat**) You let your enemies act freely while you lie in wait. You can **sacrifice one of your actions** this turn to **gain it as an extra action next turn**. You **cannot sacrifice extra actions**. Additionally, you can use the benefits of your Feint for **ranged attacks**.
 )
 =
 item(
-* **EX Rank**: You can now sacrifice extra actions. When you Feint, you achieve one degree of success higher on your skill check. Additionally, you can choose to negate any one success or critical success an opponent makes in combat once per round, representing your ability to completely outmaneuver and outthink your foes.
+* **C Rank**: Your Feint's success and critical success effects also apply to **each one of your allies**. You **gain a Feint feat of your choice** (you can change this feat when you level up). When you sacrifice an action, you gain a **+2 circumstance bonus to AC and saving throws** until the start of your next turn.
+* **B Rank**:  When you Feint, you can target an additional number of creatures equal to your **Charisma modifier**. Additionally, when you sacrifice an action this turn, you gain **two extra actions next turn**, and your movement speed **increases by 10 feet for each action sacrificed** for 1 minute (**up to 30 feet**).
+* **A Rank**: Your combat strategy becomes even more refined, allowing you to capitalize on the momentum of your opponents. You can Feint as a free action :f: **once per round**. Additionally, your **extra actions next turn can be used for reactions**. All Feint feats that give an alternate option for your success and critical success now **apply cumulatively**, using all effects **simultaneously**.
+* **EX Rank**: Achieving the pinnacle of deceptive combat, you can seize every opportunity and turn the tide of battle in your favor. You can now **sacrifice extra actions** and **give an extra actions** to **one of your allies** instead of yourself when you sacrifice an action. When you Feint, you achieve one degree of success higher on your skill check. Additionally, you can **choose to negate any one success or critical success** an opponent makes in combat **once per round**, representing your ability to completely outmaneuver and outthink your foes.
 
 )
 
+Item ( 
+#Beach Flower
+-
+Beach Flower is a skill that determines the amount of attention one can attract from interested individuals at the beach. Upon acquiring this class skill, you officially become a **Summer Servant**.
+
+* **D Rank**: Whether intended or not, your presence at the beach inevitably draws glances.
+* **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
+* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
+)
 
 |
+Item ( 
+* **A Rank**: You have attained the status akin to that of a celebrity. **Versatile Entertainer** - A voice. A thousand voices. The stage is your domain, the crowd your adoring subjects. Under the spotlight or in the shadows, you are the chameleon of charisma. A voice so fluid, it mimics anyone’s timbre and tone. **(you perfectly mimic anyone's voice)**
+* **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
+)
