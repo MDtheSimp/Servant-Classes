@@ -159,7 +159,7 @@ Skills are the embodiment of a Servant's various abilities and characteristics, 
 Again, a servant may possess numerous Class and Personal Skills; however, they tend to be stronger when their number is fewer.
 info (
 # Progression ((+Progression))
-* **Class Skills**: From level 1, you have access to all your Class Skills, but they all start at their lowest rank, D. To progress a particular skill, you must retake the corresponding feat, which will increase its rank by one degree. This approach provides an incredible amount of versatility in your choice of Class Skills. All servant classes begin with two Class Skills at level 1 and acquire additional skills as they level up.
+* **Class Skills**: From level 1, you have access to all your Class Skills, but they all start at their lowest rank, D. To progress a particular skill, you must retake the corresponding feat, which will increase its rank by one degree. This approach provides an incredible amount of versatility in your choice of Class Skills. All servant classes begin with one or two Class Skills at level 1 and acquire additional skills as they level up.
 * **Personal Skills**: Similar to Class Skills, Personal Skills start at rank D and progress in the same manner, requiring the retaking of the same Personal Skills. The key difference is that Personal Skills progress at a much slower rate, starting at level 3 and advancing every 3 levels (as indicated by the ***'+++'*** symbol in the advancement table on page 2). Additionally, Personal Skills are not provided by the class and must be created in collaboration with your Dungeon Master."
 * **Noble phantasms**:Noble Phantasms follow the same progression rules as Personal Skills, with the difference being that they advance at an even slower rate, starting at level 3 and increasing at level 7, 10, 15 and 20. This progression allows for a maximum of six advancements in a Noble Phantasm.
 )
@@ -171,7 +171,17 @@ Your skills can only get to A Rank after reaching **level 10**. If your class pr
 # EX RANK
 It is impossible to reach an EX rank simply by retaking a Class or Personal Skill from A rank. The only way to attain EX rank is through an **in-game secret**, which you may or may not discover. (To clarify, uncovering the secret will increase your rank by one and unlock the potential to reach EX rank, but it will not grant EX rank immediately, unless you are already at A rank in that specific skill).
 )
+## The Master's dagger 2nd
+Fueled by a thirst for vengeance, you strike back against those who dare harm your master. The moment your master is attacked, you instantly appear behind the offender. You gain the Master's Dagger reaction allowing you to unleash a swift and retributive action before returning to your original position.
+###The Master's Dagger :r: 
+-
 
+**Trigger** Your master is attacked by an enemy.
+-
+item(
+You teleport behind the creature that harmed your master. You may use any single action activity as a reaction while behind them, after which you teleport back to your original location.
+
+)
 ##Evasion 7th
 You've learned to move quickly to avoid explosions, dragons' breath, and worse. When you roll a success on a Reflex save, you get a critical success instead.
 
@@ -305,15 +315,17 @@ Item(
 #Doppelgänger 
 -
 Doppelgänger is a skill that creates and manipulates illusory duplicates of themselves, providing strategic advantages in both combat and non-combat scenarios. This ability is a testament to the Assassin's mastery of deception and spatial manipulation.
-* **D Rank**: **Duplicate** -  Once per day, as an action :a:, you can create an illusory duplicate of yourself within 60 feet, as if you used the **replicate** spell on yourself. When the Doppelgänger is created, you can choose to either **stay in your spot or teleport** to the designated area while the Doppelgänger takes your place. The Doppelgänger has **one hit point**, does not need to be sustained,the spell sustains itself for **1 minute** after which it needs to be sustained. Enemies **must succeed at a Perception check against your Deception DC** to distinguish between you and the Doppelgänger.
-* **C Rank**: Your Doppelgänger becomes more than just a decoy, actively assisting you in combat. You can **switch places with the Doppelgänger** as a free action :f: once per turn; this does not provoke reactions. Your Doppelgänger can now use **basic actions and strike** using your stats, **sharing any buffs or effects** that would affect you (bonuses, spell effects, and such). However, it deals only **half as much** damage as you.
+* **D Rank**: **Duplicate** -  Once per day, as an action :a:, you can create an illusory duplicate of yourself within 60 feet, as if you used the **replicate** spell on yourself. When the Doppelgänger is created, you can choose to either **stay in your spot or teleport** to the designated area while the Doppelgänger takes your place. The Doppelgänger has **one hit point**, the spell sustains itself for **1d4+1 rounds** after which it needs to be sustained. Enemies **must succeed at a Perception check against your Deception DC** to distinguish between you and the Doppelgänger.
+* **C Rank**: Your Doppelgänger becomes more than just a decoy, actively assisting you in combat. You can **switch places with the Doppelgänger** as a free action :f: once per turn; this does not provoke reactions. Your Doppelgänger can now use **basic actions and strike** using your stats and weapon, although they **cannot activate magic items**, **sharing any buffs or effects** that would affect you (bonuses, spell effects, and such). However, it deals only **half as much** damage as you.
 * **B Rank**: You can use **Duplicate** an unlimited number of times per day, but only **one** Doppelgänger can **exist at a time**. Additionally, you can **teleport to the Doppelgänger's location** as a reaction :r: when you are **targeted by an attack or damaging effect**, causing it to **hit the Doppelgänger instead**. The DC to distinguish between you and the Doppelgänger **is increased by 5**
-* **A Rank**: Your mastery over illusion allows you to create multiple Doppelgängers, you can create **up to three Doppelgängers** at once. Your Doppelgängers can use any ability you have except for **Servant Skills and Noble Phantasms (NPs)**. When a Doppelgänger is **destroyed**, it explodes in a burst of magical energy, rendering anyone within **5 feet of it dazzled 1**. Each duplicate also has a **quarter of your HP**.
-* **EX Rank**: You achieve unparalleled mastery over your Doppelgängers, your Doppelgängers now deal **full damage**, can also use **Servant Skills**, and have 3 actions instead of 2. Additionally, when you or your Doppelgängers take damage, you can **distribute the damage** between yourself and any active Doppelgängers as you see fit. 
+* **A Rank**: Your mastery over illusion allows you to create multiple Doppelgängers, you can create **up to two Doppelgängers** at once. Your Doppelgängers can use any ability you have except for **Servant Skills and Noble Phantasms (NPs)**. When a Doppelgänger is **destroyed**, it explodes in a burst of magical energy, rendering anyone within **5 feet of it dazzled 1**. Each duplicate also has a **quarter of your HP**.
 
 )
 =
 Item(
+* **EX Rank**: You achieve unparalleled mastery over your Doppelgängers, your Doppelgängers now deal **full damage**, can also use **Servant Skills**, excluding **Doppelgänger**, and have 3 actions instead of 2, **Duplicate** also **sutains** itself for the full duration. Additionally, when you or your Doppelgängers take damage, you can **distribute the damage** between yourself and any active Doppelgängers as you see fit. 
+)
+item(
 #Afraid of Your Own Shadow 
 -
 Afraid of Your Own Shadow is a skill that manifests the ultimate control over fear and terror, striking at the very core of an enemy’s psyche. This skill allows the Servant to manipulate the Fear to their advantage, sowing chaos and debilitating their foes in increasingly devastating ways as the skill ranks up.

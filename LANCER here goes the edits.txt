@@ -6,7 +6,7 @@ Sevrvant 1.0
 )
 head (
 # Servant Class: Lancer ((Main info))
-Class Lancer, Knight of the Lance and Heroic Spirit of the Lance, is one of the Three Knight Classes among the seven standard Servant classes summoned for the Holy Grail War. Servants placed within this class, many of which are Heroic Spirits who were knights, are very agile, display excellent close combat skills, show proficiency in hit-and-run tactics that capitalize on range and speed, and are skilled with long-range melee weapons such as spearWPs and lanceWPs. The qualifying conditions to be placed within the class are second only to the Saber class, requiring overall excellent attributes and a high agility attribute. Their only particular class ability is **Magic Resistance**, and although they "tend to be less flashy than the other classes", they display great reliability.
+Class Lancer, Knight of the Lance and Heroic Spirit of the Lance, is one of the Three Knight Classes among the seven standard Servant classes summoned for the Holy Grail War. Servants placed within this class, many of which are Heroic Spirits who were knights, are very agile, display excellent close combat skills, show proficiency in hit-and-run tactics that capitalize on range and speed, and are skilled with long-range melee weapons such as spear and lance. The qualifying conditions to be placed within the class are second only to the Saber class, requiring overall excellent attributes and a high agility attribute. Their only particular class ability is **Magic Resistance**, and although they "tend to be less flashy than the other classes", they display great reliability.
 -
 )
 pagenumbers
@@ -35,7 +35,7 @@ Expert in unarmored defense
 info (
 ## Key ability((+Key ability))
 Strength or Dexterity.
-At 1st level, your class gives you an ability boost to your choice of Strength or Dexterity.
+At 1st level, your class gives you an attribute boost to your choice of Strength or Dexterity.
 
 |
 
@@ -151,7 +151,7 @@ Again, a servant may possess numerous Class and Personal Skills; however, they t
 |
 info (
 # Progression ((+Progression))
-* **Class Skills**: From level 1, you have access to all your Class Skills, but they all start at their lowest rank, D. To progress a particular skill, you must retake the corresponding feat, which will increase its rank by one degree. This approach provides an incredible amount of versatility in your choice of Class Skills. You begin with one Class Skill at level 1 and acquire additional skills as you level up.
+* **Class Skills**: From level 1, you have access to all your Class Skills, but they all start at their lowest rank, D. To progress a particular skill, you must retake the corresponding feat, which will increase its rank by one degree. This approach provides an incredible amount of versatility in your choice of Class Skills. All servant classes begin with one or two Class Skills at level 1 and acquire additional skills as they level up.
 * **Personal Skills**: Similar to Class Skills, Personal Skills start at rank D and progress in the same manner, requiring the retaking of the same Personal Skills. The key difference is that Personal Skills progress at a much slower rate, starting at level 3 and advancing every 3 levels (as indicated by the ***'+++'*** symbol in the advancement table on page 2). Additionally, Personal Skills are not provided by the class and must be created in collaboration with your Dungeon Master."
 
 * **Noble phantasms**:Noble Phantasms follow the same progression rules as Personal Skills, with the difference being that they advance at an even slower rate, starting at level 5 and increasing every 5 levels. This progression allows for a maximum of four advancements in a Noble Phantasm.
@@ -169,7 +169,7 @@ When danger looms over your master, your loyalty knows no bounds. As an instinct
 ###The Master's Lance :r: 
 -
 
-**Trigger** Your master is attacked by an enemy within your movement speed.
+**Trigger** Your master is attacked by an enemy while they are within your movement speed.
 -
 item (
 As the triggering attack unfolds, you move up to your speed towards your master. This swift stride allows you to intercept the attack, becoming its new target. Regardless of whether the attack hits or misses, if you remain standing, you can immediately move again. This time, you transport your master with you, retreating up to half of your movement speed.
@@ -369,7 +369,7 @@ Item(
 #Spearmanship
 -
 Spearmanship is a skill that embodies the art of mastery with spear-type weapons, granting wielders unparalleled control and versatility in combat. From enhancing the weapon's properties to extending throwing capabilities and executing devastating strikes, this skill transforms the wielder into a formidable warrior on the battlefield.
-* **D Rank**: Once per day, as a single action :a:, you can infuse your weapon with one of the following traits for 1 minute: **Agile, Reach, Razing, Sweep, Finesse, Backstabber, Backswing or Parry**.
+* **D Rank**: Once per day, as a single action :a:, you can infuse your weapon with one of the following traits for 1 minute: **Agile, Reach, Jousting, Sweep, Finesse, Fatal, Backswing or Parry**.
 * **C Rank**: Your weapon gains the **Thrown 40 ft** trait or increases your existing thrown range **by 10 feet**, whichever is **greater**. Additionally, your weapon is treated as if it has the **Returning rune**, enhancing your throwing capabilities **without it counting towards** the maximum number of weapon runes allowed.
 * **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a **spear-type weapon**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
 * **A Rank**: **Peircing Spear** - When you **strike** a creature by throwing your weapon, it pierces through, targeting **all creatures** in a line equal to your **thrown range**. Compare the strike roll against the AC of each creature in the line to determine which get hit. Additionally, once per turn, you can **reroll a failed attack roll**, but you must keep the second result.
@@ -384,7 +384,7 @@ Beach Flower is a skill that determines the amount of attention one can attract 
 * **D Rank**: Whether intended or not, your presence at the beach inevitably draws glances.
 * **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
 * **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
-* **A Rank**: You have attained the status akin to that of a celebrity.
+* **A Rank**: You have attained the status akin to that of a celebrity. **Versatile Entertainer** - A voice. A thousand voices. The stage is your domain, the crowd your adoring subjects. Under the spotlight or in the shadows, you are the chameleon of charisma. A voice so fluid, it mimics anyone’s timbre and tone. **(you perfectly mimic anyone's voice)**
 * **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
 )
 

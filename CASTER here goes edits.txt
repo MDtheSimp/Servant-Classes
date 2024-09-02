@@ -241,4 +241,101 @@ You may cast a spell targeting either your master or the offender as a reaction.
 You’ve learned how to inflict greater injuries with the means you know best. You deal 2 additional damage with attacks and spells in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary. Your minions also gain this benefit.
 
 #CASTER CLASS FEATS ((Caster class feats))
+Item(
+#Medicine
+-
+The Medicine skill represents the Servant's exceptional ability to heal and tend to wounds, far surpassing ordinary medical practices. This skill allows the Servant to perform miraculous feats of healing, restoring their allies to full strength even in the direst of circumstances.
+* **D Rank**: Your knowledge of Medicine becomes more refined, enabling you to make a significant impact on the battlefield. You become **trained in Medicine** if you aren't already, and you **gain one Medicine skill feat** of your level (you can change this feat when you level up). Additionally, add your **Wisdom modifier as healing for each 10 HP you heal
+)
+=
+item(
+* **C Rank**: Your healing touch becomes more potent, capable of alleviating ailments as well as injuries. When you heal a creature, you can also **remove one condition** affecting the target, **except** for the **wounded condition** and severe conditions (**petrified, cursed, doomed, and paralyzed**). Additionally, when you **stabilize a creature it heals 1 hit point**.
+* **B Rank**: Your medical prowess reaches new heights, making your treatments quicker and more effective. When you roll Medicine to heal a creature, you **roll twice and take the higher result**. When using an activity that heals a creature, **you reduce the actions it takes by 1** (to a minimum of 1 action).
+* **A Rank**: At this rank, You've become unparalleled, ensuring maximum recovery with every touch. When you heal a creatures, a**ll healling dice is maximized**. **Restoration** - Once per day, as three actions :aaa:, you can heal a single creature within touch range to full health, **restoring all lost hit points and removing all conditions, poisons, and diseases**.
+* **EX Rank**: Achieving the pinnacle of medical mastery, you now perform miracles of healing, restoring vitality and removing ailments with unmatched efficacy. You now add your Wisdom modifier as healing **for each 5 HP you heal** instead of each 10. When you heal a creature, you can now remove **any number of conditions affecting it, including severe conditions**. Your Restoration ability can now be used on **all allies within sight** of you as a single action :a:.
+)
+Item(
+#Disengage
+-
+Disengage is the ability to withdraw from the battlefield in the midst of combat or reset the battle conditions.
+* **D Rank**: Once per day, as a Free Action :f:, **you and your allies** can Disengage, teleporting back to a position **you occupied** within the **last minute**. This position must not be more than **five times your speed away**.
+* **C Rank**: When you Disengage, **all allies and enemies that are alive** are transported back to the positions **they occupied** at the time when you were at the location you return to. Additionally, their **hit points are reset to the values** they had at that moment.  **Allies** gain the **Fleeing 3** condition.
+)
+|
+item(
+* **B Rank**: Upon Disengaging, the **conditions** of your allies (including cooldowns, status effects, etc.) are **reset** to what they were at the moment of Disengagement, with the **exception of this ability and Noble Phantasms**. There is no longer any **restriction on distance**.
+* **A Rank**: When you Disengage, you gain the ability to selectively **choose which creatures** are affected by this ability and which are not.
+)
 
+item(
+#Privilege ((+Privlege))
+-
+Privilege is an skill that, due to the insistence of the owner, Skills that are essentially impossible to possess can be obtained for a short period of time.
+* **D Rank**: Allows you to use any **D Rank** Class Skill of your class for **1d4 rounds**, after which you will be locked from using the same Class Skill.
+* **C Rank**: **Resets used Class Skills** and allows you to use any **C Rank** Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
+* **B Rank**: Resets used Class Skills and allows you to use the same class skill **up to 2 times** before locking them.
+* **A Rank**: Resets used Class Skills and allows you to use any **B Rank** Class Skill of your class for 1d4 rounds..
+* **EX Rank**: Allows you to use any **A Rank Class Skill** of your class for 1d4 rounds. Class Skill will not be locked.
+)
+Item(
+#Presence Detection
+-
+Presence Detection is the ability to detect other Servants and local mana sources.
+* **D Rank**: You gain a detection range of **60ft**. Whenever a creature tries to **hide or sneaks within your detection range**, you **automatically detect their location**, but they **remain hidden** to you. Once a creature **becomes observed** to you within your range, their presence continues to be detectable to you, regardless of subsequent attempts to hide **until they leave your range**. (Creatures with **Presence Concealment** would only be **undetected** instead of becoming **hidden**)
+* **C Rank**: Creatures that try to hide from you get **one level of success lower against you**. You can discern the type of creature (e.g., humanoid, beast, undead) when they attempt to hide within your **detection range**. Additionally as an action :a: you can **detect** the location of **all creatures** within your detection range. 
+)
+=
+Item(
+* **B Rank**: Your detection range increases to 120ft. When you use your action to detect, **an equal or lower rank of Presence Concealment can be nullified**. This extends to magical illusions, invisibility and transformations, as long as **their level is equal to or lower than half your level**. This enables you to perceive the true nature of altered or disguised beings and **nullifies any impediment** illusions and such would cause you (e.g., mirror image...).
+* **A Rank**: You can now detect not just the presence but also the magical potency of any creature within this range. Gauging the relative strength of their abilities compared to yours, allowing you to **know their AC, saves and DCs**. Additionally, **once per day** you gain the ability to **suppress** one magical effect within your detection range as a reaction :r:. The suppression lasts for **1 minute** or until you choose to end it.
+* **EX Rank**: Your sensory abilities reach their zenith. **Your detection range increases to 1-mile**, allowing you to detect all forms of concealment and illusions within it. This includes magical and non-magical means, as well as **unbounded fields**. Additionally you can temporarily **see through the eyes of any creature within your radius**, giving you their point of view on demand for 1 minute, creatures **aware of your presence** can try to resist this effect by succeeding a **Will Save against your Class DC**.
+)
+Item(
+#High-Speed Incantation
+-
+High-Speed Incantation is the ability to speak or perform magical incantations at an accelerated speed.
+* **D Rank**: You gain the **Quicken Spell** activity:
+)
+
+info(
+####Quicken Spell  :f:
+-
+; Concentrate
+**Frequency** once per day
+**duration** 1 round
+-
+**Reduce** the number of actions to cast a **cantrip** or a spell that is at **least 2 ranks lower** than the highest-rank spell rank you have by 1 (**minimum 1 action**), This would cause effects and abilities that only work on lower action cost spells to also work on this one for the duration, such as with spellstrike or readying an action etc.
+
+)
+item(
+* **C Rank**: Whenever you gain the **quickened condition**, regardless of the source, you can use the extra action to cast one of your spells or use one of your spellshapes. You also gain the **Quicken Shape** activity.
+)
+|
+info(
+####Quicken Shape  :f:
+-
+; Concentrate
+**Frequency** once per day
+**duration** 1 round
+-
+**Reduce** the number of actions required to use a **spellshape** by 1.
+)
+item(
+* **B Rank**: The frequency of **Quicken Spell** and **Quicken Shape** increases to once per round. Additionally, you can now use **Quicken Spell** on any spell you cast. If you use **Quicken Spell** or **Quicken Shape** on a reaction :r:, it becomes a free action :f: instead.
+* **A Rank**: **Delay:** You cast your spells with an unordinary pace. When you **cast a spell**, you may choose to delay its effects until **the start of your next turn**. The spell slot is **consumed upon casting**, and slight manifestations of the spell appear, but the nature of the spell remains **unrecognizable** to other creatures. **Flash Casting:** Once per day, you can cast a spell with an action cost of 3 :aaa: or fewer actions outside of time, taking all actions simultaneously and effectively casting the spell as a **free action** :f:. After using this ability, you are **slowed 1** until the end of your next turn.
+
+* **EX Rank**: All spells and spellshapes you cast have their action costs **reduced by 1**, to a minimum of 1 action :a:.  **Overdrive:** Once per day, you can take 3 actions :aaa: to cast any 3 spells simultaneously. Afterwards, make a **DC 10** check using your **spell attack bonus** as a modifier. On a **success**, you may cast another spell. On a **failure**, the activity ends. On a **critical failure**, you cannot cast spells until the end of your next turn. **Each time** you succeed on the check, **the DC increases by 5**.
+
+
+)
+Item(
+#Magecraft / Magic
+-
+
+* **D Rank**:
+* **C Rank**:
+* **B Rank**:
+* **A Rank**:
+* **EX Rank**:
+
+)
