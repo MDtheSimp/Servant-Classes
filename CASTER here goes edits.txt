@@ -1,5 +1,5 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 8 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 11 nickels
 )
 title (
 Servant 0.5
@@ -56,11 +56,11 @@ Whenever your proficiency rank in **Attacks** and **Defenses** would normally in
 Servants are made of **Ether** one of **Five Great Elements**, on it's own it is amorphous and is incapable of materializing by its own power, with the power of the grail, the servants are able to gain a material form with a **Spiritual Core** serving as "their center, their heart, their CPU" that dictates their every function. While a servant may bleed and take damage to their organs, their true being resides in a Spiritual Core.
 
 Servants are beings able to **switch** between a **Spiritual Body** and **Material Body** at will, although at a rate no faster than **once per minute**. While in spiritual form, they cannot be easily detected by enemies due to being **invisible** to the naked eye and most forms of scrying, or be affected by physical interference. They can travel where they please without being impeded by walls, but they also **cannot carry anything** in that state. Their senses are limited to spiritual sensations (*a sort of vague sense imagine being in the etheral plane but without your normal senses*), so they must materialize in order to fully experience normal senses when sharing a visual link with their Master. Their upkeep cost is low when not materialized, so many Masters prefer them to stay in spirit form when they are not fighting or doing other tasks that require them to be in physical form to lower the cost on themselves.
-
+=
 Other servants can easily sense and interact with a servant in spirit form, while a magus may find it difficult to do so.
 
 ***While in spirit form, your speed doubles, but you incur a -4 status penalty to AC (Armor Class), Perception and reflex saves, you are also flat-footed. Additionally, you are unable to make attacks or cast spells.***
-=
+
 ## Dying and unconsious conditions((+Dying and unconsious))
 
 As a servant, you do not fall unconscious when reduced to 0 hit points. Instead, you maintain consciousness but incur a **penalty** equal to **twice** your **dying value** on all rolls (such as damage rolls, saves, and checks).
@@ -95,6 +95,7 @@ Level | Class features
 20 | Caster feat, Noble phantasm (**+++**),
 ##Class features((class features))
 You gain these abilities as an Caster. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
+|
 ###COUNTERSPELL
 item(
 #Counterspell :r: 
@@ -102,9 +103,6 @@ item(
 **Trigger** A creature Casts a Spell that you have prepared
 -
 When a foe Casts a Spell and you can see its manifestations, you can use your magic to disrupt it. You expend a prepared spell to counter the triggering creature’s casting of that same spell. You lose your spell slot as if you had cast the triggering spell. You then attempt to counteract the triggering spell (page 431).
-)
-|
-item(
 **Special** This feat has the trait corresponding to the tradition of spells you cast (arcane, divine, primal, or occult).
 
 )
@@ -131,14 +129,15 @@ item(
 item(
 This category does not have any specific numbers due to its inconsistency. As a rule of thumb, utility spells that buff or debuff are weaker the longer their duration. A standard duration is 1 minute; as spell durations extend beyond that, they become increasingly weaker.
 )
+=
 ####Spell rank variations (how do you even balance this?)
 item(
 As the spell rank increases, the general rules loosen and become less strict.
 )
 
 ###TERITORY CREATION
-Territory Creation is the Skill needed to build a special terrain that is advantageous to oneself as a magus, such as for the purpose of collecting mana, create magic objects, or perform other tasks. At Rank B, the creation of a Workshop territory becomes possible. At Rank A it is possible to create a superior Temple. It is a Class Skill of the Caster-class.
-=
+Territory Creation is the Skill needed to build a special terrain that is advantageous to oneself as a magus, such as for the purpose of collecting mana, create magic objects, or perform other tasks. At Rank B, the creation of a Workshop territory becomes possible. 
+At Rank A it is possible to create a superior Temple. It is a Class Skill of the Caster-class.
 Territories can look different depending on the Servant, as each has their own purpose in mind for the territory they create. For example, a standard magus Servant typically creates a territory where they can experiment and practice magecraft, while an artist Servant may create a Study or Performance Venue.
 item(
 #Territory Creation
@@ -146,12 +145,16 @@ item(
 * **D Rank**: You can create a workshop suitable for a specific activity of your choosing, such as healing, crafting, or cooking. All **rolls by you and your allies related to that activity** are made twice, and you use the better result, as long as you are within your workshop. Creating a workshop requires **8 hours of downtime**, during which you must not wander away from the spot where the workshop will be created. The size of the workshop at this rank is fairly small, fitting around a small shack or a single room in a house. **You can only have one workshop at a time**.
 * **C Rank**: Your workshop now provides all the tools necessary for the activity it was created for, as well as giving a **+2 bonus to those rolls**. The size of your workshop can be as big as a full house.
 * **B Rank**: Your workshop now becomes a **Bounded Field** and gains the same properties and requirements. Additionally, all **downtime activities**, as well as the frequency of such activities, are **twice as fast** inside your workshop than outside. This includes resting, treating wounds, refocusing, etc. Your workshop can be the size of a castle.
-After creating your workshop, you may **enhance** it into a variant capable of aiding you even further. If the location of your workshop is **on top of or within the vicinity of a Ley Line**, you may spend **8 hours each day for up to 7 days** connecting your workshop to the Ley Lines. By the end of this period, the **spell DC** of your Bounded Field **increases by 5**, and you gain the ability to **share one of your current class abilities** (whether servant or not) with all allies within the Bounded Field **except for this one**. This could be either giving a class feat to them or sharing a complete class skill with them.
-* **A Rank**: Your workshop becomes a Temple and now **affects all activities instead of just a specific one**. 
-If your Temple is connected to a Ley Line, you and all allies inside it gain **an extra charge of your NPs**. You can also use the Ley Line to substitute for your own magical reserves; **all spells you and your allies cast within the workshop do not use spell slots**, and this also affects **charges for magic items**.
+After creating your workshop, you may **enhance** it into a variant capable of aiding you even further. If the location of your workshop is **on top of or within the vicinity of a Ley Line**, you may spend **8 hours each day for up to 7 days** connecting your workshop to the Ley Lines. By the end of this period, the **spell DC** of your Bounded Field **increases by 5**, and you gain the ability to **share one of your current class abilities** (whether servant or not) with all allies within 
 )
 |
 item (
+        the Bounded Field **except for yourself**. This could 
+        be either giving a class feat to them or sharing a 
+        complete class skill with them.
+* **A Rank**: Your workshop becomes a Temple and now **affects all activities instead of just a specific one**. 
+If your Temple is connected to a Ley Line, you and all allies inside it gain **an extra charge of your NPs**. You can also use the Ley Line to substitute for your own magical reserves; **all spells you and your allies cast within the workshop do not use spell slots**, and this also affects **charges for magic items**.
+
 * **EX Rank**: If your Temple is connected to a Ley Line, instead of adding a single charge to your and your allies' NPs, **double their maximum charges or increase it by 2**, whichever is higher. You also have **absolute control over the environment and conditions within the Temple**. You can alter the internal space to imitate any sort of landscape, expand or shrink the interior space, change the time flow to be twice as fast or half as fast, and make gravity lighter or heavier.
 
 )
@@ -164,12 +167,14 @@ The Bounded Field provides several benefits:
 ###Isolation and Concealment
 The Bounded Field isolates an area from the outside world, creating a separate space of its own. This creates an illusion that allows the mage to control how the inside view appears from the outside. Even creatures with abilities that let them see through illusions must **attempt a check against the mage's spell DC**. The Bounded Field is also under the effects of the **Veil of Privacy spell**, at a spell rank equal to that of the **spell slot** consumed when **creating the Bounded Field**.
 ###Protection
-The Bounded Field also protects the area from intruders. Unless permitted by the mage, no creature can enter the Bounded Field unless they succeed at **a counteract check against the mage's spell DC**. The check itself can be caused by anything the GM deems capable of bypassing or opening the Bounded Field, such as an Arcana check to try and disable part of the barrier, a Thievery check made by an expert in magical devices, or even an attack roll made by a magical weapon under the correct circumstances. All these different options may **change the DC at the GM's discretion**. Even effects that cover large areas do not affect the inside of a Bounded Field if they originate from the outside.
-Here are the results of the counteract check:
-**Critical Success**: You pass through the barrier or create an opening for your allies to go through **without raising any suspicion**.
+The Bounded Field also protects the area from intruders. Unless permitted by the mage, no creature can enter the Bounded Field unless they succeed at **a counteract check against the mage's spell DC**.
 )
 =
 item(
+The check itself can be caused by anything the GM deems capable of bypassing or opening the Bounded Field, such as an Arcana check to try and disable part of the barrier, a Thievery check made by an expert in magical devices, or even an attack roll made by a magical weapon under the correct circumstances.
+All these different options may **change the DC at the GM's discretion**. Even effects that cover large areas do not affect the inside of a Bounded Field if they originate from the outside.
+Here are the results of the counteract check:
+**Critical Success**: You pass through the barrier or create an opening for your allies to go through **without raising any suspicion**.
 **Success**: You pass through the barrier or create an opening for your allies to go through, but whoever is inside **the Bounded Field and its caster are made aware of the intrusion**.
 **Failure**: You fail to break through the barrier, and whoever is inside the Bounded Field and its caster are made aware of the intrusion.
 **Critical Failure**: As failure, **but you cannot attempt an intrusion with the same check for 1 minute**.
@@ -183,10 +188,13 @@ Item(
 * **D Rank**: You do not need a **specific feat** to craft items, such as Alchemical Crafting for alchemical items. You can complete your crafting **in 8 hours** instead of requiring **2 to 1 day of work**. After the first 8 hours, you may choose to continue working an **extra 8 hours**, instead of a day, to decrease the cost of the item before completion. Additionally, you do not need to meet **proficiency level requirements** to craft items.
 * **C Rank**: You gain a **+2 bonus** to your Crafting checks. When crafting, you are always considered to be using a **formula** and may create a formula for any item you could craft. If one of the requirements for crafting the item is **casting a certain number of spells**, you do not need to do so.
 * **B Rank**: You have learned to utilize all materials to their best potential; all materials you use count **as high-grade material**s. Furthermore, when you craft items, you may **add an additional benefi** to them, such as an ability or passive effect.
+)
+|
+item(
 * **A Rank**: You can now **craft items of any level**, even if your level is lower than the item's level. Additionally, you can craft items that do not exist yet. Work with your GM and use the **Building Items rules in GM Core pg. 130** as a basis for your magic items.
 * **EX Rank**: You have mastered the art of item construction to a supernatural level. **You do not need materials to craft any items**. You can now **mix and match the properties and features** of items you get a hold of, transferring abilities from one to another or removing curses etc... This can only be used after items have been created and **not before**, and it changes the item's levels accordingly. You also **automatically critically succeed** at crafting any item of your level or lower.
 )
-|
+
 ###Noble phantasms ((+Noble Phantasms))
 Noble phantasms are powerful armaments made using human imagination as their core, and are the weapons and/or abilities owned by Heroic Spirits. As humanity's illusions, **they embody the ultimate Mysteries of a hero as symbols of their existence through historical fact and anecdotes**.
 
@@ -197,6 +205,7 @@ A servant may possess more than one Noble Phantasm; however, the more they have,
 Noble Phantasms are classified by their effectiveness against enemies. One Noble Phantasm may have multiple classifications depending on its abilities. The classification and properties of the Noble Phantasm dictate both the number of times it can be used and the duration required for the NP to 'recharge'.
 
 * **Anti-Unit**- Anti-Unit Noble Phantasms are those specialized against defeating other people in single combat. Compared to stronger weapons, a majority of Anti-Unit Noble Phantasms will not go beyond defeating other beings.
+=
 * **Anti-Army** - Anti-Army Noble Phantasms are those with a wide enough range to be specialized against armies. They are more powerful weapons than Anti-Unit Noble Phantasms, capable of
 easily blowing them away, but they must be used more wisely because of their larger cost.
 
@@ -204,7 +213,7 @@ easily blowing them away, but they must be used more wisely because of their lar
 * **Barrier** - The classification of Noble Phantasms used to create barriers, typically Bounded Fields, but it does not include those that are also used to attack.
 
 There are numerous additional classifications for Noble Phantasms, including but not limited to Anti-Self, Anti-Country, and Anti-Purge.
-=
+
 ###Class Skills and Personal Skills ((+Class and Personal skills))
 Skills are the embodiment of a Servant's various abilities and characteristics, (Riding skill, Presence Concealment etc). They are divided into two main categories: **Class Skills**, which are typically connected to the Servant's Class, and **Personal Skills**, which reflect abilities or anecdotes connected to the life and legend of the Servant themselves, Personal Skills typically outweigh Class Skills in impact.
 
@@ -214,13 +223,13 @@ info (
 # Progression ((+Progression))
 * **Class Skills**: From level 1, you have access to all your Class Skills, but they all start at their lowest rank, D. To progress a particular skill, you must retake the corresponding feat, which will increase its rank by one degree. This approach provides an incredible amount of versatility in your choice of Class Skills. All servant classes begin with one or two Class Skills at level 1 and acquire additional skills as they level up.
 * **Personal Skills**: Similar to Class Skills, Personal Skills start at rank D and progress in the same manner, requiring the retaking of the same Personal Skills. The key difference is that Personal Skills progress at a much slower rate, starting at level 3 and advancing every 3 levels (as indicated by the ***'+++'*** symbol in the advancement table on page 2). Additionally, Personal Skills are not provided by the class and must be created in collaboration with your Dungeon Master."
+)
+|
+info(
 * **Noble phantasms**:Noble Phantasms follow the same progression rules as Personal Skills, with the difference being that they advance at an even slower rate, starting at level 3 and increasing at level 7, 10, 15 and 20. This progression allows for a maximum of six advancements in a Noble Phantasm.
 The classification of a Noble Phantasm also plays a significant role. It is highly unlikely for a servant to possess more than one Anti-Army or Anti-Fortress NP, whereas an Anti-Unit NP is subject to fewer restrictions.
 # A RANK
 Your skills can only get to A Rank after reaching **level 10**. If your class provides you with a class skill advancement that would increase your rank to A before level 10, you may **substitute** that advancement with a **Caster feat** appropriate for your level.
-)
-|
-info(
 # EX RANK
 It is impossible to reach an EX rank simply by retaking a Class or Personal Skill from A rank. The only way to attain EX rank is through an **in-game secret**, which you may or may not discover. (To clarify, uncovering the secret will increase your rank by one and unlock the potential to reach EX rank, but it will not grant EX rank immediately, unless you are already at A rank in that specific skill).
 )
@@ -239,30 +248,25 @@ You may cast a spell targeting either your master or the offender as a reaction.
 ##Cavalry Weapon specialization 7th 
 
 You’ve learned how to inflict greater injuries with the means you know best. You deal 2 additional damage with attacks and spells in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary. Your minions also gain this benefit.
-
+=
 #CASTER CLASS FEATS ((Caster class feats))
 Item(
 #Medicine
 -
 The Medicine skill represents the Servant's exceptional ability to heal and tend to wounds, far surpassing ordinary medical practices. This skill allows the Servant to perform miraculous feats of healing, restoring their allies to full strength even in the direst of circumstances.
 * **D Rank**: Your knowledge of Medicine becomes more refined, enabling you to make a significant impact on the battlefield. You become **trained in Medicine** if you aren't already, and you **gain one Medicine skill feat** of your level (you can change this feat when you level up). Additionally, add your **Wisdom modifier as healing for each 10 HP you heal
-)
-=
-item(
 * **C Rank**: Your healing touch becomes more potent, capable of alleviating ailments as well as injuries. When you heal a creature, you can also **remove one condition** affecting the target, **except** for the **wounded condition** and severe conditions (**petrified, cursed, doomed, and paralyzed**). Additionally, when you **stabilize a creature it heals 1 hit point**.
 * **B Rank**: Your medical prowess reaches new heights, making your treatments quicker and more effective. When you roll Medicine to heal a creature, you **roll twice and take the higher result**. When using an activity that heals a creature, **you reduce the actions it takes by 1** (to a minimum of 1 action).
 * **A Rank**: At this rank, You've become unparalleled, ensuring maximum recovery with every touch. When you heal a creatures, a**ll healling dice is maximized**. **Restoration** - Once per day, as three actions :aaa:, you can heal a single creature within touch range to full health, **restoring all lost hit points and removing all conditions, poisons, and diseases**.
 * **EX Rank**: Achieving the pinnacle of medical mastery, you now perform miracles of healing, restoring vitality and removing ailments with unmatched efficacy. You now add your Wisdom modifier as healing **for each 5 HP you heal** instead of each 10. When you heal a creature, you can now remove **any number of conditions affecting it, including severe conditions**. Your Restoration ability can now be used on **all allies within sight** of you as a single action :a:.
 )
+|
 Item(
 #Disengage
 -
 Disengage is the ability to withdraw from the battlefield in the midst of combat or reset the battle conditions.
 * **D Rank**: Once per day, as a Free Action :f:, **you and your allies** can Disengage, teleporting back to a position **you occupied** within the **last minute**. This position must not be more than **five times your speed away**.
 * **C Rank**: When you Disengage, **all allies and enemies that are alive** are transported back to the positions **they occupied** at the time when you were at the location you return to. Additionally, their **hit points are reset to the values** they had at that moment.  **Allies** gain the **Fleeing 3** condition.
-)
-|
-item(
 * **B Rank**: Upon Disengaging, the **conditions** of your allies (including cooldowns, status effects, etc.) are **reset** to what they were at the moment of Disengagement, with the **exception of this ability and Noble Phantasms**. There is no longer any **restriction on distance**.
 * **A Rank**: When you Disengage, you gain the ability to selectively **choose which creatures** are affected by this ability and which are not.
 )
@@ -281,22 +285,23 @@ Item(
 #Presence Detection
 -
 Presence Detection is the ability to detect other Servants and local mana sources.
-* **D Rank**: You gain a detection range of **60ft**. Whenever a creature tries to **hide or sneaks within your detection range**, you **automatically detect their location**, but they **remain hidden** to you. Once a creature **becomes observed** to you within your range, their presence continues to be detectable to you, regardless of subsequent attempts to hide **until they leave your range**. (Creatures with **Presence Concealment** would only be **undetected** instead of becoming **hidden**)
-* **C Rank**: Creatures that try to hide from you get **one level of success lower against you**. You can discern the type of creature (e.g., humanoid, beast, undead) when they attempt to hide within your **detection range**. Additionally as an action :a: you can **detect** the location of **all creatures** within your detection range. 
 )
 =
 Item(
+* **D Rank**: You gain a detection range of **60ft**. Whenever a creature tries to **hide or sneaks within your detection range**, you **automatically detect their location**, but they **remain hidden** to you. Once a creature **becomes observed** to you within your range, their presence continues to be detectable to you, regardless of subsequent attempts to hide **until they leave your range**. (Creatures with **Presence Concealment** would only be **undetected** instead of becoming **hidden**)
+* **C Rank**: Creatures that try to hide from you get **one level of success lower against you**. You can discern the type of creature (e.g., humanoid, beast, undead) when they attempt to hide within your **detection range**. Additionally as an action :a: you can **detect** the location of **all creatures** within your detection range. 
+
 * **B Rank**: Your detection range increases to 120ft. When you use your action to detect, **an equal or lower rank of Presence Concealment can be nullified**. This extends to magical illusions, invisibility and transformations, as long as **their level is equal to or lower than half your level**. This enables you to perceive the true nature of altered or disguised beings and **nullifies any impediment** illusions and such would cause you (e.g., mirror image...).
 * **A Rank**: You can now detect not just the presence but also the magical potency of any creature within this range. Gauging the relative strength of their abilities compared to yours, allowing you to **know their AC, saves and DCs**. Additionally, **once per day** you gain the ability to **suppress** one magical effect within your detection range as a reaction :r:. The suppression lasts for **1 minute** or until you choose to end it.
 * **EX Rank**: Your sensory abilities reach their zenith. **Your detection range increases to 1-mile**, allowing you to detect all forms of concealment and illusions within it. This includes magical and non-magical means, as well as **unbounded fields**. Additionally you can temporarily **see through the eyes of any creature within your radius**, giving you their point of view on demand for 1 minute, creatures **aware of your presence** can try to resist this effect by succeeding a **Will Save against your Class DC**.
 )
+|
 Item(
 #High-Speed Incantation
 -
 High-Speed Incantation is the ability to speak or perform magical incantations at an accelerated speed.
 * **D Rank**: You gain the **Quicken Spell** activity:
 )
-
 info(
 ####Quicken Spell  :f:
 -
@@ -310,7 +315,7 @@ info(
 item(
 * **C Rank**: Whenever you gain the **quickened condition**, regardless of the source, you can use the extra action to cast one of your spells or use one of your spellshapes. You also gain the **Quicken Shape** activity.
 )
-|
+
 info(
 ####Quicken Shape  :f:
 -
@@ -323,19 +328,45 @@ info(
 item(
 * **B Rank**: The frequency of **Quicken Spell** and **Quicken Shape** increases to once per round. Additionally, you can now use **Quicken Spell** on any spell you cast. If you use **Quicken Spell** or **Quicken Shape** on a reaction :r:, it becomes a free action :f: instead.
 * **A Rank**: **Delay:** You cast your spells with an unordinary pace. When you **cast a spell**, you may choose to delay its effects until **the start of your next turn**. The spell slot is **consumed upon casting**, and slight manifestations of the spell appear, but the nature of the spell remains **unrecognizable** to other creatures. **Flash Casting:** Once per day, you can cast a spell with an action cost of 3 :aaa: or fewer actions outside of time, taking all actions simultaneously and effectively casting the spell as a **free action** :f:. After using this ability, you are **slowed 1** until the end of your next turn.
-
+)
+=
+Item(
 * **EX Rank**: All spells and spellshapes you cast have their action costs **reduced by 1**, to a minimum of 1 action :a:.  **Overdrive:** Once per day, you can take 3 actions :aaa: to cast any 3 spells simultaneously. Afterwards, make a **DC 10** check using your **spell attack bonus** as a modifier. On a **success**, you may cast another spell. On a **failure**, the activity ends. On a **critical failure**, you cannot cast spells until the end of your next turn. **Each time** you succeed on the check, **the DC increases by 5**.
 
 
 )
-Item(
-#Magecraft / Magic
--
 
-* **D Rank**:
-* **C Rank**:
-* **B Rank**:
-* **A Rank**:
-* **EX Rank**:
+Item(
+#Magecraft
+-
+A skill that represents the ability and knowledge of how to use the magic of the Modern Era or is simply the natural talent of a servant when it comes to weilding magic allowing them to easily use magecraft.
+* **D Rank**: **Automatic Spell Progression** — Your magical talents develop naturally, granting you spellcasting versatility from the start. You gain a **spellcasting dedication** of your choice and gain **twice as many cantrips** as normal. Instead of requiring the basic, expert, or master spellcasting archetype feats to gain spells, you **gain spells automatically**. You receive one **spell slot of each spell level every two levels** (e.g, at 2nd level, you gain one 1st-level spell slot; at 4th level, you gain one 2nd-level spell slot, and so on). You may still take spellcasting archetype feats to increase your number of spells.
+
+* **C Rank**:  Your connection to magic strengthens, You gain **twice as many spell slots** from your dedication or other sources, including those gained from automatic spell progression.
+* **B Rank**: **Spell Creation** — Once per day, you can **create a temporary spell slot** of any level you are capable of casting. This temporary slot **lasts until the end of your turn** and can be used to **cast any spell you know**, even if it is not prepared.
+* **A Rank**: **Circuit Transfer** — You may spend a single action :a: to **transfer spell slots** between yourself and a willing creature within **30 feett**. If the **creature has spellcasting abilities**, you may either **give them a spell slot or take one from them**, allowing either of you to cast an already prepared spell or to prepare a new one with the transferred slot. The transferred spell slot **cannot be of a level higher** than what the recipient can normally cast. If the **creature does not have spellcasting abilities**, you may give them a single spell slot, allowing them to **cast a spell** using your spellcasting modifier 
+)
+|
+Item(
+         and DC. A creature without spellcasting can **only**
+        **hold one transferred spell slot at a time**, and the
+        slot lasts until the creature **takes a rest**.
+* **EX Rank**:  Your magical reserves are unparalleled allowing you to **cast any spell you know** without needing to prepare it, including focus spells. Spells you cast **do not consume spell slots unless they are heightened**.
+)
+
+Item(
+#Self Modification
+-
+Self-Modification is the aptitude to remold the body or merge one's own flesh with body parts of others. The higher the ranking in this Skill, the further away one is from being a proper hero.
+* **D Rank**: You gain the ability to **implant grafts**. By spending 1 hour of downtime, you can implant any graft of a **level equal to or lower than yours** into yourself or a willing or unconscious creature. To create a graft, you require **a body part from a creature that possesses the desired ability** (for example, implanting compound eyes requires the eyes of an insect with them). Work with your GM to determine the body part needed for each graft. You may also **invent new types of grafts** through this process. Only **3 grafts created** by you can exist at any one time.
+* **C Rank**: You may **upgrade your grafts** when you reach character levels **5, 10, 15, and 20**. Upgrading takes the **same amount of time** as creating a graft but **does not** require a new body part. Each upgrade either strengthens an existing ability or adds a new function to the graft. Implanting grafts now requires **only 1 minute**. The maximum number of grafts you can maintain increases to **5**.
+* **B Rank**: **Parasitize** – You gain the ability to **merge** with other creatures. As a 2-action :aa: activity, you may merge your body with a **willing or unconscious creature**. Outwardly, the creature **appears unchanged** and remains **unaware of your presence** unless you choose to reveal yourself. You can see through its senses and **may manifest parts of your body** (such as a mouth to speak, hands to cast spells, or legs to move) on its form to take actions. **While merged**, you may choose **who takes damage**, but both you and the creature take **damage from aoe attacks**. **Spirit damage** and similar effects can **target you directly without harming the host**. This merging can last **until dismissed**.
+)
+=
+Item(
+* **A Rank**: Your grafts gain **semi-autonomy**, assisting their wielder in using their abilities. When **using an action-based ability** granted by a graft, **once per round** you may use one of these abilities as a **free action** :f:, with the graft acting independently. Implanting and upgrading grafts now require only **1 action**. The maximum number of grafts you can maintain increases to **8**.
+- **EX Rank**: The number of grafts you can create and maintain is **unlimited**, though a **single normal body can only sustain up to 10** grafts at once. When recreating grafts you have previously made, **you no longer need the original body part**. You also gain the ability to **merge other creatures together**. You may merge **two willing or unconscious creatures**, designating one as **the host** and the other as **the parasite**. When merged, you may choose who takes damage **even from aoe attacks**. Spirit damage and similar effects **cannot target you directly** unless you allow it (except for special abilities such as Noble Phantasms). 
 
 )
+
+|
