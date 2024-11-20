@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 11 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 15 nickels
 )
 title (
-Servant 0.5
+Servant 0.7
 )
 head (
 # Servant Class: Caster ((Main info))
@@ -78,9 +78,9 @@ Level | Class features
 3 | Personal skill (**D**)
 4 | Caster feat
 5 | Noble phantasm (**D**), Item Construction (**+++**)
-6 | Caster feat
+6 |
 7 | Cavalry weapon specialization, Evasion, Personal skill (**+++**)
-8 | Caster feat
+8 | 
 9 | Personal skill (**+++**)
 10| Caster feat, Noble phantasm (**+++**), Item Construction (**B**), Territory Creation (**B**)
 11 |
@@ -187,7 +187,7 @@ Item(
 -
 * **D Rank**: You do not need a **specific feat** to craft items, such as Alchemical Crafting for alchemical items. You can complete your crafting **in 8 hours** instead of requiring **2 to 1 day of work**. After the first 8 hours, you may choose to continue working an **extra 8 hours**, instead of a day, to decrease the cost of the item before completion. Additionally, you do not need to meet **proficiency level requirements** to craft items.
 * **C Rank**: You gain a **+2 bonus** to your Crafting checks. When crafting, you are always considered to be using a **formula** and may create a formula for any item you could craft. If one of the requirements for crafting the item is **casting a certain number of spells**, you do not need to do so.
-* **B Rank**: You have learned to utilize all materials to their best potential; all materials you use count **as high-grade material**s. Furthermore, when you craft items, you may **add an additional benefi** to them, such as an ability or passive effect.
+* **B Rank**: You have learned to utilize all materials to their best potential; all materials you use count **as high-grade materials**. Furthermore, when you craft items, you may **add an additional benefit** to them, such as an ability or passive effect.
 )
 |
 item(
@@ -367,6 +367,41 @@ Item(
 * **A Rank**: Your grafts gain **semi-autonomy**, assisting their wielder in using their abilities. When **using an action-based ability** granted by a graft, **once per round** you may use one of these abilities as a **free action** :f:, with the graft acting independently. Implanting and upgrading grafts now require only **1 action**. The maximum number of grafts you can maintain increases to **8**.
 - **EX Rank**: The number of grafts you can create and maintain is **unlimited**, though a **single normal body can only sustain up to 10** grafts at once. When recreating grafts you have previously made, **you no longer need the original body part**. You also gain the ability to **merge other creatures together**. You may merge **two willing or unconscious creatures**, designating one as **the host** and the other as **the parasite**. When merged, you may choose who takes damage **even from aoe attacks**. Spirit damage and similar effects **cannot target you directly** unless you allow it (except for special abilities such as Noble Phantasms). 
 
+)
+Item(
+#Circuit Overdrive
+-
+Circuit Overdrive is a skill that amplifies a Servant's magical circuits, core, or overall magical prowess, enabling them to cast significantly more potent and effective spells in battle.
+* **D Rank**:When you heighten a spell, it generates a surge of energy. **If the spell deals damage, add an extra damage die for each rank above its original level.** Additionally, **you gain temporary hit points equal to double the spell’s heightened rank**, reflecting the empowering feedback from your magical circuits.  
+* **C Rank**: Your spells automatically benefit from the **Overwhelming Energy Spellshape effect**, allowing them to **bypass damage Resistance**. However, such spells deal **only half damage against Immunities**. Additionally, **your spells deal double damage when they trigger a creature’s weakness**, exploiting vulnerabilities with unparalleled precision.  
+* **B Rank**: You are a master of leveraging heightened magic. **All spells you cast** are automatically **heightened** to **half your highest spell level**, without requiring additional spell slots. This ensures your magic is always cast at formidable potency. 
+)
+|
+Item(
+* **A Rank**:  Your magical precision and power peak. **Your spell save DC and spell attack rolls** both increase by **+2**. **Maximum Output** - Once per day, as a free action :f: you supercharge your magical energy. Until the end of your next turn, **all your spells deal maximum possible damage or healing.**
+* **EX Rank**: All spells you cast are **automatically heightened to their maximum possible level**, regardless of your ability to cast spells of that rank. Your spells also persist even under the effects of **anti-magic fields,** though they can still be counterspelled.
+)
+
+Item(
+# Enduring Mana
+-
+Enduring Mana  is a skill that demonstrates one's mastery over the effects of their spells, allowing them to prolong durations and sustain multiple spells simultaneously.
+* **D Rank**: **Reset Magics** - You gain the ability to manipulate sustained effects with precision. **Once per minute**, when you **sustain an effect**, you can **revert it** to its original state as if it had just been cast. **Targets remain the same**, and the original effects (such as summoned creatures, condition severities, or temporary hit points) are restored. **This does not alter the effect's remaining duration.**  
+* **C Rank**: Whenever you impose **a condition or apply an effect** with a spell, you **increase its severity by 1 and double its duration**, unless the duration is tied to its severity. **This applies to both positive and negative effects.**
+* **B Rank**: You gain heightened control over magic. **Your spell save DC and spell attack rolls** both increase by **+2**. Additionally, when you use **the Sustain action**, you can sustain up to **two different effects simultaneously.**
+* **A Rank**:  You can **end a condition or effect affecting you or a creature within 5 feet** as an action :a:, showcasing your ability to manipulate magical states at will. Furthermore, **Reset Magics** becomes **oncer per round** instead of once per minute.
+* **EX Rank**: Your mastery over magical endurance reaches its peak. **All your spell effects and conditions remain active until dispelled by you or another caster.** Otherwise, they are **permanent.** Additionally, **you can sustain up to three effects at once with a single Sustain action.** Your spells and effects become an unbreakable foundation of magical power.  
+)
+=
+Item(
+#Inherent Wisdom
+-
+Inherent Wisdom is a Skill that shows one who has unparalleled natural knowledge.
+* **D Rank**: You gain the **Assurance** feat for every skill you are trained in. Additionally, you gain the **Automatic Knowledge** feat, enabling effortless access to information.  
+* **C Rank**: **Blinding Expertise** - **Once per round**, you can perform **any skill check, skill action, or skill feat action** as a free action :f:, even if it would normally require an **activity.** When using Assurance, **you also apply bonuses** to the result, further improving its effectiveness.  
+* **B Rank**: You gain the **Know-It-All** feat as well as the **Incredible Recollection** feat. Additionally, if you have any **special abilities or free actions** triggered when you Recall Knowledge, **you can use them with these actions.** This includes similar abilities such as **Reason Rapidly** or **True Hypercognition.**  
+* **A Rank**: When you use **Assurance**, you treat the result as **15 instead of 10.** Additionally, **Blinding Expertise** can now be used **three times per round instead of once,** further amplifying your ability to act with skill-based precision. 
+* **EX Rank**: All skill checks to **Recall Knowledge** are treated as **critical successes, regardless of the roll.** Furthermore, when you use **Assurance**, you treat the result **as 20 instead of 15,** representing the peak of natural understanding and skill mastery.  
 )
 
 |
