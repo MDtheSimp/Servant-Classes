@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 15 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 18 nickels
 )
 title (
-Servant 0.7
+Servant 0.8
 )
 head (
 # Servant Class: Caster ((Main info))
@@ -404,4 +404,19 @@ Inherent Wisdom is a Skill that shows one who has unparalleled natural knowledge
 * **EX Rank**: All skill checks to **Recall Knowledge** are treated as **critical successes, regardless of the roll.** Furthermore, when you use **Assurance**, you treat the result **as 20 instead of 15,** representing the peak of natural understanding and skill mastery.  
 )
 
+Item(
+#Curse Arts
+-
+Curse Arts is a Skill that signifies one as a practitioner of Curse Arts. This magecraft has roots in both the eastern and western worlds.
+* **D Rank**: **Hex Cast** - Harnessing the fundamental techniques of Curse Arts, you can imbue your magic with malice. **Three times per day** as a free action :f:, when you cast a spell, you may **infuse it with a curse or a disease** from the curses and diseases lists (Core Rulebook pg. 86–88). The curse or disease must be of a level **equal to or lower than your character level**. Targets of your spells must make an additional saving throw against your **spell save DC** or be afflicted by the curse or disease. Additionally, with **an hour of work**, you can imbue physical items such as talismans or straw dolls with a curse or disease and specify the conditions under which it is triggered. Only **one item at a time** can carry an imbued curse or disease, which ceases to influence the item after being **triggered once or** 
+)
 |
+Item( 
+**being dispelled** (some curses and diseases have rules tied to their setting change them at the GM's discretion).
+
+* **C Rank**: You gain the ability to **create new curses and diseases** by performing rituals that require **specific materials**. The materials needed depend on the nature of the curse or disease you are creating, as determined with GM guidance. Once you create a curse or disease for the first time, you can **imbue it without needing to gather the materials again**. Additionally, all your curses and diseases gain an **increased counteract level**, making them harder to remove.
+* **B Rank**: Your curses grow in potency and become harder to escape. All curses and diseases you imbue gain the **virulent** trait, making them **more resistant to removal**, and on a **failed initial save**, the target **progresses directly to stage 2** of the affliction. You also gain the ability to **alter existing curses and diseases on the fly**. **Malediction** - As a **free action :f:, once per round**, you can either **increase the stage of a curse or disease by 1**, or **trigger their effect again** (if the effect is a condition that is still in affect **increase the severity** of it by the number the curse applies. These alterations require the use of **1 Focus Point**.
+ per round.
+* **A Rank**: You may **imbue spells and items with a second curse or disease simultaneously**, allowing **layered effects**. Each curse or disease **triggers separately** but are both imbued with only **one use of Hex Cast**. Curses and diseases imbued within physical items may now **trigger as many times as ypu want**, no longer limited to a single use. Additionally, your curses and diseases **create a metaphysical tether** between you and the target, allowing you to **sense their location and general health** as well as **see through their eyes**, while the curse or disease persists.
+* **EX Rank**: You reach the pinnacle of Curse Arts, gaining complete control over your afflictions. You can use Hex Cast an **unlimited number of times per day**. You can also imbue **up to three curses or diseases simultaneously** into a spell or item, with each triggering **independently**. Your mastery over Curse Arts makes your afflictions **immutable**; they **cannot be counteracted, dispelled, or removed** unless you **willingly allow it** (With the exception of NPs).
+)
