@@ -116,9 +116,9 @@ item(
 -
 * **D rank**: Capable of riding familiar animals and vehicles from your past life. 
 Gain access to **the ride feat**, with the ability to **mount** as a **free action**. Additionally, **whenever you move**, your mount can Stride in your stead.
-* **C rank**: Can flawlessly manage most beasts and vehicles with minimal training, though unable to ride **Phantasmal Species** and **Monstrous Beasts**. 
+* **C rank**: Can flawlessly manage most beasts and vehicles with minimal training, though unable to ride **Phantasmal Beasts** and **Magical Beasts**. 
 Mounts gain a ***10 ft speed bonus***, and you receive **no reflex save penalties** while riding.
-* **B rank**: Proficient with most animals and vehicles, including those from beyond your lifetime, but not **Phantasmal Species** and **Monstrous Beasts**. 
+* **B rank**: Proficient with most animals and vehicles, including those from beyond your lifetime, but not **Phantasmal Beasts** and **Magical Beasts**. 
 When attacking with a melee weapon while mounted, add a ***status bonus*** to damage, equal to ***twice the weapon's damage dice***. Additionally, command your mount to stride as a ***free action*** once per round.
 * **A rank**: Able to use all vehicles and creatures as mounts, except **Phantasmal Beast** and **Divine Beast** ranks. 
 Weapons gain the ***jousting trait*** i if it doesn't already possess it. You also do not need to move ***10 ft*** for jousting trait's bonus. Adittionally you and your mount do not share **multiple attack penalty**.

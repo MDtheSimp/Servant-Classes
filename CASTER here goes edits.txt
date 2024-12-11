@@ -1,12 +1,12 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 18 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 24 nickels
 )
 title (
-Servant 0.8
+Servant 0.9
 )
 head (
 # Servant Class: Caster ((Main info))
-Class Caster, Magus and Heroic Spirit of Spells and Sorcery, is one of the Four Cavalry Classes among the seven standard Servant classes summoned for the Holy Grail War. Servants placed within this Class are usually adept in magecraft, and the only qualifying condition is the mastery of sorceries of the highest caliber compared to the specific parameter requirements of the other classes. Due to not requiring any strong statistics, they generally have low combat abilities, and due to the majority of Servants having some form of **Magic Resistance**, this Class is thought to be the weakest of all seven. They make up for this with other means, using magecraft that no longer exists in the current age and, no matter which Heroic Spirit is of which Class, possessing many possible ploys to be used against enemies. Those of the Saber Class can likely challenge any Caster who uses magecraft as their main offensive ability without needing to plan due to their high Magic Resistance, while those of lesser resistance like the Rider Class may require more strategy. Their class abilities are **Territory Creation**, altering the surrounding lands in favor of their sorcery, and **Item Construction**, which allows the magus to create magical items and tools.ts.
+Class Caster, Magus and Heroic Spirit of Spells and Sorcery, is one of the Four Cavalry Classes among the seven standard Servant classes summoned for the Holy Grail War. Servants placed within this Class are usually adept in magecraft, and the only qualifying condition is the mastery of sorceries of the highest caliber compared to the specific parameter requirements of the other classes. Due to not requiring any strong statistics, they generally have low combat abilities, and due to the majority of Servants having some form of **Magic Resistance**, this Class is thought to be the weakest of all seven. They make up for this with other means, using magecraft that no longer exists in the current age and, no matter which Heroic Spirit is of which Class, possessing many possible ploys to be used against enemies. Those of the Saber Class can likely challenge any Caster who uses magecraft as their main offensive ability without needing to plan due to their high Magic Resistance, while those of lesser resistance like the Rider Class may require more strategy. Their class abilities are **Territory Creation**, altering the surrounding lands in favor of their sorcery, and **Item Construction**, which allows the magus to create magical items and tools.
 
 -
 )
@@ -50,7 +50,7 @@ You increase your maximum number of HP by this number at 1st level and every lev
 # Servant Proficency((+Servant Proficency))
 
 As a servant, your initial proficiencies function in a different manner compared to standard classes. 
-Whenever your proficiency rank in **Attacks** and **Defenses** would normally increase to match your current rank, increase it by one additional rank instead (for example: if you are a fighter with a master proficiency in melee weapons at level 1, once your fighter class grants you master proficiency in weapons, your proficiency would then increase to legendary). This is capped at one rank above legendary, which is termed 'mythical,' resulting in an additional +2 on top.
+Whenever your proficiency rank in **Attacks** and **Defenses** would normally increase to match your current rank, increase it by one additional rank instead (for example: if you are a fighter with a master proficiency in melee weapons at level 1, once your fighter class grants you master proficiency in weapons, your proficiency would then increase to legendary). This is capped at one rank above legendary, which is termed 'mythic,' resulting in an additional +2 on top.
 
 ## Spirutal body((+Spirutal body))
 Servants are made of **Ether** one of **Five Great Elements**, on it's own it is amorphous and is incapable of materializing by its own power, with the power of the grail, the servants are able to gain a material form with a **Spiritual Core** serving as "their center, their heart, their CPU" that dictates their every function. While a servant may bleed and take damage to their organs, their true being resides in a Spiritual Core.
@@ -73,11 +73,11 @@ Additionally, effects with the **death trait** that reduce your hit points to 0 
 ##### Table 1-1: Caster class advancement table ((Caster class advancement table))
 Level | Class features
 --- | :---:
-1 | Ancestry and background, initial proficiencies, Swift Sneak, Item Construction (**D**),  Territory Creation (**C**)
+1 | Ancestry and background, initial proficiencies, Superior Counterspell, Item Construction (**D**),  Territory Creation (**C**)
 2 | Caster feat
 3 | Personal skill (**D**)
 4 | Caster feat
-5 | Noble phantasm (**D**), Item Construction (**+++**)
+5 | Noble phantasm (**D**), Item Construction (**C**)
 6 |
 7 | Cavalry weapon specialization, Evasion, Personal skill (**+++**)
 8 | 
@@ -95,16 +95,16 @@ Level | Class features
 20 | Caster feat, Noble phantasm (**+++**),
 ##Class features((class features))
 You gain these abilities as an Caster. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
+###SUPERIOR COUNTERSPELL
+Your deep connection with magic allows you to disrupt spells with precision and power. 
 |
-###COUNTERSPELL
+When a foe begins to cast a spell, you can swiftly unravel its magic, countering it with your own energy and leaving your enemies' efforts wasted.
 item(
-#Counterspell :r: 
+#Superior Counterspell :r: 
 -
-**Trigger** A creature Casts a Spell that you have prepared
+**Trigger** A creature Casts a Spell
 -
-When a foe Casts a Spell and you can see its manifestations, you can use your magic to disrupt it. You expend a prepared spell to counter the triggering creature’s casting of that same spell. You lose your spell slot as if you had cast the triggering spell. You then attempt to counteract the triggering spell (page 431).
-**Special** This feat has the trait corresponding to the tradition of spells you cast (arcane, divine, primal, or occult).
-
+When a foe casts a spell and you can see its manifestations, you can use your magic to disrupt it. Attempt an Arcana, Nature, Occultism, or Religion check (whichever corresponds to the tradition of the spell being cast) against the caster's spell DC. On a success, you expend a spell slot to counter the triggering creature’s casting (the counteract rank is equivalent to the spell slot consumed). You then attempt to counteract the triggering spell (see page 431).
 )
 ###SORCERY MAKER
 As a Caster, you have achieved absolute mastery over magecraft. In your time, you have discovered, created, or acquired special magecraft close to the level of True Magic, qualifying you to be part of this class.
@@ -420,3 +420,31 @@ Item(
 * **A Rank**: You may **imbue spells and items with a second curse or disease simultaneously**, allowing **layered effects**. Each curse or disease **triggers separately** but are both imbued with only **one use of Hex Cast**. Curses and diseases imbued within physical items may now **trigger as many times as ypu want**, no longer limited to a single use. Additionally, your curses and diseases **create a metaphysical tether** between you and the target, allowing you to **sense their location and general health** as well as **see through their eyes**, while the curse or disease persists.
 * **EX Rank**: You reach the pinnacle of Curse Arts, gaining complete control over your afflictions. You can use Hex Cast an **unlimited number of times per day**. You can also imbue **up to three curses or diseases simultaneously** into a spell or item, with each triggering **independently**. Your mastery over Curse Arts makes your afflictions **immutable**; they **cannot be counteracted, dispelled, or removed** unless you **willingly allow it** (With the exception of NPs).
 )
+
+Item(
+#Summoned Bond
+-
+Summoned Bond is a Skill that increases ones connection with their own summons, allowing them to be enhanced beyond their limits.
+)
+=
+Item( 
+* **D Rank**: Your summoned creatures respond to your mastery with newfound efficiency. Summoned creatures gain a **reaction** :r: and a full complement of **3 actions instead of two**. Additionally, they may use their **reaction** :r: to **Aid** you or another ally in combat, even without a relevant skill proficiency, using your **spellcasting ability modifier**.
+* **C Rank**: Your skill in summoning magic allows you to conjure allies with greater speed. Summoning spells you cast **require one fewer action** (minimum 1). Summoned creatures can cast any spells they know, **ignoring spell rank limitations**.
+* **B Rank**: You can create a permanent bond with one of your summoned creatures, elevating them to a "Servitor." After summoning a creature, you can use a single action :a: to designate it as your **Servitor**. A Servitor exists indefinitely, unaffected by the **spell's duration or need for sustaining**, until it is **destroyed**. A Servitor is automatically under the effects of the **highest-level mage armor you can cast**. It can **equip and use magic items**, with an investment limit of **4**.
+* **A Rank**: You can spend **8 hours of downtime** enhancing your Servitor's durability, allowing it to gain the **dying condition when reduced to 0 HP** instead of being destroyed outright. Your Servitor follows the same rules as you for dying and unconsciousness and dies only if its **dying condition reaches 3**. **Summon tinkerer** - you can enhance your Servitor further by spending **1 hour of downtime** to apply one of the following benefits: Increase the Servitor's **base attack bonus** to match your **spell attack bonus**, grant the Servitor **temporary HP** equal to **half your maximum HP**, or grant the Servitor an **extra reaction**. You can replace one enhancement with another by spending 1 additional hour of downtime. **Multiple enhancements cannot be active simultaneously**.
+* **EX Rank**: Your summoned creatures gain unparalleled access to your magical expertise. All summoned creatures can cast **spells from your spell list**, using your spell slots. Summoned creatures cannot use these **spells to summon other creatures**. Furthermore, your **Summon tinkerer** enhancements can now all **apply simultaneously** to your Servitor, requiring no additional downtime or switching.
+)
+|
+Item ( 
+#Beach Flower
+-
+Beach Flower is a skill that determines the amount of attention one can attract from interested individuals at the beach. Upon acquiring this class skill, you officially become a **Summer Servant**.
+* **D Rank**: Whether intended or not, your presence at the beach inevitably draws glances.
+* **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
+* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
+* **A Rank**: You have attained the status akin to that of a celebrity. **Versatile Entertainer** - A voice. A thousand voices. The stage is your domain, the crowd your adoring subjects. Under the spotlight or in the shadows, you are the chameleon of charisma. A voice so fluid, it mimics anyone’s timbre and tone. **(you perfectly mimic anyone's voice)**
+* **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
+)
+
+
+
