@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 5 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 7 nickels
 )
 title (
-Servant 0.5
+Servant 0.6
 )
 head (
 # Servant Class: Rider ((Main info))
@@ -151,20 +151,48 @@ As your Riding skill improves to rank **B**, **A**, and **EX**, you gain access 
 
 These upgrades are cumulative and reflect your ride's increase in power as you gain control over higher ranked .
 )
+
+item(
+# Act as one :aa:
+-
+You and your Ride act as one. Either you or your eidolon takes an activity that requires 2 actions, and then the other takes a single action.
+
+
+)
+###RIDING
+A skill that denotes a Servants ability to ride mounts and vehicles.
+
 item(
 #Riding skill
 -
 * **D rank**: Capable of riding familiar animals and vehicles from your past life. 
 Gain access to **the ride feat**, with the ability to **mount** as a **free action**, and you receive **no reflex save penalties** while riding. Additionally, **whenever you move**, your Ride can move in your stead.
-* **C rank**: Can flawlessly manage most beasts and vehicles and with minimal training, though unable to ride **Phantasmal Beasts** and **Magical Beasts**. When attacking with a weapon while mounted, add a ***status bonus*** to damage, equal to ***twice the weapon's damage dice***. Adittionally you and your Ride do not share **multiple attack penalty**.
 )
 |
 item(
+* **C rank**: Can flawlessly manage most beasts and vehicles and with minimal training, though unable to ride **Phantasmal Beasts** and **Magical Beasts**. When attacking with a weapon while mounted, add a ***status bonus*** to damage, equal to ***twice the weapon's damage dice***. Adittionally you and your Ride do not share **multiple attack penalty**.
 * **B rank**: Proficient with most animals and vehicles, including **Magical Beasts** and those from beyond your lifetime. Weapons gain the ***jousting trait*** if they don't already possess it. You also do not need to move ***10 ft*** for jousting trait's bonus. Additionally, you can command your Ride as a ***free action*** once per round.
 * **A rank**: Able to use all vehicles and creatures as mounts including **Phantasmal Beasts**, but not **Divine Beast** ranks. Your Ride receives a **+30 ft speed bonus**, and can now **act** during your turn with **an additional action** :a: beyond its usual actions.
 * **EX rank**: Mastery over all vehicles and creatures as mounts. While mounted, you and your Ride **share all active benefits** affecting either of you, including spells, conditions, and bonuses. **Neither** you nor your Ride can be **slowed, immobilized, or stopped** by difficult terrain or environmental conditions, unless caused by a **Noble Phantasm** or a similarly powerful effect. Your Ride gains **2 additional actions** :a::a: on your turn. If your Ride is destroyed, you can **immediately summon it again** as a single action :a: , ignoring the 24 hour cooldown.
 
 )
+###MAGIC RESISTANCE ((+Magic resistance))
+Magic Resistance grants protection against magical effects. Differing from the Resistance effect that merely rejects Magical Energy, this ability cancels the spells altogether.
+
+item(
+#Magic Resistance 
+-
+* **D rank**: When targeted by a spell that is **below half your level**, you receive a **+2 status bonus on saves and AC**.
+* **C rank**: You gain resistance **5** to the damage from spells **equal to half your level or less**.
+* **B rank**: As a reaction :r:, when targeted by a spell that is **equal to half your level or less**, you may attempt to **counteract** the spell using your weapon's attack bonus. The counteract level is **equal to half your level, rounded up**. If you **successfully** counteract the spell, you are unaffected by it, unless you choose to be. The counteract **DC** is the **spell's save DC plus half the spell's level**.
+)
+=
+item(
+* **A rank**: Counteracting spells now requires only a **free action** :f:. Additionally, once per day, you can turn one spell save into an **automatic critical success**.
+* **EX rank**: "**Ma##C? On M#eE#eE?**" You **reflect** spells back to the caster when you **succeed at a counteract check**.
+
+)
+
 ###Noble phantasms ((+Noble Phantasms))
 Noble phantasms are powerful armaments made using human imagination as their core, and are the weapons and/or abilities owned by Heroic Spirits. As humanity's illusions, **they embody the ultimate Mysteries of a hero as symbols of their existence through historical fact and anecdotes**.
 
@@ -173,7 +201,6 @@ They can be physical weaponry (e.g. swords, spears, bows) or support items (e.g.
 A servant may possess more than one Noble Phantasm; however, the more they have, the weaker each tends to be compared to possessing a single Noble Phantasm. Noble Phantasms also follow the skill ranking system **(D | C | B | A | EX)**, with higher-ranked Noble Phantasms being more powerful.
 
 Noble Phantasms are classified by their effectiveness against enemies. One Noble Phantasm may have multiple classifications depending on its abilities. The classification and properties of the Noble Phantasm dictate both the number of times it can be used and the duration required for the NP to 'recharge'.
-=
 * **Anti-Unit**- Anti-Unit Noble Phantasms are those specialized against defeating other people in single combat. Compared to stronger weapons, a 
 
         majority of Anti-Unit Noble Phantasms will not 
@@ -181,10 +208,10 @@ Noble Phantasms are classified by their effectiveness against enemies. One Noble
 
 * **Anti-Army** - Anti-Army Noble Phantasms are those with a wide enough range to be specialized against armies. They are more powerful weapons than Anti-Unit Noble Phantasms, capable of easily blowing them away, but they must be used more wisely because of their larger cost.
 * **Anti-Fortress**  - This rank has powerful Noble Phantasms that can even blow away solid fortified structures. While the difference between Anti-Unit and Anti-Army is the variation in area of effect, Anti-Fortress Noble Phantasms are distinguished from other categories by the great difference in power.
+|
 * **Barrier** - The classification of Noble Phantasms used to create barriers, typically Bounded Fields, but it does not include those that are also used to attack.
 
 There are numerous additional classifications for Noble Phantasms, including but not limited to Anti-Self, Anti-Country, and Anti-Purge.
-
 ###Class Skills and Personal Skills ((+Class and Personal skills))
 Skills are the embodiment of a Servant's various abilities and characteristics (Riding skill, Magic Resistance etc). They are divided into two main categories: **Class Skills**, which are typically connected to the Servant's Class, and **Personal Skills**, which reflect abilities or anecdotes connected to the life and legend of the Servant themselves. Personal Skills typically outweigh Class Skills in impact.
 
@@ -192,11 +219,11 @@ Again, a servant may possess numerous Class and Personal Skills; however, they t
 info (
 # Progression ((+Progression))
 * **Class Skills**: From level 1, you have access to all your Class Skills, but they all start at their lowest rank, D. To progress a particular skill, you must retake the corresponding feat, which will increase its rank by one degree. This approach provides an incredible amount of versatility in your choice of Class Skills. All servant classes begin with two Class Skills at level 1 and acquire additional skills as they level up.
-)
-|
-info (
 * **Personal Skills**: Similar to Class Skills, Personal Skills start at rank D and progress in the same manner, requiring the retaking of the same Personal Skills. The key difference is that Personal Skills progress at a much slower rate, starting at level 3 and advancing every 3 levels (as indicated by the ***'+++'*** symbol in the advancement table on page 2). Additionally, Personal Skills are not provided by the class and must be created in collaboration with your Dungeon Master."
 * **Noble phantasms**: Noble Phantasms follow the same progression rules as Personal Skills, with the difference being that they advance at an even slower rate, starting at level 5 and increasing every 5 levels. This progression allows for a maximum of four advancements in a Noble Phantasm. The classification of a Noble Phantasm also plays a significant role. It is highly unlikely for a servant to possess more than one Anti-Army or Anti-Fortress NP, whereas an Anti-Unit NP is subject to fewer restrictions.
+)
+=
+info(
 # A RANK
 Your skills can only get to A Rank after reaching **level 10**. If your class provides you with a class skill advancement that would increase your rank to A before level 10, you may **substitute** that advancement with a **Saber feat** appropriate for your level.
 # EX RANK
@@ -206,7 +233,7 @@ It is impossible to reach an EX rank simply by retaking a Class or Personal Skil
 ## The Master's blade 2nd
 With unwavering vigilance, you protect your master from harm, swiftly intercepting any attacks directed at them. You gain the Master's Blade reaction, enabling you to use your weapon to protect your Master from harm's way.
 
-=
+
 ###The Master's Ride :r: 
 -
 
@@ -226,3 +253,124 @@ You’ve learned how to inflict greater injuries with the means you know best. Y
 
 #Rider CLASS FEATS ((Rider class feats))
 |
+item (
+#SHIELDER
+-
+The Shielder skill elevates the use of a shield into a focal point of martial strategy. With this skill, a shield becomes a versatile tool that influences the entire battlefield. It harmonizes defense with offense.
+* **D Rank**: You gain the **Shield Block** feat. If you already have the **Shield Block** feat, increase your shield's Hardness by half your level. Additionally, you gain a shield-related feat appropriate for your level, which you may swap each time you level up.
+* **C Rank**: While your shield is raised, all creatures of your choice within your reach gain the circumstance bonus to AC. Furthermore, you can use **Shield Block** and similar features for attacks on creatures benefiting from your raised shield.
+* **B Rank**: You can use a shield with at least 1 HP remaining as though it were unbroken. Whenever you use the **Shield Block** reaction, you may recall knowledge about the attacker or use any skill feat or skill check that requires no more than 1 action :a: as a free action :f: instead, with a +2 circumstance bonus to the check.
+* **A Rank**: At the start of each of your turns, you gain an additional reaction :r: that you can use only to **Shield Block**. When using the **Raise Shield** action, you may reduce the action cost of your next action by 1 :a: to a minimum of 1. You can also attempt to repair shields that are destroyed as an action :a:, but this only restores them to 1 HP if you succeed.
+* **EX Rank**: When you use the **Shield Block** feat, the shield's Hardness is doubled against that attack. Additionally, you may reflect the damage you blocked back at any enemy within reach. You can raise your shield as a free action :f:.
+)
+item(
+#INDEPENDENT ACTION (NEEDS REWORK)
+-
+Independent Action is the ability to remain independent even when rejecting the Magical Energy supply from one's Master; the ability that allows for action even in the absence of the Master. Independent Action is the Class Skill of the Archer class.
+At higher ranks, Servants can stay in this world longer without a contract, independently from the Master's Magical Energy. This allows Masters to focus on larger spells, or maintain the Servant even if they're unable to supply Magical Energy due to injury. However, these Servants are harder to control and retain, making Command Spells the only reliable method of commanding them.
+* **D Rank**: It is possible for a Servant to stay in the world for **eight hours without a Master**.
+)
+=
+item(
+* **C Rank**: It is possible for a Servant to stay in the world for **one day without a Master**.
+* **B Rank**: It is possible for a Servant to stay in the world for **two days without a Master**. However, this is the ideal value achieved by maximally conserving mana and avoiding battle and NP usage.
+* **A Rank**: It is possible to take action even without a Master. However, to use NPs of great magical energy consumption, backup from the Master is necessary. At Rank A, it is possible for a Servant to stay in the world for about **a week without a Master**.
+* **EX Rank**: At EX rank, Independent Action allows for nearly any act, whether related to combat or otherwise, to be undertaken without support from the Master.
+)
+
+
+item (
+#SWORDSMANSHIP
+-
+Swordsmanship is a skill that transcends ordinary combat techniques, and through rigorous training and discipline, you have honed this martial practice into a lethal craft. Your blade, guided by precision and tactical acumen, becomes a tool for both offense and control on the battlefield.
+* **D Rank**: Your attacks of opportunity impose a -10-foot status penalty to the target's Speed until the start of your next turn. Additionally, you can make an attack of opportunity when a creature within your reach makes an attack against someone other than you.
+* **C Rank**: Upon critically hitting a target with a Strike, you can immediately attempt to use any skill feat or skill check that requires no more than 1 action :a: as a free action :f: instead. For Disarm, Trip, Shove, or Grapple you use the same multiple attack penalty as the Strike.
+* **B Rank**: You've honed your ability to disrupt magic with your attacks. You can make an attack of opportunity when a creature within your reach casts a spell. If your attack hits, you can attempt to counteract the spell. Make a counteract check using your attack bonus against the spell's DC. Your counteract level is equal to half your character level, rounded down.
+* **A Rank**: At the start of each of your turns, you gain an additional reaction :r: that you can use only for Attacks of opportunity. Once per round, if you hit and deal damage with an attack of opportunity, you can immediately make a Strike against that creature at a -5 penalty. If this Strike critically hits, the target becomes enfeebled 2 until the end of your next turn.
+)
+|
+item (
+* **EX Rank**: Grandmaster's Mark - You have reached the zenith of martial prowess. Once per round, when you hit with an attack, you may choose to forgo dealing damage to apply a Grandmaster's Mark to the target until the end of your next turn. A marked creature that provokes an attack of opportunity from you allows you to make that attack as a free action :f: (this does not consume the additional reaction from A Rank). If you hit a marked creature with an attack of opportunity, the Strike automatically becomes a critical hit.
+)
+Item(
+#Marksmanship
+-
+The Marksmanship skill is ideal for combatants who specialize in firearms and tactical ingenuity. It focuses on adaptability, precision, and clever environmental utilization. Users can modify their attacks, ricochet shots, and integrate seamless reloading. This skill rewards creativity and precision, enabling users to outmaneuver opponents and deliver unpredictable, impactful shots.
+* **D Rank: Adaptive Arsenal** - This feat allows you to modify your weapon to suit various combat situations. **Once per day**, as a single action :a:, you can imbue your weapon with one of the following traits for 1 minute: **Agile, Concussive, Kickback, Scatter, Double Barrel, Backstabber, Razing, or Propulsive**.
+* **C Rank: Unbelievable** - Showcasing exceptional talent, you can make projectiles bounce off solid surfaces to hit targets from unexpected angles. When you **attack with a thrown or ranged weapon**, you can have **the projectile ricochet** off a solid surface. This attack incurs a **-1 penalty to hit** but deals an additional **1d6 damage** on a successful hit. You can ricochet a projectile up to **4 times consecutively**, accumulating penalties and bonuses, although a hit or miss on a creature **ends the sequence**. Each ricochet **extends the range of a thrown weapon** by half its original range from the point of impact. Certain actions that enable multiple projectile attacks may allow **ricocheting between projectiles**.
+* **B Rank: Efficient Loader** - Your rapid, precise reloading melds seamlessly into combat's rhythm. When **reloading** a firearm, you can perform an **activity** that requires **no more actions than the reload** as a free action :f:. This activity cannot be an **Attack or Casting a Spell**.
+)
+=
+Item(
+* **A Rank: Endless Bounce** - If your ricochet **misses a creature**, you can continue the chain until **you hit or reach your ricochet limit**, as long as there's a solid surface to bounce from. Additionally, on a **critical hit** with a ricochet, you can immediately make another **free-action :f: ricochet** against a **different target within range**, without increasing your ricochet count. This does not increase **the penalty or damage bonus**.
+* **EX Rank: Boundless Reflections** - Your ricochet limit **increases to 10**. Once per day, as a free action :f: for **1 minute**, you can reverse the **ricochet penalty to become a bonus**. During this state, you cannot intentionally **MISS**.
+
+)
+Item(
+#Spearmanship
+-
+Spearmanship is a skill that embodies the art of mastery with spear-type weapons, granting wielders unparalleled control and versatility in combat. From enhancing the weapon's properties to extending throwing capabilities and executing devastating strikes, this skill transforms the wielder into a formidable warrior on the battlefield.
+* **D Rank**: Once per day, as a single action :a:, you can infuse your weapon with one of the following traits for 1 minute: **Agile, Reach, Jousting, Sweep, Finesse, Fatal, Backswing or Parry**.
+* **C Rank**: Your weapon gains the **Thrown 40 ft** trait or increases your existing thrown range **by 10 feet**, whichever is **greater**. Additionally, your weapon is treated as if it has the **Returning rune**, enhancing your throwing capabilities **without it counting towards** the maximum number of weapon runes allowed.
+* **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a **spear-type weapon**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
+* **A Rank**: **Peircing Spear** - When you **strike** a creature by throwing your weapon, it pierces through, targeting **all creatures** in a line equal to your **thrown range**. Compare the strike roll against the AC of each creature in the line to determine which get hit. Additionally, once per turn, you can **reroll a failed attack roll**, but you must keep the second result.
+)
+|
+Item(
+* **EX Rank**: Your reach increases by an additional **5 feet**. Strikes made with the opposite end of the spear now deal **full damage**. Furthermore, whenever **an enemy enters your reach**, you may make a **strike** against them as a free action :f:, exemplifying your readiness and quick reflexes in combat. When using **Peircing Spear**, you may also force any targets hit by the spear to make a **Fortitude save** against your class DC, On a **failure**, the targets are **restrained** by a materialized copy of your weapon on a surface, while on a **success** they are fall **prone**.
+)
+
+item (
+#Charisma
+-
+Charisma is a composite Skill consisting of a person's charm as well as the natural talent to command or unify an army or country. Increases the ability of allies during group battles.
+* **D rank**: Your innate charm makes you a natural leader for small groups, enhancing their confidence and resilience. 
+**+1 status bonus** to Diplomacy to influence others.
+**Mantle of Leadership**: As an action :a:, after a successful **Diplomacy or Intimidation check** in this turn or the last, you may grant **temporary hit points** equal to **half your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
+* **C rank**: Your leadership extends to larger groups and organizations, boosting their morale and combat effectiveness.
+**+2 status bonus** to Diplomacy and Intimidation to influence others. Allies within **60 feet** get **+2 status bonus** against fear;
+**Bolstering Rally**: Once per day as 2 actions :aa:, you may grant allies within 60 feet a **+1 status bonus** to attack rolls for 1 minute.
+* **B rank**: Having B Rank in this Skill is sufficient to lead a nation. The morale of military forces you commands is extremely high.
+**Bolstering rally** has no use limit anymore, and can now affect saving throws, and skill checks; 
+**Ebbing Fatigue**: **Once per day**, reduce **1 negative condition by 1** for allies within 60 feet.
+* **A rank**: You've achieved unparalleled popularity, making you a beloved figure capable of leading large armies and entire countries.
+**+3 status bonus** to all Charisma-based skill checks. You also gain the benefits of the **Command Attention** feat. If you already possess this feat, increase its range to **60 feet** instead.
+)
+=
+item(
+* **EX rank**: Your charisma transcends normal limits, allowing you to influence not just people, but the course of events themselves. Your presence alone can change the tide of battles, rallying entire civilizations to your cause.
+**+4 status** bonus to all Charisma-based skill checks. **Bolstering Rally**'s bonus increases to **+2** instead of +1. **Mantle of leadership**'s temporary hit points are now equal to your **level + your charisma modifier**;
+**Action's Dawn**: **Once per day**, grant an **extra action** :a: to allies within 80 feet, for 1 round.
+)
+item (
+#TACTICS
+-
+Tactics is tactical knowledge used not for one-on-one combat situations, but for battles where many are mobilized.
+* **D Rank**: Strategic Withdrawal - You have learned how to provide better cover for yourself and your allies. Once per day, as a single action :a:, You can swiftly direct either yourself or an ally within 30 feet to stride up to their speed towards cover and then use the Take Cover action if they are within reach of it. If they do, they receive an additional +1 circumstance bonus to AC from the Take Cover action.
+* **C Rank**: Formation - Your understanding of battlefield dynamics allows you to arrange your allies into a tactical formation. Once per day, as an action :a: You can order up to three allies within 60 feet to immediately Stride once as a free action :f:. During this movement, they each receive a +2 circumstance bonus to AC, enhancing their defensive positioning.
+* **B Rank**: As a two-action activity :aa:, you can adapt your allies' strategy to the evolving battlefield. Designate two allies within sight. They each can use their reaction :r: to either make an immediate Strike or attempt a skill check to Disarm, Trip, Shove or Grapple, each ally must choose a different action from these options. If the first ally's action is a critical success, the second ally's action automatically escalates to a critical success. If the first ally's action is a failure, the second ally's action is automatically a failure.
+* **A Rank**: Strategic Withdrawal is not limited to once per day anymore. Disruptive Command - Once per encounter As a two-action activity :aa:, you issue a command that confuses your enemies. Choose up to three enemies within 60 feet. They must each attempt a Will save against your class DC.
+)
+|
+item (
+    **Critical Success** : The enemy is not affected and
+    gains a +2 circumstance bonus to its next attack roll 
+    or skill check.
+    **Success**: The enemy is clumsy 1 for 1 round.
+    **Failure**: The enemy is slowed 1 for 1 minute.
+    **Critical Failure**: The enemy is slowed 2 for 1 minute.
+
+* **EX Rank**: Grand Stratagem - Once per encounter. You direct an intricate battle strategy that maximizes your allies' potential. As an action :a: all allies within a 100-foot emanation can reduce the action cost of their next action by 1 (including you). This represents your unparalleled ability to see the battlefield as a whole and manipulate it to your allies' advantage.
+)
+item (
+#PRIVILEGE
+-
+Privilege is a skill that, due to the insistence of the owner, Skills that are essentially impossible to possess can be obtained for a short period of time.
+* **D Rank**: Allows you to use any D Rank Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
+* **C Rank**: Resets used Class Skills and allows you to use any C Rank Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
+* **B Rank**: Resets used Class Skills and allows you to use the same class skill up to 2 times before locking them.
+* **A Rank**: Resets used Class Skills and allows you to use any B Rank Class Skill of your class for 1d4 rounds.
+* **EX Rank**: Allows you to use any A Rank Class Skill of your class for 1d4 rounds. Class Skill will not be locked.
+)
+
+=
