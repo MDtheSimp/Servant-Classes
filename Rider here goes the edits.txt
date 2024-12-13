@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 7 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 8 nickels
 )
 title (
-Servant 0.6
+Servant 0.7
 )
 head (
 # Servant Class: Rider ((Main info))
@@ -113,7 +113,7 @@ When creating your ride, follow these guidelines based on whether your ride is a
 ### Animal or Construct Companion
 Choose an appropriate stat block or build your companion using established rules, then apply the following modifications:
 * **Speed Increase:** Increase its Speed by 10 feet.
-* **Hit Points:** Increase its Hit Points by 10.
+* **Hit Points:** Increase its Hit Points by 5 times your level.
 * **Ability Modifiers:** Increase all ability modifiers by 1.
 * **Size:** Increase its size to Medium or Large if its current size prevents you from mounting it.
 * **Actions:**
@@ -138,7 +138,7 @@ item(
   - Level 20: Hardness 25
 - **Hit Points:** Set the vehicle's Hit Points to 25 per your character level.
 - **DCs:** All DCs for collisions or abilities use the higher of your Class DC or Spell DC.
-- **Piloting:** The vehicle is always considered manned and requires no piloting check. Any "wind-up" trait is ignored.
+- **Piloting:** The vehicle is always considered manned and does not require a piloting check unless navigating difficult circumstances or performing uncertain manoeuvres. It remains under your control unless you choose otherwise, and any "wind-up" trait is ignored. Additionally, the vehicle can take more than one move action per round.
 - **Actions:**
   - Add a one-action attack if it lacks one.
   - Add a two-action ability if it lacks one.
@@ -155,7 +155,7 @@ These upgrades are cumulative and reflect your ride's increase in power as you g
 item(
 # Act as one :aa:
 -
-You and your Ride act as one. Either you or your eidolon takes an activity that requires 2 actions, and then the other takes a single action.
+You and your Ride act as one. Either you or your Ride takes an activity that requires 2 actions, and then the other takes a single action.
 
 
 )
@@ -166,7 +166,7 @@ item(
 #Riding skill
 -
 * **D rank**: Capable of riding familiar animals and vehicles from your past life. 
-Gain access to **the ride feat**, with the ability to **mount** as a **free action**, and you receive **no reflex save penalties** while riding. Additionally, **whenever you move**, your Ride can move in your stead.
+Gain access to **the ride feat**, with the ability to **mount** as a **free action**, and you receive **no reflex save or attack penalties** from riding. Additionally, **whenever you move**, your Ride can move in your stead.
 )
 |
 item(
@@ -373,4 +373,20 @@ Privilege is a skill that, due to the insistence of the owner, Skills that are e
 * **EX Rank**: Allows you to use any A Rank Class Skill of your class for 1d4 rounds. Class Skill will not be locked.
 )
 
+Item(
+#Accel Turn
+-
+Accel Turn reflects unparalleled mastery over your Ride’s maneuverability, allowing you to execute tight turns and evasive actions seamlessly. Whether dodging hazards or attacking with precision, this skill ensures you and your Ride dominate the battlefield with unmatched control.
+* **D Rank**: Your finely honed skills allow your Ride to execute precise movements, dodging attacks and hazards with ease. When your Ride moves while you're riding it, the ride has a **+5 status bonus to AC and Reflex saves** against the next attack or hazard that targets it. If your Ride is a **vehicle**, it can move through spaces occupied by creatures but **always counts as ramming them**, whether they are allies or enemies.  
+)
 =
+item (
+* **C Rank**: **Weave** - If an attack would hit you or your Ride, you or your Ride can **use a reaction to turn that hit into a miss**. If your Ride is a **vehicle**, it can now **turn 90 degrees by spending half its movement instead of all of it**.  
+* **B Rank**: Your Ride gains the ability to perform aggressive manoeuvres, knocking enemies off balance as it tears through the battlefield. **Drift** - Once per encounter as 2 actions Your Ride moves **up to twice its movement speed in a curved line**, forcing all creatures it moves through to attempt a Reflex save save against your class DC, creatures are **knocked prone unless they critically succeed**. Your Ride can make a **Strike against any creature it trips as a free action**. This Strike **does not count toward its multiple attack penalty**. If your Ride is a **vehicle**, it also **deals collision damage to creatures it trips**. Additionally, your Ride **gains an extra reaction**.  
+* **A Rank**: You and your Ride move as a **seamless unit**, able to anticipate threats and adapt instantly. While riding, if you or your Ride successfully avoid an attack or hazard with a reflex save, you may **immediately Stride or Step as a free action**, **ignoring difficult terrain during this movement**. Once you or your Ride are **damaged**, this ability cannot be used again until the **start of your next turn**.  
+* **EX Rank**: You and your Ride become **untouchable on the battlefield**. While riding, neither your **movement nor your Ride’s movement provokes reactions**. The **circumstance bonus** your Ride gains after moving becomes a **flat bonus** and also **applies to you**.  
+)
+
+
+
+|
