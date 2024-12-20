@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 8 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 16 nickels
 )
 title (
-Servant 0.7
+Servant 0.8
 )
 head (
 # Servant Class: Rider ((Main info))
@@ -116,6 +116,7 @@ Choose an appropriate stat block or build your companion using established rules
 * **Hit Points:** Increase its Hit Points by 5 times your level.
 * **Ability Modifiers:** Increase all ability modifiers by 1.
 * **Size:** Increase its size to Medium or Large if its current size prevents you from mounting it.
+* **Traits:** Gains the Mount Trait if it lacks one.
 * **Actions:**
   - Add a one-action attack if it lacks one.
   - Add a two-action ability if it lacks one.
@@ -163,7 +164,7 @@ You and your Ride act as one. Either you or your Ride takes an activity that req
 A skill that denotes a Servants ability to ride mounts and vehicles.
 
 item(
-#Riding skill
+#Riding 
 -
 * **D rank**: Capable of riding familiar animals and vehicles from your past life. 
 Gain access to **the ride feat**, with the ability to **mount** as a **free action**, and you receive **no reflex save or attack penalties** from riding. Additionally, **whenever you move**, your Ride can move in your stead.
@@ -173,7 +174,7 @@ item(
 * **C rank**: Can flawlessly manage most beasts and vehicles and with minimal training, though unable to ride **Phantasmal Beasts** and **Magical Beasts**. When attacking with a weapon while mounted, add a ***status bonus*** to damage, equal to ***twice the weapon's damage dice***. Adittionally you and your Ride do not share **multiple attack penalty**.
 * **B rank**: Proficient with most animals and vehicles, including **Magical Beasts** and those from beyond your lifetime. Weapons gain the ***jousting trait*** if they don't already possess it. You also do not need to move ***10 ft*** for jousting trait's bonus. Additionally, you can command your Ride as a ***free action*** once per round.
 * **A rank**: Able to use all vehicles and creatures as mounts including **Phantasmal Beasts**, but not **Divine Beast** ranks. Your Ride receives a **+30 ft speed bonus**, and can now **act** during your turn with **an additional action** :a: beyond its usual actions.
-* **EX rank**: Mastery over all vehicles and creatures as mounts. While mounted, you and your Ride **share all active benefits** affecting either of you, including spells, conditions, and bonuses. **Neither** you nor your Ride can be **slowed, immobilized, or stopped** by difficult terrain or environmental conditions, unless caused by a **Noble Phantasm** or a similarly powerful effect. Your Ride gains **2 additional actions** :a::a: on your turn. If your Ride is destroyed, you can **immediately summon it again** as a single action :a: , ignoring the 24 hour cooldown.
+* **EX rank**: Mastery over all vehicles and creatures as mounts. While mounted, you and your Ride **share all active benefits** affecting either of you, including spells, conditions, and bonuses. **Neither** you nor your Ride can be **slowed, immobilized, or stopped** by difficult terrain environmental conditions or craetures, unless caused by a **Noble Phantasm** or a similarly powerful effect. Your Ride gains **2 additional actions** :a::a: on your turn. If your Ride is destroyed, you can **immediately summon it again** as a single action :a: , ignoring the 24 hour cooldown.
 
 )
 ###MAGIC RESISTANCE ((+Magic resistance))
@@ -325,31 +326,31 @@ item (
 -
 Charisma is a composite Skill consisting of a person's charm as well as the natural talent to command or unify an army or country. Increases the ability of allies during group battles.
 * **D rank**: Your innate charm makes you a natural leader for small groups, enhancing their confidence and resilience. 
-**+1 status bonus** to Diplomacy to influence others.
-**Mantle of Leadership**: As an action :a:, after a successful **Diplomacy or Intimidation check** in this turn or the last, you may grant **temporary hit points** equal to **half your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
+**+1 bonus** to Diplomacy to influence others.
+**Mantle of Leadership**: As an action :a:, after a successful **Diplomacy or Intimidation check** in this turn or the last, you may grant **temporary hit points** equal to **your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
 * **C rank**: Your leadership extends to larger groups and organizations, boosting their morale and combat effectiveness.
-**+2 status bonus** to Diplomacy and Intimidation to influence others. Allies within **60 feet** get **+2 status bonus** against fear;
-**Bolstering Rally**: Once per day as 2 actions :aa:, you may grant allies within 60 feet a **+1 status bonus** to attack rolls for 1 minute.
+Your bonus increases to a **+2 bonus** to Diplomacy and Intimidation to influence others. Allies within **60 feet** get **+2 bonus** against fear;
+**Bolstering Rally**: Once per day as 2 actions :aa:, you may grant allies within 60 feet a **+2 bonus** to attack rolls for 1 minute.
 * **B rank**: Having B Rank in this Skill is sufficient to lead a nation. The morale of military forces you commands is extremely high.
 **Bolstering rally** has no use limit anymore, and can now affect saving throws, and skill checks; 
-**Ebbing Fatigue**: **Once per day**, reduce **1 negative condition by 1** for allies within 60 feet.
+**Ebbing Fatigue**: **Once per day**, remove **1 negative condition** for allies within 60 feet.
 * **A rank**: You've achieved unparalleled popularity, making you a beloved figure capable of leading large armies and entire countries.
-**+3 status bonus** to all Charisma-based skill checks. You also gain the benefits of the **Command Attention** feat. If you already possess this feat, increase its range to **60 feet** instead.
+Your bonus increases to a **+3 bonus** to all Charisma-based skill checks. You also gain the benefits of the **Command Attention** feat. If you already possess this feat, increase its range to **60 feet** instead.
 )
 =
 item(
 * **EX rank**: Your charisma transcends normal limits, allowing you to influence not just people, but the course of events themselves. Your presence alone can change the tide of battles, rallying entire civilizations to your cause.
-**+4 status** bonus to all Charisma-based skill checks. **Bolstering Rally**'s bonus increases to **+2** instead of +1. **Mantle of leadership**'s temporary hit points are now equal to your **level + your charisma modifier**;
-**Action's Dawn**: **Once per day**, grant an **extra action** :a: to allies within 80 feet, for 1 round.
+**+5 bonus** to all Charisma-based skill checks. **Bolstering Rally**'s bonus increases to **+4** instead of +2. **Mantle of leadership**'s temporary hit points are now equal to twice your **level + your charisma modifier**;
+**Action's Dawn**: **Once per day**, as a free action :f: grant an **extra action** :a: to allies within 80 feet, for 1 minute.
 )
 item (
 #TACTICS
 -
 Tactics is tactical knowledge used not for one-on-one combat situations, but for battles where many are mobilized.
-* **D Rank**: Strategic Withdrawal - You have learned how to provide better cover for yourself and your allies. Once per day, as a single action :a:, You can swiftly direct either yourself or an ally within 30 feet to stride up to their speed towards cover and then use the Take Cover action if they are within reach of it. If they do, they receive an additional +1 circumstance bonus to AC from the Take Cover action.
-* **C Rank**: Formation - Your understanding of battlefield dynamics allows you to arrange your allies into a tactical formation. Once per day, as an action :a: You can order up to three allies within 60 feet to immediately Stride once as a free action :f:. During this movement, they each receive a +2 circumstance bonus to AC, enhancing their defensive positioning.
-* **B Rank**: As a two-action activity :aa:, you can adapt your allies' strategy to the evolving battlefield. Designate two allies within sight. They each can use their reaction :r: to either make an immediate Strike or attempt a skill check to Disarm, Trip, Shove or Grapple, each ally must choose a different action from these options. If the first ally's action is a critical success, the second ally's action automatically escalates to a critical success. If the first ally's action is a failure, the second ally's action is automatically a failure.
-* **A Rank**: Strategic Withdrawal is not limited to once per day anymore. Disruptive Command - Once per encounter As a two-action activity :aa:, you issue a command that confuses your enemies. Choose up to three enemies within 60 feet. They must each attempt a Will save against your class DC.
+* **D Rank**: **Strategic Withdrawal** - You have learned how to provide better cover for yourself and your allies. Once per day, as a single action :a:, You can swiftly direct **either yourself or an ally within 30 feet** to stride up to their speed towards **cover** and then use the **Take Cover action** if they are within reach of it. If they do, they receive an additional **+2 bonus to AC** from the Take Cover action.
+* **C Rank**: **Formation** - Your understanding of battlefield dynamics allows you to arrange your allies into a tactical formation. As two actions :aa: You can order up to three allies within 60 feet to immediately **Stride once** as a free action :f:. During this movement, they each receive a **+4 bonus to AC**, enhancing their defensive positioning.
+* **B Rank**: As a two-action activity :aa:, you can adapt your allies' strategy to the evolving battlefield. Designate **two allies within sight**. They each can use their reaction :r: to either make an immediate **Strike or attempt a skill check to Disarm, Trip, Shove or Grapple**, each ally **must choose a different action** from these options. If the first ally's action is a **critical success**, the second ally's action **automatically escalates** to a critical success. If the first ally's action is a **failure**, the second ally's action is **automatically a failure**.
+* **A Rank**: **Strategic Withdrawal** is not limited to once per day anymore. Disruptive Command - Once per encounter As a two-action activity :aa:, you issue a command that confuses your enemies. Choose up to **three enemies within 60 feet**. They must each attempt a **Will save** against your class or save DC whichever is higher.
 )
 |
 item (
@@ -360,7 +361,7 @@ item (
     **Failure**: The enemy is slowed 1 for 1 minute.
     **Critical Failure**: The enemy is slowed 2 for 1 minute.
 
-* **EX Rank**: Grand Stratagem - Once per encounter. You direct an intricate battle strategy that maximizes your allies' potential. As an action :a: all allies within a 100-foot emanation can reduce the action cost of their next action by 1 (including you). This represents your unparalleled ability to see the battlefield as a whole and manipulate it to your allies' advantage.
+* **EX Rank**: **Grand Stratagem** - Once per **round**. You direct an intricate battle strategy that maximizes your allies' potential. As an action :a: all allies **within a mile** can reduce the action **cost of their next action by 1** (including you). This represents your unparalleled ability to see the battlefield as a whole and manipulate it to your allies' advantage.
 )
 item (
 #PRIVILEGE
@@ -383,10 +384,41 @@ Accel Turn reflects unparalleled mastery over your Ride’s maneuverability, all
 item (
 * **C Rank**: **Weave** - If an attack would hit you or your Ride, you or your Ride can **use a reaction to turn that hit into a miss**. If your Ride is a **vehicle**, it can now **turn 90 degrees by spending half its movement instead of all of it**.  
 * **B Rank**: Your Ride gains the ability to perform aggressive manoeuvres, knocking enemies off balance as it tears through the battlefield. **Drift** - Once per encounter as 2 actions Your Ride moves **up to twice its movement speed in a curved line**, forcing all creatures it moves through to attempt a Reflex save save against your class DC, creatures are **knocked prone unless they critically succeed**. Your Ride can make a **Strike against any creature it trips as a free action**. This Strike **does not count toward its multiple attack penalty**. If your Ride is a **vehicle**, it also **deals collision damage to creatures it trips**. Additionally, your Ride **gains an extra reaction**.  
-* **A Rank**: You and your Ride move as a **seamless unit**, able to anticipate threats and adapt instantly. While riding, if you or your Ride successfully avoid an attack or hazard with a reflex save, you may **immediately Stride or Step as a free action**, **ignoring difficult terrain during this movement**. Once you or your Ride are **damaged**, this ability cannot be used again until the **start of your next turn**.  
+* **A Rank**: You and your Ride move as a **seamless unit**, able to anticipate threats and adapt instantly. While riding, if you or your Ride successfully avoid an attack or hazard with a reflex save, you may **immediately Stride or Step as a free action**, **ignoring difficult terrain during this movement**. Once you or your Ride are **damaged** or affected by an attack or hazard, this ability cannot be used again until the **start of your next turn**.  
 * **EX Rank**: You and your Ride become **untouchable on the battlefield**. While riding, neither your **movement nor your Ride’s movement provokes reactions**. The **circumstance bonus** your Ride gains after moving becomes a **flat bonus** and also **applies to you**.  
 )
 
+Item(
+#Long-Distance Dash
+-
+Long-Distance Dash is a skill that exemplifies the absolute peak of momentum. It reflects not just speed but the ability to harness movement as a source of power. The skill rewards constant motion, allowing the user and their ride to reach unparalleled velocity.
+* **D Rank**: If you or your ride **moved during the previous round**, your ride gains a **+20-foot bonus** to its Speed **until the end of this round**. This bonus does not apply to teleportation effects.
+* **C Rank**:  **Cascade** - If you or your ride **moved during the previous round**, you and your ride gain a **+1 bonus to Strength, Dexterity**, and your **primary spellcasting ability modifier** for **each time** you moved last round. This bonus lasts **until the end of this round**.
+)
+|
+Item(
+* **B Rank**:  **Trailblazer** - Once per day, while mounted, you can dash at incredible speeds as 3 actions :aaa:. You move up to **10 times your ride’s Speed**. On **each subsequent turn**, you must use another **3-actions** to sustain this ability, moving at the same speed. This ability **ends** if you or your ride **take any action** other than **striding or commanding your ride to stride**. ***"Rules are what?!"***
+* **A Rank**: The effects of **Cascade** now apply to **all of your modifiers** and are **doubled**.
+* **EX Rank**: As long as you or your ride **moved during the previous round**, neither you nor your ride can have your **Hit Points reduced below 1**. Additionally, the bonuses from **Cascade last for 2 rounds instead of 1**. Trailblazer **no longer ends** if you or your ride **take any action** other than striding.
+)
 
+Item(
+#Voyager of the Storm
+-
+Voyager of the Storm is the talent to sail vessels recognized as ships. Because the ability as a group leader is also necessary, this unique Skill also has the effects of both Charisma and Tactics. **Requires your ride to either have a swim or flight speed as well as a the capacity for a crew.**
+* **D Rank**: Your ship gains a **crew**, which functions as an extension of your leadership. These crew members do not have individual stat blocks and **disappear if your ship is reduced to 0 Hit Points**. Once per round as a free action :f:, you can **engage** 1 crew member to **aid** a skill check or attack roll you or an ally is making. The aid uses your **own skill bonuses** or your **ride's attack bonus**.
+**If a crew member is ever engaged**, they **become exhausted** and cannot be used again **until they rest for 1 hour**.
+While on or inside your ship, you gain the **benefits of both your Charisma and Tactics** as if they were at an equivalent rank to this skill.
+* **C Rank**: Your crew is willing to sacrifice everything to protect you and your allies. **Sacrifice** - If you or an ally aboard your ship would **drop to 0 Hit Points** as a result of an **attack or a failed saving throw**, you may **engage all remaining crew members** as a free action :f: **disrupting the effect**.
+* **B Rank**: Your crew operates like a finely tuned machine under your command. Once per round, you may **engage half of your crew** to perform **any ship activity** as a free action :f:.
+)
 
+=
+
+Item(
+* **A Rank**: Your ship carries the power of the storms it has braved. You gain the ability to cast the spell **Wrathful Storm** once per day. The storm lasts **for 1 hour**, does **not need to be sustained**, and you can only **choose one effect** per round **instead of two**. You, your ship, and any creatures aboard your ship that you designate are **unaffected by the storm**.
+While within the storm, your crew operates at double efficiency. You need only engage **half the usual number of crew members** (minimum of 1) when using abilities provided by this skill.
+* **EX Rank**: Whenever you **critically succeed** on a skill check or attack roll, **remove all exhaustion** from your crew.
+You can cast Wrathful Storm **at will**, heightened to **10th level**. While the storm is active, you can **activate all effects of the spell each round** instead of just two. You may also **repeat the same effects** on subsequent turns.
+)
 |

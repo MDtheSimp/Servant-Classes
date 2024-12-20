@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 29 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 30 nickels
 )
 title (
-Sevrvant 0.9
+Sevrvant 1.0
 )
 head (
 # Servant Class: Archer ((Main info))
@@ -256,26 +256,26 @@ Privilege is an skill that, due to the insistence of the owner, Skills that are 
 )
 
 item (
-#Charisma((+Charisma))
+#Charisma
 -
 Charisma is a composite Skill consisting of a person's charm as well as the natural talent to command or unify an army or country. Increases the ability of allies during group battles.
 * **D rank**: Your innate charm makes you a natural leader for small groups, enhancing their confidence and resilience. 
-**+1 status bonus** to Diplomacy to influence others.
-**Mantle of Leadership :** As an action :a: , after a successful **Diplomacy or Intimidation check** in in this turn or the last, you may grant **temporary hit points** equal to **half your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
+**+1 bonus** to Diplomacy to influence others.
+**Mantle of Leadership**: As an action :a:, after a successful **Diplomacy or Intimidation check** in this turn or the last, you may grant **temporary hit points** equal to **your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
 )
 =
 item(
 * **C rank**: Your leadership extends to larger groups and organizations, boosting their morale and combat effectiveness.
-**+2 status bonus** to Diplomacy and Intimidation to influence others. Allies within **60 feet** get **+2 status bonus** against fear;
-**Bolstering Rally : Once per day** as 2 actions :aa: , you may grant allies within 60 feet a **+1 status bonus** to attack rolls for 1 minute.
+Your bonus increases to a **+2 bonus** to Diplomacy and Intimidation to influence others. Allies within **60 feet** get **+2 bonus** against fear;
+**Bolstering Rally**: Once per day as 2 actions :aa:, you may grant allies within 60 feet a **+2 bonus** to attack rolls for 1 minute.
 * **B rank**: Having B Rank in this Skill is sufficient to lead a nation. The morale of military forces you commands is extremely high.
 **Bolstering rally** has no use limit anymore, and can now affect saving throws, and skill checks; 
-**Ebbing Fatigue :** **once per day**, reduce **1 negative condtion by 1** for allies within 60 feet.
-* **A rank**: You've achieved unparalleled popularity, making you a beloved figure capable of leading large armies and entire countries..
-**+3 status bonus** to all Charisma-based skill checks. You also gain the benefits of the **Command Attention** feat. If you already possess this feat, increase its range to **60 feet** instead.
-* **EX rank**: Your charisma transcends normal limits, allowing you to influence not just people, but the course of events themselves. Your presence alone can change the tide of battles, rallying entire civilizations to your cause. 
-**+4 status** bonus to all Charisma-based skill checks. **Bolstering Rally**'s bonus increases to **+2** instead of +1. **Mantle of leadership**'s temporary hit points are now equal to your **level + your charisma modifier** ; 
-**Action's Dawn :** **once per day**, grant an **extra action** :a: to allies within 80 feet, for 1 round.
+**Ebbing Fatigue**: **Once per day**, remove **1 negative condition** for allies within 60 feet.
+* **A rank**: You've achieved unparalleled popularity, making you a beloved figure capable of leading large armies and entire countries.
+Your bonus increases to a **+3 bonus** to all Charisma-based skill checks. You also gain the benefits of the **Command Attention** feat. If you already possess this feat, increase its range to **60 feet** instead.
+* **EX rank**: Your charisma transcends normal limits, allowing you to influence not just people, but the course of events themselves. Your presence alone can change the tide of battles, rallying entire civilizations to your cause.
+**+5 bonus** to all Charisma-based skill checks. **Bolstering Rally**'s bonus increases to **+4** instead of +2. **Mantle of leadership**'s temporary hit points are now equal to twice your **level + your charisma modifier**;
+**Action's Dawn**: **Once per day**, as a free action :f: grant an **extra action** :a: to allies within 80 feet, for 1 minute.
 )
 
 Item(
@@ -283,10 +283,10 @@ Item(
 -
 Clairvoyance is a visual ability that is also called Hawkeye. It is frequently used during scouting. Simply looking from a high location is sufficient to fully survey a town and search for enemies. In addition, Clairvoyance will affect the accuracy of bows.
 It connotes superior visual perception and dynamic occipital capture, such as to supplement the long-range aiming of projectile weapons.At higher ranks, it is possible that the bearers of this Skill have acquired abilities such as precognition and other forms of perception beyond standard eyesight.
-* **D Rank**: When using the **Seek action** :a:, your scanning area is always treated as sight. Additionally, when making a **Perception check**, you can **roll twice and use the higher result**. 
 )
 |
 Item(
+* **D Rank**: When using the **Seek action** :a:, your scanning area is always treated as sight. Additionally, when making a **Perception check**, you can **roll twice and use the higher result**. 
 * **C Rank**: **Ether Gaze** - Once per day, use the **Seek** action :a: to look through physical barriers up to **60ft** away (make a Perception check against the spell DC for magical barriers). **Deflective Shot** - You can track incoming **projectiles within your line of sight**. As a reaction :r:, make a **ranged strike** against an incoming projectile. If your attack roll **equals or exceeds** the attack roll of the projectile, you **deflect or destroy it**.
 * **B Rank**: **All Range Vision** - You have no **range increment penalty**, and all **imprecise** senses become **precise**.
 * **A Rank**: Cast **Read Omens** once per day. **Eagle Eye Shot** - Once per day as a free action :f:, when you hit a creature you may change it into a **critical hit**. (ineffective against NPs).

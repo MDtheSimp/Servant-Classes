@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 23 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 24 nickels
 )
 title (
-Sevrvant 1.0
+Sevrvant 1.1
 )
 head (
 # Servant Class: Lancer ((Main info))
@@ -271,25 +271,29 @@ Privilege is an skill that, due to the insistence of the owner, Skills that are 
 =
 
 item (
-#tactics
+#TACTICS
 -
 Tactics is tactical knowledge used not for one-on-one combat situations, but for battles where many are mobilized.
-* **D Rank**: **Strategic Withdrawal** - You have learned how to provide better cover for yourself and your allies. **Once per day**, as a single action :a: , You can swiftly direct either yourself or an ally **within 30 feet** to stride up to their speed towards cover and then use **the Take Cover action** if they are within reach of it. If they do, they receive an additional **+1 circumstance bonus** to AC from the Take Cover action.
-* **C Rank**: **Formation** - Your understanding of battlefield dynamics allows you to arrange your allies into an tactical formation. **Once per day**, as an action :a: You can order up to **three allies within 60 feet** to immediately **Stride** once as a free action :f:. During this movement, they each receive a **+2 circumstance bonus to AC**, enhancing their defensive positioning.
-* **B Rank**: As a **two-action activity** :aa:, you can adapt your allies' strategy to the evolving battlefield. Designate two allies within sight. They each can use their reaction :r: to either make an immediate **Strike** or attempt a **skill check** to Disarm, Trip, Shove or Grapple, each ally must choose a different action from these options. If the first ally's action is a **critical success**, the second ally's action **automatically escalates to a critical success**. If the first ally's action is a **failure**, the second ally's action is **automatically a failure**.
-* **A Rank**: Strategic Withdrawal is not limited to once per day anymore. **Disruptive Command** - Once per encounter As a **two-action activity** :aa:, you issue a command that confuses your enemies. Choose up to three enemies within **60 feet**. They must each attempt a Will save against your **class DC**.
-**Critical Success**: The enemy is not affected and gains a **+2 circumstance bonus** to its next attack roll or skill check.
-**Success**: The enemy is **clumsy 1** for 1 round.
-**Failure**: The enemy is **slowed 1** for 1 minute.
-**Critical Failure**: The enemy is **slowed 2** for 1 minute.
-* **EX Rank**: **Grand Stratagem** - Once per encounter. You direct an intricate battle strategy that maximizes your allies' potential. As an action :a: all **allies within a 100-foot emanation** can **reduce the action cost** of their next action **by 1** (including you).
+* **D Rank**: **Strategic Withdrawal** - You have learned how to provide better cover for yourself and your allies. Once per day, as a single action :a:, You can swiftly direct **either yourself or an ally within 30 feet** to stride up to their speed towards **cover** and then use the **Take Cover action** if they are within reach of it. If they do, they receive an additional **+2 bonus to AC** from the Take Cover action.
+* **C Rank**: **Formation** - Your understanding of battlefield dynamics allows you to arrange your allies into a tactical formation. As two actions :aa: You can order up to three allies within 60 feet to immediately **Stride once** as a free action :f:. During this movement, they each receive a **+4 bonus to AC**, enhancing their defensive positioning.
+* **B Rank**: As a two-action activity :aa:, you can adapt your allies' strategy to the evolving battlefield. Designate **two allies within sight**. They each can use their reaction :r: to either make an immediate **Strike or attempt a skill check to Disarm, Trip, Shove or Grapple**, each ally **must choose a different action** from these options. If the first ally's action is a **critical success**, the second ally's action **automatically escalates** to a critical success. If the first ally's action is a **failure**, the second ally's action is **automatically a failure**.
+* **A Rank**: **Strategic Withdrawal** is not limited to once per day anymore. Disruptive Command - Once per encounter As a two-action activity :aa:, you issue a command that confuses your enemies. Choose up to **three enemies within 60 feet**. They must each attempt a **Will save** against your class or save DC whichever is higher.
+    **Critical Success** : The enemy is not affected 
+    and gains a +2 circumstance bonus to its next  
+    attack roll or skill check.
+    **Success**: The enemy is clumsy 1 for 1 round.
+    **Failure**: The enemy is slowed 1 for 1 minute.
+    **Critical Failure**: The enemy is slowed 2 for 
+    1 minute.
+* **EX Rank**: **Grand Stratagem** - Once per **round**. You direct an intricate battle strategy that maximizes your allies' potential. As an action :a: all allies **within a mile** can reduce the action **cost of their next action by 1** (including you).
 )
 |
-item (
+item(
       This represents your unparalleled ability to see the
        battlefield as a whole and manipulate it to your
        allies' advantage.
-
+)
+item(
 #Natural body
 -
 You have an objectively hot bod. and no matter how many calories you ingests, your body shape will not change.

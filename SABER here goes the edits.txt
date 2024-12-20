@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 32 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 33 nickels
 )
 title (
-Sevrvant 1.2
+Sevrvant 1.3
 )
 head (
 # Servant Class: Saber ((Main info))
@@ -233,22 +233,22 @@ item (
 -
 Charisma is a composite Skill consisting of a person's charm as well as the natural talent to command or unify an army or country. Increases the ability of allies during group battles.
 * **D rank**: Your innate charm makes you a natural leader for small groups, enhancing their confidence and resilience. 
-**+1 status bonus** to Diplomacy to influence others.
-**Mantle of Leadership**: As an action :a:, after a successful **Diplomacy or Intimidation check** in this turn or the last, you may grant **temporary hit points** equal to **half your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
+**+1 bonus** to Diplomacy to influence others.
+**Mantle of Leadership**: As an action :a:, after a successful **Diplomacy or Intimidation check** in this turn or the last, you may grant **temporary hit points** equal to **your level + Charisma modifier** to allies within **30 feet** (double on a crit success). An ally can gain this benefit only once per hour.
 * **C rank**: Your leadership extends to larger groups and organizations, boosting their morale and combat effectiveness.
-**+2 status bonus** to Diplomacy and Intimidation to influence others. Allies within **60 feet** get **+2 status bonus** against fear;
-**Bolstering Rally**: Once per day as 2 actions :aa:, you may grant allies within 60 feet a **+1 status bonus** to attack rolls for 1 minute.
+Your bonus increases to a **+2 bonus** to Diplomacy and Intimidation to influence others. Allies within **60 feet** get **+2 bonus** against fear;
+**Bolstering Rally**: Once per day as 2 actions :aa:, you may grant allies within 60 feet a **+2 bonus** to attack rolls for 1 minute.
 )
 |
 item(
 * **B rank**: Having B Rank in this Skill is sufficient to lead a nation. The morale of military forces you commands is extremely high.
 **Bolstering rally** has no use limit anymore, and can now affect saving throws, and skill checks; 
-**Ebbing Fatigue**: **Once per day**, reduce **1 negative condition by 1** for allies within 60 feet.
+**Ebbing Fatigue**: **Once per day**, remove **1 negative condition** for allies within 60 feet.
 * **A rank**: You've achieved unparalleled popularity, making you a beloved figure capable of leading large armies and entire countries.
-**+3 status bonus** to all Charisma-based skill checks. You also gain the benefits of the **Command Attention** feat. If you already possess this feat, increase its range to **60 feet** instead.
+Your bonus increases to a **+3 bonus** to all Charisma-based skill checks. You also gain the benefits of the **Command Attention** feat. If you already possess this feat, increase its range to **60 feet** instead.
 * **EX rank**: Your charisma transcends normal limits, allowing you to influence not just people, but the course of events themselves. Your presence alone can change the tide of battles, rallying entire civilizations to your cause.
-**+4 status** bonus to all Charisma-based skill checks. **Bolstering Rally**'s bonus increases to **+2** instead of +1. **Mantle of leadership**'s temporary hit points are now equal to your **level + your charisma modifier**;
-**Action's Dawn**: **Once per day**, grant an **extra action** :a: to allies within 80 feet, for 1 round.
+**+5 bonus** to all Charisma-based skill checks. **Bolstering Rally**'s bonus increases to **+4** instead of +2. **Mantle of leadership**'s temporary hit points are now equal to twice your **level + your charisma modifier**;
+**Action's Dawn**: **Once per day**, as a free action :f: grant an **extra action** :a: to allies within 80 feet, for 1 minute.
 )
 
 item (
@@ -347,21 +347,21 @@ item (
 #TACTICS
 -
 Tactics is tactical knowledge used not for one-on-one combat situations, but for battles where many are mobilized.
-* **D Rank**: Strategic Withdrawal - You have learned how to provide better cover for yourself and your allies. Once per day, as a single action :a:, You can swiftly direct either yourself or an ally within 30 feet to stride up to their speed towards cover and then use the Take Cover action if they are within reach of it. If they do, they receive an additional +1 circumstance bonus to AC from the Take Cover action.
-* **C Rank**: Formation - Your understanding of battlefield dynamics allows you to arrange your allies into a tactical formation. Once per day, as an action :a: You can order up to three allies within 60 feet to immediately Stride once as a free action :f:. During this movement, they each receive a +2 circumstance bonus to AC, enhancing their defensive positioning.
-* **B Rank**: As a two-action activity :aa:, you can adapt your allies' strategy to the evolving battlefield. Designate two allies within sight. They each can use their reaction :r: to either make an immediate Strike or attempt a skill check to Disarm, Trip, Shove or Grapple, each ally must choose a different action from these options. If the first ally's action is a critical success, the second ally's action automatically escalates to a critical success. If the first ally's action is a failure, the second ally's action is automatically a failure.
-* **A Rank**: Strategic Withdrawal is not limited to once per day anymore. Disruptive Command - Once per encounter As a two-action activity :aa:, you issue a command that confuses your enemies. Choose up to three enemies within 60 feet. They must each attempt a Will save against your class DC.
+* **D Rank**: **Strategic Withdrawal** - You have learned how to provide better cover for yourself and your allies. Once per day, as a single action :a:, You can swiftly direct **either yourself or an ally within 30 feet** to stride up to their speed towards **cover** and then use the **Take Cover action** if they are within reach of it. If they do, they receive an additional **+2 bonus to AC** from the Take Cover action.
+* **C Rank**: **Formation** - Your understanding of battlefield dynamics allows you to arrange your allies into a tactical formation. As two actions :aa: You can order up to three allies within 60 feet to immediately **Stride once** as a free action :f:. During this movement, they each receive a **+4 bonus to AC**, enhancing their defensive positioning.
+* **B Rank**: As a two-action activity :aa:, you can adapt your allies' strategy to the evolving battlefield. Designate **two allies within sight**. They each can use their reaction :r: to either make an immediate **Strike or attempt a skill check to Disarm, Trip, Shove or Grapple**, each ally **must choose a different action** from these options. If the first ally's action is a **critical success**, the second ally's action **automatically escalates** to a critical success. If the first ally's action is a **failure**, the second ally's action is **automatically a failure**.
+* **A Rank**: **Strategic Withdrawal** is not limited to once per day anymore. Disruptive Command - Once per encounter As a two-action activity :aa:, you issue a command that confuses your enemies. Choose up to **three enemies within 60 feet**. They must each attempt a **Will save** against your class or save DC whichever is higher.
 )
 |
-item (
-    **Critical Success** : The enemy is not affected and
-    gains a +2 circumstance bonus to its next attack roll 
-    or skill check.
-    **Success**: The enemy is clumsy 1 for 1 round.
-    **Failure**: The enemy is slowed 1 for 1 minute.
-    **Critical Failure**: The enemy is slowed 2 for 1 minute.
-
-* **EX Rank**: Grand Stratagem - Once per encounter. You direct an intricate battle strategy that maximizes your allies' potential. As an action :a: all allies within a 100-foot emanation can reduce the action cost of their next action by 1 (including you). This represents your unparalleled ability to see the battlefield as a whole and manipulate it to your allies' advantage.
+Item ( 
+            **Critical Success** : The enemy is not affected 
+            and gains a +2 circumstance bonus to its next 
+            attack roll or skill check.
+            **Success**: The enemy is clumsy 1 for 1 round.
+            **Failure**: The enemy is slowed 1 for 1 minute.
+            **Critical Failure**: The enemy is slowed 2 for
+            1 minute.
+* **EX Rank**: **Grand Stratagem** - Once per **round**. You direct an intricate battle strategy that maximizes your allies' potential. As an action :a: all allies **within a mile** can reduce the action **cost of their next action by 1** (including you). This represents your unparalleled ability to see the battlefield as a whole and manipulate it to your allies' advantage.
 )
 
 item (
