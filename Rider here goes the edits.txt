@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 16 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 23 nickels
 )
 title (
-Servant 0.8
+Servant 0.9
 )
 head (
 # Servant Class: Rider ((Main info))
@@ -22,8 +22,8 @@ Trained in Fortitude
 Increase your proficiency rank in Reflex by one level.
 Trained in Will 
 ## Skills ((+Skills))
-
-Trained in a number of additional skills equal to 2 plus your Intelligence modifier
+Increase your proficiency rank in a skill of your choice by one level.
+Trained in a number of additional skills equal to 5 plus your Intelligence modifier
 ## Attacks((+Attacks))
 expert in all weapons
 ## defenses((+defenses))
@@ -69,26 +69,26 @@ Additionally, effects with the **death trait** that reduce your hit points to 0 
 ##### Table 1-1: Rider class advancement table ((Rider class advancement table))
 Level | Class features
 --- | :---:
-1 | Ancestry and background, initial proficiencies, Swift Sneak, Magic reistance (**D**),  Riding (**C**)
+1 | Ancestry and background, initial proficiencies, The Ride, Act As One,  Magic reistance (**D**),  Riding (**C**)
 2 | Rider feat
 3 | Personal skill (**D**)
 4 | Rider feat
 5 | Noble phantasm (**D**), Riding (**B**)
-6 |
+6 | Rider feat
 7 | Cavalry weapon specialization, Evasion, Personal skill (**+++**)
-8 | 
+8 | Rider feat
 9 | Personal skill (**+++**)
 10| Rider feat, Noble phantasm (**+++**), Riding (**A**), Magic reistance (**C**)
-11 |
-12 | Rider feat, Personal skill (**+++**)
-13 | 
-14 | Rider feat
-15 | Noble phantasm (**+++**), Personal skill (**+++**), Magic reistance (**B**)
-16 | Rider feat
-17 | 
-18 | Rider feat, Personal skill (**+++**)
-19 | 
-20 | Rider feat, Noble phantasm (**+++**),
+11| 
+12| Rider feat, Personal skill (**+++**)
+13| 
+14| Rider feat
+15| Noble phantasm (**+++**), Personal skill (**+++**), Magic reistance (**B**)
+16| Rider feat
+17| 
+18| Rider feat
+19| 
+20| Rider feat, Noble phantasm (**+++**)
 ##Class features((class features))
 You gain these abilities as an Rider. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
 |
@@ -174,7 +174,7 @@ item(
 * **C rank**: Can flawlessly manage most beasts and vehicles and with minimal training, though unable to ride **Phantasmal Beasts** and **Magical Beasts**. When attacking with a weapon while mounted, add a ***status bonus*** to damage, equal to ***twice the weapon's damage dice***. Adittionally you and your Ride do not share **multiple attack penalty**.
 * **B rank**: Proficient with most animals and vehicles, including **Magical Beasts** and those from beyond your lifetime. Weapons gain the ***jousting trait*** if they don't already possess it. You also do not need to move ***10 ft*** for jousting trait's bonus. Additionally, you can command your Ride as a ***free action*** once per round.
 * **A rank**: Able to use all vehicles and creatures as mounts including **Phantasmal Beasts**, but not **Divine Beast** ranks. Your Ride receives a **+30 ft speed bonus**, and can now **act** during your turn with **an additional action** :a: beyond its usual actions.
-* **EX rank**: Mastery over all vehicles and creatures as mounts. While mounted, you and your Ride **share all active benefits** affecting either of you, including spells, conditions, and bonuses. **Neither** you nor your Ride can be **slowed, immobilized, or stopped** by difficult terrain environmental conditions or craetures, unless caused by a **Noble Phantasm** or a similarly powerful effect. Your Ride gains **2 additional actions** :a::a: on your turn. If your Ride is destroyed, you can **immediately summon it again** as a single action :a: , ignoring the 24 hour cooldown.
+* **EX rank**: Mastery over all vehicles and creatures as mounts. While mounted, you and your Ride **share all active benefits** affecting either of you, including spells, conditions, and bonuses. **Neither** you nor your Ride can be **slowed, immobilized, or stopped** by difficult terrain, environmental conditions (walls , strong winds etc) or creatures, unless caused by a **Noble Phantasm** or a similarly powerful effect. Your Ride gains **2 additional actions** :a::a: on your turn. If your Ride is destroyed, you can **immediately summon it again** as a single action :a: , ignoring the 24 hour cooldown.
 
 )
 ###MAGIC RESISTANCE ((+Magic resistance))
@@ -284,14 +284,14 @@ item (
 #SWORDSMANSHIP
 -
 Swordsmanship is a skill that transcends ordinary combat techniques, and through rigorous training and discipline, you have honed this martial practice into a lethal craft. Your blade, guided by precision and tactical acumen, becomes a tool for both offense and control on the battlefield.
-* **D Rank**: Your attacks of opportunity impose a -10-foot status penalty to the target's Speed until the start of your next turn. Additionally, you can make an attack of opportunity when a creature within your reach makes an attack against someone other than you.
+* **D Rank**: Your Reactive Strikes impose a **-20-foot status penalty** to the target's Speed until the start of your next turn. Additionally, you can make an Reactive Strike when a creature within your reach makes an attack against someone other than you.
 * **C Rank**: Upon critically hitting a target with a Strike, you can immediately attempt to use any skill feat or skill check that requires no more than 1 action :a: as a free action :f: instead. For Disarm, Trip, Shove, or Grapple you use the same multiple attack penalty as the Strike.
-* **B Rank**: You've honed your ability to disrupt magic with your attacks. You can make an attack of opportunity when a creature within your reach casts a spell. If your attack hits, you can attempt to counteract the spell. Make a counteract check using your attack bonus against the spell's DC. Your counteract level is equal to half your character level, rounded down.
-* **A Rank**: At the start of each of your turns, you gain an additional reaction :r: that you can use only for Attacks of opportunity. Once per round, if you hit and deal damage with an attack of opportunity, you can immediately make a Strike against that creature at a -5 penalty. If this Strike critically hits, the target becomes enfeebled 2 until the end of your next turn.
+* **B Rank**: You've honed your ability to disrupt magic with your attacks. You can make a **reactive strike** as a free action :f: when a creature **within your reach casts a spell**. If your attack hits, you can attempt to **counteract** the spell using the same roll against the **spell's DC plus half the spell's level**. Your counteract level is equal to half your character level, rounded up. Your counteract result is one degree of success higher.
+* **A Rank**: At the start of each of your turns, you gain an additional reaction :r: that you can use only for Reactive Strike. Once per round, if you hit and deal damage with a Reactive Strike, you can immediately make a Strike against that creature at a -5 penalty. If this Strike critically hits, the target becomes **enfeebled 2 and clumsy 2** until the end of your next turn.
 )
 |
 item (
-* **EX Rank**: Grandmaster's Mark - You have reached the zenith of martial prowess. Once per round, when you hit with an attack, you may choose to forgo dealing damage to apply a Grandmaster's Mark to the target until the end of your next turn. A marked creature that provokes an attack of opportunity from you allows you to make that attack as a free action :f: (this does not consume the additional reaction from A Rank). If you hit a marked creature with an attack of opportunity, the Strike automatically becomes a critical hit.
+* **EX Rank**: **Grandmaster's Mark** - You have reached the zenith of martial prowess. Once per round, when you hit with an attack, you may choose to forgo dealing damage to apply a Grandmaster's Mark to the target until the end of your next turn. A marked creature that provokes a Reactive Strike from you allows you to make that attack as a free action :f: (this does not consume the additional reaction from A Rank). If you hit a marked creature with a Reactive Strike, the Strike automatically becomes a critical hit.
 )
 Item(
 #Marksmanship
@@ -367,11 +367,11 @@ item (
 #PRIVILEGE
 -
 Privilege is a skill that, due to the insistence of the owner, Skills that are essentially impossible to possess can be obtained for a short period of time.
-* **D Rank**: Allows you to use any D Rank Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
+* **D Rank**: Allows you to use any D Rank Class Skill of your class for 1d4 rounds as a free action :f:, after which you will be locked from using the same Class Skill (can`t have more than one active at a time).
 * **C Rank**: Resets used Class Skills and allows you to use any C Rank Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
 * **B Rank**: Resets used Class Skills and allows you to use the same class skill up to 2 times before locking them.
-* **A Rank**: Resets used Class Skills and allows you to use any B Rank Class Skill of your class for 1d4 rounds.
-* **EX Rank**: Allows you to use any A Rank Class Skill of your class for 1d4 rounds. Class Skill will not be locked.
+* **A Rank**: Resets used Class Skills and allows you to use any B Rank Class Skill of your class for 1d4 rounds (you can activate up to 2 at a time).
+* **EX Rank**: Allows you to use any A Rank Class Skill of your class for 1d4 rounds. Class Skill will not be locked. (allows up to 3 at a time)
 )
 
 Item(
@@ -405,7 +405,7 @@ Item(
 Item(
 #Voyager of the Storm
 -
-Voyager of the Storm is the talent to sail vessels recognized as ships. Because the ability as a group leader is also necessary, this unique Skill also has the effects of both Charisma and Tactics. **Requires your ride to either have a swim or flight speed as well as a the capacity for a crew.**
+Voyager of the Storm is the talent to sail vessels recognized as ships. Because the ability as a group leader is also necessary, this unique Skill also has the effects of both Charisma and Tactics. **Requires your ride to either have a swim or flight speed as well as a the capacity for a crew (aka a vehicle).**
 * **D Rank**: Your ship gains a **crew**, which functions as an extension of your leadership. These crew members do not have individual stat blocks and **disappear if your ship is reduced to 0 Hit Points**. Once per round as a free action :f:, you can **engage** 1 crew member to **aid** a skill check or attack roll you or an ally is making. The aid uses your **own skill bonuses** or your **ride's attack bonus**.
 **If a crew member is ever engaged**, they **become exhausted** and cannot be used again **until they rest for 1 hour**.
 While on or inside your ship, you gain the **benefits of both your Charisma and Tactics** as if they were at an equivalent rank to this skill.
@@ -421,4 +421,64 @@ While within the storm, your crew operates at double efficiency. You need only e
 * **EX Rank**: Whenever you **critically succeed** on a skill check or attack roll, **remove all exhaustion** from your crew.
 You can cast Wrathful Storm **at will**, heightened to **10th level**. While the storm is active, you can **activate all effects of the spell each round** instead of just two. You may also **repeat the same effects** on subsequent turns.
 )
+Item(
+# Dual Accord
+-
+Dual Accord is a skill that showcases the combat synergy between you and your Ride, allowing you to not only enhance each other's attacks but also fight separately with seamless coordination.
+* **D Rank**: Runes, and materials that affect your **wielded weapons and armour** also influence your **Ride’s** attacks and defences.
+* **C Rank**: **Assist** - You may **forgo** your attack to grant your Ride a **+3 bonus** to its next attack. Alternatively, your **Ride** may sacrifice its attack to grant you a **+1 bonus** to your next attack. **These bonuses do not stack**.
+* **B Rank**: **Soulbolund** - The bond between you and your Ride transcends distance. You may continue to **use abilities that require you to be riding** as long as you are within **60 feet** of your Ride, **except** for class Skills gained that way. Additionally, when **either you or your Ride would take damage**, you may **split the damage** between the two of you as you see fit.
+* **A Rank**: The bonuses granted by **Assist increase by +2** for both you and your Ride (+5 and +3, respectively). Furthermore, if **both you and your Ride** successfully strike the same target **within the same turn**, the target suffers **persistent damage** equal to the **total number of damage dice** inflicted by both attacks. This damage matches the type dealt by one of the attacks (your choice). The target also **increases its Wounded condition by one**. If multiple strikes hit before the other’s attack, you may select which strike determines the damage type and persistent effect.
+)
 |
+
+item (
+* **EX Rank**: Whenever you or your Ride **make an attack**, the other may **immediately make an attack** as a free action :f:. This free-action attack **cannot trigger additional attacks**. If either your or your Ride’s attack **miss or fails**, you gain the benefits of **Assist** as if you had willingly forgone the attack. Additionally, **Soulbound** no longer **imposes restrictions** related to class skills, nor does it have any **distance limitations**.
+)
+
+item (
+#Valor
+-
+Valor is the ability to grow in strength in the face of danger. Not usable under the effects of **Mad Enhancement**.
+)
+
+item (
+* **D Rank**: If you have **a negative condition**, once per round, when you make a **successful attack**, you **regain hit points** equal to your level. Additionally, you gain a **+2 bonus** to your next saving throw following a **critical hit**.
+* **C Rank**: You become **quickened** whenever you are **below half of your maximum HP**.
+* **B Rank**: Whenever you are affected by **negative conditions**, you gain a bonus to **AC and attack rolls**. This bonus is equal to **1 plus either** the **number of negative conditions** affecting you **or** the **highest value** among these conditions, whichever is higher. This bonus goes **up to a maximum of 4**.
+* **A Rank**: Three times per day, upon **being hit by an attack**, you may use **your reaction** to use any **skill feat** or **skill check** that requires no more than **1 action** :a:, with a **+2 bonus** to the check. If this counterattack is a **critical success**, you impose a **-2 penalty** on the attacker's next attack roll or skill check. Additionally, your B Rank ability now can provide **either HP or temporary HP**.
+* **EX Rank**: The **B rank bonus** has no limit anymore. When you are **critically hit** or when your hit points drop **below a quarter**, you gain the following benefits **for a round**:
+A **+2 bonus** to all saving throws.
+Each **successful attack** against an enemy imposes a **-1 penalty** on that enemy's **attack rolls or AC** (your choice) until the end of **its next turn**. If you hit them again while this effect is active, **the ability's duration is extended by 1 round**, and the penalty value is **increased by 1**, up to a **maximum of 4**.
+)
+=
+Item(
+#Circuit Overdrive
+-
+Circuit Overdrive is a skill that amplifies a Servant's magical circuits, core, or overall magical prowess, enabling them to cast significantly more potent and effective spells in battle.
+* **D Rank**:When you heighten a spell, it generates a surge of energy. **If the spell deals damage, add an extra damage die for each rank above its original level.** Additionally, **you gain temporary hit points equal to double the spell’s heightened rank**, reflecting the empowering feedback from your magical circuits.  
+* **C Rank**: Your spells automatically benefit from the **Overwhelming Energy Spellshape effect**, allowing them to **bypass damage Resistance**. However, such spells deal **only half damage against Immunities**. Additionally, **your spells deal double damage when they trigger a creature’s weakness**, exploiting vulnerabilities with unparalleled precision.  
+* **B Rank**: You are a master of leveraging heightened magic. **All spells you cast** are automatically **heightened** to **half your highest spell level**, without requiring additional spell slots. This ensures your magic is always cast at formidable potency. 
+)
+
+Item(
+* **A Rank**:  Your magical precision and power peak. **Your spell save DC and spell attack rolls** both increase by **+2**. **Maximum Output** - Once per day, as a free action :f: you supercharge your magical energy. Until the end of your next turn, **all your spells deal maximum possible damage or healing.**
+* **EX Rank**: All spells you cast are **automatically heightened to their maximum possible level**, regardless of your ability to cast spells of that rank. Your spells also persist even under the effects of **anti-magic fields,** though they can still be counterspelled.
+)
+
+Item ( 
+#Beach Flower
+-
+Beach Flower is a skill that determines the amount of attention one can attract from interested individuals at the beach. Upon acquiring this class skill, you officially become a **Summer Servant**.
+* **D Rank**: Whether intended or not, your presence at the beach inevitably draws glances.
+* **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
+)
+|
+Item ( 
+* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
+* **A Rank**: You have attained the status akin to that of a celebrity. **Versatile Entertainer** - A voice. A thousand voices. The stage is your domain, the crowd your adoring subjects. Under the spotlight or in the shadows, you are the chameleon of charisma. A voice so fluid, it mimics anyone’s timbre and tone. **(you perfectly mimic anyone's voice)**
+* **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
+)
+
+
+
