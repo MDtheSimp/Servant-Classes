@@ -1,0 +1,412 @@
+watermark (
+If I had a nickel for every time I had to remake this thing, I'd have 4 nickels
+)
+title (
+Sevrvant 0.5
+)
+head (
+# Servant Class: Berserker ((Main info))
+Class Berserker, Mad Warrior and Heroic Spirit of Berserk Rage, is one of the Four Cavalry Classes among the seven standard Servant classes summoned for the Holy Grail War. Servants placed within this Class are always Heroic Spirits who have **gone berserk** during battle at least once in their lifetime. This trait allows them to use the special ability **Mad Enhancement**, which trades their consciousness and sanity for a large power boost. This Class is usually for magi who have summoned Heroic Spirits with insufficient abilities and attributes, allowing them to strengthen their Servants to make up for their lower attributes and compete against stronger opponents. While it is ideal for Servants to reach the level of the Heroic Spirit, the Class allows for their attributes to surpass even the original. If used on an already strong Heroic Spirit, such as Heracles, they will become empowered to truly extraordinary levels. The abuse of this to create powerful Servants has made the Class referred to as the strongest of all seven classes.
+-
+)
+pagenumbers
+right (
+# Initial Proficiencies ((+Initial Proficiencies))
+At 1st level, you gain the listed proficiency ranks in the following statistics. You are untrained in anything not listed unless you gain a better proficiency rank in some other way.
+
+## Perception ((+Perception))
+Expert in perception
+## Saving throws
+Increase your proficiency rank in Fortitude by one level.
+Increase your proficiency rank in Reflex by one level.
+Expert in Will
+## Skills ((+Skills))
+Expert in Athletics.
+Trained in a number of additional skills equal to 2 plus your Intelligence modifier.
+## Attacks ((+Attacks))
+Increase your proficiency rank for **all weapons** by one level.
+## defenses ((+defenses))
+trained in all armor
+Expert in unarmored defense
+)
+
+info (
+## Key ability ((+Key ability))
+Strength or Dexterity.
+At 1st level, your class gives you an attribute boost to your choice of Strength or Dexterity.
+
+|
+
+## Hit Points ((+Hit Points))
+
+12 plus your Constitution Modifier. 
+You increase your maximum number of HP by this number at 1st level and every level thereafter.
+)
+# Servant Proficency ((+Servant Proficency))
+
+As a servant, your initial proficiencies function in a different manner compared to standard classes. 
+Whenever your proficiency rank in **Attacks** and **Defenses** would normally increase to match your current rank, increase it by one additional rank instead (for example: if you are a fighter with a master proficiency in melee weapons at level 1, once your fighter class grants you master proficiency in weapons, your proficiency would then increase to legendary). This is capped at one rank above legendary, which is termed 'mythic,' resulting in an additional +2 on top.
+
+## Spirutal body ((+Spirutal body))
+Servants are made of **Ether** one of **Five Great Elements**, on its own it is amorphous and is incapable of materializing by its own power, with the power of the grail, the servants are able to gain a material form with a **Spiritual Core** serving as "their center, their heart, their CPU" that dictates their every function. While a servant may bleed and take damage to their organs, their true being resides in a Spiritual Core.
+
+Servants are beings able to **switch** between a **Spiritual Body** and **Material Body** at will, although at a rate no faster than **once per minute**. While in spiritual form, they cannot be easily detected by enemies due to being **invisible** to the naked eye and most forms of scrying, or be affected by physical interference. They can travel where they please without being impeded by walls, but they also **cannot carry anything** in that state. Their senses are limited to spiritual sensations (*a sort of vague sense imagine being in the ethereal plane but without your normal senses*), so they must materialize in order to fully experience normal senses when sharing a visual link with their Master. Their upkeep cost is low when not materialized, so many Masters prefer them to stay in spirit form when they are not fighting or doing other tasks that require them to be in physical form to lower the cost on themselves.
+
+Other servants can easily sense and interact with a servant in spirit form, while a magus may find it difficult to do so.
+=
+***While in spirit form, your speed doubles, but you incur a -4 status penalty to AC (Armor Class), Perception, and reflex saves, you are also flat-footed. Additionally, you are unable to make attacks or cast spells.***
+
+## Dying and unconsious conditions ((+Dying and unconsious))
+
+As a servant, you do not fall unconscious when reduced to 0 hit points. Instead, you maintain consciousness but incur a **penalty** equal to **twice** your **dying value** on all rolls (such as damage rolls, saves, and checks).
+
+Note that it is still possible to acquire the **unconscious condition** through other means.
+
+Additionally, effects with the **death trait** that reduce your hit points to 0 only increase your dying value by 3, instead of causing immediate death.
+
+
+##### Table 1-1: Berserker class advancement table ((Berserker class advancement table))
+Level | Class features
+--- | :---:
+1 | Ancestry and background, initial proficiencies, Diehard, Numb To Death, Mad Enhancment (**C**)
+2 | Berserker feat
+3 | Personal skill (**D**)
+4 | Berserker feat
+5 | Noble phantasm (**D**), Mad Enhancment (**B**)
+6 | Berserker feat, Personal skill (**+++**)
+7 | Cavalry weapon specialization
+8 | Berserker feat
+9 | Personal skill (**+++**)
+10| Berserker feat, Noble phantasm (**+++**), Mad Enhancment (**A**)
+11 |Berserker feat
+12 | Berserker feat, Personal skill (**+++**)
+13 |Berserker feat
+14 | Berserker feat
+15 |Berserker feat,  Noble phantasm (**+++**) , Personal skill (**+++**)
+16 | Berserker feat
+17 |Berserker feat
+18 | Berserker feat, Personal skill (**+++**)
+19 |Berserker feat
+20 | Berserker feat, Noble phantasm (**+++**)
+##Class features ((class features))
+You gain these abilities as a Berserker. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
+
+
+
+###DIEHARD
+Daying is gay.
+|
+item(
+# DIEHARD
+-
+It takes more to kill you than most. You die from the dying condition at dying 5, rather than dying 4.
+)
+
+###NUMB TO DEATH
+Dying now is even gayer.
+
+item(
+# NUMB TO DEATH
+-
+Your past has left you numb to death's call. The first time each day that you regain Hit Points while you are dying, you gain a circumstance bonus to the number of Hit Points you regain equal to your level, and you neither gain the wounded condition nor increase the value of this condition.
+)
+
+###MAD ENHANCEMENT
+Mad Enhancement is the Class Skill that characterizes a Berserker, raising basic parameters and strengthens one's physical abilities in exchange of hindering mental capacities and/or in exchange for their sense of reason. In some cases, it also affects and/or seals away some techniques, Personal Skills and Noble Phantasms.
+
+There are two options for Mad Enhancement—Major and Minor.
+**Major Mad Enhancement** provides maximum benefits but comes with the greatest drawbacks to the Servant’s sanity, rendering them insane with minimal possibility for reasonable communication. It also imposes the heaviest upkeep requirements on the Master, causing their body to deteriorate under the strain.
+**Minor Mad Enhancement**, on the other hand, provides lesser benefits but allows the Servant to retain a more manageable level of insanity, enabling reasonable communication to a certain extent. It also has a less taxing upkeep cost, making the strain on the Master’s body and mind far more bearable.
+
+There are certain ways to alleviate the burden of Mad Enhancement on the Master. The most effective method is through an incredible amount of mana, though obtaining such a resource would require great effort and must be earned during the course of a campaign.
+
+Item(
+#Mad Enhancement (Major)
+-
+* **D Rank**: You gain a **+4 bonus** to Strength, Dexterity, and Constitution **modifiers**, but suffer a **-2 penalty** to Intelligence, Wisdom, and Charisma **modifiers**. This penalty is treated as a negative effect/condition. Your master is always **fatigued** and takes **1d6 mental damage** per level **after each rest**.
+* **C Rank**: You become **immune** to the **stunned and slowed** conditions as well as ignore **difficult terrain**.
+)
+=
+Item(
+* **B Rank**: Once per round, you can **maximize all rolls** for a single activity you use. After this effect, your master’s **next activity** is guaranteed to have **minimum rolls**. (This effect cannot be used on **free actions** for either you or your master, nor does it trigger the **natural 1 or natural 20** rules.)
+* **A Rank**: **Destructive Fury** - Once per day, as a free action :f:, for 1 minute You deal **twice as many damage dice** and gain **1 additional action each on your turn**. In exhange your master **takes double damage** from all sources and is **stunned 1** for the duration.
+Your master can **end this effect at will** as a free action :f:, but if you **resist**, they must **use a command spell** to forcefully end it.
+* **EX Rank**: Your **critical successes and critical failures** occur at **5** above or below the DC instead of 10. You become immune to **fear** and **mental effects** and gain **Resistance 20** to all damage (cumulative with other resistances). **Legendary Resistance** - 3 times per day, as a free action :f:, when you **fail** or **critically fail** a saving throw, you can choose to **succeed** instead.
+)
+Item(
+#Mad Enhancement (Minor)
+-
+* **D Rank**: You gain a +2 bonus to Strength, Dexterity, and Constitution **modifiers**. Your master is always **fatigued**.
+* **C Rank**: Whenever you gain the **stunned or slowed** conditions, you may roll a **Fortitude save** against the effect's DC as a free action :f::
+    **Critical Success** : You reduce the condition by 2.
+    **Success**: You reduce the condition by 1.
+    **Critical Failure**: You increase the condition by 1.
+Your master takes **1d6 mental damage** equal to half your levels **after each rest**. (minimum of 1).
+* **B Rank**: Once per round, you can **maximize a single damage roll**. ( If an activity would roll damage for multiple instances such as targeting multiple enemies, you can only maximize one instance of the damage). After using this ability, your master’s **next d20 roll** is guaranteed to **result in an 8**. (This effect cannot be used on **free actions** for either you or your master
+* **A Rank**: Once per day, as a free action :f: for 1 minute gain **1 additional action each on your turn**. In exchange your master takes double damage from all sources for the duration.
+Your master can **end this effect at will** as a free action :f:, but if you **resist**, they must **use a command spell** to forcefully end it.
+)
+|
+Item(
+* **EX Rank**: Your **critical successes and critical failures** occur at **5** above or below the DC instead of 10. You gain **Resistance 10** to all damage (cumulative with other resistances). **Legendary Resistance** - once per day, as a free action :f:, when you **fail** or **critically fail** a saving throw, you can choose to **succeed** instead.
+
+)
+###Noble phantasms ((+Noble Phantasms))
+Noble phantasms are powerful armaments made using human imagination as their core, and are the weapons and/or abilities owned by Heroic Spirits. As humanity's illusions, **they embody the ultimate Mysteries of a hero as symbols of their existence through historical fact and anecdotes**.
+
+They can be physical weaponry (e.g. swords, spears, bows) or support items (e.g. shields, rings, crowns). They can also be abstractions such as unique, often magical abilities (even close to or matching True Magic), unique (even conceptual) means of attack, curses, and changes to the very environment and its physical properties. When summoned as Servants in the Holy Grail War, they are the trump cards of the heroes that allow them to overcome others in battle.
+
+A servant may possess more than one Noble Phantasm; however, the more they have, the weaker each tends to be compared to possessing a single Noble Phantasm. Noble Phantasms also follow the skill ranking system **(D | C | B | A | EX)**, with higher-ranked Noble Phantasms being more powerful.
+
+Noble Phantasms are classified by their effectiveness against enemies. One Noble Phantasm may have multiple classifications depending on its abilities. The classification and properties of the Noble Phantasm dictate both the number of times it can be used and the duration required for the NP to 'recharge'.
+
+* **Anti-Unit**- Anti-Unit Noble Phantasms are those specialized against defeating other people in single combat. Compared to stronger weapons, a 
+
+        majority of Anti-Unit Noble Phantasms will not 
+        go beyond defeating other beings.
+
+* **Anti-Army** - Anti-Army Noble Phantasms are those with a wide enough range to be specialized against armies. They are more powerful weapons than Anti-Unit Noble Phantasms, capable of easily blowing them away, but they must be used more wisely because of their larger cost.
+* **Anti-Fortress**  - This rank has powerful Noble Phantasms that can even blow away solid fortified structures. While the difference between Anti-Unit and Anti-Army is the variation in area of effect, Anti-Fortress Noble Phantasms are distinguished from other categories by the great difference in power.
+=
+* **Barrier** - The classification of Noble Phantasms used to create barriers, typically Bounded Fields, but it does not include those that are also used to attack.
+There are numerous additional classifications for Noble Phantasms, including but not limited to Anti-Self, Anti-Country, and Anti-Purge.
+
+###Class Skills and Personal Skills ((+Class and Personal skills))
+Skills are the embodiment of a Servant's various abilities and characteristics (Riding skill, Magic Resistance etc). They are divided into two main categories: **Class Skills**, which are typically connected to the Servant's Class, and **Personal Skills**, which reflect abilities or anecdotes connected to the life and legend of the Servant themselves. Personal Skills typically outweigh Class Skills in impact.
+
+Again, a servant may possess numerous Class and Personal Skills; however, they tend to be stronger when their number is fewer.
+info (
+# Progression ((+Progression))
+* **Class Skills**: From level 1, you have access to all your Class Skills, but they all start at their lowest rank, D. To progress a particular skill, you must retake the corresponding feat, which will increase its rank by one degree. This approach provides an incredible amount of versatility in your choice of Class Skills. All servant classes begin with two Class Skills at level 1 and acquire additional skills as they level up.
+* **Personal Skills**: Similar to Class Skills, Personal Skills start at rank D and progress in the same manner, requiring the retaking of the same Personal Skills. The key difference is that Personal Skills progress at a much slower rate, starting at level 3 and advancing every 3 levels (as indicated by the ***'+++'*** symbol in the advancement table on page 2). Additionally, Personal Skills are not provided by the class and must be created in collaboration with your Dungeon Master."
+* **Noble phantasms**: Noble Phantasms follow the same progression rules as Personal Skills, with the difference being that they advance at an even slower rate, starting at level 5 and increasing every 5 levels. This progression allows for a maximum of four advancements in a Noble Phantasm. The classification of a Noble Phantasm also plays a significant role. It is highly unlikely for a servant to possess more than one Anti-Army or Anti-Fortress NP, whereas an Anti-Unit NP is subject to fewer restrictions.
+)
+|
+info (
+# A RANK
+Your skills can only get to A Rank after reaching **level 10**. If your class provides you with a class skill advancement that would increase your rank to A before level 10, you may **substitute** that advancement with a **Berserker feat** appropriate for your level.
+# EX RANK
+It is impossible to reach an EX rank simply by retaking a Class or Personal Skill from A rank. The only way to attain EX rank is through an **in-game secret**, which you may or may not discover. (To clarify, uncovering the secret will increase your rank by one and unlock the potential to reach EX rank, but it will not grant EX rank immediately, unless you are already at A rank in that specific skill).
+)
+
+## The Master's Wrath 2nd
+Fueled by unyielding rage, you hurl yourself into the line of fire to shield your master from harm. You then surge toward the offender, striking with unrelenting fury, determined to make them pay for daring to threaten your master. You agin The Master's Wrath reaction.
+
+###The Master's Wrath :r: 
+-
+
+**Trigger** Your master is attacked or targeted by an enemy's spell or ability while they are within three times your movement speed.
+-
+item(
+ You leap towards your master, positioning yourself directly in front of them to intercept the attack. You take the damage and effects using your master’s result against the attack roll or saving throw. After intercepting the attack, you stride once toward the same enemy and Strike them.
+
+This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this Strike.
+)
+
+##Cavalry Weapon specialization 7th 
+
+You’ve learned how to inflict greater injuries with the means you know best. You deal 2 additional damage with attacks and spells in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary. Your minions also gain this benefit.
+
+
+
+#Berserker CLASS FEATS ((Berserker class feats))
+=
+item (
+#Battle Continuation
+-
+Battle Continuation is a Skill that allows for the continuation of combat after sustaining mortal wounds. It will also reduce mortality rate from injury. This Skill represents the ability to survive and/or the mentality of one who doesn't know when to give up, consisting of one's strength of vitality in predicaments.
+* **D Rank**: Grants the **Diehard feat**. If you already possess the Diehard feat, increase your **Dying limit by 1**.
+* **C Rank**: Your **wounded value** cannot increase beyond 1. Additionally, you suffer no penalties from the **doomed condition**.
+* **B Rank**: You take **no penalties** from **Dying 1, 2, and 3**, and all subsequent penalties are applied as if starting from Dying 1. Additionally, your **maximum Dying value is increased by 1**.
+* **A Rank**: You do not receive **any penalties** from the dying condition; however, you will still **die instantly** if you reach your **maximum dying value**.
+* **EX Rank**: Once per day, should you go **beyond your maximum dying value**, your body transcends its own limitations. You **become incapable of dying** and will continuously regenerate all limbs for a straight **hour**, if you did not regain at least half your hit points by the end of that hour your spirit core will **disintegrate into nothingness**.
+)
+item (
+#MANA BURST
+-
+Mana Burst is the increase in performance caused by infusing one's weapons and body with Magical Energy and instantly expelling it. Simply put, recreating the effect of a jet burst by expending large amounts of Magical Energy. Choose one element for your Mana Burst. Mana Burst lasts for 1 minute.
+* **D Rank**: Once per day as an action :a:, you can activate **Mana Burst**. Infuse your weapon with magical energy, dealing an additional 1d4 elemental damage per damage die of the weapon. Additionally, your weapon gains one of these traits: Agile, Backswing, Brace, Disarm, Finesse, Free-Hand, Jousting, Razing, Reach, Sweep, Forceful.
+* **C Rank**: **Mana Aegis** - While in Mana Burst, you gain resistance equal to your level to damage from your Mana Burst's element. You can also deal damage equal to half your level to any creature that starts its turn within 5ft of you or gets within 5ft of you during its turn.
+)
+|
+item (
+* **B Rank**: **Mana Surge** - While in Mana Burst, once per round as an action :a:, you can propel yourself with your element up to **twice** your speed. You can move through creatures during this movement, and you don't trigger reactions that are triggered by movement. Each creature you move through takes elemental damage equal to half your level of d6 plus half your level on top (rounded up), with a basic Reflex save against your class DC. Using this ability consumes 1 round of Mana Burst. If you're in the air, you fall unless you have a fly speed.
+* **A Rank**: Mana Resilience - Whenever you are hit by an attack or are making a saving throw against an effect, you may, as a free action :f:, gain a +2 bonus to AC against the triggering attack or to your saving throw. Using this consumes 1 round of Mana Burst. You can choose to double this bonus, increasing it to +4, by consuming 3 rounds of Mana Burst in total.
+* **EX Rank**: **Mana Dominion** - The duration of Mana Burst increases to **3 minutes**. While in Mana Burst, you are immune to damage from your element, and when you take damage of your element, you may consume 1 round of Mana Burst to heal an equal amount of hit points. Mana Surge lets you move up to **three times** your speed, and can be used more than once per round. Whenever you use Mana Resilience, you may expend as many rounds of Mana Burst as you wish to increase the bonus further (+1 for each round expended after the first).
+)
+item (
+#MONSTROUS STRENGTH
+-
+Monstrous Strength is a Skill that temporarily grants a rank-up to one's Strength parameter for a time limit determined by the ranking of this Skill. This skill is limited to Servants whose nature aligns with that of a monster (literally or figuratively) or a Demonic Beast.
+* **D Rank**: Once per day, you can increase your strength modifier by 3 for 1d4 turns. However, you take 5 damage at the end of each of your turns.
+* **C Rank**: You take no damage while Monstrous Strength is active. You are immune to both the slowed and stunned condition for the duration. Additionally, when attempting to use the Escape action :a:, you may use a free action :f: for the same purpose instead.
+)
+=
+item (
+* **B Rank**: The duration increases to 1 minute. After grabbing a creature or object up to large size, you can use it as a weapon. Attack using your highest weapon proficiency, dealing damage equal to your level (x1 for medium or smaller sizes and x2 for large) plus Strength modifier plus weapon specialization damage. Objects are destroyed after one hit, while creatures take half damage if used to attack another creature, or full damage if directly struck. However, you are fatigued 2 after the effect ends.
+* **A Rank**: The duration increases to 1 hour. While Monstrous Strength is active, you can lift (action to grapple and lift) and throw (action to throw) objects (or creatures) up to **huge size** (Titan Wrestler overrides this if you are legendary or higher in athlethics). Throwing objects in this manner counts as a siege weapon launch, and each time you launch something you take damage depending on the size. You can also drag any creature up to your speed no matter its size or strength.
+* **EX Rank**: The duration increases to 8 hours. You can lift and throw objects (or creatures) of any size and up to 10 times bulk (with **Titan Wrestler** you double the bulk limitation). In addition, you gain the following ability:
+)
+
+info (
+###Titanic Retribution
+Three times per day, when you take damage from an attack or effect, you can use your reaction :r: to grab and throw an object (or creature) as a siege weapon launch (you take no damage from this launch).
+)
+
+info (
+After Monstrous Strength ends, you are fatigued 3, as your body recuperates from the extreme exertion.
+)
+
+
+###TABLE 2-1: THROWING MECHANICS
+| Size | range(ft) | DC | damage dice | area | damage taken |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Tiny | str mod * 20 | strike | d4 | single target | 0 |
+| Small | str mod * 15 | Class DC -2 | d6 | single target | 0 |
+| Medium | str mod * 10 | Class DC | d8 | single target | 0 |
+| Large | str mod * 10 | Class DC +2 | d10 | Burst | 5 |
+| Huge | str mod * 5 | Class DC +4 | d12 | Burst | 10 |
+| Gargantuan | str mod * 5 | Class DC +5 | d20 | Burst | 20 |
+
+|
+item (
+#PRIVILEGE
+-
+Privilege is a skill that, due to the insistence of the owner, Skills that are essentially impossible to possess can be obtained for a short period of time.
+* **D Rank**: Allows you to use any D Rank Class Skill of your class for 1d4 rounds as a free action :f:, after which you will be locked from using the same Class Skill (can`t have more than one active at a time).
+* **C Rank**: Resets used Class Skills and allows you to use any C Rank Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
+* **B Rank**: Resets used Class Skills and allows you to use the same class skill up to 2 times before locking them.
+* **A Rank**: Resets used Class Skills and allows you to use any B Rank Class Skill of your class for 1d4 rounds (you can activate up to 2 at a time).
+* **EX Rank**: Allows you to use any A Rank Class Skill of your class for 1d4 rounds. Class Skill will not be locked. (allows up to 3 at a time)
+)
+item (
+#SWORDSMANSHIP
+-
+Swordsmanship is a skill that transcends ordinary combat techniques, and through rigorous training and discipline, you have honed this martial practice into a lethal craft. Your blade, guided by precision and tactical acumen, becomes a tool for both offense and control on the battlefield.
+* **D Rank**: Your Reactive Strikes impose a **-20-foot status penalty** to the target's Speed until the start of your next turn. Additionally, you can make an Reactive Strike when a creature within your reach makes an attack against someone other than you.
+* **C Rank**: Upon critically hitting a target with a Strike, you can immediately attempt to use any skill feat or skill check that requires no more than 1 action :a: as a free action :f: instead. For Disarm, Trip, Shove, or Grapple you use the same multiple attack penalty as the Strike.
+* **B Rank**: You've honed your ability to disrupt magic with your attacks. You can make a **reactive strike** as a free action :f: when a creature **within your reach casts a spell**. If your attack hits, you can attempt to **counteract** the spell using the same roll against the **spell's DC plus half the spell's level**. Your counteract level is equal to half your character level, rounded up. Your counteract result is one degree of success higher.
+)
+=
+item (
+* **A Rank**: At the start of each of your turns, you gain an additional reaction :r: that you can use only for Reactive Strike. Once per round, if you hit and deal damage with a Reactive Strike, you can immediately make a Strike against that creature at a -5 penalty. If this Strike critically hits, the target becomes **enfeebled 2 and clumsy 2** until the end of your next turn.
+* **EX Rank**: **Grandmaster's Mark** - You have reached the zenith of martial prowess. Once per round, when you hit with an attack, you may choose to forgo dealing damage to apply a Grandmaster's Mark to the target until the end of your next turn. A marked creature that provokes a Reactive Strike from you allows you to make that attack as a free action :f: (this does not consume the additional reaction from A Rank). If you hit a marked creature with a Reactive Strike, the Strike automatically becomes a critical hit.
+)
+item (
+#ARTS
+-
+The Arts skill amplifies a servant's magical prowess, seamlessly blending physical strikes with spellcasting. It elevates their ability to weave spells into combat, creating a harmonious dance of martial and arcane power.
+* **D Rank**: You can perform a special Arts Chain once per encounter, allowing you to cast a 1 action 2nd level spell as a free action :f: immediately after hitting a creature with a Strike.
+* **C Rank**: Arts chain can now be used twice per encounter and includes 3rd level spells, and includes spells that require 2 actions. Arts chain may also affect magic item activations either casting a spell after activating one, or activating one after striking (same action limit).
+* **B Rank**: Once per day. After performing an Arts Chain, you can choose to forego the free action spell to instead empower your next spell within 1 minute, the spell is treated as one level higher, and you can apply a compatible shapechange effect up to your level.
+* **A Rank**: Arts Chain can now be used three times per encounter, up to 3rd level. Arts Empowerment - Once per day, before making a strike with a weapon, you can declare Arts Empowerment to enhance the attack. If the attack hits, the target is subjected to one of your spells (as high as Arts chain allows) immediately after the attack and gets one degree of success lower on its save (if the spell requires a save).
+)
+|
+item (
+* **EX Rank**: Your Arts Chain can now be used an unlimited number of times and includes spells up to 5th level. Grand Arcanum - Once per day, after performing an Arts Chain, you may cast any spell in your repertoire as a free action :f: as if using the highest-level spell slot available to you. This does not consume a spell slot.
+)
+
+item (
+#UNYIELDING WILL
+-
+Unyielding Will is the epitome of mental resilience and steadfast determination, symbolizing a servant's capacity to endure and transcend the harshest of trials with their pure will. This skill not only fortifies the servant's own mental defenses but also serves as a beacon of hope and strength for their allies.
+* **D Rank**: **Mind Over Matter** - Once per day, you can **ignore all negative effects** for 1d4+1 turns, demonstrating your ability to overcome anything with sheer willpower. **Mental Fortress** - Once per day, you can **reroll a failed Will save** and take the higher result.
+* **C Rank**: **Contagious Heart** - Once per day, as a free action :f: to allow **any number of allies** within 60 feet to **reroll a failed Will save** (they take the higher result). You also **gain resistance to mental damage** equal to half your level.
+* **B Rank**: **Resolute Focus** - Once per day, you can improve your success level on a **will save by one degree**. **Mental Vanguard** - Once per day, for 1 round, you may **add your Wisdom modifier** to all **attack rolls, damage rolls and skill checks**. "I shall gallop ever-onward, unbroken, unrelenting to the end!"
+* **A Rank**: **If you will it** - Up to 4 times per day, you can **substitute any type of save for a Will save**. Additionally, **once per day** when affected by a mind-affecting spell or ability, you can **reflect the effect** back onto the caster or origin **if you critically succeed on the save** "Nuh, uh".
+* **EX Rank**: Gain a permanent **+5 bonus** to all Will saves. **It is no dream** - Once per day, When you are reduced to 0 hit points or affected by a death effect, you can choose to instead drop to **1 hit point** or negate the effect. **all enemies that have sight** on you must succeed at a **Will save against your Will DC** or become **stunned 2** for 1 minute (stunned 3 and double the duration on a critical failure. "Damn... Aura"), as their reality is momentarily shaken by your unyielding spirit. **Resolute Focus** becomes a passive ability and **Mental Vanguard** lasts for a minute.
+)
+=
+item (
+#NATURAL BODY
+-
+You have an objectively hot bod, and no matter how many calories you ingest, your body shape will not change.
+* **D Rank**: You gain 1 extra HP per level and receive a +1 bonus to Diplomacy when you are at least half-naked (figuratively, not literally).
+* **C Rank**: **Last Stand** - Your muscles condense, reaching the pinnacle of defense. Once per day, as an action :a:, you may reduce your HP to 1 and gain temporary HP equal to twice the HP you lost for 1d4 rounds.
+* **B Rank**: **Rebound** - Your physique becomes a paragon of resilience. Twice per day, as a reaction :r: when you take damage, you can negate that damage and gain temporary hit points equal to the damage for 1d4 rounds. Afterwards, half the damage will recoil onto your actual HP. Your Last Stand also lasts for 1d4+1 turns.
+* **A Rank**: **Metamorphosis** - Once per day, you can, as an action :a:, change your physical form to gain 2 benefits either a +3 bonus to AC, a +20-foot bonus to speed, or a +2 bonus to Strength mod and Dexterity mod for 1d4+1 rounds. Afterward, you incur a penalty equal to what you gained for an equal duration. Whenever you use your B Rank reaction :r:, you reflect the entire damage back to the enemy instead of being merely negated if they are in melee. Additionally, the bonus to Diplomacy when half-naked increases to +2.
+* **EX Rank**: **Eternal Rebirth** - Once per week, as a reaction :r: to reaching 0 hit points, you may eject your spirit core into a part of your body. As long as a single cell of your body remains intact, you can initiate a miraculous regeneration. After at least 24 hours since your "death," you completely regenerate from any physical injury, restoring you to full health and cleansing all negative conditions and effects. You also no longer suffer recoil damage. Your hit points increase by an additional 2 per level. You now can use **Last Stand** up to 3 times, additionally after your **Last Stand** ends, you will revert to 40 HP instead of 1. This amount halves with each subsequent use of **Last Stand** and resets after a rest. 
+)
+
+|
+Item(
+#Marksmanship
+-
+The Marksmanship skill is ideal for combatants who specialize in firearms and tactical ingenuity. It focuses on adaptability, precision, and clever environmental utilization. Users can modify their attacks, ricochet shots, and integrate seamless reloading. This skill rewards creativity and precision, enabling users to outmaneuver opponents and deliver unpredictable, impactful shots.
+* **D Rank: Adaptive Arsenal** - This feat allows you to modify your weapon to suit various combat situations. **Once per day**, as a single action :a:, you can imbue your weapon with one of the following traits for 1 minute: **Agile, Concussive, Kickback, Scatter, Double Barrel, Backstabber, Razing, or Propulsive**.
+* **C Rank: Unbelievable** - Showcasing exceptional talent, you can make projectiles bounce off solid surfaces to hit targets from unexpected angles. When you **attack with a thrown or ranged weapon**, you can have **the projectile ricochet** off a solid surface. This attack incurs a **-1 penalty to hit** but deals an additional **1d6 damage** on a successful hit. You can ricochet a projectile up to **4 times consecutively**, accumulating penalties and bonuses, although a hit or miss on a creature **ends the sequence**. Each ricochet **extends the range of a thrown weapon** by half its original range from the point of impact. Certain actions that enable multiple projectile attacks may allow **ricocheting between projectiles**.
+* **B Rank: Efficient Loader** - Your rapid, precise reloading melds seamlessly into combat's rhythm. When **reloading** a firearm, you can perform an **activity** that requires **no more actions than the reload** as a free action :f:. This activity cannot be an **Attack or Casting a Spell**.
+* **A Rank: Endless Bounce** - If your ricochet **misses a creature**, you can continue the chain until **you hit or reach your ricochet limit**, as long as there's a solid surface to bounce from. Additionally, on a **critical hit** with a ricochet, you can immediately make another **free-action :f: ricochet** against a **different target within range**, without increasing your ricochet count. This does not increase **the penalty or damage bonus**.
+* **EX Rank: Boundless Reflections** - Your ricochet limit **increases to 10**. Once per day, as a free action :f: for **1 minute**, you can reverse the **ricochet penalty to become a bonus**. During this state, you cannot intentionally **MISS**.
+)
+=
+Item(
+#Martial Arts
+-
+Martial Arts represents the pinnacle of martial and spiritual discipline, enhancing a Servant's combat abilities through advanced monk techniques. This skill allows the Servant to seamlessly merge combat stances, masterfully wield several weapons, and harness their inner focus with exceptional efficiency.
+* **D Rank**: This rank showcases your ability to conserve spiritual energy. You gain a **monk feat** for which you qualify (You can change this feat when you level up). Additionally, **three times per day**, you can activate a **focus-consuming** ability without depleting a **focus point** the **first time** it's used.
+* **C Rank**: While **in a stance**, your stance does not end if you perform **another stance action**. Instead, you **combine** the effects of both stances. After taking an action with the stance trait, you may take another stance action **within the same round**, this ability reflects your expertise in martial stances. Additionally, you can perform up to **two flourish actions** per round.
+* **B Rank**: Your reach increaces by 5ft. All your attacks **share this increased reach**, which becomes equal to the **greatest** reach among the weapons you are wielding
+* **A Rank**: When you make an attack, you can **switch weapons** as a free action :f: (interact action). Additionally,  when striking with different weapons in **succession**, your critical weapon's specialization effects **apply to normal hits**, and are **doubled on critical hits** (double the condition value/damage).
+* **EX Rank**:  You can combine an **unlimited number of stances**, and at the start of your turn, you may **enter a stance** as a free action :f:. Furthermore, there is **no limit** to the number of flourish actions you can take per round. Whenever you critically hit a creature, **you regain a focus point**.
+
+)
+
+Item(
+#Presence Detection
+-
+Presence Detection is the ability to detect other Servants and local mana sources.
+* **D Rank**: You gain a detection range of **60ft**. Whenever a creature tries to **hide or sneaks within your detection range**, you **automatically detect their location**, but they **remain hidden** to you. Once a creature **becomes observed** to you within your range, their presence continues to be detectable to you, regardless of subsequent attempts to hide **until they leave your range**. (Creatures with **Presence Concealment** would only be **undetected** instead of becoming **hidden**)
+)
+|
+Item(
+* **C Rank**: Creatures that try to hide from you get **one level of success lower against you**. You can discern the type of creature (e.g., humanoid, beast, undead) when they attempt to hide within your **detection range**. Additionally as an action :a: you can **detect** the location of **all creatures** within your detection range. 
+* **B Rank**: Your detection range increases to 120ft. When you use your action to detect, **an equal or lower rank of Presence Concealment can be nullified**. This extends to magical illusions, invisibility and transformations, as long as **their level is equal to or lower than half your level**. This enables you to perceive the true nature of altered or disguised beings and **nullifies any impediment** illusions and such would cause you (e.g., mirror image...).
+* **A Rank**: You can now detect not just the presence but also the magical potency of any creature within this range. Gauging the relative strength of their abilities compared to yours, allowing you to **know their AC, saves and DCs**. Additionally, **once per day** you gain the ability to **suppress** one magical effect within your detection range as a reaction :r:. The suppression lasts for **1 minute** or until you choose to end it.
+* **EX Rank**: Your sensory abilities reach their zenith. **Your detection range increases to 1-mile**, allowing you to detect all forms of concealment and illusions within it. This includes magical and non-magical means, as well as **unbounded fields**. Additionally you can temporarily **see through the eyes of any creature within your radius**, giving you their point of view on demand for 1 minute, creatures **aware of your presence** can try to resist this effect by succeeding a **Will Save against your Class DC**.
+)
+Item(
+#Shapeshift
+-
+Shapeshift is a Skill that refers to both borrowing bodies and appearance change. It is a method used by the millenary spirits of foxes and badgers of China. 
+* **D Rank**: **Shapeshift** - As an action :a:, you can change your appearance as if using the **humanoid form** spell at 2nd level. Instead of gaining a +4 to Deception, you can choose to receive a **+2 bonus** to Deception, Diplomacy, Intimidation, or Performance. Additionally, if you are untrained in the chosen skill, you add your level to it. You can also **impersonate** an individual without the need for a disguise kit. The form lasts indefinitely or **until you change it**.
+)
+=
+Item(
+* **C Rank**: When using Shapeshift, you gain the benefits of up to a **5th level humanoid form**,  you can now also transform into creatures with the **Animal** or **Beast** trait. You gain no special abilities **except for any movement types** the form normally has (the speed is equal to the lower of your walking speed or the creature's speed). Your gear can now fuse with your body and still be used. The choice for the skill bonus now also includes **Athletics, Acrobatics, Survival, or Stealth**.
+* **B Rank**: As part of the Shapeshift action, you can **copy a single trait or ability**  you saw being used from a creature you have encountered before. If the creature is of your **level or lower**, you automatically succeed. If the creature is higher level than you, you **must succeed at a Fortitude save against their Fortitude DC**.
+* **A Rank**: **Once per day**, for 10 minutes, when you Shapeshift, you can transform into any creature you have seen, gaining its full abilities (sheet) **while only retaining your Servant abilities**. (This does not work on other Servants.) If the creature is of your level or lower, you automatically succeed. If the creature is higher level, you must **succeed at a Fortitude save against their Fortitude DC plus the level difference**. While in this form, if you are **reduced to 0 HP**, you revert to your normal form and your HP returns to **the amount you had before the transformation**. You can still have an additional ability from any creature while transformed **as per the B Rank ability**.
+* **EX Rank**: You can now copy up to **three traits or abilities at once**. Your A Rank ability can now be used as part of the standard Shapeshift, meaning it is no longer limited to once per day and can last indefinitely, but you **do not** revert to your original form when you reach 0 hp, your **HP does not change when you transform**. Additionally, when you transform into a creature, you take the highest stats **between you and the creature**, and you can still use your abilities.
+
+)
+
+
+Item(
+#Circuit Overdrive
+-
+Circuit Overdrive is a skill that amplifies a Servant's magical circuits, core, or overall magical prowess, enabling them to cast significantly more potent and effective spells in battle.
+)
+
+|
+Item(
+* **D Rank**:When you heighten a spell, it generates a surge of energy. **If the spell deals damage, add an extra damage die for each rank above its original level.** Additionally, **you gain temporary hit points equal to double the spell’s heightened rank**, reflecting the empowering feedback from your magical circuits.  
+* **C Rank**: Your spells automatically benefit from the **Overwhelming Energy Spellshape effect**, allowing them to **bypass damage Resistance**. However, such spells deal **only half damage against Immunities**. Additionally, **your spells deal double damage when they trigger a creature’s weakness**, exploiting vulnerabilities with unparalleled precision.  
+* **B Rank**: You are a master of leveraging heightened magic. **All spells you cast** are automatically **heightened** to **half your highest spell level**, without requiring additional spell slots. This ensures your magic is always cast at formidable potency. 
+* **A Rank**:  Your magical precision and power peak. **Your spell save DC and spell attack rolls** both increase by **+2**. **Maximum Output** - Once per day, as a free action :f: you supercharge your magical energy. Until the end of your next turn, **all your spells deal maximum possible damage or healing.**
+* **EX Rank**: All spells you cast are **automatically heightened to their maximum possible level**, regardless of your ability to cast spells of that rank. Your spells also persist even under the effects of **anti-magic fields,** though they can still be counterspelled.
+)
+Item(
+#Spearmanship
+-
+Spearmanship is a skill that embodies the art of mastery with spear-type weapons, granting wielders unparalleled control and versatility in combat. From enhancing the weapon's properties to extending throwing capabilities and executing devastating strikes, this skill transforms the wielder into a formidable warrior on the battlefield.
+* **D Rank**: Once per day, as a single action :a:, you can infuse your weapon with one of the following traits for 1 minute: **Agile, Reach, Jousting, Sweep, Finesse, Fatal, Backswing or Parry**.
+* **C Rank**: Your weapon gains the **Thrown 40 ft** trait or increases your existing thrown range **by 10 feet**, whichever is **greater**. Additionally, your weapon is treated as if it has the **Returning rune**, enhancing your throwing capabilities **without it counting towards** the maximum number of weapon runes allowed.
+)
+=
+Item(
+* **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a **spear-type weapon**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
+* **A Rank**: **Peircing Spear** - When you **strike** a creature by throwing your weapon, it pierces through, targeting **all creatures** in a line equal to your **thrown range**. Compare the strike roll against the AC of each creature in the line to determine which get hit. Additionally, once per turn, you can **reroll a failed attack roll**, but you must keep the second result.
+* **EX Rank**: Your reach increases by an additional **5 feet**. Strikes made with the opposite end of the spear now deal **full damage**. Furthermore, whenever **an enemy enters your reach**, you may make a **strike** against them as a free action :f:, exemplifying your readiness and quick reflexes in combat. When using **Peircing Spear**, you may also force any targets hit by the spear to make a **Fortitude save** against your class DC, On a **failure**, the targets are **restrained** by a materialized copy of your weapon on a surface, while on a **success** they are fall **prone**.
+
+)
+|

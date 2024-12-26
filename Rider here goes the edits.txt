@@ -1,5 +1,5 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 23 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 24 nickels
 )
 title (
 Servant 0.9
@@ -226,13 +226,13 @@ info (
 =
 info(
 # A RANK
-Your skills can only get to A Rank after reaching **level 10**. If your class provides you with a class skill advancement that would increase your rank to A before level 10, you may **substitute** that advancement with a **Saber feat** appropriate for your level.
+Your skills can only get to A Rank after reaching **level 10**. If your class provides you with a class skill advancement that would increase your rank to A before level 10, you may **substitute** that advancement with a **Rider feat** appropriate for your level.
 # EX RANK
 It is impossible to reach an EX rank simply by retaking a Class or Personal Skill from A rank. The only way to attain EX rank is through an **in-game secret**, which you may or may not discover. (To clarify, uncovering the secret will increase your rank by one and unlock the potential to reach EX rank, but it will not grant EX rank immediately, unless you are already at A rank in that specific skill).
 )
 
-## The Master's blade 2nd
-With unwavering vigilance, you protect your master from harm, swiftly intercepting any attacks directed at them. You gain the Master's Blade reaction, enabling you to use your weapon to protect your Master from harm's way.
+## The Master's Ride 2nd
+A bond forged in loyalty and swift action, Your Rie becomes an unyielding shield for your Master. When peril strikes, the ride surges forward, sweeping the master to safety and bearing the brunt of harm without hesitation. You gain the Master's Ride reaction.
 
 
 ###The Master's Ride :r: 
