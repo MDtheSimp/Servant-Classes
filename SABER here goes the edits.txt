@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 34 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 38 nickels
 )
 title (
-Sevrvant 1.4
+Sevrvant 1.5
 )
 head (
 # Servant Class: Saber ((Main info))
@@ -47,7 +47,7 @@ You increase your maximum number of HP by this number at 1st level and every lev
 # Servant Proficency ((+Servant Proficency))
 
 As a servant, your initial proficiencies function in a different manner compared to standard classes. 
-Whenever your proficiency rank in **Attacks** and **Defenses** would normally increase to match your current rank, increase it by one additional rank instead (for example: if you are a fighter with a master proficiency in melee weapons at level 1, once your fighter class grants you master proficiency in weapons, your proficiency would then increase to legendary). This is capped at one rank above legendary, which is termed 'mythical,' resulting in an additional +2 on top.
+Whenever your proficiency rank in **Attacks** and **Defenses** would normally increase to match your current rank, increase it by one additional rank instead (for example: if you are a fighter with a master proficiency in melee weapons at level 1, once your fighter class grants you master proficiency in weapons, your proficiency would then increase to legendary). This is capped at one rank above legendary, which is termed 'mythic,' resulting in an additional +2 on top.
 
 ## Spirutal body ((+Spirutal body))
 Servants are made of **Ether** one of **Five Great Elements**, on its own it is amorphous and is incapable of materializing by its own power, with the power of the grail, the servants are able to gain a material form with a **Spiritual Core** serving as "their center, their heart, their CPU" that dictates their every function. While a servant may bleed and take damage to their organs, their true being resides in a Spiritual Core.
@@ -320,11 +320,11 @@ Privilege is a skill that, due to the insistence of the owner, Skills that are e
 )
 |
 item (
-* **D Rank**: Allows you to use any D Rank Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
+* **D Rank**: Allows you to use any D Rank Class Skill of your class for 1d4 rounds as a free action :f:, after which you will be locked from using the same Class Skill (can`t have more than one active at a time).
 * **C Rank**: Resets used Class Skills and allows you to use any C Rank Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
 * **B Rank**: Resets used Class Skills and allows you to use the same class skill up to 2 times before locking them.
-* **A Rank**: Resets used Class Skills and allows you to use any B Rank Class Skill of your class for 1d4 rounds.
-* **EX Rank**: Allows you to use any A Rank Class Skill of your class for 1d4 rounds. Class Skill will not be locked.
+* **A Rank**: Resets used Class Skills and allows you to use any B Rank Class Skill of your class for 1d4 rounds (you can activate up to 2 at a time).
+* **EX Rank**: Allows you to use any A Rank Class Skill of your class for 1d4 rounds. Class Skill will not be locked. (allows up to 3 at a time)
 )
 
 item (
@@ -378,7 +378,7 @@ item (
 -
 Unyielding Will is the epitome of mental resilience and steadfast determination, symbolizing a servant's capacity to endure and transcend the harshest of trials with their pure will. This skill not only fortifies the servant's own mental defenses but also serves as a beacon of hope and strength for their allies.
 * **D Rank**: **Mind Over Matter** - Once per day, you can **ignore all negative effects** for 1d4+1 turns, demonstrating your ability to overcome anything with sheer willpower. **Mental Fortress** - Once per day, you can **reroll a failed Will save** and take the higher result.
-* **C Rank**: **Contagious Heart** - Once per day, you can use your reaction :r: to allow **any number of allies** within 60 feet to **reroll a failed Will save** (they take the higher result). You also **gain resistance to mental damage** equal to half your level.
+* **C Rank**: **Contagious Heart** - Once per day, as a free action :f: to allow **any number of allies** within 60 feet to **reroll a failed Will save** (they take the higher result). You also **gain resistance to mental damage** equal to half your level.
 * **B Rank**: **Resolute Focus** - Once per day, you can improve your success level on a **will save by one degree**. **Mental Vanguard** - Once per day, for 1 round, you may **add your Wisdom modifier** to all **attack rolls, damage rolls and skill checks**. "I shall gallop ever-onward, unbroken, unrelenting to the end!"
 * **A Rank**: **If you will it** - Up to 4 times per day, you can **substitute any type of save for a Will save**. Additionally, **once per day** when affected by a mind-affecting spell or ability, you can **reflect the effect** back onto the caster or origin **if you critically succeed on the save** "Nuh, uh".
 * **EX Rank**: Gain a permanent **+5 bonus** to all Will saves. **It is no dream** - Once per day, When you are reduced to 0 hit points or affected by a death effect, you can choose to instead drop to **1 hit point** or negate the effect. **all enemies that have sight** on you must succeed at a **Will save against your Will DC** or become **stunned 2** for 1 minute (stunned 3 and double the duration on a critical failure. "Damn... Aura"), as their reality is momentarily shaken by your unyielding spirit. **Resolute Focus** becomes a passive ability and **Mental Vanguard** lasts for a minute.

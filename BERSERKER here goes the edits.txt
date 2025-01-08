@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 4 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 18 nickels
 )
 title (
-Sevrvant 0.5
+Sevrvant 0.7
 )
 head (
 # Servant Class: Berserker ((Main info))
@@ -82,7 +82,7 @@ Level | Class features
 12 | Berserker feat, Personal skill (**+++**)
 13 |Berserker feat
 14 | Berserker feat
-15 |Berserker feat,  Noble phantasm (**+++**) , Personal skill (**+++**)
+15 |Berserker feat,  Noble phantasm (**+++**)
 16 | Berserker feat
 17 |Berserker feat
 18 | Berserker feat, Personal skill (**+++**)
@@ -131,7 +131,7 @@ Item(
 * **B Rank**: Once per round, you can **maximize all rolls** for a single activity you use. After this effect, your master’s **next activity** is guaranteed to have **minimum rolls**. (This effect cannot be used on **free actions** for either you or your master, nor does it trigger the **natural 1 or natural 20** rules.)
 * **A Rank**: **Destructive Fury** - Once per day, as a free action :f:, for 1 minute You deal **twice as many damage dice** and gain **1 additional action each on your turn**. In exhange your master **takes double damage** from all sources and is **stunned 1** for the duration.
 Your master can **end this effect at will** as a free action :f:, but if you **resist**, they must **use a command spell** to forcefully end it.
-* **EX Rank**: Your **critical successes and critical failures** occur at **5** above or below the DC instead of 10. You become immune to **fear** and **mental effects** and gain **Resistance 20** to all damage (cumulative with other resistances). **Legendary Resistance** - 3 times per day, as a free action :f:, when you **fail** or **critically fail** a saving throw, you can choose to **succeed** instead.
+* **EX Rank**: Your **critical successes and critical failures** occur at **5** above or below the DC instead of 10. You gain **Resistance 20** to all damage (cumulative with other resistances). **Legendary Resistance** - 3 times per day, as a free action :f:, when you **fail** or **critically fail** a saving throw, you can choose to **succeed** instead.
 )
 Item(
 #Mad Enhancement (Minor)
@@ -409,4 +409,76 @@ Item(
 * **EX Rank**: Your reach increases by an additional **5 feet**. Strikes made with the opposite end of the spear now deal **full damage**. Furthermore, whenever **an enemy enters your reach**, you may make a **strike** against them as a free action :f:, exemplifying your readiness and quick reflexes in combat. When using **Peircing Spear**, you may also force any targets hit by the spear to make a **Fortitude save** against your class DC, On a **failure**, the targets are **restrained** by a materialized copy of your weapon on a surface, while on a **success** they are fall **prone**.
 
 )
+
+Item(
+#Indomitable
+-
+Indomitable is a skill that embodies unyielding resilience and defiance in the face of adversity. It grants the user unparalleled endurance and combat tenacity, showing it's true potential at the brink of death.
+* **D Rank**: **Retaliate** -  When you **take damage** from a creature within your reach or first range increment, you **deal damage** to that creature equal to **twice your level**. The damage type can be any type your weapons or spells are capable of dealing.
+* **C Rank**: **Guts** - When you **fall to 0 hit points** for the first time in an enouncter, you instantly **regain Hit Points equal to half your maximum HP**.
+)
+|
+Item(
+* **B Rank**: When **Retaliate activates**, you can target **any creature within** your reach or first range increment instead of the attacker. **Flames of reversal** - When your hit points fall below **one-quarter** of your maximum, you gain **resistance 10** to all damage. This resistance stacks with other resistances.
+* **A Rank**: While under the effects of **Flames of Reversal**, you gain the following benefits:  
+    - You gain **one extra charge of your Noble Phantasm** that recharges **one minute** after use. (you lose the extra charge when flames of reversal ends)
+    - Once per round, as a free action :f:, when you would roll a saving throw, attack roll, or skill check, you can **roll twice and take the better result**.  
+
+* **EX Rank**: **Flames of Reversal** now activate when you **fall below half your maximum hit points** instead of one-quarter. While it is active:  
+  - You become **immune to critical hits and critical successes** from enemies, treating them as normal successes instead.  
+  - **Defy Fate** – Once per encounter, as a free action :f: you can **loudly declare an action or activity** (requiring at least one action) that you have access to. You will be **forced** to perform that action on your next turn. Until that action is completed, your **dying**, **doomed**, and **wounded** conditions, as well as your hit points or temporary hit points, cannot change. If you are unable to perform the declared activity on your next turn, you **lose the actions required to perform it**.  
+
+)
+
+Item( 
+#Overload
+-
+Overload is a Skill that grants an additional boost while the user accepts the fact that it inflicts damage upon themself.
+* **D Rank**: **Blood to Power** - free action : 
+When a **strike or spell attack** roll fails to hit (but is not a critical failure), you may choose to **deal half damage** to your target. However, you **reduce your hit points** by an amount equal to your level when using this ability.  
+(*All Blood to Power effects only activate if you take the damage required to use them.*)
+)
+=
+Item(
+* **C Rank**: When using **Blood to Power**, you may replace its default effect with the following option:  
+Before making a **skill check, saving throw, or attack roll**, you may increase the degree of success by **1 step**. In exchange, you take damage equal to **twice your level** when activating this ability.  
+* **B Rank**: When using **Blood to Power**, you gain an additional option:  
+You may **transform a single reaction** you gained this turn into an **action**. This action must be used during the same turn, or it is lost. Using this ability causes you to take damage equal to **three times your level**.  
+* **A Rank**:  When using **Blood to Power**, you gain yet another option:  
+You may **reduce your current hit points** by any amount and add that amount as **extra damage** to your next attack or damaging ability, such as a spell.  
+If the ability hits **multiple creatures**, you may **split the extra damage** between them as you see fit, rather than applying the full bonus to each creature.  
+* **EX Rank**: **Blood to Me** (Once per Day, Free Action):  
+You may choose to **heal for half of the damage you deal**. However, at the start of each of your turns, you take damage equal to **three times your level**. This effect lasts until you choose to dispel it.  
+(*Damage done from Blood to Power will not add into the amount healed*) 
+When using **Blood to Power**, if the damage you take to activate an ability is **equal to or greater than** the activation cost of any other Blood to Power option, you may activate **multiple effects simultaneously** without paying the cost for each one individually. (Although only those who can be activated will. *wink* *wink* D rank option)
+)
+
+Item(
+#Mental Pollution
+-
+Mental Pollution is a Skill where due to possessing a distorted mentality, it is possible for one to shut out any mental interference thaumaturgy. At the same time, it becomes possible for one to transfer these mental effects to others who do not possess an equivalent rank of Mental Pollution.
+)
+|
+Item(
+* **D Rank**: **Emotional Damage** - As a free action :f:, when you **take mental damage**, you may **decrease your Wisdom modifier** by 1 and **increase any other modifier** by 1 instead. This effect lasts until the **end of your next turn**. If you take mental damage again before the end of your next turn, you may repeat this effect and increase its duration by 1 additional round. *(This effect can reduce your Wisdom modifier to a minimum of -4 and increase another modifier to a maximum of +4. After reaching these limits, further uses of Emotional Damage only extend the duration.)*  
+* **C Rank**: **Pollute** - As an action :a:, you exude an **invisible mindfog mist** that affects everything within 20 feet of you for 1 minute. The saving throw DC is equal to your **class DC or spell save DC**, whichever is higher. You can choose whether the saving throw is a **Fortitude or Will**. If a strong wind dissipates the mist before the duration ends, it will **refill the area** around you at the start of your next turn.  
+* **B Rank**: You can **ignore all negative mental effects**, although they still affect you. However, the more numerous and severe these conditions become, the **less comprehensible** you are to others. Once you have 4 negative mental conditions or a combined severity of 4 or more, you become incomprehensible to everyone unless they possess an equivalent rank of **Mental Pollution**.  
+* **A Rank**: **Emotional Burden** - as a free action :f:, You can **extend the duration of any negative mental condition** affecting you to a maximum of 1 minute. *(If a condition is reapplied or its severity increases, it does not extend the duration beyond what you have already set unless caused by the source of the effect.)* Creatures inside your **mindfog mist** that are affected by one of its stages also gain **any negative mental conditions you currently have on yourself**.  
+* **EX Rank**: Creatures affected by a **mental effect caused by you** have their action costs **increased by 1**. Additionally, you gain a **benefit that is opposite** of what your negative mental conditions impose on you. *(For effects that are too complex to determine, work with your DM to decide an appropriate bonus—or gain nothing if no suitable bonus can be determined.)*  
+
+)
+=
+
+Item ( 
+#Beach Flower
+-
+Beach Flower is a skill that determines the amount of attention one can attract from interested individuals at the beach. Upon acquiring this class skill, you officially become a **Summer Servant**.
+* **D Rank**: Whether intended or not, your presence at the beach inevitably draws glances.
+* **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
+* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
+* **A Rank**: You have attained the status akin to that of a celebrity. **Versatile Entertainer** - A voice. A thousand voices. The stage is your domain, the crowd your adoring subjects. Under the spotlight or in the shadows, you are the chameleon of charisma. A voice so fluid, it mimics anyone’s timbre and tone. **(you perfectly mimic anyone's voice)**
+* **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
+)
+
+
 |

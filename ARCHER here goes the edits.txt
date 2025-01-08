@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 30 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 31 nickels
 )
 title (
-Sevrvant 1.0
+Sevrvant 1.1
 )
 head (
 # Servant Class: Archer ((Main info))
@@ -130,10 +130,9 @@ item(
 -
 * **D rank**: When targeted by a spell that is **below half your level**, you receive a **+2 status bonus on saves and AC**.
 * **C rank**: You gain resistance **5** to the damage from spells **equal to half your level or less**.
-* **B rank**: As a reaction :r: , when targeted by a spell that is **equal to half your level or less**, you may attempt to **counteract** the spell using your weapon's attack bonus. The counteract level is **equal to half your level, rounded up**. If you **successfully** counteract the spell, you are unaffected by it, unless you choose to be. The counteract **DC** is the **spell's save DC plus half the spell's level**.
+* **B rank**: As a reaction :r:, when targeted by a spell that is **equal to half your level or less**, you may attempt to **counteract** the spell using your weapon's attack bonus. The counteract level is **equal to half your level, rounded up**. If you **successfully** counteract the spell, you disrupt it. The counteract **DC** is the **spell's save DC plus half the spell's level**.
 * **A rank**: Counteracting spells now requires only a **free action** :f:. Additionally, once per day, you can turn one spell save into an **automatic critical success**.
-* **EX rank**: "**Ma##C? On M#eE#eE?**" You **reflect** spells back to the caster when you **succeed at a counteract check**.
-
+* **EX rank**: "**Ma##C? On M#eE#eE?**" You **reflect** spells back to the caster when you **succeed at a counteract check** or **saving throw** against a spell.
 )
 
 
@@ -206,25 +205,17 @@ Your damage from knight weapon specialization increases to 4 with weapons and un
 
 #Archer CLASS FEATS ((Archer class feats))
 item (
-#Mind's Eye((+Mind's Eye))
+#MIND'S EYE
 -
-Mind's Eye, is a natural talent to foresee/sense and avoid danger on the basis of an innate 6th sense, intuition, or prescience. The accuracy of this instinct can be augmented by experience. Mind's Eye can also be a  heightened capacity for observation, refined through training, discipline and experience. A danger-avoidance ability that utilizes the intelligence collected up to the current time as the basis in order to predict the opponent’s activity and change the current situation. 
-The ability also grants an effect of offering resistance against penalties caused by visual obstructions.
-* **D Rank**: Your senses are constantly alert, allowing you to respond quickly to threats.
-you gain the **Nimble Dodge reaction**. If you already possess this the bonus increases to **+3 instead**.
-You also gain a **+2 bonus to Perception checks**. The flat check DC in order to target hidden, undectected or concealed creatures is **reduced by 2**.
-* **C Rank**: Your intuition and observational skills are sharp, helping you to effortlessly see through deceptive visual obstructions and react swiftly to threats.
-You gain the **Deny Advantage** feature against creatures of  **one level higher than yours** or lower. You also gain the **Nimble Roll** feat. The flat check DC in order to target hidden, undectected or concealed creatures is further **reduced by 4**. 
+Mind's Eye is a natural talent to foresee/sense and avoid danger on the basis of an innate 6th sense, intuition, or prescience. The accuracy of this instinct can be augmented by experience. Mind's Eye can also be a heightened capacity for observation, refined through training, discipline and experience. A danger-avoidance ability that utilizes the intelligence collected up to the current time as the basis in order to predict the opponent’s activity and change the current situation. The ability also grants an effect of offering resistance against penalties caused by visual obstructions.
+* **D Rank**: Your senses are constantly alert, allowing you to respond quickly to threats. You gain the Nimble Dodge reaction. If you already possess this the bonus increases to +3 instead. You also gain a +2 bonus to Perception checks to seek undetected creatures. The flat check DC in order to target hidden, undetected or concealed creatures is reduced by 2.
+* **C Rank**: Your intuition and observational skills are sharp, helping you to effortlessly see through deceptive visual obstructions and react swiftly to threats. You gain the Deny Advantage against creatures of your level or lower. You also **gain the Nimble Roll feat**. The flat check DC in order to target hidden, undetected or concealed creatures is reduced by 4.
 )
 =
 item (
-* **B Rank**: Your mind’s eye allows you to analyze your surroundings and predict threats with incredible precision.
-you also don't roll a flat check against concealed creatures.  Additionally, you **double the distance** moved with the **Nimble Roll feat**. Your bonus  to Perception checks becomes a **+3** instead of a **+2**.
-* **A Rank**: Your senses and intuition are so refined that you can predict enemies' movements and react with supernatural speed.
-You apply the effects of Deny Advantage against creatures of **any level**. You also gain an additional **reaction** :r:. Additionally your bonus to Perception checks becomes a **+4** instead of a **+3**.
-* **EX Rank**: Your senses and intuition have reached their pinnacle, granting you unparalleled awareness and reflexes.
-At the start of each enemy’s turn, you **gain a reaction** you can use **only during that turn**.
-You are constantly under the effects of the **True Seeing** spell  Additionally, you gain a **+2 bonus** to Saving Throws and AC.
+* **B Rank**: Your mind’s eye allows you to analyze your surroundings and predict threats with incredible precision. You apply the effects of Deny Advantage against creatures of up to one level higher than yours. You also don't roll a flat check against concealed creatures. Your bonus to seek also applies to all perception checks. Additionally, **you double the distance** moved with the Nimble Roll feat.
+* **A Rank**: Your senses and intuition are so refined that you can predict enemies' movements and react with supernatural speed. You apply the effects of Deny Advantage against **creatures of any level**. You gain an additional reaction :r: that you can use only for your Mind's Eye features. Additionally, you gain a +4 bonus to Perception checks instead of the +2.
+* **EX Rank**: Your senses and intuition have reached their pinnacle, granting you unparalleled awareness and reflexes. You are constantly under the effects of the True Seeing spell (using your **perception for the counteract check**) and gain a +5 bonus to all Perception checks instea of the +4 and it also applie to all your Saving Throws.
 )
 
 Item(
@@ -246,13 +237,11 @@ item(
 #Privilege ((+Privlege))
 -
 Privilege is an skill that, due to the insistence of the owner, Skills that are essentially impossible to possess can be obtained for a short period of time.
-
-* **D Rank**: Allows you to use any **D Rank** Class Skill of your class for **1d4 rounds**, after which you will be locked from using the same Class Skill.
-* **C Rank**: **Resets used Class Skills** and allows you to use any **C Rank** Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
-
-* **B Rank**: Resets used Class Skills and allows you to use the same class skill **up to 2 times** before locking them.
-* **A Rank**: Resets used Class Skills and allows you to use any **B Rank** Class Skill of your class for 1d4 rounds..
-* **EX Rank**: Allows you to use any **A Rank Class Skill** of your class for 1d4 rounds. Class Skill will not be locked.
+* **D Rank**: Allows you to use any D Rank Class Skill of your class for 1d4 rounds as a free action :f:, after which you will be locked from using the same Class Skill (can`t have more than one active at a time).
+* **C Rank**: Resets used Class Skills and allows you to use any C Rank Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
+* **B Rank**: Resets used Class Skills and allows you to use the same class skill up to 2 times before locking them.
+* **A Rank**: Resets used Class Skills and allows you to use any B Rank Class Skill of your class for 1d4 rounds (you can activate up to 2 at a time).
+* **EX Rank**: Allows you to use any A Rank Class Skill of your class for 1d4 rounds. Class Skill will not be locked. (allows up to 3 at a time)
 )
 
 item (

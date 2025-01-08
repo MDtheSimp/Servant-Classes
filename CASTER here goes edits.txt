@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 25 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 29 nickels
 )
 title (
-Servant 0.9.5
+Servant 1.1
 )
 head (
 # Servant Class: Caster ((Main info))
@@ -275,11 +275,11 @@ item(
 #Privilege ((+Privlege))
 -
 Privilege is an skill that, due to the insistence of the owner, Skills that are essentially impossible to possess can be obtained for a short period of time.
-* **D Rank**: Allows you to use any **D Rank** Class Skill of your class for **1d4 rounds**, after which you will be locked from using the same Class Skill.
-* **C Rank**: **Resets used Class Skills** and allows you to use any **C Rank** Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
-* **B Rank**: Resets used Class Skills and allows you to use the same class skill **up to 2 times** before locking them.
-* **A Rank**: Resets used Class Skills and allows you to use any **B Rank** Class Skill of your class for 1d4 rounds..
-* **EX Rank**: Allows you to use any **A Rank Class Skill** of your class for 1d4 rounds. Class Skill will not be locked.
+* **D Rank**: Allows you to use any D Rank Class Skill of your class for 1d4 rounds as a free action :f:, after which you will be locked from using the same Class Skill (can`t have more than one active at a time).
+* **C Rank**: Resets used Class Skills and allows you to use any C Rank Class Skill of your class for 1d4 rounds, after which you will be locked from using the same Class Skill.
+* **B Rank**: Resets used Class Skills and allows you to use the same class skill up to 2 times before locking them.
+* **A Rank**: Resets used Class Skills and allows you to use any B Rank Class Skill of your class for 1d4 rounds (you can activate up to 2 at a time).
+* **EX Rank**: Allows you to use any A Rank Class Skill of your class for 1d4 rounds. Class Skill will not be locked. (allows up to 3 at a time)
 )
 Item(
 #Presence Detection
@@ -307,9 +307,8 @@ info(
 -
 ; Concentrate
 **Frequency** once per day
-**duration** 1 round
 -
-**Reduce** the number of actions to cast a **cantrip** or a spell that is at **least 2 ranks lower** than the highest-rank spell rank you have by 1 (**minimum 1 action**), This would cause effects and abilities that only work on lower action cost spells to also work on this one for the duration, such as with spellstrike or readying an action etc.
+**Reduce** the number of actions to cast the next **cantrip** or spell cast this turn that is at **least 2 ranks lower** than the highest-rank spell rank you have by 1 (**minimum 1 action**), This would cause effects and abilities that only work on lower action cost spells to also work on this one, such as with spellstrike or readying an action etc.
 
 )
 item(
@@ -321,9 +320,8 @@ info(
 -
 ; Concentrate
 **Frequency** once per day
-**duration** 1 round
 -
-**Reduce** the number of actions required to use a **spellshape** by 1.
+**Reduce** the number of actions required to use your next **spellshape** this turn by 1.
 )
 item(
 * **B Rank**: The frequency of **Quicken Spell** and **Quicken Shape** increases to once per round. Additionally, you can now use **Quicken Spell** on any spell you cast. If you use **Quicken Spell** or **Quicken Shape** on a reaction :r:, it becomes a free action :f: instead.
