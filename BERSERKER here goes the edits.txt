@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 18 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 21 nickels
 )
 title (
-Sevrvant 0.7
+Sevrvant 0.8
 )
 head (
 # Servant Class: Berserker ((Main info))
@@ -128,7 +128,7 @@ Item(
 )
 =
 Item(
-* **B Rank**: Once per round, you can **maximize all rolls** for a single activity you use. After this effect, your master’s **next activity** is guaranteed to have **minimum rolls**. (This effect cannot be used on **free actions** for either you or your master, nor does it trigger the **natural 1 or natural 20** rules.)
+* **B Rank**: Once per day, you can **maximize all rolls** for a single activity you use. After this effect, your master’s **next activity** is guaranteed to have **minimum rolls**. (This effect cannot be used on **free actions** for either you or your master, nor does it trigger the **natural 1 or natural 20** rules.)
 * **A Rank**: **Destructive Fury** - Once per day, as a free action :f:, for 1 minute You deal **twice as many damage dice** and gain **1 additional action each on your turn**. In exhange your master **takes double damage** from all sources and is **stunned 1** for the duration.
 Your master can **end this effect at will** as a free action :f:, but if you **resist**, they must **use a command spell** to forcefully end it.
 * **EX Rank**: Your **critical successes and critical failures** occur at **5** above or below the DC instead of 10. You gain **Resistance 20** to all damage (cumulative with other resistances). **Legendary Resistance** - 3 times per day, as a free action :f:, when you **fail** or **critically fail** a saving throw, you can choose to **succeed** instead.
@@ -136,13 +136,13 @@ Your master can **end this effect at will** as a free action :f:, but if you **r
 Item(
 #Mad Enhancement (Minor)
 -
-* **D Rank**: You gain a +2 bonus to Strength, Dexterity, and Constitution **modifiers**. Your master is always **fatigued**.
+* **D Rank**: You gain a +2 bonus to Strength, Dexterity, and Constitution **modifiers**. Your is **fatigued** after every rest.
 * **C Rank**: Whenever you gain the **stunned or slowed** conditions, you may roll a **Fortitude save** against the effect's DC as a free action :f::
     **Critical Success** : You reduce the condition by 2.
     **Success**: You reduce the condition by 1.
     **Critical Failure**: You increase the condition by 1.
 Your master takes **1d6 mental damage** equal to half your levels **after each rest**. (minimum of 1).
-* **B Rank**: Once per round, you can **maximize a single damage roll**. ( If an activity would roll damage for multiple instances such as targeting multiple enemies, you can only maximize one instance of the damage). After using this ability, your master’s **next d20 roll** is guaranteed to **result in an 8**. (This effect cannot be used on **free actions** for either you or your master
+* **B Rank**: Once per round, you can **maximize a single damage roll**. ( If an activity would roll damage for multiple instances such as targeting multiple enemies, you can only maximize one instance of the damage). After using this ability, your master’s **next d20 roll** is guaranteed to **result in an 8**. (This effect cannot be used on **free actions** for either you or your master)
 * **A Rank**: Once per day, as a free action :f: for 1 minute gain **1 additional action each on your turn**. In exchange your master takes double damage from all sources for the duration.
 Your master can **end this effect at will** as a free action :f:, but if you **resist**, they must **use a command spell** to forcefully end it.
 )
@@ -238,7 +238,7 @@ item (
 #MONSTROUS STRENGTH
 -
 Monstrous Strength is a Skill that temporarily grants a rank-up to one's Strength parameter for a time limit determined by the ranking of this Skill. This skill is limited to Servants whose nature aligns with that of a monster (literally or figuratively) or a Demonic Beast.
-* **D Rank**: Once per day, you can increase your strength modifier by 3 for 1d4 turns. However, you take 5 damage at the end of each of your turns.
+* **D Rank**: Once per day, you can increase your strength modifier by 3 for 1d4 rounds. However, you take 5 damage at the end of each of your turns.
 * **C Rank**: You take no damage while Monstrous Strength is active. You are immune to both the slowed and stunned condition for the duration. Additionally, when attempting to use the Escape action :a:, you may use a free action :f: for the same purpose instead.
 )
 =
