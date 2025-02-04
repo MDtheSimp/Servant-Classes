@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 33 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 34 nickels
 )
 title (
-Servant 1.2
+Servant 1.3
 )
 head (
 # Servant Class: Caster ((Main info))
@@ -480,8 +480,9 @@ Item(
   - You gain the **Hero’s Defiance** focus spell and can cast it **even if you do not meet the level requirement**.  
 * **EX Rank**: You stand at the brink of **true godhood**, lacking only a **Divine Core** to complete your ascension.  
   - Your **Divine Spark permanently empowers all of your Ikons at all times**.  
+  - Any Ikons you have apply to all applicable Ikons you possess, rather than just one (e.g., all Weapon Ikons can affect the same weapon simultaneously).
   - You become **immune to death effects**.  
-  - You may choose one of your **proficiencies** and **increase its rank by 1**, up to **Mythic**.  
+  - You may choose one of your **proficiencies** and **increase its rank by 1**, up to **Mythic**.    
 )
 
 note (
