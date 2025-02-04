@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 31 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 33 nickels
 )
 title (
-Sevrvant 1.1
+Sevrvant 1.2
 )
 head (
 # Servant Class: Archer ((Main info))
@@ -114,10 +114,10 @@ At higher ranks,  Servants can stay in this world longer without a contract, ind
 item(
 #Independent Action
 -
-* **D Rank**: It is possible for a Servant to stay in the world for **eight hours without a Master**
-* **C Rank**:It is possible for a Servant to stay in the world for **one day without a Master**.
+* **D Rank**: It is possible for a Servant to stay in the world for **eight hours without a Master**. When the master dies the servant does not suffer the **-5 penalty** (*note at the end of the document*) but can still not use noble phantasms. 
+* **C Rank**: It is possible for a Servant to stay in the world for **one day without a Master**. Using the **NP** of the servant is possible without destroying them, but they do not recharge and after use **you lose 16 hours** of your remaining time to a **minimum of 1 hour**, when you reach this minimum you cannot use NPs any further without your spirit core exploding.
 * **B Rank**:It is possible for a Servant to stay in the world for **two days without a Master**. However, this is the ideal value achieved by maximally conserving mana and avoiding battle and NP usage.
-* **A Rank**: It is possible to take action even without a Master. However, to use NPs of great magical energy consumption, backup from the Master is necessary. At Rank A, it is possible for a Servant to stay in the world for about **a week without a Master**.
+* **A Rank**: It is possible for a Servant to stay in the world for about **a week without a Master**.
 * **EX Rank**: At EX rank, Independent Action allows for nearly any act, whether related to combat or otherwise, to be undertaken without support from the Master.
 
 )
@@ -360,19 +360,45 @@ item(
 
 )
 
-Item ( 
-#Beach Flower
+item (
+#BEACH FLOWER
 -
-Beach Flower is a skill that determines the amount of attention one can attract from interested individuals at the beach. Upon acquiring this class skill, you officially become a **Summer Servant**.
-
+Beach Flower is a skill that determines the amount of attention one can attract from interested individuals at the beach. Upon acquiring this class skill, you officially become a Summer Servant.
 * **D Rank**: Whether intended or not, your presence at the beach inevitably draws glances.
 * **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
-
-* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
-* **A Rank**: You have attained the status akin to that of a celebrity.
+* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants. **While on the beach, your own specific theme song plays in the background.**
+* **A Rank**: You have attained the status akin to that of a celebrity. **Versatile Entertainer** - A voice. A thousand voices. The stage is your domain, the crowd your adoring subjects. Under the spotlight or in the shadows, you are the chameleon of charisma. A voice so fluid, it mimics anyone’s timbre and tone. **(you perfectly mimic anyone's voice)**
 * **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
 )
+|
+Item(
+#Divinity
+-
+Divinity is a Skill that acts as the measure of whether one has Divine Spirit aptitude or not. At high levels, one can be considered a Demigod, a mix between a human and Divine Spirit. Those who have A rank Divinity or above have reached the Throne of Gods, although they are still just short of being a true God due to lacking a Divine Core. The level declines when the Heroic Spirit's own rank as a "Monster" or "Demonic Beast" rises; it can also decrease due to one's dislike for the gods.
+* **D Rank**: You gain the **Divine Spark and Ikons** feature of the **Exemplar**, but instead of gaining 3 Ikons, **you gain only 2**. If you are already an Exemplar, you still gain 2 additional Ikons.  
+* **C Rank**: The rank achievable by Saints, forgotten gods, and deities worshipped by minor cults. Your **Divine Spark** can now empower **2 Ikons at once** instead of just 1. Using **Shift Immanence** allows you to change which combination of Ikons your Divine Spark enhances.  
+* **B Rank**: The highest rank a Servant can attain without occupying the **Throne of Gods**. You gain **2 additional Ikons** and a **free Exemplar feat of your level or lower** (this feat can be changed whenever you level up). Additionally, **Spark Transcendence** and **Shift Immanence** lose their **frequency limitations**, allowing you to use them at will.  
+* **A Rank**: Servants with this level of Divinity have attained the **Throne of Gods**.  
+  - The action cost to use **Shift Immanence** is reduced to a **free action**.  
+  - The action cost to use **Spark Transcendence** is reduced by **1** (to a minimum of 1).  
+  - You gain the **Hero’s Defiance** focus spell and can cast it **even if you do not meet the level requirement**.  
+* **EX Rank**: You stand at the brink of **true godhood**, lacking only a **Divine Core** to complete your ascension.  
+  - Your **Divine Spark permanently empowers all of your Ikons at all times**.  
+  - You become **immune to death effects**.  
+  - You may choose one of your **proficiencies** and **increase its rank by 1**, up to **Mythic**.  
+)
 
+
+note (
+
+# On Master Death 
+When your Master dies, your abilities are significantly weakened. You suffer a -5 penalty to all rolls and cannot use your Noble Phantasms without risk. Attempting to do so will instantly destroy your Spirit Core the moment your Noble Phantasm is unleashed, killing you on the spot.
+)
+=
+note (
+## What to do?
+You can survive for one hour without a Master, during which you must conserve energy and seek out an eligible Magus to form a new contract. If you fail to do so within the time limit, your Spirit Core will be destroyed, resulting in your death.
+)
 
 
 |

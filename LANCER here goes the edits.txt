@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 26 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 27 nickels
 )
 title (
-Sevrvant 1.2
+Sevrvant 1.3
 )
 head (
 # Servant Class: Lancer ((Main info))
@@ -191,18 +191,18 @@ Your damage from knight weapon specialization increases to 4 with weapons and un
 
 #LANCER CLASS FEATS ((Lancer class feats))
 item (
-# Independent Action((+Independent Action)) (needs rework)
+# Independent Action
 -
 Independent Action is the ability to remain independent even when rejecting the Magical Energy supply from one's Master; the ability that allows for action even in the absence of the Master. Independent Action is the Class Skill of the Archer class.
 
 At higher ranks,  Servants can stay in this world longer without a contract, independently from the Master's Magical Energy. This allows Masters to focus on larger spells, or maintain the Servant even if they're unable to supply Magical Energy due to injury. However, these Servants are harder to control and retain, making Command Spells the only reliable method of commanding them.
-* **D Rank**: It is possible for a Servant to stay in the world for **eight hours without a Master**.
-* **C Rank**:It is possible for a Servant to stay in the world for **one day without a Master**.
+* **D Rank**: It is possible for a Servant to stay in the world for **eight hours without a Master**. When the master dies the servant does not suffer the **-5 penalty** (*note at the end of the document*) but can still not use noble phantasms. 
+* **C Rank**: It is possible for a Servant to stay in the world for **one day without a Master**. Using the **NP** of the servant is possible without destroying them, but they do not recharge and after use **you lose 16 hours** of your remaining time to a **minimum of 1 hour**, when you reach this minimum you cannot use NPs any further without your spirit core exploding.
 )
 |
 item (
 * **B Rank**:It is possible for a Servant to stay in the world for **two days without a Master**. However, this is the ideal value achieved by maximally conserving mana and avoiding battle and NP usage.
-* **A Rank**: It is possible to take action even without a Master. However, to use NPs of great magical energy consumption, backup from the Master is necessary. At Rank A, it is possible for a Servant to stay in the world for about **a week without a Master**.
+* **A Rank**: It is possible for a Servant to stay in the world for about **a week without a Master**.
 * **EX Rank**: At EX rank, Independent Action allows for nearly any act, whether related to combat or otherwise, to be undertaken without support from the Master.
 
 )
@@ -238,16 +238,14 @@ Your mount receives a **+30 ft speed bonus** instead of the previous +10, and ca
 )
 |
 item (
-# Battle Continuation 
+#Battle Continuation
 -
 Battle Continuation is a Skill that allows for the continuation of combat after sustaining mortal wounds. It will also reduce mortality rate from injury. This Skill represents the ability to survive and/or the mentality of one who doesn't know when to give up, consisting of one's strength of vitality in predicaments.
-
-* **D rank**: Grants the **Diehard feat**. If you already possess the Diehard feat, increase your **Dying limit by 1**.
-* **C rank**: Your **wounded value** can not increase beyond 1. Additionally, you suffer no penalties from the **doomed condition**.
-* **B rank**: You take **no penalties** from **Dying 1, 2, and 3**, and all subsequent penalties are applied as if starting from Dying 1. Additionally, your **maximum Dying value is increased by 1**.
-* **A rank**: You do not receive **any penalties** from the dying condition; however, you will still
-**die instantly** if you reach your **maximum dying value**.
-* **EX rank**: Once per day, Should you go **beyond your maximum dying value**, your body transcends its own limitations. You **become incapable of dying** and will continuously regenerate all limbs for a straight **hour**, if you did not regain at least half your hit points by the end of that hour your spirit core will **disintegrate into nothingness**.
+* **D Rank**: Grants the **Diehard feat**. If you already possess the Diehard feat, increase your **Dying limit by 1**. When you critically fail or are critically hit by an attack you increase your **dying value by 1 and not 2**.
+* **C Rank**: You suffer no penalties from the **wounded value** or **doomed condition**.
+* **B Rank**: You take **no penalties** from **Dying 1, 2, and 3**, and all subsequent penalties are applied as if starting from Dying 1. Additionally, your **maximum Dying value is increased by 3**.
+* **A Rank**: You do not receive **any penalties** from the dying condition; however, you will still **die instantly** if you reach your **maximum dying value**.
+* **EX Rank**: Once per day, should you go **beyond your maximum dying value**, your body transcends its own limitations. You **become incapable of dying** and will continuously regenerate all limbs for a straight **hour**, if you did not regain at least half your hit points by the end of that hour your spirit core will **disintegrate into nothingness**.
 )
 item(
 #Privilege ((+Privlege))
@@ -293,7 +291,7 @@ You have an objectively hot bod. and no matter how many calories you ingests, yo
 * **D Rank**:  You gain 1 extra HP per level and receive a **+1 bonus to Diplomacy** when you are at least **half-naked** (figuratively, not literally).
 * **C Rank**: **Last Stand** - Your muscles condense, reaching the pinnacle of defense. Once per day, as an action :a: , you may **reduce your HP to 1** and gain **temporary HP** equal to **twice** the HP you lost for **1d4 rounds**.
 * **B Rank**:  **Rebound** - Your physique becomes a paragon of resilience. **Twice per day**, as a **reaction** :r: when you take damage, you can negate that damage and gain temporary hit points equal to the damage for **1d4 rounds**. Afterwards, **half the damage** will **recoil** onto your actual HP. Your **Last stand** also lasts for **1d4+1 turns**.
-* **A Rank**: **Metamorphosis** - **Once per day**, you can, as an action :a:, change your physical form to gain **2 benefits** either a **+3** bonus to AC, a **+20-foot** bonus to speed, or a **+2** bonus to Strength mod and Dexterity mod for **1d4+1 rounds**. Afterward, you incur a **penalty equal** to what you gained. Whenever you use your B Rank reaction :r:, **you reflect the entire damage** back to the enemy instead of being merely negated if they are in **melee**. Additionally, the bonus to Diplomacy when half-naked increases to **+2**. 
+* **A Rank**: **Metamorphosis** - Once per day, you can, as an action :a:, change your physical form to gain 2 benefits either a +3 bonus to AC, a +30-foot bonus to speed, or a +2 bonus to Strength mod or a +2 to Dexterity mod for 1d4+1 rounds. Afterward, you incur a penalty equal to what you gained for an equal duration. Whenever you use your B Rank reaction :r:, you reflect the entire damage back to the enemy instead of being merely negated if they are in melee. Additionally, the bonus to Diplomacy when half-naked increases to +2.
 * **Ex Rank**:  **Eternal Rebirth** - Once per **week**, as a reaction :r: to **reaching 0** hit points, you may eject your spirit core into a part of your body. As long as **a single cell of your body remains intact**, you can initiate a miraculous regeneration. After **at least 24 hours** since your "death," you completely regenerate from any physical injury, restoring you to **full health** and cleansing all **negative conditions and effects**.
 You also no longer suffer recoil damage. Your hit points increase by **an additional 2 per level**. You now can use Last Stand up to **3 times**, additionaly after your **Last Stand** ends, you will revert to **40 HP instead of 1**. This amount **halves with each subsequent** use of Last Stand and resets after a **rest**.
 )
@@ -367,7 +365,7 @@ Item(
 Spearmanship is a skill that embodies the art of mastery with spear-type weapons, granting wielders unparalleled control and versatility in combat. From enhancing the weapon's properties to extending throwing capabilities and executing devastating strikes, this skill transforms the wielder into a formidable warrior on the battlefield.
 * **D Rank**: Once per day, as a single action :a:, you can infuse your weapon with one of the following traits for 1 minute: **Agile, Reach, Jousting, Sweep, Finesse, Fatal, Backswing or Parry**.
 * **C Rank**: Your weapon gains the **Thrown 40 ft** trait or increases your existing thrown range **by 10 feet**, whichever is **greater**. Additionally, your weapon is treated as if it has the **Returning rune**, enhancing your throwing capabilities **without it counting towards** the maximum number of weapon runes allowed.
-* **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a **spear-type weapon**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
+* **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a weapon of **the spear, polearm or club group**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
 * **A Rank**: **Peircing Spear** - When you **strike** a creature by throwing your weapon, it pierces through, targeting **all creatures** in a line equal to your **thrown range**. Compare the strike roll against the AC of each creature in the line to determine which get hit. Additionally, once per turn, you can **reroll a failed attack roll**, but you must keep the second result.
 * **EX Rank**: Your reach increases by an additional **5 feet**. Strikes made with the opposite end of the spear now deal **full damage**. Furthermore, whenever **an enemy enters your reach**, you may make a **strike** against them as a free action :f:, exemplifying your readiness and quick reflexes in combat. When using **Peircing Spear**, you may also force any targets hit by the spear to make a **Fortitude save** against your class DC, On a **failure**, the targets are **restrained** by a materialized copy of your weapon on a surface, while on a **success** they are fall **prone**.
 
@@ -377,7 +375,7 @@ item (
 #UNYIELDING WILL
 -
 Unyielding Will is the epitome of mental resilience and steadfast determination, symbolizing a servant's capacity to endure and transcend the harshest of trials with their pure will. This skill not only fortifies the servant's own mental defenses but also serves as a beacon of hope and strength for their allies.
-* **D Rank**: **Mind Over Matter** - Once per day, you can **ignore all negative effects** for 1d4+1 turns, demonstrating your ability to overcome anything with sheer willpower. **Mental Fortress** - Once per day, you can **reroll a failed Will save** and take the higher result.
+* **D Rank**: **Mind Over Matter** - Once per day,  You can **ignore all negative effects** for 1d4+1 turns, although they still affect you, demonstrating your ability to overcome anything with sheer willpower. **Mental Fortress** - Once per day, you can **reroll a failed Will save** and take the higher result.
 * **C Rank**: **Contagious Heart** - Once per day, as a free action :f: to allow **any number of allies** within 60 feet to **reroll a failed Will save** (they take the higher result). You also **gain resistance to mental damage** equal to half your level.
 * **B Rank**: **Resolute Focus** - Once per day, you can improve your success level on a **will save by one degree**. **Mental Vanguard** - Once per day, for 1 round, you may **add your Wisdom modifier** to all **attack rolls, damage rolls and skill checks**. "I shall gallop ever-onward, unbroken, unrelenting to the end!"
 * **A Rank**: **If you will it** - Up to 4 times per day, you can **substitute any type of save for a Will save**. Additionally, **once per day** when affected by a mind-affecting spell or ability, you can **reflect the effect** back onto the caster or origin **if you critically succeed on the save** "Nuh, uh".
@@ -392,9 +390,35 @@ Beach Flower is a skill that determines the amount of attention one can attract 
 =
 Item ( 
 * **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
-* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
+* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants. **While on the beach, your own specific theme song plays in the background.**
 * **A Rank**: You have attained the status akin to that of a celebrity. **Versatile Entertainer** - A voice. A thousand voices. The stage is your domain, the crowd your adoring subjects. Under the spotlight or in the shadows, you are the chameleon of charisma. A voice so fluid, it mimics anyone’s timbre and tone. **(you perfectly mimic anyone's voice)**
 * **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
 )
-
+Item(
+#Divinity
+-
+Divinity is a Skill that acts as the measure of whether one has Divine Spirit aptitude or not. At high levels, one can be considered a Demigod, a mix between a human and Divine Spirit. Those who have A rank Divinity or above have reached the Throne of Gods, although they are still just short of being a true God due to lacking a Divine Core. The level declines when the Heroic Spirit's own rank as a "Monster" or "Demonic Beast" rises; it can also decrease due to one's dislike for the gods.
+* **D Rank**: You gain the **Divine Spark and Ikons** feature of the **Exemplar**, but instead of gaining 3 Ikons, **you gain only 2**. If you are already an Exemplar, you still gain 2 additional Ikons.  
+* **C Rank**: The rank achievable by Saints, forgotten gods, and deities worshipped by minor cults. Your **Divine Spark** can now empower **2 Ikons at once** instead of just 1. Using **Shift Immanence** allows you to change which combination of Ikons your Divine Spark enhances.  
+* **B Rank**: The highest rank a Servant can attain without occupying the **Throne of Gods**. You gain **2 additional Ikons** and a **free Exemplar feat of your level or lower** (this feat can be changed whenever you level up). Additionally, **Spark Transcendence** and **Shift Immanence** lose their **frequency limitations**, allowing you to use them at will.
+)
 |
+Item(
+* **A Rank**: Servants with this level of Divinity have attained the **Throne of Gods**.  
+  - The action cost to use **Shift Immanence** is reduced to a **free action**.  
+  - The action cost to use **Spark Transcendence** is reduced by **1** (to a minimum of 1).  
+  - You gain the **Hero’s Defiance** focus spell and can cast it **even if you do not meet the level requirement**.  
+* **EX Rank**: You stand at the brink of **true godhood**, lacking only a **Divine Core** to complete your ascension.  
+  - Your **Divine Spark permanently empowers all of your Ikons at all times**.  
+  - You become **immune to death effects**.  
+  - You may choose one of your **proficiencies** and **increase its rank by 1**, up to **Mythic**.  
+)
+
+
+note (
+
+# On Master Death 
+When your Master dies, your abilities are significantly weakened. You suffer a -5 penalty to all rolls and cannot use your Noble Phantasms without risk. Attempting to do so will instantly destroy your Spirit Core the moment your Noble Phantasm is unleashed, killing you on the spot.
+## What to do?
+You can survive for one hour without a Master, during which you must conserve energy and seek out an eligible Magus to form a new contract. If you fail to do so within the time limit, your Spirit Core will be destroyed, resulting in your death.
+)

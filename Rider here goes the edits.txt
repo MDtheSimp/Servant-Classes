@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 24 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 27 nickels
 )
 title (
-Servant 0.9
+Servant 1.0
 )
 head (
 # Servant Class: Rider ((Main info))
@@ -171,7 +171,7 @@ Gain access to **the ride feat**, with the ability to **mount** as a **free acti
 )
 |
 item(
-* **C rank**: Can flawlessly manage most beasts and vehicles and with minimal training, though unable to ride **Phantasmal Beasts** and **Magical Beasts**. When attacking with a weapon while mounted, add a ***status bonus*** to damage, equal to ***twice the weapon's damage dice***. Adittionally you and your Ride do not share **multiple attack penalty**.
+* **C rank**: Can flawlessly manage most beasts and vehicles and with minimal training, though unable to ride **Phantasmal Beasts** and **Magical Beasts**. When attacking with a weapon while mounted, add a ***status bonus*** to damage, equal to ***twice the weapon's damage dice***. 
 * **B rank**: Proficient with most animals and vehicles, including **Magical Beasts** and those from beyond your lifetime. Weapons gain the ***jousting trait*** if they don't already possess it. You also do not need to move ***10 ft*** for jousting trait's bonus. Additionally, you can command your Ride as a ***free action*** once per round.
 * **A rank**: Able to use all vehicles and creatures as mounts including **Phantasmal Beasts**, but not **Divine Beast** ranks. Your Ride receives a **+30 ft speed bonus**, and can now **act** during your turn with **an additional action** :a: beyond its usual actions.
 * **EX rank**: Mastery over all vehicles and creatures as mounts. While mounted, you and your Ride **share all active benefits** affecting either of you, including spells, conditions, and bonuses. **Neither** you nor your Ride can be **slowed, immobilized, or stopped** by difficult terrain, environmental conditions (walls , strong winds etc) or creatures, unless caused by a **Noble Phantasm** or a similarly powerful effect. Your Ride gains **2 additional actions** :a::a: on your turn. If your Ride is destroyed, you can **immediately summon it again** as a single action :a: , ignoring the 24 hour cooldown.
@@ -185,7 +185,7 @@ item(
 -
 * **D rank**: When targeted by a spell that is **below half your level**, you receive a **+2 status bonus on saves and AC**.
 * **C rank**: You gain resistance **5** to the damage from spells **equal to half your level or less**.
-* **B rank**: As a reaction :r:, when targeted by a spell that is **equal to half your level or less**, you may attempt to **counteract** the spell using your weapon's attack bonus. The counteract level is **equal to half your level, rounded up**. If you **successfully** counteract the spell, you are unaffected by it, unless you choose to be. The counteract **DC** is the **spell's save DC plus half the spell's level**.
+* **B rank**: As a reaction :r:, when targeted by a spell that is **equal to half your level or less**, you may attempt to **counteract** the spell using your weapon's attack bonus. The counteract level is **equal to half your level, rounded up**. If you **successfully** counteract the spell, you disrupt it. The counteract **DC** is the **spell's save DC plus half the spell's level**.
 )
 =
 item(
@@ -232,13 +232,13 @@ It is impossible to reach an EX rank simply by retaking a Class or Personal Skil
 )
 
 ## The Master's Ride 2nd
-A bond forged in loyalty and swift action, Your Rie becomes an unyielding shield for your Master. When peril strikes, the ride surges forward, sweeping the master to safety and bearing the brunt of harm without hesitation. You gain the Master's Ride reaction.
+A bond forged in loyalty and swift action, Your Ride becomes an unyielding shield for your Master. When peril strikes, the ride surges forward, sweeping the master to safety and bearing the brunt of harm without hesitation. You gain the Master's Ride reaction.
 
 
 ###The Master's Ride :r: 
 -
 
-**Trigger** Your master is attacked by an enemy affected by a hazard while they are within your ride's speed.
+**Trigger** Your master is attacked by an enemy or affected by a hazard while they are within your ride's speed.
 -
 item(
 In response to the attack, your ride immediately moves up to its speed towards your master. Upon reaching them, your master automatically mounts the ride, even if there is no available space. The ride intercepts the attack or hazard, taking all damage and effects on behalf of your master.
@@ -264,18 +264,18 @@ The Shielder skill elevates the use of a shield into a focal point of martial st
 * **A Rank**: At the start of each of your turns, you gain an additional reaction :r: that you can use only to **Shield Block**. When using the **Raise Shield** action, you may reduce the action cost of your next action by 1 :a: to a minimum of 1. You can also attempt to repair shields that are destroyed as an action :a:, but this only restores them to 1 HP if you succeed.
 * **EX Rank**: When you use the **Shield Block** feat, the shield's Hardness is doubled against that attack. Additionally, you may reflect the damage you blocked back at any enemy within reach. You can raise your shield as a free action :f:.
 )
-item(
-#INDEPENDENT ACTION (NEEDS REWORK)
+item (
+# Independent Action
 -
 Independent Action is the ability to remain independent even when rejecting the Magical Energy supply from one's Master; the ability that allows for action even in the absence of the Master. Independent Action is the Class Skill of the Archer class.
-At higher ranks, Servants can stay in this world longer without a contract, independently from the Master's Magical Energy. This allows Masters to focus on larger spells, or maintain the Servant even if they're unable to supply Magical Energy due to injury. However, these Servants are harder to control and retain, making Command Spells the only reliable method of commanding them.
-* **D Rank**: It is possible for a Servant to stay in the world for **eight hours without a Master**.
+At higher ranks,  Servants can stay in this world longer without a contract, independently from the Master's Magical Energy. This allows Masters to focus on larger spells, or maintain the Servant even if they're unable to supply Magical Energy due to injury. However, these Servants are harder to control and retain, making Command Spells the only reliable method of commanding them.
+* **D Rank**: It is possible for a Servant to stay in the world for **eight hours without a Master**. When the master dies the servant does not suffer the **-5 penalty** (*note at the end of the document*) but can still not use noble phantasms. 
 )
 =
 item(
-* **C Rank**: It is possible for a Servant to stay in the world for **one day without a Master**.
-* **B Rank**: It is possible for a Servant to stay in the world for **two days without a Master**. However, this is the ideal value achieved by maximally conserving mana and avoiding battle and NP usage.
-* **A Rank**: It is possible to take action even without a Master. However, to use NPs of great magical energy consumption, backup from the Master is necessary. At Rank A, it is possible for a Servant to stay in the world for about **a week without a Master**.
+* **C Rank**: It is possible for a Servant to stay in the world for **one day without a Master**. Using the **NP** of the servant is possible without destroying them, but they do not recharge and after use **you lose 16 hours** of your remaining time to a **minimum of 1 hour**, when you reach this minimum you cannot use NPs any further without your spirit core exploding.
+* **B Rank**:It is possible for a Servant to stay in the world for **two days without a Master**. However, this is the ideal value achieved by maximally conserving mana and avoiding battle and NP usage.
+* **A Rank**: It is possible for a Servant to stay in the world for about **a week without a Master**.
 * **EX Rank**: At EX rank, Independent Action allows for nearly any act, whether related to combat or otherwise, to be undertaken without support from the Master.
 )
 
@@ -313,7 +313,7 @@ Item(
 Spearmanship is a skill that embodies the art of mastery with spear-type weapons, granting wielders unparalleled control and versatility in combat. From enhancing the weapon's properties to extending throwing capabilities and executing devastating strikes, this skill transforms the wielder into a formidable warrior on the battlefield.
 * **D Rank**: Once per day, as a single action :a:, you can infuse your weapon with one of the following traits for 1 minute: **Agile, Reach, Jousting, Sweep, Finesse, Fatal, Backswing or Parry**.
 * **C Rank**: Your weapon gains the **Thrown 40 ft** trait or increases your existing thrown range **by 10 feet**, whichever is **greater**. Additionally, your weapon is treated as if it has the **Returning rune**, enhancing your throwing capabilities **without it counting towards** the maximum number of weapon runes allowed.
-* **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a **spear-type weapon**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
+* **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a weapon of **the spear, polearm or club group**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
 * **A Rank**: **Peircing Spear** - When you **strike** a creature by throwing your weapon, it pierces through, targeting **all creatures** in a line equal to your **thrown range**. Compare the strike roll against the AC of each creature in the line to determine which get hit. Additionally, once per turn, you can **reroll a failed attack roll**, but you must keep the second result.
 )
 |
@@ -382,10 +382,10 @@ Accel Turn reflects unparalleled mastery over your Ride’s maneuverability, all
 )
 =
 item (
-* **C Rank**: **Weave** - If an attack would hit you or your Ride, you or your Ride can **use a reaction to turn that hit into a miss**. If your Ride is a **vehicle**, it can now **turn 90 degrees by spending half its movement instead of all of it**.  
-* **B Rank**: Your Ride gains the ability to perform aggressive manoeuvres, knocking enemies off balance as it tears through the battlefield. **Drift** - Once per encounter as 2 actions Your Ride moves **up to twice its movement speed in a curved line**, forcing all creatures it moves through to attempt a Reflex save save against your class DC, creatures are **knocked prone unless they critically succeed**. Your Ride can make a **Strike against any creature it trips as a free action**. This Strike **does not count toward its multiple attack penalty**. If your Ride is a **vehicle**, it also **deals collision damage to creatures it trips**. Additionally, your Ride **gains an extra reaction**.  
+* **C Rank**: **Weave** - If an attack would hit you or your Ride ( but not critically hit), you or your Ride can **use a reaction to turn that hit into a miss**. If your Ride is a **vehicle**, it can now **turn 90 degrees while spending half its movement instead of all of it**.  
+* **B Rank**: Your Ride gains the ability to perform aggressive manoeuvres, knocking enemies off balance as it tears through the battlefield. **Drift** - Once per encounter as 2 actions (spent by you or your Ride) Your Ride moves **up to twice its movement speed in a curved line**, forcing all creatures it moves through to attempt a Reflex save save against your class DC, creatures are **knocked prone unless they critically succeed**. Your Ride can make a **Strike against any creature it trips as a free action**. This Strike **does not count toward its multiple attack penalty**. If your Ride is a **vehicle**, it also **deals collision damage to creatures it trips**. Additionally, your Ride **gains an extra reaction**.  
 * **A Rank**: You and your Ride move as a **seamless unit**, able to anticipate threats and adapt instantly. While riding, if you or your Ride successfully avoid an attack or hazard with a reflex save, you may **immediately Stride or Step as a free action**, **ignoring difficult terrain during this movement**. Once you or your Ride are **damaged** or affected by an attack or hazard, this ability cannot be used again until the **start of your next turn**.  
-* **EX Rank**: You and your Ride become **untouchable on the battlefield**. While riding, neither your **movement nor your Ride’s movement provokes reactions**. The **circumstance bonus** your Ride gains after moving becomes a **flat bonus** and also **applies to you**.  
+* **EX Rank**: You and your Ride become **untouchable on the battlefield**. While riding, neither **your movement nor your Ride’s movement provokes reactions**. The **circumstance bonus** your Ride gains after moving becomes a **flat bonus** and also **applies to you**.  
 )
 
 Item(
@@ -475,10 +475,34 @@ Beach Flower is a skill that determines the amount of attention one can attract 
 )
 |
 Item ( 
-* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
+* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants. **While on the beach, your own specific theme song plays in the background.**
 * **A Rank**: You have attained the status akin to that of a celebrity. **Versatile Entertainer** - A voice. A thousand voices. The stage is your domain, the crowd your adoring subjects. Under the spotlight or in the shadows, you are the chameleon of charisma. A voice so fluid, it mimics anyone’s timbre and tone. **(you perfectly mimic anyone's voice)**
 * **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
 )
+Item(
+#Divinity
+-
+Divinity is a Skill that acts as the measure of whether one has Divine Spirit aptitude or not. At high levels, one can be considered a Demigod, a mix between a human and Divine Spirit. Those who have A rank Divinity or above have reached the Throne of Gods, although they are still just short of being a true God due to lacking a Divine Core. The level declines when the Heroic Spirit's own rank as a "Monster" or "Demonic Beast" rises; it can also decrease due to one's dislike for the gods.
+* **D Rank**: You gain the **Divine Spark and Ikons** feature of the **Exemplar**, but instead of gaining 3 Ikons, **you gain only 2**. If you are already an Exemplar, you still gain 2 additional Ikons.  
+* **C Rank**: The rank achievable by Saints, forgotten gods, and deities worshipped by minor cults. Your **Divine Spark** can now empower **2 Ikons at once** instead of just 1. Using **Shift Immanence** allows you to change which combination of Ikons your Divine Spark enhances.  
+* **B Rank**: The highest rank a Servant can attain without occupying the **Throne of Gods**. You gain **2 additional Ikons** and a **free Exemplar feat of your level or lower** (this feat can be changed whenever you level up). Additionally, **Spark Transcendence** and **Shift Immanence** lose their **frequency limitations**, allowing you to use them at will.  
+)
+=
+Item(
+* **A Rank**: Servants with this level of Divinity have attained the **Throne of Gods**.  
+  - The action cost to use **Shift Immanence** is reduced to a **free action**.  
+  - The action cost to use **Spark Transcendence** is reduced by **1** (to a minimum of 1).  
+  - You gain the **Hero’s Defiance** focus spell and can cast it **even if you do not meet the level requirement**.  
+* **EX Rank**: You stand at the brink of **true godhood**, lacking only a **Divine Core** to complete your ascension.  
+  - Your **Divine Spark permanently empowers all of your Ikons at all times**.  
+  - You become **immune to death effects**.  
+  - You may choose one of your **proficiencies** and **increase its rank by 1**, up to **Mythic**.  
+)
+note (
 
-
-
+# On Master Death 
+When your Master dies, your abilities are significantly weakened. You suffer a -5 penalty to all rolls and cannot use your Noble Phantasms without risk. Attempting to do so will instantly destroy your Spirit Core the moment your Noble Phantasm is unleashed, killing you on the spot.
+## What to do?
+You can survive for one hour without a Master, during which you must conserve energy and seek out an eligible Magus to form a new contract. If you fail to do so within the time limit, your Spirit Core will be destroyed, resulting in your death.
+)
+|

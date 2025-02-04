@@ -1,8 +1,8 @@
 watermark (
-If I had a nickel for every time I had to remake this thing, I'd have 21 nickels
+If I had a nickel for every time I had to remake this thing, I'd have 25 nickels
 )
 title (
-Sevrvant 0.8
+Sevrvant 1.0
 )
 head (
 # Servant Class: Berserker ((Main info))
@@ -87,7 +87,7 @@ Level | Class features
 17 |Berserker feat
 18 | Berserker feat, Personal skill (**+++**)
 19 |Berserker feat
-20 | Berserker feat, Noble phantasm (**+++**)
+20 | Noble phantasm (**+++**)
 ##Class features ((class features))
 You gain these abilities as a Berserker. Abilities gained at higher levels list the level at which you gain them next to the features’ names.
 
@@ -123,27 +123,27 @@ There are certain ways to alleviate the burden of Mad Enhancement on the Master.
 Item(
 #Mad Enhancement (Major)
 -
-* **D Rank**: You gain a **+4 bonus** to Strength, Dexterity, and Constitution **modifiers**, but suffer a **-2 penalty** to Intelligence, Wisdom, and Charisma **modifiers**. This penalty is treated as a negative effect/condition. Your master is always **fatigued** and takes **1d6 mental damage** per level **after each rest**.
+* **D Rank**: You gain a **+3 bonus** to Strength, Dexterity, and Constitution **modifiers**, but suffer a **-2 penalty** to Intelligence, Wisdom, and Charisma **modifiers**. This penalty is treated as a negative effect/condition. Your master is always **fatigued** and takes **1d6 mental damage** per level **after each rest**.
 * **C Rank**: You become **immune** to the **stunned and slowed** conditions as well as ignore **difficult terrain**.
 )
 =
 Item(
-* **B Rank**: Once per day, you can **maximize all rolls** for a single activity you use. After this effect, your master’s **next activity** is guaranteed to have **minimum rolls**. (This effect cannot be used on **free actions** for either you or your master, nor does it trigger the **natural 1 or natural 20** rules.)
-* **A Rank**: **Destructive Fury** - Once per day, as a free action :f:, for 1 minute You deal **twice as many damage dice** and gain **1 additional action each on your turn**. In exhange your master **takes double damage** from all sources and is **stunned 1** for the duration.
+* **B Rank**: Once per day, you can **maximize all d20 or damage rolls** for a single activity you use (not both of them). After this effect, your master’s **next activity** is guaranteed to have **minimum rolls**. (This effect cannot be used on **free actions** for either you or your master, **cannot be rerolled**, nor does it trigger the **natural 1 or natural 20** rules.)
+* **A Rank**: **Destructive Fury** - Once per day, as a free action :f:, for 1 minute You deal **twice as many damage dice** and gain **1 additional action at the start of your turn**. In exhange you **take double damage** from all sources, so does your master but they are also  **stunned 1** for the duration.
 Your master can **end this effect at will** as a free action :f:, but if you **resist**, they must **use a command spell** to forcefully end it.
 * **EX Rank**: Your **critical successes and critical failures** occur at **5** above or below the DC instead of 10. You gain **Resistance 20** to all damage (cumulative with other resistances). **Legendary Resistance** - 3 times per day, as a free action :f:, when you **fail** or **critically fail** a saving throw, you can choose to **succeed** instead.
 )
 Item(
 #Mad Enhancement (Minor)
 -
-* **D Rank**: You gain a +2 bonus to Strength, Dexterity, and Constitution **modifiers**. Your is **fatigued** after every rest.
+* **D Rank**: You gain a **+1 bonus** to Strength, Dexterity, and Constitution **modifiers**. Your Master is **fatigued** after every rest.
 * **C Rank**: Whenever you gain the **stunned or slowed** conditions, you may roll a **Fortitude save** against the effect's DC as a free action :f::
     **Critical Success** : You reduce the condition by 2.
     **Success**: You reduce the condition by 1.
     **Critical Failure**: You increase the condition by 1.
 Your master takes **1d6 mental damage** equal to half your levels **after each rest**. (minimum of 1).
-* **B Rank**: Once per round, you can **maximize a single damage roll**. ( If an activity would roll damage for multiple instances such as targeting multiple enemies, you can only maximize one instance of the damage). After using this ability, your master’s **next d20 roll** is guaranteed to **result in an 8**. (This effect cannot be used on **free actions** for either you or your master)
-* **A Rank**: Once per day, as a free action :f: for 1 minute gain **1 additional action each on your turn**. In exchange your master takes double damage from all sources for the duration.
+* **B Rank**: Once per round, you can **maximize a single damage roll** (not a single damage dice, but the whole thing). If an activity would roll damage for multiple instances such as targeting multiple enemies, you can only maximize one instance of the damage. After using this ability, your master’s **next d20 roll** is guaranteed to **result in an 8**. (This effect cannot be used on **free actions** for either you or your master and **cannot be rerolled**)
+* **A Rank**: **Destructive Fury** - Once per day, as a free action :f: for 1 minute gain **1 additional action each on your turn**. In exchange your master takes double damage from all sources for the duration.
 Your master can **end this effect at will** as a free action :f:, but if you **resist**, they must **use a command spell** to forcefully end it.
 )
 |
@@ -215,9 +215,9 @@ item (
 #Battle Continuation
 -
 Battle Continuation is a Skill that allows for the continuation of combat after sustaining mortal wounds. It will also reduce mortality rate from injury. This Skill represents the ability to survive and/or the mentality of one who doesn't know when to give up, consisting of one's strength of vitality in predicaments.
-* **D Rank**: Grants the **Diehard feat**. If you already possess the Diehard feat, increase your **Dying limit by 1**.
-* **C Rank**: Your **wounded value** cannot increase beyond 1. Additionally, you suffer no penalties from the **doomed condition**.
-* **B Rank**: You take **no penalties** from **Dying 1, 2, and 3**, and all subsequent penalties are applied as if starting from Dying 1. Additionally, your **maximum Dying value is increased by 1**.
+* **D Rank**: Grants the **Diehard feat**. If you already possess the Diehard feat, increase your **Dying limit by 1**. When you critically fail or are critically hit by an attack you increase your **dying value by 1 and not 2**.
+* **C Rank**: You suffer no penalties from the **wounded value** or **doomed condition**.
+* **B Rank**: You take **no penalties** from **Dying 1, 2, and 3**, and all subsequent penalties are applied as if starting from Dying 1. Additionally, your **maximum Dying value is increased by 3**.
 * **A Rank**: You do not receive **any penalties** from the dying condition; however, you will still **die instantly** if you reach your **maximum dying value**.
 * **EX Rank**: Once per day, should you go **beyond your maximum dying value**, your body transcends its own limitations. You **become incapable of dying** and will continuously regenerate all limbs for a straight **hour**, if you did not regain at least half your hit points by the end of that hour your spirit core will **disintegrate into nothingness**.
 )
@@ -238,35 +238,38 @@ item (
 #MONSTROUS STRENGTH
 -
 Monstrous Strength is a Skill that temporarily grants a rank-up to one's Strength parameter for a time limit determined by the ranking of this Skill. This skill is limited to Servants whose nature aligns with that of a monster (literally or figuratively) or a Demonic Beast.
-* **D Rank**: Once per day, you can increase your strength modifier by 3 for 1d4 rounds. However, you take 5 damage at the end of each of your turns.
-* **C Rank**: You take no damage while Monstrous Strength is active. You are immune to both the slowed and stunned condition for the duration. Additionally, when attempting to use the Escape action :a:, you may use a free action :f: for the same purpose instead.
+* **D Rank**: Once per day, you can increase your **strength modifier by 3** for 1d4 rounds. However, you take **5 damage** at the end of each of your turns.
+* **C Rank**: You take no damage while Monstrous Strength is active. You are **immune** to both the **slowed and stunned conditions** for the duration. Additionally, when attempting to use the Escape action :a:, you may use a free action :f: for the same purpose instead.
 )
 =
+
 item (
-* **B Rank**: The duration increases to 1 minute. After grabbing a creature or object up to large size, you can use it as a weapon. Attack using your highest weapon proficiency, dealing damage equal to your level (x1 for medium or smaller sizes and x2 for large) plus Strength modifier plus weapon specialization damage. Objects are destroyed after one hit, while creatures take half damage if used to attack another creature, or full damage if directly struck. However, you are fatigued 2 after the effect ends.
-* **A Rank**: The duration increases to 1 hour. While Monstrous Strength is active, you can lift (action to grapple and lift) and throw (action to throw) objects (or creatures) up to **huge size** (Titan Wrestler overrides this if you are legendary or higher in athlethics). Throwing objects in this manner counts as a siege weapon launch, and each time you launch something you take damage depending on the size. You can also drag any creature up to your speed no matter its size or strength.
-* **EX Rank**: The duration increases to 8 hours. You can lift and throw objects (or creatures) of any size and up to 10 times bulk (with **Titan Wrestler** you double the bulk limitation). In addition, you gain the following ability:
+* **B Rank**: The duration increases to 1 minute. After grabbing a creature or object up to large size, you can use it as a weapon. Attack using your highest weapon proficiency, dealing damage equal to twice your level (**x2 for medium** or smaller sizes and **x4 for large or bigger**) plus Strength modifier plus weapon specialization damage. Objects are destroyed after one hit, while creatures take half damage if used to attack another creature, or full damage if directly struck. However, you are **fatigued 3** after the Monstrous Strength ends.
+* **A Rank**: The duration increases to 1 hour. While Monstrous Strength is active, you can lift (action to grab and lift) and throw (action to throw) objects (or creatures) up to **huge size** (Titan Wrestler overrides this if you are **legendary or higher** in athlethics). Throwing objects in this manner counts as a **siege weapon launch**, and each time you launch something you take damage depending on the size. (**creatures thrown take half damage**) You can also **drag any creature** up to your speed no matter its size or strength.
+* **EX Rank**: Monstrous Strength is **active at all times**. You can lift and throw objects (or creatures) of any size and up to 10 times bulk (with **Titan Wrestler** you double the bulk limitation). In addition, you gain the following ability:
 )
 
 info (
 ###Titanic Retribution
-Three times per day, when you take damage from an attack or effect, you can use your reaction :r: to grab and throw an object (or creature) as a siege weapon launch (you take no damage from this launch).
+When you take damage from an attack or effect, you can use your reaction :r: to grab and throw an object (or creature) as a siege weapon launch (you take no damage from this launch).
 )
 
 info (
 After Monstrous Strength ends, you are fatigued 3, as your body recuperates from the extreme exertion.
 )
 
-
+math (
+Launch Damage = (Strength modifier)d(relies on size)
+)
 ###TABLE 2-1: THROWING MECHANICS
 | Size | range(ft) | DC | damage dice | area | damage taken |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | Tiny | str mod * 20 | strike | d4 | single target | 0 |
-| Small | str mod * 15 | Class DC -2 | d6 | single target | 0 |
-| Medium | str mod * 10 | Class DC | d8 | single target | 0 |
-| Large | str mod * 10 | Class DC +2 | d10 | Burst | 5 |
-| Huge | str mod * 5 | Class DC +4 | d12 | Burst | 10 |
-| Gargantuan | str mod * 5 | Class DC +5 | d20 | Burst | 20 |
+| Small | str mod * 15 | Class DC -2 | d4 | single target | 0 |
+| Medium | str mod * 10 | Class DC | d6 | single target | 0 |
+| Large | str mod * 10 | Class DC +1 | d8 | Burst | 10 |
+| Huge | str mod * 5 | Class DC +2 | d10 | Burst | 20 |
+| Gargantuan | str mod * 5 | Class DC +3 | d12 | Burst | 40 |
 
 |
 item (
@@ -310,7 +313,7 @@ item (
 #UNYIELDING WILL
 -
 Unyielding Will is the epitome of mental resilience and steadfast determination, symbolizing a servant's capacity to endure and transcend the harshest of trials with their pure will. This skill not only fortifies the servant's own mental defenses but also serves as a beacon of hope and strength for their allies.
-* **D Rank**: **Mind Over Matter** - Once per day, you can **ignore all negative effects** for 1d4+1 turns, demonstrating your ability to overcome anything with sheer willpower. **Mental Fortress** - Once per day, you can **reroll a failed Will save** and take the higher result.
+* **D Rank**: **Mind Over Matter** - Once per day,  You can **ignore all negative effects** for 1d4+1 turns, although they still affect you, demonstrating your ability to overcome anything with sheer willpower. **Mental Fortress** - Once per day, you can **reroll a failed Will save** and take the higher result.
 * **C Rank**: **Contagious Heart** - Once per day, as a free action :f: to allow **any number of allies** within 60 feet to **reroll a failed Will save** (they take the higher result). You also **gain resistance to mental damage** equal to half your level.
 * **B Rank**: **Resolute Focus** - Once per day, you can improve your success level on a **will save by one degree**. **Mental Vanguard** - Once per day, for 1 round, you may **add your Wisdom modifier** to all **attack rolls, damage rolls and skill checks**. "I shall gallop ever-onward, unbroken, unrelenting to the end!"
 * **A Rank**: **If you will it** - Up to 4 times per day, you can **substitute any type of save for a Will save**. Additionally, **once per day** when affected by a mind-affecting spell or ability, you can **reflect the effect** back onto the caster or origin **if you critically succeed on the save** "Nuh, uh".
@@ -324,7 +327,7 @@ You have an objectively hot bod, and no matter how many calories you ingest, you
 * **D Rank**: You gain 1 extra HP per level and receive a +1 bonus to Diplomacy when you are at least half-naked (figuratively, not literally).
 * **C Rank**: **Last Stand** - Your muscles condense, reaching the pinnacle of defense. Once per day, as an action :a:, you may reduce your HP to 1 and gain temporary HP equal to twice the HP you lost for 1d4 rounds.
 * **B Rank**: **Rebound** - Your physique becomes a paragon of resilience. Twice per day, as a reaction :r: when you take damage, you can negate that damage and gain temporary hit points equal to the damage for 1d4 rounds. Afterwards, half the damage will recoil onto your actual HP. Your Last Stand also lasts for 1d4+1 turns.
-* **A Rank**: **Metamorphosis** - Once per day, you can, as an action :a:, change your physical form to gain 2 benefits either a +3 bonus to AC, a +20-foot bonus to speed, or a +2 bonus to Strength mod and Dexterity mod for 1d4+1 rounds. Afterward, you incur a penalty equal to what you gained for an equal duration. Whenever you use your B Rank reaction :r:, you reflect the entire damage back to the enemy instead of being merely negated if they are in melee. Additionally, the bonus to Diplomacy when half-naked increases to +2.
+* **A Rank**: **Metamorphosis** - Once per day, you can, as an action :a:, change your physical form to gain 2 benefits either a +3 bonus to AC, a +30-foot bonus to speed, or a +2 bonus to Strength mod or a +2 to Dexterity mod for 1d4+1 rounds. Afterward, you incur a penalty equal to what you gained for an equal duration. Whenever you use your B Rank reaction :r:, you reflect the entire damage back to the enemy instead of being merely negated if they are in melee. Additionally, the bonus to Diplomacy when half-naked increases to +2.
 * **EX Rank**: **Eternal Rebirth** - Once per week, as a reaction :r: to reaching 0 hit points, you may eject your spirit core into a part of your body. As long as a single cell of your body remains intact, you can initiate a miraculous regeneration. After at least 24 hours since your "death," you completely regenerate from any physical injury, restoring you to full health and cleansing all negative conditions and effects. You also no longer suffer recoil damage. Your hit points increase by an additional 2 per level. You now can use **Last Stand** up to 3 times, additionally after your **Last Stand** ends, you will revert to 40 HP instead of 1. This amount halves with each subsequent use of **Last Stand** and resets after a rest. 
 )
 
@@ -404,7 +407,7 @@ Spearmanship is a skill that embodies the art of mastery with spear-type weapons
 )
 =
 Item(
-* **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a **spear-type weapon**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
+* **B Rank**: Increase your reach by **5 feet** allowing for greater control of the battlefield. If wielding a weapon of **the spear, polearm or club group**, when you **critically hit** an enemy, you may immediately use the **opposite end** of the weapon to strike as a free action :f:, dealing **half the weapon's damage**. This flexibility shows your mastery in utilizing every part of your weapon effectively. If this strike also results in a **critical hit**, you may **repeat** the effect with the opposite end as another free action :f: (this strike **does not count** towards your multiple attack penalty).
 * **A Rank**: **Peircing Spear** - When you **strike** a creature by throwing your weapon, it pierces through, targeting **all creatures** in a line equal to your **thrown range**. Compare the strike roll against the AC of each creature in the line to determine which get hit. Additionally, once per turn, you can **reroll a failed attack roll**, but you must keep the second result.
 * **EX Rank**: Your reach increases by an additional **5 feet**. Strikes made with the opposite end of the spear now deal **full damage**. Furthermore, whenever **an enemy enters your reach**, you may make a **strike** against them as a free action :f:, exemplifying your readiness and quick reflexes in combat. When using **Peircing Spear**, you may also force any targets hit by the spear to make a **Fortitude save** against your class DC, On a **failure**, the targets are **restrained** by a materialized copy of your weapon on a surface, while on a **success** they are fall **prone**.
 
@@ -436,7 +439,7 @@ Item(
 Overload is a Skill that grants an additional boost while the user accepts the fact that it inflicts damage upon themself.
 * **D Rank**: **Blood to Power** - free action : 
 When a **strike or spell attack** roll fails to hit (but is not a critical failure), you may choose to **deal half damage** to your target. However, you **reduce your hit points** by an amount equal to your level when using this ability.  
-(*All Blood to Power effects only activate if you take the damage required to use them.*)
+(*All Blood to Power effects only activate if you take the damage required to use them. This damage bypasses temp hp and is dealt to your hp directly*)
 )
 =
 Item(
@@ -469,16 +472,40 @@ Item(
 )
 =
 
-Item ( 
-#Beach Flower
+item (
+#BEACH FLOWER
 -
-Beach Flower is a skill that determines the amount of attention one can attract from interested individuals at the beach. Upon acquiring this class skill, you officially become a **Summer Servant**.
+Beach Flower is a skill that determines the amount of attention one can attract from interested individuals at the beach. Upon acquiring this class skill, you officially become a Summer Servant.
 * **D Rank**: Whether intended or not, your presence at the beach inevitably draws glances.
 * **C Rank**: The passionate adoration of those seeking the essence of summer becomes a means to fulfill your desires.
-* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants.
+* **B Rank**: A charisma unique to summer. However, at the beach, it falls just short of the destructive allure of other Servants. **While on the beach, your own specific theme song plays in the background.**
 * **A Rank**: You have attained the status akin to that of a celebrity. **Versatile Entertainer** - A voice. A thousand voices. The stage is your domain, the crowd your adoring subjects. Under the spotlight or in the shadows, you are the chameleon of charisma. A voice so fluid, it mimics anyone’s timbre and tone. **(you perfectly mimic anyone's voice)**
 * **EX Rank**: A deity of summer has arrived. "No, no, I am indeed a deity." The beach, or under a parasol, presents an opportunity to showcase your elegance. It's a strategy of displaying extra charm during the summer, ensuring that by the time others return to their routine lives, they are already hopelessly enamored.
 )
 
-
+Item(
+#Divinity
+-
+Divinity is a Skill that acts as the measure of whether one has Divine Spirit aptitude or not. At high levels, one can be considered a Demigod, a mix between a human and Divine Spirit. Those who have A rank Divinity or above have reached the Throne of Gods, although they are still just short of being a true God due to lacking a Divine Core. The level declines when the Heroic Spirit's own rank as a "Monster" or "Demonic Beast" rises; it can also decrease due to one's dislike for the gods.
+* **D Rank**: You gain the **Divine Spark and Ikons** feature of the **Exemplar**, but instead of gaining 3 Ikons, **you gain only 2**. If you are already an Exemplar, you still gain 2 additional Ikons.  
+* **C Rank**: The rank achievable by Saints, forgotten gods, and deities worshipped by minor cults. Your **Divine Spark** can now empower **2 Ikons at once** instead of just 1. Using **Shift Immanence** allows you to change which combination of Ikons your Divine Spark enhances.  
+)
 |
+Item(
+* **B Rank**: The highest rank a Servant can attain without occupying the **Throne of Gods**. You gain **2 additional Ikons** and a **free Exemplar feat of your level or lower** (this feat can be changed whenever you level up). Additionally, **Spark Transcendence** and **Shift Immanence** lose their **frequency limitations**, allowing you to use them at will.  
+* **A Rank**: Servants with this level of Divinity have attained the **Throne of Gods**.  
+  - The action cost to use **Shift Immanence** is reduced to a **free action**.  
+  - The action cost to use **Spark Transcendence** is reduced by **1** (to a minimum of 1).  
+  - You gain the **Hero’s Defiance** focus spell and can cast it **even if you do not meet the level requirement**.  
+* **EX Rank**: You stand at the brink of **true godhood**, lacking only a **Divine Core** to complete your ascension.  
+  - Your **Divine Spark permanently empowers all of your Ikons at all times**.  
+  - You become **immune to death effects**.  
+  - You may choose one of your **proficiencies** and **increase its rank by 1**, up to **Mythic**.  
+)
+note (
+
+# On Master Death 
+When your Master dies, your abilities are significantly weakened. You suffer a -5 penalty to all rolls and cannot use your Noble Phantasms without risk. Attempting to do so will instantly destroy your Spirit Core the moment your Noble Phantasm is unleashed, killing you on the spot.
+## What to do?
+You can survive for one hour without a Master, during which you must conserve energy and seek out an eligible Magus to form a new contract. If you fail to do so within the time limit, your Spirit Core will be destroyed, resulting in your death.
+)
